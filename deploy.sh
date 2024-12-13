@@ -32,7 +32,7 @@ pushd $DIST
 for dir in $(find . -type d)
 do
     echo $dir
-    ftp -n $FTP_HOST <<EOF
+    ftp -n $FTP_HOST -P 21 <<EOF
 user $FTP_USER $FTP_PASSWORD
 mkdir $SERVER_DIR/$dir
 quit

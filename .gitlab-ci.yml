@@ -24,7 +24,7 @@ variables:
 
   CI_REF: &ref 741e3458c91dc7939646c90e35e26aa96ef384f5
 
-upload-vlbd:
+upload-vldb:
   image: dbogatov/docker-sources:debian--stable-slim-multi-arch
   stage: deploy
   # variables:
