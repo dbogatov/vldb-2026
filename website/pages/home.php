@@ -9,7 +9,7 @@
 }
 </style>
 <section class="intro">
-    <h1>News</h1>
+    <!-- <h1>News</h1>
 <div class="boxstyle" style="height: 200px; overflow-y: auto;">
 <ul>
 <li>
@@ -25,15 +25,15 @@
 <p>26 Nov 2024, The 'Call for Workshops' is now open! For more details, please <a href="https://vldb.org/2025/?2025-call-for-workshops">visit here</a>.</p>
 </li>
 </ul>
-</div>
+</div> -->
 <br/>
-    <h1>VLDB 2025: Overview</h1>
+    <h1>VLDB 2026: Overview</h1>
     <p>The Very Large Data Bases (VLDB) is a premier annual international forum for data management, scalable data science, and database researchers, vendors, practitioners, application developers, and users.
-    The forthcoming VLDB 2025 conference is poised to deliver a comprehensive program, featuring an array of research talks, keynote and invited talks, panels, tutorials, demonstrations, industrial tracks, and workshops. It will cover a spectrum of research topics related to all aspects of data management, where systems issues play a significant role, such as data management system technology and information management infrastructures, including their very large scale of experimentation, novel architectures, and demanding applications as well as their underpinning theory.</p>
+    The forthcoming VLDB 2026 conference is poised to deliver a comprehensive program, featuring an array of research talks, keynote and invited talks, panels, tutorials, demonstrations, industrial tracks, and workshops. It will cover a spectrum of research topics related to all aspects of data management, where systems issues play a significant role, such as data management system technology and information management infrastructures, including their very large scale of experimentation, novel architectures, and demanding applications as well as their underpinning theory.</p>
 <p>Key areas of interest for PVLDB include, but are not limited to, data mining and analytics,  data privacy and security, database engines, database performance and manageability,  distributed database systems, graph and network data, information integration and data quality, languages, machine learning, ai, and databases, novel database architectures,  provenance and workflows, specialized and domain-specific data management, text and semi-structured data, and user interfaces. These thematic pillars represent the foundational elements underpinning the technological landscape of the emerging applications of the 21st century.
 </p>
 <p>
-    The VLDB 2025 conference will take place from 1st to 5th September 2025 at the Queen Elizabeth II Centre (QEII Centre) in London, UK. Located in the heart of Westminster, the QEII Centre offers a prime setting, just a five-minute walk from the iconic River Thames and two minutes from the peaceful St James’s Park. This venue perfectly balances the convenience of a central urban location with the serenity of nearby natural landmarks.
+    The VLDB 2026 conference will take place from Aug 31st to 4th September 2026 in Boston, MA, USA.
 </p>
     <!--The forthcoming VLDB 2025 conference is poised to deliver a comprehensive program, featuring an array of research talks, keynote and invited talks, panels, tutorials, demonstrations, and workshops. It will cover a spectrum of critical topics encompassing data management, database architectures, graph data management, data privacy and security, data mining, machine learning, AI and database systems research. These thematic pillars represent the foundational elements underpinning the technological landscape of the emerging applications of the 21st century.-->
      <br/>
@@ -66,7 +66,7 @@ To access the platform, delegates can log in with the email address used during 
 <aside class="tweets">
     <a class="twitter-timeline" data-lang="en" data-dnt="true"
        data-link-color="#444" data-chrome="noborders transparent"
-       href="https://twitter.com/VLDBconf">Tweets by VLDB2025</a>
+       href="https://twitter.com/VLDBconf">Tweets by VLDB2026</a>
 </aside>
 <?php
 define('PageTitle', "51st International Conference on Very Large Data Bases");

@@ -19,7 +19,7 @@
     </ul>
 
     <h3>Submission Guidelines</h3>
-    <p>Tutorial submissions must be submitted electronically using <a href=" https://cmt3.research.microsoft.com/PVLDBv16_2025">CMT</a>. Submissions should be formatted using the <a href="./?formatting-guidelines">PVLDB style templates</a>, with a maximum length of 4 pages, inclusive of ALL material.</p>
+    <p>Tutorial submissions must be submitted electronically using <a href=" https://cmt3.research.microsoft.com/PVLDBv19_2026">CMT</a>. Submissions should be formatted using the <a href="./?formatting-guidelines">PVLDB style templates</a>, with a maximum length of 4 pages, inclusive of ALL material.</p>
     <p>Proposals should include:</p>
     <ul>
         <li>Title of the tutorial</li>

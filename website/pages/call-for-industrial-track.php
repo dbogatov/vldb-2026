@@ -7,7 +7,7 @@
     <p>The submissions to this track may be up to 12 pages long (excluding references). The papers should be prepared using the VLDB 2025 paper formatting guidelines as specified at <a href="https://www.vldb.org/pvldb/volumes/18/formatting">https://www.vldb.org/pvldb/volumes/18/formatting</a>.
 Submissions to the industrial track are required to include all author names and affiliations. After a paper is accepted, the set of authors cannot be changed.</p>
 
-<p>Submissions must be made electronically, in pdf format, to the industrial track at the conference submission site: <a href="https://cmt3.research.microsoft.com/PVLDBv18_2025">https://cmt3.research.microsoft.com/PVLDBv18_2025</a>. It will be open for submission to the industrial track shortly.
+<p>Submissions must be made electronically, in pdf format, to the industrial track at the conference submission site: <a href="https://cmt3.research.microsoft.com/PVLDBv19_2026">https://cmt3.research.microsoft.com/PVLDBv19_2026</a>. It will be open for submission to the industrial track shortly.
 </p>
 
 <h3>Revision Phase</h3>

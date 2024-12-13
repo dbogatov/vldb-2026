@@ -5,7 +5,7 @@
 
     <h3>Submission Guidelines</h3>
     We accept full papers (up to 12 pages + references) and extended abstracts (up to 6 pages + references). The papers should be prepared using the VLDB 2025 paper formatting guidelines.
-Submissions must be made electronically, in pdf format, at the conference submission site: <a href="https://cmt3.research.microsoft.com/PVLDBv16_2025"> https://cmt3.research.microsoft.com/PVLDBv16_2025 </a>. 
+Submissions must be made electronically, in pdf format, at the conference submission site: <a href="https://cmt3.research.microsoft.com/PVLDBv19_2026"> https://cmt3.research.microsoft.com/PVLDBv19_2026 </a>. 
 Submissions to the industrial track are required to include all author names and affiliations. Any changes to authorship after paper acceptance will require approval by the industrial track chairs. Authors are encouraged to contact the industrial track chairs if they need any clarification regarding the suitability of their work to this track.
 
 <h3> Conflicts of Interest </h3>

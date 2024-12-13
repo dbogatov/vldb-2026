@@ -95,15 +95,15 @@ function showSlides(n) {
 
 <header>
     <div class="small-menu"><a class="hamburger"></a></div>
-    <div class="small-header"><figure class="logo"><a href="https://vldb.org/2025/"><img src="./img/vldb2025_logo_simple.png" alt="VLDB 2025 London, United Kingdom"></a></figure></div>
+    <div class="small-header"><figure class="logo"><a href="https://vldb.org/2025/"><img src="./img/vldb2026_logo_full.png" alt="VLDB 2026 Boston, USA"></a></figure></div>
     <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
-        <figure class="logo"><img src="./img/vldb2025_logo_full.png" alt="VLDB 2025 London, United Kingdom"><img src="./img/vldb2025_logo_simple.png" alt="VLDB 2025 London, United Kingdom"></figure>
+        <figure class="logo"><img src="./img/vldb2026_logo_full.png" alt="VLDB 2026 Boston, USA"><img src="./img/vldb2026_logo_full.png" alt="VLDB 2026 Boston, USA"></figure>
         <div>
             General Information
             <div class="menu">
                 <a href="./" itemprop="url"><span itemprop="name">Conference Overview</span></a>
                 <a href="./?officers" itemprop="url"><span itemprop="name">Conference Officers</span></a>
-                <a href="./?review-board" itemprop="url"><span itemprop="name">PVLDB Review Board</span></a>
+                <!-- <a href="./?review-board" itemprop="url"><span itemprop="name">PVLDB Review Board</span></a> -->
                 <!-- a href="./?external-reviewers" itemprop="url"><span itemprop="name">External Reviewers</span></a -->
                 <!-- a href="./?info-visa" itemprop="url"><span itemprop="name">Visa Information</span></a -->
                 <!-- a href="./?info-registration" itemprop="url"><span itemprop="name">Registration</span></a -->
@@ -153,11 +153,11 @@ function showSlides(n) {
             Call for Contributions
             <div class="menu">
                 <a href="./?call-for-research-track" itemprop="url"><span itemprop="name">Research Track</span></a>
-                <a href="./?call-for-industrial-track" itemprop="url"><span itemprop="name">Industrial Track</span></a>
+                <!-- <a href="./?call-for-industrial-track" itemprop="url"><span itemprop="name">Industrial Track</span></a> -->
                 <!--a href="./?call-for-phd-workshop" itemprop="url"><span itemprop="name">PhD Workshop</span></a -->
-                <hr/>
-                <a href="./?2025-call-for-workshops" itemprop="url"><span itemprop="name">Workshops</span></a>
-                <a href="./?call-for-tutorials" itemprop="url"><span itemprop="name">Tutorials</span></a>
+                <!-- <hr/> -->
+                <!-- <a href="./?2025-call-for-workshops" itemprop="url"><span itemprop="name">Workshops</span></a> -->
+                <!-- <a href="./?call-for-tutorials" itemprop="url"><span itemprop="name">Tutorials</span></a> -->
                 <!--a href="./?call-for-demonstrations" itemprop="url"><span itemprop="name">Demonstrations</span></a>
                 <a href="./?call-for-tutorials" itemprop="url"><span itemprop="name">Tutorials</span></a>
                 <a href="./?call-for-workshops" itemprop="url"><span itemprop="name">Workshops</span></a>
@@ -191,29 +191,29 @@ function showSlides(n) {
                 <!-- a href="./?info-banquet" itemprop="url"><span itemprop="name">Banquet</span></a -->
                 <!-- a href="./?info-registration" itemprop="url"><span itemprop="name">Registration</span></a -->
                 <!-- a href="./?info-format" itemprop="url"><span itemprop="name">Conference Format</span></a -->
-                <a href="./?info-conference-venue" itemprop="url"><span itemprop="name">Conference Venue</span></a>
+                <!-- <a href="./?info-conference-venue" itemprop="url"><span itemprop="name">Conference Venue</span></a> -->
                 <!-- a href="./?info-lodging" itemprop="url"><span itemprop="name">Lodging</span></a -->
                 <!-- a href="./?info-travel-support" itemprop="url"><span itemprop="name">Travel Support</span></a -->
                 <!-- a href="./?info-visa" itemprop="url"><span itemprop="name">Visa Information</span></a -->
                 <!-- a href="./?info-visa" itemprop="url"><span itemprop="name">Visa Information</span></a -->
                 <!-- a href="./?info-cc" itemprop="url"><span itemprop="name">Code of Conduct</span></a -->
 
-                <hr/>
+                <!-- <hr/> -->
                 <!--a href="./?info-poster-presenters" itemprop="url"><span itemprop="name">Poster Presenters</span></a -->
                 <!--a href="./?info-video-upload" itemprop="url"><span itemprop="name">Video Upload</span></a -->
                 <!--a href="./?info-video-preparation" itemprop="url"><span itemprop="name">Video Recording Tips</span></a -->
 
                 <!-- a href="./?info-airports-guide" itemprop="url"><span itemprop="name">Airports Guide</span></a -->
                 <!-- a href="./?info-conference-venue#public-transport" itemprop="url"><span itemprop="name">Public Transport</span></a -->
-                <a href="./?info-local-attractions" itemprop="url"><span itemprop="name">Local Attractions</span></a>
+                <!-- <a href="./?info-local-attractions" itemprop="url"><span itemprop="name">Local Attractions</span></a> -->
                 <!-- a href="./?info-camp-vldb" itemprop="url"><span itemprop="name">Camp VLDB 2025</span></a -->
                 <!-- a href="https://twitter.com/notifyla" class="no-ext-icon" itemprop="url"><span itemprop="name">Public Safety</span></a -->
             </div>
         </div>
     </nav>
-    <section class="carousel<?= $q == 'home' ? '' : ' small'; ?>" data-images='[{"i":"./img/london/v2_London_Eye_at_night.jpg","t":"London Eye at Night"},{"i":"./img/london/v2_tower_bridge.jpg","t":"Tower Bridge"},{"i":"./img/london/v2_the_shard.jpg","t":"The Shard"},{"i":"./img/london/v2_natural_history_museum.jpg","t":"<div>Natural History Museum</div>"},{"i":"./img/london/v2_london_view.jpg","t":"<div>London View</div>"},{"i":"./img/london/v2_london_tower-night.jpg","t":"<div>London Tower at Night</div>"},{"i":"./img/london/01-tower-bridge.jpg","t":"<div>Tower Bridge</div>"},{"i":"./img/london/02-palace-of-westminster.jpg","t":"<div>Palace of Westminster</div>"},{"i":"./img/london/03-canary-wharf.jpg","t":"<div>Canary Wharf</div>"},{"i":"./img/london/04-london-eye.jpg","t":"<div>London Eye</div>"},{"i":"./img/london/05-big-ben.jpg","t":"<div>Big Ben</div>"},{"i":"./img/london/06-victoria-tower.jpg","t":"<div>Victoria Tower</div>"}]'>
-        <span>51<sup>st</sup> International Conference on Very Large Data Bases</span>
-        <span>London, United Kingdom - September 1-5, 2025</span>
+    <section class="carousel<?= $q == 'home' ? '' : ' small'; ?>" data-images='[{"i":"./img/boston/boston-1.jpg","t":"Boston"},{"i":"./img/boston/boston-2.jpg","t":"Boston"}]'>
+        <span>52<sup>st</sup> International Conference on Very Large Data Bases</span>
+        <span>Boston, MA, USA -- Aug 31 - Sep 4, 2026</span>
     </section>
 </header>
 
@@ -223,7 +223,7 @@ function showSlides(n) {
 </main>
 
 <footer>
-    <div>51<sup>st</sup> International Conference on Very Large Data Bases<br />London, United Kingdom -- September 1-5, 2025</div>
+    <div>52<sup>st</sup> International Conference on Very Large Data Bases<br />Boston, MA, USA -- Aug 31 - Sep 4, 2026</div>
     <a class="github no-ext-icon" href="https://github.com/VLDB2019/VLDB2019.github.io/pulls" title="Collaborate on GitHub">
         <svg height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill="#fff" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
     </a>

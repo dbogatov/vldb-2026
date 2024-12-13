@@ -1,5 +1,5 @@
 <section class="sponsorship">
-            <h1>VLDB 2025: Sponsorship</h1>
+            <h1>VLDB 2026: Sponsorship</h1>
 
             <h3>Who are we?</h3>
             <p>
@@ -11,16 +11,16 @@
               conference. For almost half a century and after an explosive growth in the computing
               industry, we remain the home for the latest cutting-edge research and industrial
               innovation in the data arena. Even today, the technology and research presented at our
-              conference is typically 5 to 10 years ahead of its time. VLDB 2025 will be held in
-              London in the United Kingdom, on September 1-5, 2025.
+              conference is typically 5 to 10 years ahead of its time. VLDB 2026 will be held in
+              Boston, MA in the United States, on Aug 31st - Sep 4, 2026.
             </p>
 
             <h3>Sponsorship Benefits</h3>
             <p>
               Many sponsors use VLDB to meet and hire the leading data architects, practitioners and scientists of
               our generation.
-              Contact VLDB 2025 General Conference Sponsorship Committee via
-              <span class="hl-blue">vldb-sponsorship<span class="mail-sep">(AT)</span>lsds.uk</span>
+              <!-- Contact VLDB 2025 General Conference Sponsorship Committee via -->
+              <!-- <span class="hl-blue">vldb-sponsorship<span class="mail-sep">(AT)</span>lsds.uk</span> -->
             </p>
 
 
@@ -32,15 +32,15 @@
                 <li><a href="#es">a recently introduced Endowment sponsorship.</a></li>
             </ul>
             <p>
-              Each conference and local sponsorship funds a specific conference, such as this year's VLDB 2025,
+              Each conference and local sponsorship funds a specific conference, such as this year's VLDB 2026,
               and the benefits to the sponsors are largely restricted to the time of the conference. The Endowment
               sponsors enjoy additional benefits all year round.
             </p>
 
-            <h2>VLDB 2025 Conference Sponsorship Levels</h2>
+            <h2>VLDB 2026 Conference Sponsorship Levels</h2>
             <p>
-              There are four conference sponsorship levels for VLDB 2025. Special Sponsors includes specific event
-              support, exhibition, etc. The VLDB 2025 Sponsorships and Exhibitions Prospectus is below. Please check
+              There are four conference sponsorship levels for VLDB 2026. Special Sponsors includes specific event
+              support, exhibition, etc. The VLDB 2026 Sponsorships and Exhibitions Prospectus is below. Please check
               the details of sponsorships. Please note: sponsorship amounts are exclusive of any applicable taxes.
             </p>
             <h4>Diamond Sponsor<span> (USD $30,000)</span></h4>

@@ -1,14 +1,14 @@
 <section class="officers">
-    <h1>VLDB 2025: Conference Officers</h1>
+    <h1>VLDB 2026: Conference Officers</h1>
 
     <h4>General Chairs</h4>
-    <div><strong>Peter Pietzuch</strong>, Imperial College London, UK</div>
-    <div><strong>Peter Triantafillou</strong>, University of Warwick, UK</div>
+    <div><strong>Angela Bonifati</strong>, Lyon 1 University & IUF, France</div>
+    <div><strong>Mirek Riedewald</strong>, Northeastern University, USA</div>
 
     <h4>Program Committee Chairs</h4>
 
-        <div><strong>Themis Palpanas</strong>, University Paris Cite, France</div>
-        <div><strong>Nesime Tatbul</strong>, Intel Labs and MIT, USA</div>
+        <div><strong>Yanlei Diao</strong>, Ecole Polytechnique, France</div>
+        <div><strong>Xiaokui Xiao</strong>, National University of Singapore</div>
 
     <h4>Associate Editors</h4>
 
@@ -63,11 +63,11 @@
         <div><strong>Steven E. Whang</strong>, Korea Advanced Institute of Science and Technology, South Korea</div>
         <div><strong>Raymond Chi-Wing Wong</strong>, Hong Kong University of Science and Technology, Hong Kong</div>
 
-    <h4>Proceedings Chairs</h4>
+    <!-- <h4>Proceedings Chairs</h4>
 
         <div><strong>Xiaoou Ding</strong>, Harbin Institute of Technology, China</div>
         <div><strong>Subhadeep Sarkar</strong>, Brandeis University, USA</div>
-        <div><strong>Giovanni Simonini</strong>, University of Modena and Reggio Emilia, Italy</div>
+        <div><strong>Giovanni Simonini</strong>, University of Modena and Reggio Emilia, Italy</div> -->
 
 
     <!--
@@ -88,7 +88,7 @@
     <h4>Registration Chair</h4>
     <div><strong>Fatemeh Nargesian</strong>, University of Rochester</div-->
 
-    <h4>Workshop Track Co-Chairs</h4>
+    <!-- <h4>Workshop Track Co-Chairs</h4>
     <div><strong>Norman Paton</strong>, University of Manchester, UK</div>
     <div><strong>John Paparrizos</strong>, Ohio State University, USA</div>
 
@@ -123,10 +123,10 @@
     <div><strong>George Konstantinidis</strong>, University of Southampton, UK</div>
 
     <h4>Sponsorship Chairs</h4>
-    <div><strong>Holger Pirk</strong>, Imperial College London, UK</div>
+    <div><strong>Holger Pirk</strong>, Imperial College London, UK</div> -->
 
     <h4>Local Chair</h4>
-    <div><strong>Thomas Heinis</strong>, Imperial College London, UK</div>
+    <div><strong>Manos Athanassoulis</strong>, Boston University, USA</div>
 
 
     <!--h4>Online Event Chair</h4>
@@ -172,7 +172,7 @@
 
 
     <h4>Web Chair</h4>
-    <div><strong>Weiren Yu</strong>, University of Warwick, UK</div>
+    <div><strong>Dmytro Bogatov</strong>, Amazon Web Services, USA</div>
 
     <!--  h4>Digital Platform Chair</h4>
     <div><strong>Dong Deng</strong>, Rutgers University</div -->
