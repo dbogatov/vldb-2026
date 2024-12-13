@@ -1,0 +1,39 @@
+default:
+  image: dbogatov/docker-images:alpine-extras-latest-multi-arch
+  retry: 2
+  tags:
+    - docker
+
+# disable detached pipelines
+workflow:
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - when: always
+
+stages:
+  - deploy
+
+variables:
+  DOMAIN: "vldb-2026.dbogatov.org"
+  INDEX: "index.html"
+  DIST: "dist"
+  DOCKER_TLS_CERTDIR: ""
+  URLS: index
+  PAGES_PREFIX: "$CI_COMMIT_SHORT_SHA"
+
+  CI_REF: &ref 741e3458c91dc7939646c90e35e26aa96ef384f5
+
+upload-vlbd:
+  image: dbogatov/docker-images:alpine-extras-latest
+  stage: deploy
+  # variables:
+  #   GIT_STRATEGY: none
+  # dependencies:
+  #   - build
+  script:
+    - ./deploy.sh
+  tags:
+    - docker
+  only:
+    - master
