@@ -33,7 +33,7 @@
 </section>
 <?php
 define('PageTitle', "Important Dates");
-define('PageDescription', "Important dates for contributions to VLDB 2025, the 51st International Conference on Very Large Data Bases.");
+define('PageDescription', "Important dates for contributions to VLDB 2026, the 52nd International Conference on Very Large Data Bases.");
 ?>
 <script type="application/ld+json">
 {

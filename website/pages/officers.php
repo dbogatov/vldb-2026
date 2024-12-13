@@ -179,7 +179,7 @@
 </section>
 <?php
 define('PageTitle', "Conference Officers");
-define('PageDescription', "A list of the officers for the VLDB 2025, the 51st International Conference on Very Large Data Bases.");
+define('PageDescription', "A list of the officers for the VLDB 2026, the 52nd International Conference on Very Large Data Bases.");
 ?>
 <script type="application/ld+json">
 {

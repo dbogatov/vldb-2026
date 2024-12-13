@@ -57,7 +57,7 @@ $content = ob_get_clean();
         body{visibility:hidden}
     </style>
     <link rel="icon" type="image/png" href="./img/favicon.png">
-    <title>VLDB 2025 - <?= defined('PageTitle') && PageTitle ? PageTitle : "51st International Conference on Very Large Data Bases"; ?></title>
+    <title>VLDB 2025 - <?= defined('PageTitle') && PageTitle ? PageTitle : "52nd International Conference on Very Large Data Bases"; ?></title>
     <?php if (defined('PageDescription') && PageDescription) { ?>
         <meta name="description" content="<?= PageDescription; ?>" />
     <? } else { ?>

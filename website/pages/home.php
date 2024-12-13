@@ -61,7 +61,7 @@ To access the platform, delegates can log in with the email address used during 
 <!-- strong>Junior Ballroom and Pavilion Ballroom Foyers, Monday, August 28 from 5:00pm – 8:00pm</strong -->
 
     <!--h1 style="font-size:11pt;">Disclaimer</h1>
-    <p style="font-size:9pt;">In no event will members of the Organizing Committee of the 51st International Conference on Very Large Data Bases, or VLDB Endowment, Inc. or its members, trustees, or representatives, be liable for any loss or damage arising from any of the events or activities in connection with this conference.</p -->
+    <p style="font-size:9pt;">In no event will members of the Organizing Committee of the 52nd International Conference on Very Large Data Bases, or VLDB Endowment, Inc. or its members, trustees, or representatives, be liable for any loss or damage arising from any of the events or activities in connection with this conference.</p -->
 </section>
 <aside class="tweets">
     <a class="twitter-timeline" data-lang="en" data-dnt="true"
@@ -69,14 +69,14 @@ To access the platform, delegates can log in with the email address used during 
        href="https://twitter.com/VLDBconf">Tweets by VLDB2026</a>
 </aside>
 <?php
-define('PageTitle', "51st International Conference on Very Large Data Bases");
-define('PageDescription', "The VLDB 2025 conference, will take place in London, United Kingdom, from September 1-5, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.");
+define('PageTitle', "52nd International Conference on Very Large Data Bases");
+define('PageDescription', "The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.");
 ?>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "VLDB 2025: 51st International Conference on Very Large Data Bases",
+  "name": "VLDB 2025: 52nd International Conference on Very Large Data Bases",
   "url": "https://vldb.org/2025/",
   "logo": "https://vldb.org/2025/img/new-logo.png",
   "sameAs": [
@@ -92,15 +92,15 @@ define('PageDescription', "The VLDB 2025 conference, will take place in London, 
   "@context": "http://schema.org",
   "@type": "WebSite",
   "url": "https://vldb.org/2025/",
-  "name": "VLDB 2025: 51st International Conference on Very Large Data Bases"
+  "name": "VLDB 2025: 52nd International Conference on Very Large Data Bases"
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "VLDB 2025: 51st International Conference on Very Large Data Bases",
-  "description": "The VLDB 2025 conference, will take place in London, United Kingdom, from September 1-5, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.",
+  "name": "VLDB 2025: 52nd International Conference on Very Large Data Bases",
+  "description": "The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.",
   "sameAs": "https://vldb.org/2025/",
   "startDate": "2025-08-28T10:00-08:00",
   "location": {
@@ -267,9 +267,9 @@ define('PageDescription', "The VLDB 2025 conference, will take place in London, 
 {
   "@context": "http://schema.org",
   "@type": "WebPage",
-  "name": "VLDB 2025: 51st International Conference on Very Large Data Bases",
+  "name": "VLDB 2025: 52nd International Conference on Very Large Data Bases",
   "url": "https://vldb.org/2025/",
-  "description": "The VLDB 2025 conference, will take place in London, United Kingdom, from September 1-5, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.",
+  "description": "The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2025, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.",
   "breadcrumb": {
     "@type": "BreadcrumbList",
     "itemListElement": [{
