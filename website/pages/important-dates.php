@@ -18,8 +18,8 @@
         <tr>
             <td>Research Track</td>
             <td>
-                Angela Bonifati<small>Lyon 1 University & IUF, France</small>
-                Mirek Riedewald<small>Northeastern University, USA</small>
+                Yanlei Diao<small>Ecole Polytechnique, France</small>
+                Xiaokui Xiao<small>National University of Singapore</small>
             </td>
             <td>20<sup>th</sup> of every month<br>starting March 2025</td>
             <td>1<sup>st</sup> of every month<br>until March 2026</td>
