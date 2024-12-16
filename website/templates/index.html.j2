@@ -1,0 +1,37 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}{{ data.number  }}{{ data.number|subscr }} {{ data.full }}{% endblock %}
+{% block style %}
+    <style>
+        .boxstyle  {
+            border: 0;
+            background: #eee;
+            color: #383838;
+            display: block;
+            height: 110px;
+            overflow-y: auto;
+        }
+    </style>
+{% endblock %}
+
+{% set current = "index" %}
+
+{% block content %}
+    <section class="intro">
+        {%- filter markdown -%}
+            {{ general_information.index.content }}
+        {% endfilter %}
+    </section>
+    <aside class="tweets">
+        <a
+            class="twitter-timeline"
+            data-lang="en"
+            data-dnt="true"
+            data-link-color="#444"
+            data-chrome="noborders transparent"
+            href="https://twitter.com/{{ general_information.index.twitter }}"
+        >
+            Tweets by @{{ general_information.index.twitter }}
+        </a>
+    </aside>
+{% endblock %}

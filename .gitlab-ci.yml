@@ -12,6 +12,9 @@ workflow:
     - when: always
 
 stages:
+  - build
+  - review
+  - test
   - deploy
 
 variables:
@@ -19,18 +22,68 @@ variables:
   INDEX: "index.html"
   DIST: "dist"
   DOCKER_TLS_CERTDIR: ""
-  URLS: index
+  URLS: index officers
   PAGES_PREFIX: "$CI_COMMIT_SHORT_SHA"
 
   CI_REF: &ref 741e3458c91dc7939646c90e35e26aa96ef384f5
 
+include:
+  # REVIEW
+  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/review/review-pages.yml
+  - project: "templates/ci-snippets"
+    file: "simple-website/review/review-pages.yml"
+    ref: *ref
+
+  # TEST
+  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/bli.yml
+  - project: "templates/ci-snippets"
+    file: "simple-website/bli.yml"
+    ref: *ref
+
+  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/tidy.yml
+  - project: "templates/ci-snippets"
+    file: "simple-website/tidy.yml"
+    ref: *ref
+
+  # DEPLOY
+  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/pages.yml
+  - project: "templates/ci-snippets"
+    file: "simple-website/pages.yml"
+    ref: *ref
+
+build:
+  image: dbogatov/docker-images:python-extras-latest-multi-arch
+  stage: build
+  before_script:
+    - /usr/bin/env python3 -m pip install -r requirements.txt
+  script:
+    - ./build.py
+    - ./build.py --base "${CI_PAGES_URL}/${PAGES_PREFIX}" --dist review-dist --use-cache
+  artifacts:
+    expire_in: 30 min
+    paths:
+      - dist
+      - review-dist
+  tags:
+    - docker
+
+tidy:
+  variables:
+    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+  allow_failure: true
+
+bli:
+  variables:
+    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+    allow_failure: true
+
 upload-vldb:
   image: dbogatov/docker-sources:debian--stable-slim-multi-arch
   stage: deploy
-  # variables:
-  #   GIT_STRATEGY: none
-  # dependencies:
-  #   - build
+  variables:
+    GIT_STRATEGY: none
+  dependencies:
+    - build
   script:
     - apt-get update -y
     - apt-get install -y ftp curl

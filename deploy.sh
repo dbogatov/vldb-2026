@@ -7,7 +7,7 @@ cd "${0%/*}"
 CWD=$(pwd)
 
 SERVER_DIR="" # parent directory on server to put files in, can be ""
-DIST="website" # local directory frm which to upload files
+DIST="dist" # local directory frm which to upload files
 FTP_HOST="vldb.org"
 if [ -z ${FTP_USER+x} ]
 then
