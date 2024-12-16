@@ -76,8 +76,8 @@ pages-prod:
     paths:
       - dist
   publish: dist
-  only: []
-
+  only:
+    - branches
 
 # tidy:
 #   variables:
