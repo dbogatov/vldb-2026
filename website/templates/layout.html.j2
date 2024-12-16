@@ -72,9 +72,13 @@
                         {{ section.title }}
                         <div class="menu">
                             {% for sub in section.sub_sections %}
-                                <a href="{{ sub.page }}" itemprop="url">
-                                    <span itemprop="name">{{ sub.title }}</span>
-                                </a>
+                                {% if sub == "break" %}
+                                    <hr/>
+                                {% else %}
+                                    <a href="{{ sub.page }}" itemprop="url">
+                                        <span itemprop="name">{{ sub.title }}</span>
+                                    </a>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>

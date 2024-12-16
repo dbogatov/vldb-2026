@@ -1,0 +1,11 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Call for Contributions - Research Track{% endblock %}
+
+{% set current = "call-for-research-track" %}
+
+{% block content %}
+    {%- filter markdown -%}
+        {{ call_for_contributions.research.content }}
+    {% endfilter %}
+{% endblock %}

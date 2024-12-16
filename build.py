@@ -92,8 +92,9 @@ def main():
 
     def process_markdown(input_string, classes=""):
         input_string = input_string.replace("__BASE__", base)
-        return (f'<div class="markdown {classes}"> '
-                f'{Markup(markdown_engine.convert(input_string))} </div>')
+        return (
+            f'<div style="text-align: justify" class="markdown {classes}"> '
+            f'{Markup(markdown_engine.convert(input_string))} </div>')
 
     def process_subscript(input_string):
         n = int(input_string)
@@ -123,7 +124,9 @@ def main():
         if "layout" not in str(path):
             templates.get_template(f"templates/{path.name}").stream(
                 data=data,
-                general_information=load_data("general_information"),
+                general_information=load_data("general-information"),
+                call_for_contributions=load_data("call-for-contributions"),
+                dates_and_guidelines=load_data("dates-and-guidelines"),
                 base=base,
                 commit=("local-dev" if os.environ.get("CI_COMMIT_SHORT_SHA")
                         is None else os.environ.get("CI_COMMIT_SHORT_SHA")),

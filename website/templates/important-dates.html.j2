@@ -1,0 +1,42 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Important Dates{% endblock %}
+
+{% set current = "important-dates" %}
+
+{% block content %}
+    <section class="important-dates">
+        <h1>{{ data.name }}: Important Dates</h1>
+
+        All deadlines below are 5 p.m. PT, unless otherwise noted.
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Chairs</th>
+                    <th>Submissions Open</th>
+                    <th>Submissions Deadline</th>
+                    <th>Notifications</th>
+                    <th>Camera-Ready Submissions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for track in dates_and_guidelines.dates %}
+                    <tr>
+                        <td>{{ track.track }}</td>
+                        <td>
+                            {% for chair in track.chairs %}
+                                {{ chair.name }}<small>{{ chair.affiliation }}</small>
+                            {% endfor %}
+                        </td>
+                        <td>{{ track.open|safe }}</td>
+                        <td>{{ track.deadline|safe }}</td>
+                        <td>{{ track.notifications|safe }}</td>
+                        <td>{{ track.cr|safe }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

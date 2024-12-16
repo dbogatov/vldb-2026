@@ -1,0 +1,21 @@
+dates:
+  - track: Research Track
+    chairs:
+      - name: Yanlei Diao
+        affiliation: Ecole Polytechnique, France
+      - name: Xiaokui Xiao
+        affiliation: National University of Singapore
+    open: |
+      20<sup>th</sup> of every month<br>
+      starting March 2025
+    deadline: |
+      1<sup>st</sup> of every month<br>
+      until March 2026
+    notifications: |
+      15<sup>th</sup> of the next month <br>
+      following the deadline
+    cr: |
+      Proceedings chairs will contact <br>
+      the authors with CR instructions <br>
+      by the 5<sup>th</sup> of the next month <br>
+      following the acceptance notification
