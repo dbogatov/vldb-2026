@@ -28,22 +28,22 @@ variables:
   CI_REF: &ref 741e3458c91dc7939646c90e35e26aa96ef384f5
 
 include:
-  # REVIEW
-  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/review/review-pages.yml
-  - project: "templates/ci-snippets"
-    file: "simple-website/review/review-pages.yml"
-    ref: *ref
+  # # REVIEW
+  # # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/review/review-pages.yml
+  # - project: "templates/ci-snippets"
+  #   file: "simple-website/review/review-pages.yml"
+  #   ref: *ref
 
-  # TEST
-  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/bli.yml
-  - project: "templates/ci-snippets"
-    file: "simple-website/bli.yml"
-    ref: *ref
+  # # TEST
+  # # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/bli.yml
+  # - project: "templates/ci-snippets"
+  #   file: "simple-website/bli.yml"
+  #   ref: *ref
 
-  # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/tidy.yml
-  - project: "templates/ci-snippets"
-    file: "simple-website/tidy.yml"
-    ref: *ref
+  # # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/tidy.yml
+  # - project: "templates/ci-snippets"
+  #   file: "simple-website/tidy.yml"
+  #   ref: *ref
 
   # DEPLOY
   # https://git.dbogatov.org/templates/ci-snippets/-/blob/master/simple-website/pages.yml
@@ -67,15 +67,15 @@ build:
   tags:
     - docker
 
-tidy:
-  variables:
-    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
-  allow_failure: true
+# tidy:
+#   variables:
+#     BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+#   allow_failure: true
 
-bli:
-  variables:
-    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
-    allow_failure: true
+# bli:
+#   variables:
+#     BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+#     allow_failure: true
 
 .pages:
   only: []
