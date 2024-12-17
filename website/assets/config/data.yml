@@ -39,13 +39,6 @@ sections:
   - title: Participant Information
     sub_sections: []
 
-texts:
-  index: |
-    People Who Say
-    It Cannot Be Done
-    Should Not Interrupt Those
-    Who Are Doing It!
-
 carousel:
   - image: boston-1
     title: Boston

@@ -1,0 +1,13 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Submission Guidelines{% endblock %}
+
+{% set current = "submission-guidelines" %}
+
+{% block content %}
+    <section class="submission-guidelines">
+        {%- filter markdown -%}
+            {{ dates_and_guidelines.submission.content }}
+        {% endfilter %}
+    </section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Formatting Guidelines{% endblock %}
+
+{% set current = "formatting-guidelines" %}
+
+{% block content %}
+    <section class="formatting-guidelines">
+        {%- filter markdown -%}
+            {{ dates_and_guidelines.formatting.content }}
+        {% endfilter %}
+    </section>
+{% endblock %}

@@ -7,6 +7,7 @@ import contextlib
 import sys
 import datetime
 import argparse
+from functools import reduce
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from markupsafe import Markup
@@ -80,6 +81,17 @@ def parse():
     return args.use_cache, args.dist, args.base
 
 
+# Return a set of unique pages derived from section of the data.
+def get_pages(data):
+    a = map(lambda x: x["sub_sections"], data["sections"])
+    b = reduce(lambda x, y: x + y, a)
+    c = filter(lambda x: not isinstance(x, str), b)
+    d = map(lambda x: x["page"], c)
+    e = map(lambda x: "" if x == "/" else x, d)
+    f = set(e)
+    return f
+
+
 # pylint: disable-next=too-many-statements,too-many-branches,too-many-locals
 def main():
     use_cache, dist, base = parse()
@@ -100,12 +112,11 @@ def main():
         n = int(input_string)
         if n % 10 == 1:
             return "st"
-        elif n % 10 == 2:
+        if n % 10 == 2:
             return "nd"
-        elif n % 10 == 3:
+        if n % 10 == 3:
             return "rd"
-        else:
-            return "th"
+        return "th"
 
     templates = Environment(loader=FileSystemLoader(searchpath=str(Path(SRC))),
                             autoescape=True)
@@ -127,6 +138,8 @@ def main():
                 general_information=load_data("general-information"),
                 call_for_contributions=load_data("call-for-contributions"),
                 dates_and_guidelines=load_data("dates-and-guidelines"),
+                sponsorship=load_data("sponsorship"),
+                pages=list(get_pages(data)),
                 base=base,
                 commit=("local-dev" if os.environ.get("CI_COMMIT_SHORT_SHA")
                         is None else os.environ.get("CI_COMMIT_SHORT_SHA")),
