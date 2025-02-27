@@ -14,7 +14,7 @@ sections:
   - title: General Information
     sub_sections:
       - title: Conference Overview
-        page: /
+        page: ""
       - title: Conference Officers
         page: officers
   - title: Conference Program
