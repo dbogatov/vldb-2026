@@ -188,6 +188,8 @@ def main():
     grant_permission()
     for subdir in ["", "carousel"]:
         for path in (Path(dist) / "assets" / "img" / subdir).glob("*"):
+            if path.suffix == ".svg":
+                continue
             if not path.is_dir():
                 if (use_cache and
                     (Path(CACHE) / path.name).with_suffix(".webp").exists()):
