@@ -25,7 +25,7 @@ variables:
   URLS: index officers
   PAGES_PREFIX: "$CI_COMMIT_SHORT_SHA"
 
-  CI_REF: &ref 741e3458c91dc7939646c90e35e26aa96ef384f5
+  CI_REF: &ref 98d7111403217b4452a352da40cecfe2b19fe934
 
 include:
   # REVIEW
