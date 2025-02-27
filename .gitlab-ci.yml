@@ -79,12 +79,12 @@ pages-prod:
 
 tidy:
   variables:
-    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+    BASE: ${CI_PAGES_URL}
   allow_failure: true
 
 bli:
   variables:
-    BASE: ${CI_PAGES_URL}/${PAGES_PREFIX}
+    BASE: ${CI_PAGES_URL}
     allow_failure: true
 
 upload-vldb:
