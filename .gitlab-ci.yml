@@ -57,7 +57,7 @@ build:
   before_script:
     - /usr/bin/env python3 -m pip install -r requirements.txt
   script:
-    - ./build.py
+    - ./build.py --base https://vldb.org/2026
     - ./build.py --base "${CI_PAGES_URL}/${PAGES_PREFIX}" --dist review-dist --use-cache
   artifacts:
     expire_in: 30 min
