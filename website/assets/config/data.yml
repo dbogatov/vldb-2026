@@ -1,0 +1,56 @@
+name: VLDB 2026
+full: International Conference on Very Large Data Bases
+location: Boston, MA, USA
+dates: Aug 31st - Sep 4th, 2026
+number: 52
+github: dbogatov/vldb-2026
+
+description: |
+  The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops.
+  It will cover issues in data management, database and information systems research.
+  VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.
+
+sections:
+  - title: General Information
+    sub_sections:
+      - title: Conference Overview
+        page: .
+      - title: Conference Officers
+        page: officers
+  - title: Conference Program
+    sub_sections: []
+  - title: Call for Contributions
+    sub_sections:
+      - title: Research Track
+        page: call-for-research-track
+  - title: Dates & Guidelines
+    sub_sections:
+      - title: Important Dates
+        page: important-dates
+      - break
+      - title: Formatting Guidelines
+        page: formatting-guidelines
+      - title: Submission Guidelines
+        page: submission-guidelines
+  - title: Sponsorship
+    sub_sections:
+      - title: Opportunities
+        page: sponsorship
+  - title: Participant Information
+    sub_sections: []
+
+carousel:
+  - image: boston-1
+    title: Boston
+  - image: boston-2
+    title: Boston
+
+keywords:
+  - TBD
+
+google_analytics_id: UA-115776710-1
+
+domain: vldb.org/2026
+
+# google search console CDN verification HTML
+google_search_console_verification: f2fa35621456d5

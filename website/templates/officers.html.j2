@@ -1,0 +1,21 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Officers{% endblock %}
+
+{% set current = "officers" %}
+
+{% block content %}
+    <section class="officers">
+        <h1>{{ data.name }}: Conference Officers</h1>
+
+        {% for section in general_information.officers %}
+            <h4>{{ section.title }}</h4>
+            {% for officer in section.people %}
+                <div>
+                    <strong>{{ officer.name }}</strong>,
+                    {{ officer.affiliation }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </section>
+{% endblock %}

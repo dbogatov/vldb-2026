@@ -1,0 +1,44 @@
+dates:
+  - track: Research Track
+    chairs:
+      - name: Yanlei Diao
+        affiliation: Ecole Polytechnique, Amazon Web Services
+      - name: Xiaokui Xiao
+        affiliation: National University of Singapore
+    open: |
+      23<sup>rd</sup> of every month<br>
+      starting March 2025
+    deadline: |
+      1<sup>st</sup> of every month<br>
+      until March 2026
+    notifications: |
+      15<sup>th</sup> of the next month <br>
+      following the deadline
+    cr: |
+      Proceedings chairs will contact <br>
+      the authors with CR instructions <br>
+      by the 5<sup>th</sup> of the next month <br>
+      following the acceptance notification
+
+formatting:
+  content: |
+    # VLDB 2026: Formatting Guidelines
+
+    ## General Information
+
+    All papers submitted to PVLDB and the VLDB Conference for review, irrespective of track, must adhere strictly to the PVLDB template detailed here.
+    Any deviation will be liable to summary rejection (i.e., a desk rejection) of the paper.
+    The PVLDB style template is based on the ACM style template and is updated regularly.
+    Here is the current PVLDB template (for Latex and Word), including the style file and a sample file, as a zip file and as an overleaf project (for Latex):
+
+    - [PVLDB style template zip](https://github.com/cwida/pvldbstyle/archive/master.zip)
+    - [PVLDB style template Overleaf](https://www.overleaf.com/latex/templates/template-for-proceedings-of-the-vldb-endowment/krfrpvrbbvfj)
+    - [PVLDB style MS Word template](https://vldb.org/pvldb/wp-content/uploads/2020/PVLDBvol14Sample.docx)
+
+submission:
+  content: |
+    # VLDB 2026: Submission Guidelines
+    
+    ## General Information
+
+    VLDB 2026 expects all submitted research papers to follow the official PVLDB Submission Guidelines, as detailed at the official website: [www.vldb.org/pvldb/volumes/19/submission](https://www.vldb.org/pvldb/volumes/19/submission/).
