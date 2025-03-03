@@ -2,11 +2,11 @@ dates:
   - track: Research Track
     chairs:
       - name: Yanlei Diao
-        affiliation: Ecole Polytechnique, France
+        affiliation: Ecole Polytechnique, Amazon Web Services
       - name: Xiaokui Xiao
         affiliation: National University of Singapore
     open: |
-      20<sup>th</sup> of every month<br>
+      23<sup>rd</sup> of every month<br>
       starting March 2025
     deadline: |
       1<sup>st</sup> of every month<br>
@@ -40,39 +40,5 @@ submission:
     # VLDB 2026: Submission Guidelines
     
     ## General Information
-    
-    Papers are to be formatted according to the conference's camera-ready format, as embodied in the document templates.
 
-    **Regular Research Papers** (up to 12 pages excluding references)
-    
-    All the content, including any appendices but excluding the references, must fit on the given number of pages.
-    See [Formatting Guidelines](formatting-guidelines) for details.
-    Only the references can extend a paper beyond the page limit, and there is no limit on the number of pages used for them.
-    The conference management tool for the submission of abstracts, papers, and supplemental material is accessible at:
-
-    [cmt3.research.microsoft.com/PVLDBv19_2026](https://cmt3.research.microsoft.com/PVLDBv19_2026)
-    
-    ## Submission Process and Deadlines
-    
-    PVLDB uses a novel review process designed to promote timely submission, review, and revision of scholarly results.
-    The process will be carried out over 12 submission deadlines during the year preceding the VLDB Conference.
-    The basic cycle will operate as follows:
-
-    **Submission Deadlines**: A rolling deadline occurs on the **1st of each month**, 5:00 PM Pacific Time (Daylight Savings observed according to the US calendar).
-    This deadline is strict and no extensions will be granted.
-    The first monthly submission deadline for PVLDB Volume 19 is April 1, 2025.
-    The final deadline is March 1, 2026. For each submission cycle, the CMT site will be open for submissions from the 20th of the previous month.
-    For example, the submissions for the February 2026 cycle will be accepted from January 20, 2026 onwards.
-
-    **Notifications for Initial Submissions**: Initial reviews will usually be available on the **15th of the next month** following the submission deadline, and they will include notice of acceptance, rejection, or revision requests.
-    For revision requests, the reviews will be specific with regard to the expectations from the revision, and only one revision is permitted.
-
-    **Revision Submission Deadlines**: Authors may take **up to 2.5 months** to produce a revised submission, and submit it via CMT to the appropriate revision track by the **1st of each month** for the next 3 months after the revision notification date (i.e., within 15 days, 1.5 months, or 2.5 months after the revision notification).
-    The last three revision deadlines will be May 1, June 1, and July 1, 2026.
-    Note that June 1 is the final revision deadline for consideration to present at VLDB 2026; submissions received after this deadline will roll over to VLDB 2027.
-
-    **Notifications for Revisions**: The final reviews of revised papers will usually be available by the **15th of the next month** following the revision submission.
-
-    **Camera-Ready Copies**: Proceedings chairs will contact the authors by the 5th of the month following the acceptance notification with instructions for camera-ready copies.
-
-    While all attempts will be made to adhere to the schedule mentioned above, authors are advised that reviewing turnaround times may be subject to fluctuations.
+    VLDB 2026 expects all submitted research papers to follow the official PVLDB Submission Guidelines, as detailed at the official website: [www.vldb.org/pvldb/volumes/19/submission](https://www.vldb.org/pvldb/volumes/19/submission/).

@@ -15,23 +15,4 @@ research:
     Please see the [Submission Guidelines](https://www.vldb.org/pvldb/volumes/18/submission) for paper submission instructions.
     The submission process for other VLDB 2025 tracks, such as Demonstrations or Tutorials, is different, and is described in their respective calls for papers.
 
-    ## Scope of PVLDB
-
-    PVLDB welcomes original research papers on a broad range of research topics related to all aspects of data management, where systems issues play a significant role, such as data management system technology and information management infrastructures, including their very large scale of experimentation, novel architectures, and demanding applications as well as their underpinning theory.
-    The scope of a submission for PVLDB is also **described by the subject areas given below**.
-    Moreover, the scope of PVLDB is **restricted to scientific areas that are covered by the combined expertise on the submission's topic of the journal's editorial board**.
-    Finally, the contributions in the submission **should build on work already published in data management outlets**, e.g., PVLDB, VLDB Journal, ACM SIGMOD, IEEE ICDE, EDBT, ACM TODS, IEEE TKDE, and **go beyond a syntactic citation**.
-
-    ## Regular Research Papers
-
-    PVLDB invites regular research papers with different flavors:
-
-    **Foundations and Algorithms Papers**: The primary contribution of foundations papers and algorithms papers lies in their formal underpinnings expressed through precise pseudocode or theoretical formalism.
-    These papers are encouraged to include a prototype implementation and evaluation, including comparisons with alternate approaches, but these are typically limited to demonstrating the conceptual ideas.
-
-    **Systems Papers**: The primary contribution of systems papers lies in the development of novel and practical approaches.
-    They typically have no proofs and no theoretical formalism, but include a solid prototype implementation and empirical evaluation, typically in a working system.
-
-    **Information System Architectures Papers**: The key contribution of information system architectures papers lies in an innovative architecture for a new type of data management system.
-    These papers include an initial prototype implementation and evaluation, but their main contribution lies in the breadth and impact of the overall vision.
-    The details of design goals (e.g., the class of workload to be supported), systems architecture, new abstractions, and design justifications are expected.
+    For details, please visit the PVLDB website: [www.vldb.org/pvldb/volumes/19/contributions](https://www.vldb.org/pvldb/volumes/19/contributions).
