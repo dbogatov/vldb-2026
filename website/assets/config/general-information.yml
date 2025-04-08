@@ -13,6 +13,90 @@ index:
 
   twitter: VLDBconf
 
+shadow_pc:
+  content: |
+    # VLDB 2026 Shadow PC
+
+    We are introducing a Shadow PC to VLDB, which will follow the reviewing cycles of VLDB 2026 (Vol 19) submissions. 
+
+    ## What is Shadow PC?
+
+    VLDB is organizing a shadow program committee for the VLDB 2026 conference.
+    Shadow PC reviews will have no effect on the decisions of the VLDB PC, but Shadow PC members will be able to see and review the submitted VLDB papers if the authors of those papers opt in to be part of the Shadow PC paper pool at submission time.
+    Shadow PC is educational.
+    The goal is to give reviewing experience on real submissions to a top data management conference to the new members of the data management community.
+
+    The regular VLDB PC reviews / comments will remain invisible to the Shadow PC.
+    The reviews written by the Shadow PC will only be visible to the shadow PC members and eventually to the authors.
+
+    The VLDB conflict-of-interest rules will apply to shadow PC as well, and Shadow PC members will be required to comply with ethical code of conduct.
+
+    ## Why join a shadow PC?
+
+    The VLDB Shadow PC is a great opportunity for everyone who are new to the data management community (from junior researchers to senior ones who may have started working across communities) to gain experience with the review and program committee process.
+
+    Besides the recognition of being selected to Shadow PC, serving in VLDB Shadow PC is worthwhile for a number of reasons:
+
+    - Getting to know how an academic PC operates in the data management community;
+    - Seeing how other reviewers judge the same papers that you review;
+    - Getting to see both strong and weak papers at the submission stage;
+    - Discovering what it takes to publish a paper in a top data management venue such as VLDB;
+    - Having a chance to read top-notch papers in your area of expertise before they are published;
+    - Getting to know other researchers who are also selected to the Shadow PC.
+
+    ## How does the shadow PC work?
+
+    Shadow PC members must commit themselves to writing their own detailed and rigorous reviews for papers assigned to them by the allotted deadlines.
+    This timely review commitment is essential to the good functioning of the Shadow PC.
+    Candidates who might be unable to fulfil their reviewing duties should refrain from applying. 
+
+    To keep the load feasible, the Shadow PC will review one paper submitted to VLDB every other month starting from June.
+    The paper pools and review timelines will mimic the VLDB 2026 review cycles and timelines, and we will be using CMT as the reviewing platform like VLDB.
+
+    The Shadow PC will receive feedback on their reviews by the Shadow PC chairs and have a chance to learn from the reviews of other Shadow PC members.
+
+    Here is the more detailed timeline:
+
+    - March 1, 2025: Call for Shadow PC deadline
+    - March 13, 2025: Finalize Shadow PC
+    - May 2025: Online intro meeting with PC
+    - June 2025: 1st round review --- paper pool April-May submissions 
+    - July 2025: Online feedback meeting after first round
+    - August 2025: 2nd round review --- paper pool June-July submissions
+    - September 2025: An in-person session during VLDB 2025 on Shadow PC - feedback & lessons-learned so far
+    - October 2025: 3rd round review --- paper pool August-September submissions
+    - December 2025: 4th round review --- paper pool October-November submissions
+    - February 2026: 5th round review --- paper pool December-January submissions
+    - April 2026: 6th / final round review --- paper pool February-March submissions
+    - May 2026: Final feedback meeting, online
+    - August/September 2026: In-person session at VLDB 2026 with Shadow PC 2026 and Shadow PC 2027
+
+    (Tentative) Timeline for reviewing months:
+
+    - Paper assignments by the 1st of the month
+    - Reviews due by 28th of the month 
+    - Online discussions to reach the final decision (accept/revision/reject) for the paper till the 13th of the following month
+
+    ## How to become a shadow PC member? 
+
+    For this instance of VLDB Shadow PC, our target audience are the people who are involved in the data management community through their research and wish to get some reviewing experience in this community but haven't had a data management conference reviewing experience yet.
+    Therefore, we are looking for candidates that (1) have already published at a data management venue or an affiliated workshop and (2) haven't yet served in the program committee of any data management venue.
+
+    You will need to submit your application at [forms.office.com/e/XYihKj4UKq](https://forms.office.com/e/XYihKj4UKq) by March 1st, 2025 (AoE).
+    The required information for the application can be found on the form. 
+
+    ## Contact
+
+    For any further information, please contact the shadow PC chairs: vldb2026_shadowpc_chairs@o365team.itu.dk. 
+
+    - Pınar Tözün (IT University of Copenhagen, Denmark)
+    - Tianzheng Wang (Simon Fraser University, Canada)
+    - Zsolt István (TU Darmstadt, Germany)
+
+    ## Shadow PC
+
+    The list is coming soon...
+
 officers:
   - title: General Chairs
     people:
@@ -203,7 +287,7 @@ officers:
       - name: K. Selçuk Candan
         affiliation: Arizona State University
       - name: Yang Cao
-        affiliation: Institute of Science Tokyo 
+        affiliation: Institute of Science Tokyo
       - name: Zhao Cao
         affiliation: Remin University
       - name: Larissa Capobianco Shimomura
@@ -395,7 +479,7 @@ officers:
       - name: Arnd Christian König
         affiliation: Microsoft
       - name: Chrysanthi Kosyfaki
-        affiliation: The University of Hong Kong 
+        affiliation: The University of Hong Kong
       - name: Nick Koudas
         affiliation: University of Toronto
       - name: Christos Koutras
@@ -636,7 +720,7 @@ officers:
         affiliation: Samsung Research
       - name: Dixin Tang
         affiliation: The University of Texas, Austin
-      - name: Bo Tang 
+      - name: Bo Tang
         affiliation: Southern University of Science and Technology
       - name: Egemen Tanin
         affiliation: University of Melbourne
@@ -705,7 +789,7 @@ officers:
       - name: Nikolay Yakovets
         affiliation: TU Eindhoven
       - name: Xiao Yan
-        affiliation: Centre for Perceptual and Interactive Intelligence (CPII) 
+        affiliation: Centre for Perceptual and Interactive Intelligence (CPII)
       - name: Bin Yang
         affiliation: Aalborg University
       - name: Renchi Yang

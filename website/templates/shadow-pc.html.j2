@@ -1,0 +1,11 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}VLDB 2026 Shadow PC{% endblock %}
+
+{% set current = "shadow-pc" %}
+
+{% block content %}
+    {%- filter markdown -%}
+        {{ general_information.shadow_pc.content }}
+    {% endfilter %}
+{% endblock %}

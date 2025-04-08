@@ -17,6 +17,8 @@ sections:
         page: .
       - title: Conference Officers
         page: officers
+      - title: Shadow PC
+        page: shadow-pc
   - title: Conference Program
     sub_sections: []
   - title: Call for Contributions
