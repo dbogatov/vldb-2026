@@ -244,8 +244,6 @@ officers:
         affiliation: National University of Singapore
   - title: Associate Editors
     people:
-      - name: First Name Last Name
-        affiliation: Organization
       - name: Alkis Polyzotis
         affiliation: Databricks
       - name: Alkis Simitsis
@@ -1092,8 +1090,6 @@ officers:
         affiliation: IT University of Copenhagen
   - title: Rapid Response Reviewers
     people:
-      - name: First Name Last Name
-        affiliation: Organization
       - name: Abdulhakim Qahtan
         affiliation: Utrecht University
       - name: Abolfazl Asudeh
