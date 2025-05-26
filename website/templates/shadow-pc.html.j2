@@ -8,4 +8,15 @@
     {%- filter markdown -%}
         {{ general_information.shadow_pc.content }}
     {% endfilter %}
+    
+    <section class="officers">
+        <h2>Shadow PC Members</h2>
+        {% for officer in general_information.shadow_pc.officers %}
+            <div>
+                <strong>{{ officer.name }}</strong>,
+                {{ officer.affiliation }}
+            </div>
+        {% endfor %}
+    </section>
+    
 {% endblock %}
