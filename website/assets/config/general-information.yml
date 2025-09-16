@@ -242,6 +242,66 @@ officers:
         affiliation: Ecole Polytechnique and Amazon Web Services
       - name: Xiaokui Xiao
         affiliation: National University of Singapore
+  - title: Local Chair
+    people:
+      - name: Manos Athanassoulis
+        affiliation: Boston University, USA
+  - title: Web Chair
+    people:
+      - name: Dmytro Bogatov
+        affiliation: Amazon Web Services, USA
+  - title: Industrial Track chairs
+    people:
+      - name: Christian König
+        affiliation: Microsoft Research, USA
+      - name: Efthymia Tsamoura
+        affiliation: Huawei, UK
+      - name: Hannes Voigt
+        affiliation: Neo4j, Germany
+  - title: Demo chairs
+    people:
+      - name: Stefania Dumbrava
+        affiliation: ENSIIE Paris, France
+      - name: John Paparrizos
+        affiliation: Ohio State University, USA
+  - title: Workshop Track chairs
+    people:
+      - name: Tilmann Rabl
+        affiliation: Hasso Plattner Institute, Germany
+      - name: Meihui Zhang
+        affiliation: Beijing Institute of Technology, China
+  - title: Tutorial Track chairs
+    people:
+      - name: Oliver Kennedy
+        affiliation: University at Buffalo, USA
+      - name: Wenjie Zhang
+        affiliation: UNSW, Australia
+  - title: Panel chairs
+    people:
+      - name: Bettina Kemme
+        affiliation: McGill University, Canada
+      - name: Steven Euijong Whang
+        affiliation: KAIST, Korea
+  - title: PhD Workshop chairs
+    people:
+      - name: Mohamed Eltabakh
+        affiliation: Qatar Computing Research Institute, Qatar
+      - name: Nikos Tziavelis
+        affiliation: University of California at Santa Cruz, USA
+  - title: Publicity chairs
+    people:
+      - name: Rihan Hai
+        affiliation: TU Delft, Netherlands
+      - name: Batya Kenig
+        affiliation: Technion, Israel
+      - name: Ryan Marcus
+        affiliation: University of Pennsylvania, USA
+  - title: Diversity & Inclusion chairs
+    people:
+      - name: Anna Bernasconi
+        affiliation: Politecnico di Milano, Italy
+      - name: Brit Youngmann
+        affiliation: Technion, Israel
   - title: Associate Editors
     people:
       - name: Alkis Polyzotis
@@ -1176,11 +1236,3 @@ officers:
         affiliation: Seoul National University
       - name: Thorsten Papenbrock
         affiliation: Philipps University of Marburg
-  - title: Local Chair
-    people:
-      - name: Manos Athanassoulis
-        affiliation: Boston University, USA
-  - title: Web Chair
-    people:
-      - name: Dmytro Bogatov
-        affiliation: Amazon Web Services, USA
