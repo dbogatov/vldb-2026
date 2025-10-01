@@ -25,6 +25,8 @@ sections:
     sub_sections:
       - title: Research Track
         page: call-for-research-track
+      - title: Industrial Track
+        page: call-for-industrial-track
   - title: Dates & Guidelines
     sub_sections:
       - title: Important Dates

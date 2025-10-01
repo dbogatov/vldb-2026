@@ -242,6 +242,16 @@ officers:
         affiliation: Ecole Polytechnique and Amazon Web Services
       - name: Xiaokui Xiao
         affiliation: National University of Singapore
+      - name: Subhadeep Sarkar
+        affiliation: Brandeis University, USA
+      - name: Giovanni Simonini
+        affiliation: University of Modena and Reggio Emilia, Italy
+      - name: Siqiang Luo
+        affiliation: Nanyang Technological University
+      - name: Mauri Andrea
+        affiliation: Université Claude Bernard Lyon 1, France
+      - name: Stefan Thomas Halfpap
+        affiliation: Technische Universität Berlin, Germany
   - title: Local Chair
     people:
       - name: Manos Athanassoulis
@@ -296,6 +306,10 @@ officers:
         affiliation: Technion, Israel
       - name: Ryan Marcus
         affiliation: University of Pennsylvania, USA
+  - title: Sponsorship chairs
+    people:
+      - name: Ibrahim Sabek
+        affiliation: USC, USA
   - title: Diversity & Inclusion chairs
     people:
       - name: Anna Bernasconi
