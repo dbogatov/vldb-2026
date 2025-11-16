@@ -27,6 +27,10 @@ sections:
         page: call-for-research-track
       - title: Industrial Track
         page: call-for-industrial-track
+      - title: Tutorials
+        page: call-for-tutorials
+      - title: Panels
+        page: call-for-panels
   - title: Dates & Guidelines
     sub_sections:
       - title: Important Dates

@@ -242,16 +242,23 @@ officers:
         affiliation: Ecole Polytechnique and Amazon Web Services
       - name: Xiaokui Xiao
         affiliation: National University of Singapore
+  - title: Proceedings Chairs
+    people:
       - name: Subhadeep Sarkar
         affiliation: Brandeis University, USA
+        email: subhadeep@brandeis.edu
       - name: Giovanni Simonini
         affiliation: University of Modena and Reggio Emilia, Italy
+        email: simonini@unimore.it
       - name: Siqiang Luo
         affiliation: Nanyang Technological University
+        email: siqiang.luo@ntu.edu.sg
       - name: Mauri Andrea
         affiliation: Université Claude Bernard Lyon 1, France
+        email: andrea.mauri@univ-lyon1.fr
       - name: Stefan Thomas Halfpap
         affiliation: Technische Universität Berlin, Germany
+        email: halfpap@tu-berlin.de
   - title: Local Chair
     people:
       - name: Manos Athanassoulis
@@ -309,11 +316,15 @@ officers:
   - title: Sponsorship chairs
     people:
       - name: Ibrahim Sabek
-        affiliation: USC, USA
+        affiliation: University of Southern California, USA
+      - name: Jing Tang
+        affiliation: The Hong Kong University of Science and Technology
+      - name: Nesime Tatbul
+        affiliation: MIT, USA
   - title: Diversity & Inclusion chairs
     people:
-      - name: Anna Bernasconi
-        affiliation: Politecnico di Milano, Italy
+      - name: Sujaya Maya
+        affiliation: University of Waterloo, Canada
       - name: Brit Youngmann
         affiliation: Technion, Israel
   - title: Associate Editors

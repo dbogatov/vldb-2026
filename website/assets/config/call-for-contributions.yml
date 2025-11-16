@@ -17,6 +17,108 @@ research:
 
     For details, please visit the PVLDB website: [www.vldb.org/pvldb/volumes/19/contributions](https://www.vldb.org/pvldb/volumes/19/contributions).
 
+panels:
+  content: |
+    # VLDB 2026: Call for Contributions - Panels
+
+    We solicit proposals for panels at the 2026 VLDB Conference in Boston, MA, USA (August 31st - September 4th, 2026).
+    Panel proposals are expected to address new, exciting, and controversial issues of broad interest to the database community.
+    The proposed panel should be provocative, informative, and entertaining.
+
+    Panel proposals must include:
+
+    - Description of the panel topic (no more than 1.5 pages)
+        - Why is this topic of interest to the community?
+        - Do you see the panel engaging the database community and changing their positions or schools of thought?
+        - What are possible different and diverse perspectives that might spark a discussion?
+        - What are the likely positions of the panelists on the topic?
+          Do they bring in ideas from different communities?
+        - What questions or prompts are given to the panelists to prepare their opening statements?
+        - What questions will the moderator use to get the discussion going?
+    - Name, affiliation, brief bio, and contact information for the proposed panel moderator (no page limit).
+    - Names, affiliations, brief bios, and rationale for inclusion in the panel of potential panelists in addition to the panel moderator.
+      If the panelists have already made a commitment to participate in person, then up to 6 panelists can be listed.
+      Otherwise, the list should contain up to 6 preferred panelists with potential alternates.
+
+    An inclusive and diverse mix of panelists is encouraged.
+    Representation from both industry and academia and panelists from different research communities are also encouraged.
+    The proposals should be submitted to the panel chairs via email: Steven Euijong Whang ([swhang@kaist.ac.kr](mailto:swhang@kaist.ac.kr)) and Bettina Kemme ([bettina.kemme@mcgill.ca](mailto:bettina.kemme@mcgill.ca)).
+    Please also feel free to contact them if you have any questions when preparing the proposal.
+
+    ## Important Dates
+
+    All deadlines below are 5pm PT.
+
+    - Submission deadline: **May 15, 2026**
+    - Notification: **Jun 8, 2026**
+    - Tentative camera-ready deadline: **June 30, 2026**
+
+tutorials:
+  content: |
+    # VLDB 2026: Call for Contributions - Tutorials
+
+    VLDB 2026 invites submissions for tutorial proposals on all topics of potential interest to the conference attendees.
+    Tutorial proposals should cover state-of-the-art research, development, and applications in specific data management related areas, and stimulate and facilitate future work.
+    Tutorials on interdisciplinary directions, bridging scientific research and applied communities, novel and fast-growing directions, and significant applications are highly encouraged.
+    We encourage tutorials in areas that may be different from the usual VLDB mainstream, but still very much related to VLDB mission and objectives of managing big data.
+    We also encourage tutorials that cover topics on applying machine learning to solve data management problems and using data management systems for machine learning workloads.
+    Tutorials should be targeted for a broad audience, and they must focus neither excessively, nor exclusively, on the authors' own work.
+
+    ## Important Dates
+
+    All deadlines below are 5 PM Pacific Time.
+
+    - Submission deadline: **April 15, 2026**
+    - Notification: **May 30, 2026**
+    - Camera-ready: **July 1, 2026**
+    - Slides availability: **August 20, 2026**
+
+    ## Submission Guidelines
+
+    Tutorial submissions must be submitted electronically, in pdf format, at the conference submission site: [CMT](https://cmt3.research.microsoft.com/PVLDBv19_2026).
+    Submissions should be formatted using the [PVLDB style templates](https://www.vldb.org/pvldb/volumes/19/formatting/), with a maximum length of 4 pages, excluding references.
+
+    Proposals should include:
+
+    - Title of the tutorial
+    - Names, affiliations and email addresses of the presenters
+    - Overview of tutorial, with justification of its relevance and timeliness
+    - Target audience and assumed background
+    - Related recent tutorials and how the proposed tutorial is different compared to those
+    - Scope and structure: enough detail to provide a sense of both the scope of material to be covered and the depth to which it will be covered
+    - The planned format, survey or foundational, and details of special components, if any (e.g. hands-on session or expert panel)
+    - Intended length of the tutorial (one session of 1.5 hours, or two sessions with a total of 3 hours on the same day). If the tutorial can be of either length, please identify which sections are included for each option.
+    - References: include at least 10 primary and relevant bibliographic references on the core material of the tutorial.
+    - Brief professional biographies of presenters, with a note on their background in the area of the tutorial.
+
+    ## Accepted Tutorials
+
+    TBC
+
+    ## Tutorial Chairs
+
+    - Oliver A. Kennedy, University at Buffalo
+    - Wenjie Zhang, University of New South Wales
+
+    ## Tutorial Committee
+
+    - Anna Queralt, Universitat Politecnica de Catalunya
+    - Aoying Zhou, East China Normal University
+    - Chuan Xiao, Nagoya University
+    - Deepak Majeti, IBM
+    - Denis Hirn, Universität Tübingen
+    - Eamonn J. Keogh, UC Riverside
+    - Gerardo Vitagliano, MIT CSAIL
+    - Gokhan Kul, University of Massachusetts Dartmouth
+    - Jelle Hellings, McMaster University
+    - Jian Pei, Duke University
+    - Jingzhi Fang, HKUST
+    - Pedro Pedreira, Meta Platforms Inc.
+    - Qinghua Liu, The Ohio State University
+    - Ramon Antonio Rodriges Zalipynis, HSE University
+    - Xiaofang Zhou, The Hong Kong University of Science and Technology
+    - Yang Cao, University of Edinburgh
+
 industrial:
   content: |
     # VLDB 2026: Call for Contributions - Industrial Track

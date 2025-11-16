@@ -13,7 +13,7 @@
             {% for officer in section.people %}
                 <div>
                     <strong>{{ officer.name }}</strong>,
-                    {{ officer.affiliation }}
+                    {{ officer.affiliation }}{% if officer.email %}, <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% endif %}
                 </div>
             {% endfor %}
         {% endfor %}

@@ -1,0 +1,11 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Call for Contributions - Tutorials{% endblock %}
+
+{% set current = "call-for-tutorials" %}
+
+{% block content %}
+    {%- filter markdown -%}
+        {{ call_for_contributions.tutorials.content }}
+    {% endfilter %}
+{% endblock %}
