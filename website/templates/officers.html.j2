@@ -8,14 +8,18 @@
     <section class="officers">
         <h1>{{ data.name }}: Conference Officers</h1>
 
-        {% for section in general_information.officers %}
-            <h4>{{ section.title }}</h4>
-            {% for officer in section.people %}
-                <div>
-                    <strong>{{ officer.name }}</strong>,
-                    {{ officer.affiliation }}{% if officer.email %}, <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% endif %}
+        <div class="officers-grid">
+            {% for section in general_information.officers %}
+                <div class="officer-block">
+                    <h4>{{ section.title }}</h4>
+                    {% for officer in section.people %}
+                        <div>
+                            <strong>{{ officer.name }}</strong>,
+                            {{ officer.affiliation }}{% if officer.email %}, <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% endif %}
+                        </div>
+                    {% endfor %}
                 </div>
             {% endfor %}
-        {% endfor %}
+        </div>
     </section>
 {% endblock %}

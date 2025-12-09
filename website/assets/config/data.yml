@@ -27,6 +27,8 @@ sections:
         page: call-for-research-track
       - title: Industrial Track
         page: call-for-industrial-track
+      - title: Workshops
+        page: call-for-workshops
       - title: Tutorials
         page: call-for-tutorials
       - title: Panels

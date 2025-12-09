@@ -5,118 +5,85 @@
 {% set current = "sponsorship" %}
 
 {% block content %}
-    <section class="sponsorship">
-        {%- filter markdown -%}
+   <section class="sponsorship">
+         {%- filter markdown -%}
 
-# {{ data.name }}: Sponsorship
+# {{ data.name }}: Sponsorship Opportunities
 
 ### Who are we?
 
-
-VLDB, started in 1975, is the premier database conference.
-It is an international conference held annually.
-Different countries ranging from China to India, Germany, Brazil and USA have hosted VLDB.
-It has introduced numerous influential concepts such as "Big Data", "Data Science", and "Cloud" before these names became widely used.
-Some of the seminal and highly cited research papers in these topics were published in our conference.
-For almost half a century and after an explosive growth in the computing industry, we remain the home for the latest cutting-edge research and industrial innovation in the data arena.
+VLDB, started in 1975 in Framingham, MA, USA, is the premier international database conference held annually.
+Several countries across six continents have hosted VLDB since then.
+It has introduced numerous influential concepts such as "Big Data", "Data Science", and "Cloud" before these terms became widely used.
+Some of the seminal and highly cited research papers on these topics were published in our conference.
+For more than half a century now, and after an explosive growth in the computing industry, VLDB remains the home for the latest cutting-edge research and industrial innovation in the data arena.
 Even today, the technology and research presented at our conference is typically 5 to 10 years ahead of its time.
-{{ data.name }} will be held in {{ data.location }}, on {{ data.dates }}.
+{{ data.name }} will be held in {{ data.location }}, on {{ data.dates }} — coming back to its birthplace after 51 years.
 
 ### Sponsorship Benefits
 
-Many sponsors use VLDB to meet and hire the leading data architects, practitioners and scientists of our generation.
+VLDB draws more than 1000 attendees every year.
+Many sponsors use VLDB to meet and hire the leading data architects, practitioners, and scientists of our generation.
+The top talent in our community includes some of the brightest minds with big data and large-scale AI data systems experience.
+Furthermore, VLDB provides sponsor companies a platform not only to promote their most innovative technology and products, but also to meet representatives from other sponsor companies in the big data space.
+Using the complimentary registrations offered to sponsors, their employees can gain access to VLDB's vibrant community of academic and industrial database experts and their latest work, enabling professional networking and development.
+Please see below for a more detailed description of our sponsorship options and benefits.
+
+### Sponsorship Chairs
+
+- Ibrahim Sabek, University of Southern California, USA
+- Jing Tang, The Hong Kong University of Science and Technology (Guangzhou), China
+- Nesime Tatbul, Intel Labs and MIT, USA
+
+If you are interested in sponsoring {{ data.name }} or have any questions about the VLDB sponsorship opportunities in general, please feel free to reach out to us at: vldb2026-sponsorship@googlegroups.com
 
 ## Sponsorship Categories
 
 VLDB sponsorships are categorized into two types:
 
-- conference sponsorship,
-- a recently introduced Endowment sponsorship.
+- Conference Sponsorship
+- Endowment Sponsorship
 
-Each conference and local sponsorship funds a specific conference, such as this year's {{ data.name }}, and the benefits to the sponsors are largely restricted to the time of the conference.
-The Endowment sponsors enjoy additional benefits all year round.
+The Conference Sponsorship funds a specific conference (such as this year's {{ data.name }}), where the benefits to the sponsors are largely restricted to the time of the conference; while the Endowment Sponsorship provides additional benefits all year round.
 
-## {{ data.name }} Conference Sponsorship Levels
+## {{ data.name }} Conference Sponsorship
 
-There are four conference sponsorship levels for {{ data.name }}.
-Special Sponsors includes specific event support, exhibition, etc.
-The {{ data.name }} Sponsorships and Exhibitions Prospectus is below.
-Please check the details of sponsorships.
-Please note: sponsorship amounts are exclusive of any applicable taxes.
+As detailed below, there are multiple conference sponsorship levels for {{ data.name }}, including a special one for exhibitors/publishers.
+Please note that the sponsorship amounts are exclusive of any applicable taxes.
 
-#### Diamond Sponsor (USD $30,000)
+         {% endfilter %}
 
-- Acknowledgement in press releases.
-- Company logo on banner display at the conference registration area.
-- Company logo on conference poster as a Diamond sponsor.
-- Recognition in the opening and closing sessions of the conference.
-- 10 complimentary conference plus workshop registrations (approximate value USD $8,000).
-- Full-page advertisement in the conference brochure.
-- Linked company logo on conference website.
-- Acknowledgement as a Diamond sponsor at the conference banquet.
-- An executive place in the Exhibition Area.
-- Distribution of the sponsor's pamphlet to participants through insertion in the conference bag.
-(Up to A4 size, two sheets, folded or unfolded).
+         <h3>Sponsorship Levels</h3>
+         <div class="sponsorship-cards">
+            {% for tier in sponsorship.opportunities.tiers %}
+            <div class="sponsor-card card-{{ tier.color }}">
+               <div class="sponsor-card-header">
+                  <h4>{{ tier.name }}</h4>
+                  <div class="price">US$ {{ "{:,}".format(tier.price) }}</div>
+               </div>
+               <div class="sponsor-card-body">
+                  <ul>
+                     {% for benefit in tier.benefits %}
+                     <li>{{ benefit }}</li>
+                     {% endfor %}
+                  </ul>
+               </div>
+            </div>
+            {% endfor %}
+         </div>
 
-#### Platinum Sponsor (USD $20,000)
-
-- Acknowledgement in press releases.
-- Company logo on banner display at the conference registration area.
-- Company logo on conference poster as a Platinum sponsor.
-- Recognition in the opening and closing sessions of the conference.
-- 6 complimentary conference plus workshop registrations (approximate value USD $4,800).
-- Full-page advertisement in the conference brochure.
-- Linked company logo on conference website.
-- Acknowledgement as a Platinum sponsor at the conference banquet.
-- An executive place in the Exhibition Area.
-- Distribution of the sponsor's pamphlet to participants through insertion in the conference bag.
-(Up to A4 size, two sheets, folded or unfolded).
-
-#### Gold Sponsor (USD $10,000)
-
-- Company logo on banner display at the conference registration area.
-- Company logo on conference poster as a Gold sponsor.
-- 3 complimentary conference plus workshop registrations (approximate value USD $2,400) .
-- Full-page advertisement in the conference brochure.
-- Linked company logo on conference website.
-- Acknowledgement as a Gold sponsor at the conference banquet.
-- An executive place in the Exhibition Area.
+         {%- filter markdown -%}
 
 ## VLDB Endowment Sponsorship
 
-VLDB invites companies wishing to sponsor the VLDB Conference to become Endowment Sponsors.
-The newly introduced Endowment Sponsorship hopes to foster increased collaboration and dialogue between the sponsoring companies and the VLDB research community by providing enhanced benefits to VLDB's corporate partners.
+VLDB invites companies wishing to sponsor the VLDB Conference to become endowment sponsors.
+Recently introduced in 2022, the Endowment Sponsorship Program hopes to foster increased collaboration and dialogue between the sponsoring companies and the VLDB research community by providing enhanced benefits to VLDB's corporate partners.
 Endowment sponsorships are intended for companies/organizations with a longer-term interest in database research and development who wish to stay connected with the VLDB community.
 The expectation is that such companies would stay engaged with and sponsor VLDB over multiple years and would benefit from the increased level of benefits that such a sponsorship will provide.
 Endowment sponsors at a given level (e.g., Platinum) are automatically conference sponsors at the same level for the given year.
-In addition to all the benefits that a VLDB conference sponsorship offers at the given level, the Endowment sponsors will further receive the following benefits:
+In addition to all the benefits that a VLDB conference sponsorship offers at the given level, the endowment sponsors will further receive recognition as a VLDB Endowment Sponsor at all VLDB events year round, such as summer schools, sponsored workshops, etc.
+For further information about the VLDB Endowment Sponsorships, please contact Anand Deshpande (Persistent).
 
-1. Recognition as a VLDB Endowment sponsor at all VLDB events year round: The endowment sponsor, in addition to be recognized as sponsors (at the appropriate level of support sponsor --- e.g., Gold, Platinum, Diamond) during the conference, would also be recognized at other VLDB events such as summer schools, sponsored workshops, etc.
-
-1. Ambassador Service: The VLDB endowment will identify a specific individual from the VLDB community who will serve as a liaison to ensure that the endowment sponsors are able to derive maximum value from the VLDB community sponsorship all year round.
-
-1. Opportunity to participate in an online advisory meeting twice a year.
-   Endowment sponsors will have an opportunity to participate in a bi-annual advisory meeting.
-   During the meeting the sponsor representatives will have an opportunity to engage with the Endowment representatives to provide collective feedback on activities &amp; sponsorship benefits, as well as to share their vision(s) for the growth of the field.
-
-1. Access to a curated list of graduating students looking for jobs not just during the conference, but every quarter.
-   The names will consist of students who opt-in and would like VLDB to distribute their name to potential employers.
-
-1. Access to Leading Database researchers on topics of mutual interest: The VLDB Endowment (through the organization's liaison --- see benefit 2 above) will enable sponsors to connect with experts on specific topics of interest to their sponsoring organization.
-   Typically, these experts will be ones who have offered tutorials / lectures / keynotes at the conference and/or explicitly expressed interest in donating a few hours of their time connecting with sponsoring companies.
-   The experts will offer consulting / talks on specific topics of mutual interest exclusively for the Company's internal audience.
-   The goal of this benefit is to seed potential opportunities for research collaborations / consulting between academics and corporate partners.
-   The Endowment will provide Endowment sponsors with a list of researchers and topics to choose from.
-   Different levels of sponsorship will provide different levels of access to researchers: Gold --- one 2-hour session, Platinum --- two 2-hour sessions, and Diamond --- three 2-hour sessions.
-   Please note that this benefit is based on the VLDB researchers volunteering to contribute their time to companies; the list of available topics and researchers may change dynamically.
-
-#### Becoming an Endowment Sponsor
-
-So, what does a company need to do to get all the above benefits above in addition to the benefits conference sponsors get?
-Not much!
-If you are a sponsor at the Gold level or higher, you automatically qualify.
-You will need to communicate with the endowment about your desire to become an Endowment Sponsor with the intent of sponsoring VLDB repeatedly over the years.
-For further information about the VLDB Endowment Sponsorships, please contact {% for person in sponsorship.opportunities.contacts %} {{ person.name }} ({{ person.affiliation }}){% if not loop.last %} or {% endif %} {% endfor %}.
-        {% endfilter %}
-    </section>
+         {% endfilter %}
+   </section>
 {% endblock %}

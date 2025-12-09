@@ -267,7 +267,7 @@ officers:
     people:
       - name: Dmytro Bogatov
         affiliation: Amazon Web Services, USA
-  - title: Industrial Track chairs
+  - title: Industrial Track Chairs
     people:
       - name: Christian König
         affiliation: Microsoft Research, USA
@@ -275,37 +275,37 @@ officers:
         affiliation: Huawei, UK
       - name: Hannes Voigt
         affiliation: Neo4j, Germany
-  - title: Demo chairs
+  - title: Demo Chairs
     people:
       - name: Stefania Dumbrava
         affiliation: ENSIIE Paris, France
       - name: John Paparrizos
         affiliation: Ohio State University, USA
-  - title: Workshop Track chairs
+  - title: Workshop Track Chairs
     people:
       - name: Tilmann Rabl
         affiliation: Hasso Plattner Institute, Germany
       - name: Meihui Zhang
         affiliation: Beijing Institute of Technology, China
-  - title: Tutorial Track chairs
+  - title: Tutorial Track Chairs
     people:
       - name: Oliver Kennedy
         affiliation: University at Buffalo, USA
       - name: Wenjie Zhang
         affiliation: UNSW, Australia
-  - title: Panel chairs
+  - title: Panel Chairs
     people:
       - name: Bettina Kemme
         affiliation: McGill University, Canada
       - name: Steven Euijong Whang
         affiliation: KAIST, Korea
-  - title: PhD Workshop chairs
+  - title: PhD Workshop Chairs
     people:
       - name: Mohamed Eltabakh
         affiliation: Qatar Computing Research Institute, Qatar
       - name: Nikos Tziavelis
         affiliation: University of California at Santa Cruz, USA
-  - title: Publicity chairs
+  - title: Publicity Chairs
     people:
       - name: Rihan Hai
         affiliation: TU Delft, Netherlands
@@ -313,15 +313,15 @@ officers:
         affiliation: Technion, Israel
       - name: Ryan Marcus
         affiliation: University of Pennsylvania, USA
-  - title: Sponsorship chairs
+  - title: Sponsorship Chairs
     people:
       - name: Ibrahim Sabek
         affiliation: University of Southern California, USA
       - name: Jing Tang
         affiliation: The Hong Kong University of Science and Technology
       - name: Nesime Tatbul
-        affiliation: MIT, USA
-  - title: Diversity & Inclusion chairs
+        affiliation: Intel Labs and MIT, USA
+  - title: Diversity & Inclusion Chairs
     people:
       - name: Sujaya Maya
         affiliation: University of Waterloo, Canada
@@ -1037,6 +1037,8 @@ officers:
         affiliation: Aalborg University
       - name: Tianzheng Wang
         affiliation: Simon Fraser University
+      - name: Tieying Zhang
+        affiliation: National University of Singapore
       - name: Ting Yu
         affiliation: MBZUAI
       - name: Tingjian Ge

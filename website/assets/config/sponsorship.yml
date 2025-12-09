@@ -6,3 +6,77 @@ opportunities:
       affiliation: UC Irvine
     - name: Ibrahim Sabek
       affiliation: USC
+  tiers:
+    - name: Diamond
+      price: 45000
+      color: diamond
+      benefits:
+        - Acknowledgement in press releases
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Recognition in opening and closing sessions
+        - 10 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - Executive place in Exhibition Area
+        - Pamphlet distribution in conference bag
+        - Sponsor talk in conference program
+        - Opportunity to submit industrial workshop proposals
+    - name: Platinum
+      price: 30000
+      color: platinum
+      benefits:
+        - Acknowledgement in press releases
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Recognition in opening and closing sessions
+        - 6 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - Executive place in Exhibition Area
+        - Pamphlet distribution in conference bag
+        - Sponsor talk in conference program
+    - name: Gold
+      price: 15000
+      color: gold
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 3 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - A place in Exhibition Area
+        - Sponsor talk in conference program
+    - name: Silver
+      price: 10000
+      color: silver
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 2 complimentary conference plus workshop registrations
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - A place in Exhibition Area
+    - name: Bronze
+      price: 5000
+      color: bronze
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 1 complimentary conference plus workshop registration
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+    - name: Exhibitor/Publisher
+      price: 2000
+      color: exhibitor
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - A place in Exhibition Area

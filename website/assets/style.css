@@ -1,0 +1,95 @@
+
+/* Sponsorship Cards */
+.sponsorship-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.sponsor-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 0 0 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.sponsor-card-header {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.sponsor-card-header h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.sponsor-card-header .price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+.sponsor-card-body {
+    padding: 1rem;
+    flex-grow: 1;
+    font-size: 0.9rem;
+}
+.sponsor-card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sponsor-card-body li {
+    padding: 0.4rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+.sponsor-card-body li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: inherit;
+}
+
+/* Card colors */
+.card-diamond { border-top: 4px solid #89CFF0; background: linear-gradient(to bottom, #E6F4FA 0%, #fff 100%); }
+.card-diamond .sponsor-card-header h4 { color: #1E90FF; }
+.card-diamond li::before { color: #1E90FF; }
+
+.card-platinum { border-top: 4px solid #B8860B; background: linear-gradient(to bottom, #FFF8DC 0%, #fff 100%); }
+.card-platinum .sponsor-card-header h4 { color: #B8860B; }
+.card-platinum li::before { color: #B8860B; }
+
+.card-gold { border-top: 4px solid #DAA520; background: linear-gradient(to bottom, #FFFACD 0%, #fff 100%); }
+.card-gold .sponsor-card-header h4 { color: #DAA520; }
+.card-gold li::before { color: #DAA520; }
+
+.card-silver { border-top: 4px solid #808080; background: linear-gradient(to bottom, #F5F5F5 0%, #fff 100%); }
+.card-silver .sponsor-card-header h4 { color: #696969; }
+.card-silver li::before { color: #696969; }
+
+.card-bronze { border-top: 4px solid #CD7F32; background: linear-gradient(to bottom, #FDF5E6 0%, #fff 100%); }
+.card-bronze .sponsor-card-header h4 { color: #CD7F32; }
+.card-bronze li::before { color: #CD7F32; }
+
+.card-exhibitor { border-top: 4px solid #6B8E23; background: linear-gradient(to bottom, #F0FFF0 0%, #fff 100%); }
+.card-exhibitor .sponsor-card-header h4 { color: #6B8E23; }
+.card-exhibitor li::before { color: #6B8E23; }
+
+
+/* Officers Grid */
+.officers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.officer-block {
+    break-inside: avoid;
+}
+@media (max-width: 768px) {
+    .officers-grid {
+        grid-template-columns: 1fr;
+    }
+}
