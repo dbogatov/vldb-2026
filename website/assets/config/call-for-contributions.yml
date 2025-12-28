@@ -183,6 +183,81 @@ industrial:
 
     TBA
 
+demonstrations:
+  content: |
+    # VLDB 2026: Call for Contributions - Demonstrations
+
+    VLDB 2026 invites submissions for software demonstration proposals on any topic of interest, broadly defined, to the data management community.
+    Software demonstrations are accompanied by short papers, which will appear in the PVLDB proceedings upon acceptance.
+    Demonstrations presented at the conference will be eligible to receive the VLDB 2026 Best Demo Award.
+
+    ## Important Dates
+
+    All deadlines below are AoE. The submission deadline will not be extended.
+
+    - Proposal submission deadline: **March 29, 2026**
+    - Notification of acceptance: **May 31, 2026**
+    - Camera-ready deadline: **June 28, 2026**
+
+    ## Demo Proposals
+
+    The proposal must describe the demonstrated system, and state the novelty and significance of the contribution to data management research, technologies, and/or its applications.
+    The proposal should pay special attention to describing the exact demonstration scenarios for the given system.
+    This should include how the audience will experience the demo, the architecture of the proposed system, what kind of functionality is supported, user scenarios, interface and interaction options, etc.
+    Proposals with a high degree of audience interaction that can engage the audience will be preferred.
+    Proposals must be submitted in camera-ready format and limited to 4 pages, inclusive of ALL material.
+    Formatting guidelines and document templates are available at [http://vldb.org/pvldb/volumes/19/formatting/](http://vldb.org/pvldb/volumes/19/formatting/).
+    Submissions are single-anonymous and must contain author names and affiliations.
+    Proposals will be reviewed by at least 3 reviewers, and the review process will be managed by an Associate Editor.
+
+    ## Video Submissions
+
+    We encourage the submission of a demonstration video (of up to 5 minutes, 50MB max. file size) together with your demonstration proposal via CMT.
+    Both the demonstration proposal and the video will then be accessible to the reviewers.
+    Your video should summarize your demonstration and also audio-visually highlight its most important aspects, such as the user interface, options for user interactions, the system setup, etc.
+    The video should be submitted in MPEG/AVI/MP4 format and be playable by the common media players.
+    Please note that you will need to first finish your demo proposal submission and then edit it to add the video as a supplementary file.
+
+    ## Conflicts and Authorship
+
+    To minimize biases in the evaluation process, we use CMT's conflict management system, through which authors should flag conflicts with members of the Editorial Board.
+
+    **Conflict Declaration on CMT:** Each author is responsible for entering their own domain and individual PC conflicts on CMT.
+    All authors of a paper (listed in the pdf) must register themselves in CMT and declare their individual domain and PC conflicts at the time of submission.
+    It is the full responsibility of all authors of a paper to identify and declare all CoIs with members of the Editorial Board (Reviewers, Associate Editors, and Demo Chairs) prior to the submission deadline.
+    Conflicts of interest will also be checked using an automated CoI detection tool.
+    Submissions with undeclared conflicts or spurious conflicts will be desk-rejected.
+
+    After a paper is accepted, the set of authors cannot be changed.
+
+    You can mark your domain and individual PC conflicts by clicking on your name (upper right-hand side on CMT) and selecting "Personal Conflicts".
+    An author's declared conflicts will be automatically applied to all of their submissions.
+
+    X and Y have a conflict of interest (CoI) if any of the following applies:
+
+    - X and Y have worked in the same university or company in the past 2 years, or will be doing so in the next 6 months on account of an accepted job offer.
+      Different campuses within the same university system do not count as the same university for this purpose (e.g., UC Berkeley does not have a conflict with UC Santa Barbara).
+    - X has been a co-author of a paper with Y in the last 3 years, or of 4 (or more) papers in the last 10 years.
+      (Note that we consider the publication year and not the submission year or the month of publication (i.e., we do not distinguish at month-level granularity). For example, in 2025, the last 3 years start from January 2022 of the paper's publication date.)
+    - X has been a collaborator within the past 2 years, as evidenced in a joint publication (subsumed by the stricter rule on co-authorship above), joint research project, or co-organizing events (e.g., co-chairs of conferences), or are collaborating now (including co-authorship on papers not resulted in final publication yet).
+    - X is the PhD thesis advisor of Y or vice versa, irrespective of how long ago this was.
+    - X is a relative or close personal friend of Y.
+
+    ## Demo Submission
+
+    Demonstration proposals must be submitted electronically, in PDF format, using CMT.
+    When creating a new paper submission, you will be given the option to choose a track.
+    Choose the "Demo" track for your demo proposal.
+    Once you have submitted your paper, you can add your video submission file in a second step.
+    You will find the VLDB 2026 CMT submission site at:
+
+    [https://cmt3.research.microsoft.com/PVLDBv19_2026/](https://cmt3.research.microsoft.com/PVLDBv19_2026/)
+
+    ## Demo Track Chairs
+
+    - Stefania Dumbrava, ENSIIE & INRIA Paris, France
+    - John Paparrizos, The Ohio State University, USA & Aristotle University of Thessaloniki, Greece
+
 workshops:
   content: |
     # VLDB 2026: Call for Contributions - Workshops
