@@ -395,10 +395,12 @@ officers:
     people:
       - name: Manos Athanassoulis
         affiliation: Boston University, USA
-  - title: Web Chair
+  - title: Web Chairs
     people:
       - name: Dmytro Bogatov
         affiliation: Amazon Web Services, USA
+      - name: Chao Zhang
+        affiliation: University of Waterloo
   - title: Industrial Track Chairs
     people:
       - name: Christian König
