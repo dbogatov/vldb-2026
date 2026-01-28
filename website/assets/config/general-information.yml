@@ -238,10 +238,142 @@ officers:
         affiliation: Northeastern University, USA
   - title: Program Committee
     people:
-      - name: Yanlei Diao
-        affiliation: Ecole Polytechnique and Amazon Web Services
-      - name: Xiaokui Xiao
+      - name: Ahmed Eldawy
+        affiliation: University of California, Riverside
+      - name: Anastasios Gounaris
+        affiliation: Aristotle University of Thessaloniki
+      - name: Andra Ionescu
+        affiliation: KTH Royal Institute of Technology
+      - name: Arash Termehchy
+        affiliation: Oregon State University
+      - name: Bo Tang
+        affiliation: Southern University of Science and Technology
+      - name: Bo Zhao
+        affiliation: Aalto University
+      - name: Carlo Sartiani
+        affiliation: Universita della Basilica
+      - name: Chao Zhang
+        affiliation: University of Waterloo
+      - name: Chuan Xiao
+        affiliation: Nagoya University
+      - name: Chunwei Liu
+        affiliation: MIT CSAIL
+      - name: Dimitris Tsitsigkos
+        affiliation: Archimedes, Athena Research Center
+      - name: El Kindi Rezig
+        affiliation: University of Utah
+      - name: Enzo Veltri
+        affiliation: Università della Basilicata
+      - name: Fabian Panse
+        affiliation: University of Augsburg
+      - name: Garima Gaur
+        affiliation: Inria Saclay, Ecole Polytechnique
+      - name: George Papastefanatos
+        affiliation: ATHENA Research Center
+      - name: Georgia Troullinou
+        affiliation: CNRS
+      - name: Georgios Siachamis
+        affiliation: Inria
+      - name: Guozhong Li
+        affiliation: King Abdullah University of Science & Technology
+      - name: Hangdong Zhao
+        affiliation: Microsoft
+      - name: Hiroaki Shiokawa
+        affiliation: University of Tsukuba
+      - name: Ibrahim Sabek
+        affiliation: University of Southern California
+      - name: Irena Holubova
+        affiliation: Charles University
+      - name: Jens d'Hondt
+        affiliation: Barcelona supercomputing center
+      - name: Jia Zou
+        affiliation: Arizona State University
+      - name: Jiaxin Jiang
         affiliation: National University of Singapore
+      - name: Junghoon Kim
+        affiliation: UNIST
+      - name: Kostas Stefanidis
+        affiliation: Tampere University
+      - name: Kyoungmin Kim
+        affiliation: EPFL
+      - name: Larissa Capobianco Shimomura
+        affiliation: Hasselt University
+      - name: Lihong He
+        affiliation: IBM Research
+      - name: Lisi Chen
+        affiliation: UESTC
+      - name: Loredana Caruccio
+        affiliation: University of Salerno
+      - name: Martin Boissier
+        affiliation: Hasso Plattner Institute, University of Potsdam
+      - name: Mayuresh Kunjir
+        affiliation: Amazon AWS
+      - name: Niccolo Meneghetti
+        affiliation: University of Michigan - Dearborn
+      - name: Nikolay Yakovets
+        affiliation: TU Eindhoven
+      - name: Nikos Bikakis
+        affiliation: Hellenic Mediterranean University & ATHENA Research Center
+      - name: Panagiotis Liakos
+        affiliation: Athens University of Economics and Business
+      - name: Paul Boniol
+        affiliation: Inria, Ecole normale supérieure
+      - name: Petra Selmer
+        affiliation: Bloomberg
+      - name: Philipp Skavantzos
+        affiliation: The University of Auckland
+      - name: Qitong Wang
+        affiliation: Harvard University
+      - name: Ramon Lawrence
+        affiliation: University of British Columbia
+      - name: Rihan Hai
+        affiliation: TU Delft
+      - name: Sajjadur Rahman
+        affiliation: Adobe
+      - name: Stefano Cirillo
+        affiliation: University of Salerno
+      - name: Subhadeep Sarkar
+        affiliation: Brandeis University
+      - name: Tarikul Islam Papon
+        affiliation: UMass Boston
+      - name: Toshiyuki Amagasa
+        affiliation: University of Tsukuba
+      - name: Uta Störl
+        affiliation: University of Hagen
+      - name: Verena Kantere
+        affiliation: University of Ottawa
+      - name: Vikram Goyal
+        affiliation: IIIT Delhi, India
+      - name: Vivek Shah
+        affiliation: Samsung
+      - name: Wentao Wu
+        affiliation: Microsoft Research
+      - name: Yannis Foufoulas
+        affiliation: Athena Research Center
+      - name: Yanwei Yu
+        affiliation: Ocean University of China
+      - name: Yaron Kanza
+        affiliation: AT&T Labs-Research
+      - name: Yingxia Shao
+        affiliation: BUPT
+      - name: Yiru Chen
+        affiliation: Columbia University
+      - name: Yongjoo Park
+        affiliation: University of Illinois at Urbana-Champaign
+      - name: Yuval Moskovitch
+        affiliation: Ben Gurion University
+      - name: Yuxi Wang
+        affiliation: Hangzhou Dianzi University
+      - name: Zafeiria Moumoulidou
+        affiliation: University of Massachusetts Amherst
+      - name: Zhengjie Miao
+        affiliation: Simon Fraser University
+      - name: Zhichao Cao
+        affiliation: Arizona State University
+      - name: Zhidan Liu
+        affiliation: Hong Kong University of Science and Technology (Guangzhou)
+      - name: Zhiqiang Zhong
+        affiliation: Aarhus UNiversity
   - title: Proceedings Chairs
     people:
       - name: Subhadeep Sarkar
@@ -329,158 +461,186 @@ officers:
         affiliation: Technion, Israel
   - title: Associate Editors
     people:
-      - name: Alkis Polyzotis
-        affiliation: Databricks
-      - name: Alkis Simitsis
-        affiliation: Athena Research Center
-      - name: Andrew Pavlo
-        affiliation: Carnegie Mellon University
-      - name: Angela Bonifati
-        affiliation: Univ. of Lyon
-      - name: Anh Dinh
-        affiliation: Deakin University
-      - name: Antonis Deligiannakis
-        affiliation: Technical University of Crete
-      - name: Ashraf Aboulnaga
-        affiliation: University of Texas at Arlington
-      - name: Badrish Chandramouli
-        affiliation: Microsoft Research
-      - name: Bin Cui
-        affiliation: Peking University
-      - name: Bogdan Cautis
-        affiliation: University of Paris-Saclay
-      - name: Ce Zhang
-        affiliation: University of Chicago
-      - name: Elena Ferrari
-        affiliation: University of Insubria, Varese
-      - name: Evaggelia Pitoura
-        affiliation: Univ. of Ioannina
-      - name: Fatemeh Nargesian
-        affiliation: University of Rochester
-      - name: Guoliang Li
-        affiliation: Tsinghua University
-      - name: Hong Cheng
-        affiliation: Chinese University of Hong Kong
-      - name: Immanuel Trummer
-        affiliation: Cornell University
-      - name: Jana Giceva
-        affiliation: TU Munich
-      - name: Jennie Rogers
-        affiliation: Northwestern University
-      - name: Jian Pei
-        affiliation: Duke University
-      - name: Jianliang Xu
+      - name: Björn Þ Jónsson
+        affiliation: Reykjavik University
+      - name: Byron Choi
         affiliation: Hong Kong Baptist University
-      - name: Karima Echihabi
-        affiliation: Mohammed VI Polytechnic University
-      - name: Katja Hose
-        affiliation: TU Wien
-      - name: Khuzaima Daudjee
-        affiliation: University of Waterloo
-      - name: Kunsoo Park
-        affiliation: Seoul National University
-      - name: Kyuseok Shim
-        affiliation: Seoul National University
-      - name: Laks Lakshmanan
-        affiliation: The University of British Columbia
-      - name: Lei Cao
-        affiliation: University of Arizona
-      - name: Lei Chen
-        affiliation: Hong Kong University of Science and Technology
-      - name: Li Xiong
-        affiliation: Emory University
-      - name: Mauro Sozio
-        affiliation: Luiss University of Rome
-      - name: Meihui Zhang
-        affiliation: Beijing Institute of Technology
-      - name: Melanie Herschel
-        affiliation: Nanyang Technological University
-      - name: Michael Böhlen
-        affiliation: University of Zurich
-      - name: Nan Tang
-        affiliation: HKUST (GZ)
-      - name: Niv Dayan
-        affiliation: University of Toronto
+      - name: Curtis Dyreson
+        affiliation: Utah State University
+      - name: Danica Porobic
+        affiliation: Oracle
+      - name: H. V. Jagadish
+        affiliation: University of Michigan
+      - name: Haridimos Kondylakis
+        affiliation: FORTH-ICS & Computer Science Department, University of Crete
+      - name: Jan Hidders
+        affiliation: Birkbeck, University of London
+      - name: K. Selçuk Candan
+        affiliation: Arizona State University
+      - name: Mohamed Mokbel
+        affiliation: University of Minnesota - Twin Cities
+      - name: Nikos Mamoulis
+        affiliation: University of Ioannina
+      - name: Pierre Senellart
+        affiliation: ENS, PSL University
+      - name: Sebastian Link
+        affiliation: University of Auckland
+      - name: Sebastian Schelter
+        affiliation: BIFOLD & TU Berlin
+      - name: Steffen Zeuch
+        affiliation: TU Berlin
+      - name: Tianzheng Wang
+        affiliation: Simon Fraser University
+      - name: Vagelis Hristidis
+        affiliation: UC Riverside
+      - name: Vassilis J. Tsotras
+        affiliation: UC Riverside
+      - name: Walid G Aref
+        affiliation: Purdue
+      - name: Wolfgang Gatterbauer
+        affiliation: Northeastern University
+  - title: Industrial Track Reviewers
+    people:
+      - name: A. Jesse Jiryu Davis
+        affiliation: MongoDB
+      - name: Alekh Jindal
+        affiliation: Tursio
+      - name: Alexander Böhm
+        affiliation: SAP SE
+      - name: Alin Deutsch
+        affiliation: UC San Diego & TigerGraph
+      - name: Allison Holloway
+        affiliation: Oracle
+      - name: Anderson Chaves Carniel
+        affiliation: Huawei Technologies R&D (UK) Ltd.
+      - name: Anisoara Nica
+        affiliation: SAP SE, Waterloo, Canada
+      - name: Bailu Ding
+        affiliation: Microsoft Research
+      - name: Bolin Ding
+        affiliation: Data Analytics and Intelligence Lab, Alibaba Group
+      - name: Boris Motik
+        affiliation: University of Oxford
+      - name: Byungchul Tak
+        affiliation: Kyungpook National University
+      - name: Calisto Zuzarte
+        affiliation: IBM
+      - name: Campbell Fraser
+        affiliation: Google
+      - name: Christos Christodoulopoulos
+        affiliation: Information Commissioner's Office
+      - name: Clemens Lutz
+        affiliation: NVIDIA
+      - name: Cong Yan
+        affiliation: Snowflake
+      - name: Danica Porobic
+        affiliation: Oracle
+      - name: Dirk Habich
+        affiliation: TU Dresden
+      - name: Fabian Hueske
+        affiliation: Confluent Inc.
+      - name: Hanuma Kodavalla
+        affiliation: Microsoft
+      - name: Hesam Shahrokhi
+        affiliation: RelationalAI
+      - name: Ismail Oukid
+        affiliation: Snowflake Computing
+      - name: Jan Hidders
+        affiliation: Birkbeck, University of London
+      - name: Jia Li
+        affiliation: Edinburgh Research Center, Central Software Institute, Huawei
+      - name: Jie Song
+        affiliation: ByteDance
+      - name: Jiexing Li
+        affiliation: Databricks
+      - name: Jim Webber
+        affiliation: Neo4j
+      - name: Justin Levandoski
+        affiliation: Google
+      - name: Kai Wang
+        affiliation: Shanghai Jiao Tong University
+      - name: Lev Novik
+        affiliation: Databricks
+      - name: Marcus Paradies
+        affiliation: LMU Munich
+      - name: Maria Krommyda
+        affiliation: Huawei ERC
+      - name: Matteo Interlandi
+        affiliation: Microsoft
+      - name: Matthaios Olma
+        affiliation: MongoDB
+      - name: Meichun Hsu
+        affiliation: Oracle America
+      - name: Milos Nikolic
+        affiliation: University of Edinburgh
+      - name: Nicolas Bruno
+        affiliation: Microsoft
       - name: Norman May
         affiliation: SAP SE
-      - name: Raul Castro Fernandez
-        affiliation: The University of Chicago
-      - name: Raymond Chi-Wing Wong
-        affiliation: Hong Kong University of Science and Technology
-      - name: Reynold Cheng
-        affiliation: The University of Hong Kong, China
-      - name: Ruben Mayer
-        affiliation: University of Bayreuth
-      - name: Semih Salihoglu
-        affiliation: University of Waterloo
-      - name: Shimin Chen
-        affiliation: Chinese Academy of Sciences
-      - name: Sibo Wang
-        affiliation: The Chinese University of Hong Kong
-      - name: Sourav S Bhowmick
-        affiliation: Nanyang Technological University
-      - name: Spyros Blanas
-        affiliation: The Ohio State University
-      - name: Steven Whang
-        affiliation: KAIST
+      - name: Paris Carbone
+        affiliation: KTH Royal Institute of Technology
+      - name: Pavel Klinov
+        affiliation: Stardog Union
+      - name: Petra Selmer
+        affiliation: Bloomberg
+      - name: Raghav Kaushik
+        affiliation: Microsoft
+      - name: Rahul Potharaju
+        affiliation: Databricks
+      - name: Rebecca Taft
+        affiliation: Cockroach Labs
+      - name: Riccardo Tommasini
+        affiliation: INSA Lyon - LIRIS
+      - name: Rong-Hua Li
+        affiliation: Beijing Institute of Technology
+      - name: Sergey Melnik
+        affiliation: Amazon
+      - name: Silu Huang
+        affiliation: Bytedance
+      - name: Stefan Plantikow
+        affiliation: Microsoft
       - name: Sudipto Das
         affiliation: Amazon Web Services
-      - name: Umar Farooq Minhas
+      - name: Supun Nakandala
+        affiliation: Databricks Inc
+      - name: Theodoros Rekatsinas
         affiliation: Apple
-      - name: Wei Wang
-        affiliation: ByteDance
-      - name: Wook-Shin Han
-        affiliation: POSTECH
-      - name: Yannis Velegrakis
-        affiliation: Utrecht University
-      - name: Yanyan Shen
-        affiliation: Shanghai Jiao Tong University
-      - name: Yi Chen
-        affiliation: NJIT
-      - name: Yuncheng Wu
-        affiliation: Renmin University of China
-      - name: Zhifeng Bao
-        affiliation: The University of Queensland
-      - name: Zi Huang
-        affiliation: University of Queensland
+      - name: Tim Gubner
+        affiliation: Huawei
+      - name: Uta Störl
+        affiliation: University of Hagen
+      - name: Vladi Vexler
+        affiliation: Huawei
+      - name: Wei Ma
+        affiliation: University of Glasgow
+      - name: Yeounoh Chung
+        affiliation: Google
+      - name: Yongchao Liu
+        affiliation: Ant Group
+      - name: Ziyang Li
+        affiliation: Johns Hopkins University
+      - name: Zoi Kaoudi
+        affiliation: IT University of Copenhagen
   - title: Regular Reviewers
     people:
-      - name: Abdul Quamar
-        affiliation: Google
-      - name: Abdulhakim Qahtan
-        affiliation: Utrecht University
       - name: Abhishek Roy
         affiliation: Microsoft
-      - name: Abolfazl Asudeh
-        affiliation: University of Illinois Chicago
-      - name: Ahmed Abdelhamid
-        affiliation: Purdue University
       - name: Ahmed Aly
         affiliation: Google
       - name: Ahmed Eldawy
         affiliation: University of California, Riverside
-      - name: Ahmed El-Roby
-        affiliation: Carleton University
       - name: Ahmed Mahmood
         affiliation: Google
-      - name: Alberto Abelló
-        affiliation: Universitat Politècnica de Catalunya
       - name: Alberto Lerner
-        affiliation: University of Fribourg, Switzerland
+        affiliation: Computing Flows GmbH
       - name: Alberto Sonnino
         affiliation: MystenLabs & University College London
-      - name: Alex Conway
-        affiliation: Cornell Tech
       - name: Alexander Artikis
         affiliation: University of Piraeus
       - name: Alexander Böhm
         affiliation: SAP SE
-      - name: Alexander Erben
-        affiliation: Technical University of Munich
-      - name: Alexander van Renen
-        affiliation: UTN
-      - name: Alexandros Labrinidis
-        affiliation: University of Pittsburgh
+      - name: Alexander Krause
+        affiliation: TU Dresden
       - name: Amarnadh Sai Eluri
         affiliation: Google
       - name: Amelie Marian
@@ -500,29 +660,35 @@ officers:
       - name: Arash Termehchy
         affiliation: Oregon State University
       - name: Arijit Khan
-        affiliation: Aalborg University
+        affiliation: Bowling Green State University
       - name: Aristides Gionis
         affiliation: KTH Royal Institute of Technology
+      - name: Arkaprava Saha
+        affiliation: University of Tsukuba
+      - name: Arnab Phani
+        affiliation: TU Berlin
       - name: Arnd König
         affiliation: Microsoft
-      - name: Babak Salimi
-        affiliation: University of California at San Diego
+      - name: Avinash Kumar
+        affiliation: Google
       - name: Baihua Zheng
         affiliation: Singapore Management University
       - name: Berthold Reinwald
         affiliation: IBM Research - Almaden
-      - name: Bettina Kemme
-        affiliation: McGill University
       - name: Bin Yang
         affiliation: Aalborg University
       - name: Bo Tang
         affiliation: Southern University of Science and Technology
       - name: Bo Zhao
         affiliation: Aalto University
+      - name: Bobbi W Yogatama
+        affiliation: NVIDIA
       - name: Bojan Karlaš
         affiliation: Harvard University
       - name: Boris Glavic
         affiliation: University of Illinois Chicago
+      - name: Brian Kroth
+        affiliation: Microsoft
       - name: Brit Youngmann
         affiliation: Technion
       - name: Calisto Zuzarte
@@ -538,7 +704,7 @@ officers:
       - name: Cheng Long
         affiliation: Nanyang Technological University
       - name: Chenghao Lyu
-        affiliation: University of Massachusetts Amherst
+        affiliation: Amazon
       - name: Chengkai Li
         affiliation: The University of Texas at Arlington
       - name: Chengliang Chai
@@ -554,23 +720,17 @@ officers:
       - name: Chrysanthi Kosyfaki
         affiliation: The University of Hong Kong
       - name: Chuan Lei
-        affiliation: Amazon Web Services
+        affiliation: Oracle
       - name: Chunwei Liu
         affiliation: MIT CSAIL
       - name: Cindy Chen
         affiliation: University of Massachusetts Lowell
       - name: Cong Yue
         affiliation: National University of Singapore
-      - name: Curtis Dyreson
-        affiliation: Utah State University
-      - name: Danfeng Zhang
-        affiliation: Duke University
       - name: Daniel Kang
         affiliation: UIUC
       - name: Daniel Ritter
         affiliation: SAP
-      - name: Davide Mottin
-        affiliation: Aarhus University
       - name: Davood Rafiei
         affiliation: University of Alberta
       - name: Demetris Zeinalipour
@@ -579,8 +739,6 @@ officers:
         affiliation: Athena Research Center
       - name: Dixin Tang
         affiliation: The University of Texas, Austin
-      - name: Djellel Difallah
-        affiliation: NYU
       - name: Domagoj Vrgoč
         affiliation: PUC
       - name: Dominik Durner
@@ -590,7 +748,7 @@ officers:
       - name: Donato Tiano
         affiliation: Università degli Studi di Modena e Reggio Emilia
       - name: Dong Deng
-        affiliation: Rutgers University - New Brunswick
+        affiliation: Alibaba Cloud Computing
       - name: Dong Xie
         affiliation: Penn State University
       - name: Dumitrel Loghin
@@ -610,15 +768,13 @@ officers:
       - name: Enzo Veltri
         affiliation: Università della Basilicata
       - name: Ergute Bao
-        affiliation: National University of Singapore
+        affiliation: Mohamed bin Zayed University of Artificial Intelligence
       - name: Eser Kandogan
         affiliation: Megagon Labs
       - name: Essam Mansour
         affiliation: Concordia University
       - name: Farnoush Banaei-Kashani
         affiliation: University of Colorado Denver
-      - name: Felix Naumann
-        affiliation: Hasso Plattner Institute, University of Potsdam
       - name: Felix Schuhknecht
         affiliation: Johannes Gutenberg University Mainz
       - name: Florian Hahn
@@ -632,7 +788,7 @@ officers:
       - name: Gao Cong
         affiliation: Nanyang Technological Univesity
       - name: Garima Gaur
-        affiliation: INRIA
+        affiliation: Inria Saclay, Ecole Polytechnique
       - name: Gengrui Zhang
         affiliation: Concordia University
       - name: George Christodoulou
@@ -645,6 +801,8 @@ officers:
         affiliation: Inria
       - name: Georgios Theodorakis
         affiliation: Nvidia
+      - name: Giorgio Vinciguerra
+        affiliation: Università di Pisa
       - name: Giuseppina Andresini
         affiliation: University of Bari Aldo Moro
       - name: Goce Trajcevski
@@ -663,6 +821,10 @@ officers:
         affiliation: Neo4j
       - name: Hantian Zhang
         affiliation: Google
+      - name: Hanzhi Wang
+        affiliation: University of Copenhagen
+      - name: Haralampos Gavriilidis
+        affiliation: BIFOLD & Technische Universität Berlin
       - name: Haridimos Kondylakis
         affiliation: FORTH-ICS & Computer Science Department, University of Crete
       - name: Harry Kai-Ho Chan
@@ -671,62 +833,54 @@ officers:
         affiliation: University of Amsterdam
       - name: Herald Kllapi
         affiliation: Google Inc
-      - name: Holger Pirk
-        affiliation: Imperial College
-      - name: Hongyan Chang
-        affiliation: NUS
       - name: Hongzhi Wang
         affiliation: Harbin Institute of Technology
-      - name: Hongzhi Yin
-        affiliation: The University of Queensland
       - name: Hua Lu
         affiliation: Aalborg University
       - name: Huanchen Zhang
         affiliation: Tsinghua University
+      - name: Huiping Chen
+        affiliation: University of Birmingham
       - name: Hyungsoo Jung
         affiliation: Seoul National University
       - name: Hyunjoon Kim
         affiliation: Hanyang University
       - name: Ibrahim Sabek
         affiliation: University of Southern California
+      - name: Igor Zablotchi
+        affiliation: Mysten Labs
       - name: Ilia Petrov
         affiliation: Reutlingen University
       - name: Ilias Azizi
         affiliation: Mohammed VI Polytechnic University
+      - name: Ilie Sarpe
+        affiliation: KTH Royal Institute of Technology
       - name: Indrakshi Ray
         affiliation: Colorado State University
-      - name: Ingo Müller
-        affiliation: Google
       - name: Ioannis Demertzis
         affiliation: UCSC
       - name: Jaeyoung Do
         affiliation: Seoul National University
       - name: Jan Hidders
         affiliation: Birkbeck, University of London
-      - name: Jees Augustine
-        affiliation: Micrsoft
       - name: Jeeta Ann Chacko
         affiliation: Technical University of Munich
       - name: Jeffrey Xu Yu
-        affiliation: Chinese University of Hong Kong
+        affiliation: The Hong Kong University of Science and Technology (Guangzhou)
       - name: Jelle Hellings
         affiliation: McMaster University
-      - name: Jens Teubner
-        affiliation: TU Dortmund University
       - name: Jesús Camacho-Rodríguez
         affiliation: Microsoft
       - name: Jia Li
         affiliation: Hong Kong University of Science and Technology
       - name: Jia Zou
         affiliation: Arizona State University
-      - name: Jiaheng Lu
-        affiliation: University of Helsinki
       - name: Jialin Ding
-        affiliation: Amazon Web Services
+        affiliation: Princeton University
       - name: Jianguo Wang
         affiliation: Purdue University
       - name: Jiannan Wang
-        affiliation: Simon Fraser University
+        affiliation: Tsinghua University
       - name: Jianxin Li
         affiliation: Edith Cowan University
       - name: Jiawei Jiang
@@ -736,23 +890,23 @@ officers:
       - name: Jignesh Patel
         affiliation: Carnegie Mellon University
       - name: Jin Wang
-        affiliation: Megagon Labs
-      - name: Jinho Lee
-        affiliation: Seoul National University
+        affiliation: Arizona State University
       - name: Jiwon Seo
         affiliation: Seoul National University
       - name: Johes Bater
         affiliation: Tufts University
+      - name: Johannes Pietrzyk
+        affiliation: TU Dresden
       - name: John Paparrizos
         affiliation: The Ohio State University
-      - name: Jonathan Goldstein
-        affiliation: Microsoft
+      - name: Jonathan Fürst
+        affiliation: ZHAW Zurich University of Applied Sciences
+      - name: Jonghyeok Park
+        affiliation: Korea University
       - name: Joseph Near
         affiliation: University of Vermont
       - name: Ju Fan
         affiliation: Renmin University of China
-      - name: Juan Sequeda
-        affiliation: data.world
       - name: Junghoon Kim
         affiliation: UNIST
       - name: Junhao Gan
@@ -761,18 +915,20 @@ officers:
         affiliation: Arizona State University
       - name: Kai-Uwe Sattler
         affiliation: TU Ilmenau
+      - name: Kaisong Huang
+        affiliation: University of Calgary
+      - name: Kanchan Chowdhury
+        affiliation: Marquette University
       - name: Karim Benouaret
         affiliation: Univ Lyon
-      - name: Katerina Tzompanaki
-        affiliation: CY Cergy Paris University
       - name: Katsiaryna Mirylenka
         affiliation: Zalando SE
       - name: Kaustubh Beedkar
         affiliation: Indian Institute of Technology Delhi
+      - name: Keke Huang
+        affiliation: The University of British Columbia
       - name: Kenneth Ross
         affiliation: Columbia University
-      - name: Kexin Rong
-        affiliation: Georgia Institute of Technology
       - name: KI HYUN TAE
         affiliation: Samsung Research
       - name: Kostas Stefanidis
@@ -783,8 +939,6 @@ officers:
         affiliation: Yonsei University
       - name: Kyoungmin Kim
         affiliation: EPFL
-      - name: Kyriakos Mouratidis
-        affiliation: Singapore Management University
       - name: Larissa Capobianco Shimomura
         affiliation: Hasselt University
       - name: Le Gruenwald
@@ -795,8 +949,8 @@ officers:
         affiliation: Peking University
       - name: Leong Hou U
         affiliation: University of Macau
-      - name: Leopoldo,Bertossi
-        affiliation: SKEMA Business School  Montreal, Canada
+      - name: Leopoldo Bertossi
+        affiliation: Carleton University
       - name: Liang Liang
         affiliation: EPFL
       - name: Lingyang Chu
@@ -812,7 +966,7 @@ officers:
       - name: Lukasz Golab
         affiliation: University of Waterloo
       - name: Madhulika Mohanty
-        affiliation: Inria Saclay
+        affiliation: Inria & Institut Polytechnique de Paris
       - name: Magnus Mueller
         affiliation: AWS
       - name: Mahdi Esmailoghli
@@ -821,10 +975,6 @@ officers:
         affiliation: Osaka University
       - name: Man Lung Yiu
         affiliation: Hong Kong Polytechnic University
-      - name: Manisha Luthra
-        affiliation: TU Darmstadt
-      - name: Manolis Terrovitis
-        affiliation: Athena Research Center
       - name: Manuel Rigger
         affiliation: National University of Singapore
       - name: Marco Patella
@@ -833,8 +983,6 @@ officers:
         affiliation: Massachusetts Institute of Technology
       - name: Martin Prammer
         affiliation: Carnegie Mellon University
-      - name: Matteo Brucato
-        affiliation: Microsoft Research
       - name: Matteo Ceccarello
         affiliation: University of Padova
       - name: Matteo Interlandi
@@ -849,12 +997,12 @@ officers:
         affiliation: Humboldt-Universität zu Berlin
       - name: Maximilian Schüle
         affiliation: University of Bamberg
-      - name: Mayuresh Kunjir
-        affiliation: Amazon AWS
       - name: Meichun Hsu
         affiliation: Oracle America
       - name: Miao Qiao
         affiliation: The University of Auckland
+      - name: Miao Yu
+        affiliation: Meta
       - name: Michael Cahill
         affiliation: University of Sydney
       - name: Michael Grossniklaus
@@ -863,8 +1011,6 @@ officers:
         affiliation: Florida State University
       - name: Michael Mior
         affiliation: Rochester Institute of Technology
-      - name: Michele Linardi
-        affiliation: CYU
       - name: Mohamed Eltabakh
         affiliation: Qatar Foundation
       - name: Mohamed Mokbel
@@ -873,18 +1019,14 @@ officers:
         affiliation: University of California, Davis
       - name: Mohammad Javad Amiri
         affiliation: Stony Brook University
+      - name: Mohammed J Saeed
+        affiliation: Apple
       - name: Mostafa Milani
         affiliation: The University of Western Ontario
-      - name: Murat Demirbas
-        affiliation: MongoDB Research
-      - name: Nalini Venkatasubramanian
-        affiliation: University of California, Irvine
       - name: Nick Koudas
         affiliation: University of Toronto
       - name: Nikolay Yakovets
         affiliation: TU Eindhoven
-      - name: Nikos Giatrakos
-        affiliation: Technical University of Crete
       - name: Oktie Hassanzadeh
         affiliation: IBM Research
       - name: Oliver Kennedy
@@ -895,8 +1037,6 @@ officers:
         affiliation: Johannes Gutenberg University Mainz
       - name: Panagiotis Karras
         affiliation: University of Copenhagen
-      - name: Panos Vassiliadis
-        affiliation: University of Ioannina
       - name: Paolo Garza
         affiliation: Politecnico di Torino
       - name: Paolo Merialdo
@@ -911,8 +1051,8 @@ officers:
         affiliation: Humboldt-Universität zu Berlin
       - name: Paul Boniol
         affiliation: Inria, Ecole normale supérieure
-      - name: Paul Groth
-        affiliation: University of Amsterdam
+      - name: Peizhi Wu
+        affiliation: University of Pennsylvania
       - name: Peng Peng
         affiliation: Hunan University
       - name: Periklis Chrysogelos
@@ -939,16 +1079,10 @@ officers:
         affiliation: King Abdulaziz City for Science and Technology (KACST)
       - name: Rana Shahout
         affiliation: Harvard
-      - name: Rathijit Sen
-        affiliation: Microsoft
-      - name: Remy Wang
-        affiliation: University of California, Los Angeles
       - name: Renata Borovica-Gajic
         affiliation: University of Melbourne
       - name: Renchi Yang
         affiliation: Hong Kong Baptist University
-      - name: Renzo Angles
-        affiliation: Universidad de Talca
       - name: Ria Borromeo
         affiliation: University of Philippines
       - name: Riccardo Torlone
@@ -969,10 +1103,10 @@ officers:
         affiliation: University of Massachusetts Amherst
       - name: Sai Wu
         affiliation: Zhejiang University
-      - name: Sainyam Galhotra
-        affiliation: Cornell University
       - name: Sara Foresti
         affiliation: Universita' degli Studi di Milano
+      - name: Sarah Kleest-Meißner
+        affiliation: Hasselt University
       - name: Sebastian Link
         affiliation: University of Auckland
       - name: Sebastian Michel
@@ -995,44 +1129,36 @@ officers:
         affiliation: Université Grenoble Alpes
       - name: Siqiang Luo
         affiliation: Nanyang Technological University
-      - name: Sonia Bergamaschi
-        affiliation: Università di Modena e Reggio Emilia
       - name: Søren Kejser Jensen
         affiliation: Aalborg University
       - name: Soror Sahri
         affiliation: Université Paris Cité
-      - name: Srikanta Bedathur
-        affiliation: IIT Delhi
+      - name: Stavros Maroulis
+        affiliation: ATHENA Research Center
       - name: Stefania Dumbrava
         affiliation: ENSIIE
+      - name: Stefano Marchesin
+        affiliation: Università di Padova
       - name: Stefano Paraboschi
         affiliation: Universita' degli Studi di Bergamo
       - name: Steffen Zeuch
         affiliation: TU Berlin
-      - name: Subarna Chatterjee
-        affiliation: Datastax
-      - name: Subhadeep Sarkar
-        affiliation: Brandeis University
-      - name: Sujaya Maiyya
-        affiliation: University of Waterloo
       - name: Surajit Chaudhuri
         affiliation: Microsoft
+      - name: Suyash Gupta
+        affiliation: University of Oregon
       - name: Sven Groppe
         affiliation: Universität zu Lübeck/Institute of Information Systems (IFIS)
       - name: Tanzima Hashem
         affiliation: Bangladesh University of Engineering and Technology
       - name: Tarique Siddiqui
-        affiliation: Microsoft Research
+        affiliation: Microsoft Corporation
       - name: Tenindra Abeywickrama
-        affiliation: RIKEN
-      - name: Theodore Johnson
-        affiliation: AT&T Labs - Research
+        affiliation: RIKEN Center for Computational Science
       - name: Theodoros Chondrogiannis
         affiliation: Norwegian University of Science and Technology (NTNU)
       - name: Thomas Neumann
         affiliation: TUM
-      - name: Thorsten Papenbrock
-        affiliation: Philipps University of Marburg
       - name: Tianyi Li
         affiliation: Aalborg University
       - name: Tianzheng Wang
@@ -1057,8 +1183,6 @@ officers:
         affiliation: Harvard University
       - name: Venkata Vamsikrishna Meduri
         affiliation: IBM Research-Almaden
-      - name: Venkatesh Emani
-        affiliation: Microsoft
       - name: Verena Kantere
         affiliation: University of Ottawa
       - name: Vikram Nathan
@@ -1077,32 +1201,32 @@ officers:
         affiliation: Renmin University of China
       - name: Weiguo Zheng
         affiliation: Fudan University
-      - name: Wenjia He
-        affiliation: University of Michigan
       - name: Wenqi FAN
         affiliation: The Hong Kong Polytechnic University
       - name: Wentao Zhang
         affiliation: Peking University
+      - name: Wentao Wu
+        affiliation: Microsoft Research
       - name: William Schultz
         affiliation: MongoDB
-      - name: Wolfgang Gatterbauer
-        affiliation: Northeastern University
-      - name: Xi He
-        affiliation: University of Waterloo
       - name: Xiang Lian
         affiliation: Kent State University
       - name: Xiangyao Yu
         affiliation: University of Wisconsin-Madison
       - name: Xiangyu Ke
         affiliation: Zhejiang University
-      - name: Xiao Hu
-        affiliation: University of Waterloo
+      - name: Xiao Qin
+        affiliation: Snowflake
       - name: Xiao Yan
         affiliation: Wuhan University
+      - name: Xiaofei Zhang
+        affiliation: University of Memphis
       - name: Xiaohui Yu
         affiliation: York University
       - name: Xiaoou Ding
         affiliation: Harbin Institute of Technology
+      - name: Xiaoying Wang
+        affiliation: Microsoft
       - name: Xike Xie
         affiliation: University of Science and Technology of China
       - name: Xin Huang
@@ -1123,12 +1247,14 @@ officers:
         affiliation: The Ohio State University
       - name: YAO LU
         affiliation: NUS
-      - name: Ye Yuan
-        affiliation: Beijing Institute of Technology
       - name: Yeye He
         affiliation: Microsoft Research
+      - name: Yesdaulet Izenov
+        affiliation: Nazarbayev University
       - name: Yifan Wang
         affiliation: University of Hawaii
+      - name: Yihao Ang
+        affiliation: National University of Singapore
       - name: Yin Yang
         affiliation: Hamad bin Khalifa University
       - name: Yinan Li
@@ -1147,12 +1273,12 @@ officers:
         affiliation: University of Copenhagen
       - name: Yongxin Tong
         affiliation: Beihang University
-      - name: Yu Rong
-        affiliation: DAMO Academy, Alibaba Group
       - name: Yu Yang
         affiliation: City University of Hong Kong
+      - name: Yujie Hui
+        affiliation: Google
       - name: Yuan Qiu
-        affiliation: CNRS@CREATE & National University of Singapore
+        affiliation: Southeast University
       - name: Yuke Wang
         affiliation: Rice University
       - name: Yuyu Luo
@@ -1165,17 +1291,17 @@ officers:
         affiliation: Beijing Institute of Technology
       - name: Zhewei Wei
         affiliation: Renmin University of China
+      - name: Zhengjie Miao
+        affiliation: Simon Fraser University
       - name: ZHIWEI FAN
         affiliation: Meta
       - name: Zhongle Xie
         affiliation: Zhejiang University
       - name: Zhuoyue Zhao
         affiliation: University at Buffalo
-      - name: Ziawasch Abedjan
-        affiliation: BIFOLD/TU Berlin
       - name: Zoi Kaoudi
         affiliation: IT University of Copenhagen
-  - title: Rapid Response Reviewers
+  - title: Light Load Reviewers
     people:
       - name: Abdulhakim Qahtan
         affiliation: Utrecht University
@@ -1191,18 +1317,36 @@ officers:
         affiliation: Technical University of Munich
       - name: Alexandros Labrinidis
         affiliation: University of Pittsburgh
+      - name: Anupam Sanghi
+        affiliation: TU Darmstadt
+      - name: Ariful Azad
+        affiliation: Texas A&M University
       - name: Babak Salimi
         affiliation: University of California at San Diego
+      - name: Baotong Lu
+        affiliation: Microsoft Research
       - name: Bettina Kemme
         affiliation: McGill University
+      - name: C. Seshadhri
+        affiliation: UCSC
       - name: Curtis Dyreson
         affiliation: Utah State University
       - name: Danfeng Zhang
         affiliation: Duke University
+      - name: Daniel Kocher
+        affiliation: University of Salzburg
       - name: Davide Mottin
         affiliation: Aarhus University
+      - name: Fabian Panse
+        affiliation: University of Augsburg
       - name: Felix Naumann
         affiliation: Hasso Plattner Institute, University of Potsdam
+      - name: Haitao Yuan
+        affiliation: Nanyang Technological University
+      - name: Hangdong Zhao
+        affiliation: Microsoft
+      - name: Hideyuki Kawashima
+        affiliation: Keio University
       - name: Hongyan Chang
         affiliation: NUS
       - name: Hongzhi Yin
@@ -1211,12 +1355,20 @@ officers:
         affiliation: Google
       - name: Jiaheng Lu
         affiliation: University of Helsinki
+      - name: Jinho Lee
+        affiliation: Seoul National University
       - name: Juan Sequeda
         affiliation: data.world
+      - name: Katia Papakonstantinopoulou
+        affiliation: Athens University of Economics and Business
       - name: Kexin Rong
         affiliation: Georgia Institute of Technology
+      - name: Konstantinos Mamouras
+        affiliation: Rice University
       - name: Kyriakos Mouratidis
         affiliation: Singapore Management University
+      - name: Lipeng Wan
+        affiliation: Georgia State University
       - name: Manolis Terrovitis
         affiliation: Athena Research Center
       - name: Matteo Brucato
@@ -1225,20 +1377,44 @@ officers:
         affiliation: Amazon AWS
       - name: Michele Linardi
         affiliation: CYU
+      - name: Mo Sha
+        affiliation: Alibaba Group
       - name: Murat Demirbas
         affiliation: MongoDB Research
+      - name: Myeongjae Jeon
+        affiliation: POSTECH
       - name: Nikos Giatrakos
         affiliation: Technical University of Crete
+      - name: Odysseas Papapetrou
+        affiliation: TU Eindhoven
+      - name: Panagiotis Liakos
+        affiliation: Athens University of Economics and Business
+      - name: Panagiotis Liakos
+        affiliation: University of Athens
       - name: Panos Vassiliadis
         affiliation: University of Ioannina
+      - name: Paris Carbone
+        affiliation: KTH Royal Institute of Technology
       - name: Paul Groth
         affiliation: University of Amsterdam
+      - name: Pierre Bourhis
+        affiliation: CNRS
+      - name: Quang-Trung Ta
+        affiliation: National University of Singapore
       - name: Rathijit Sen
         affiliation: Microsoft
       - name: Remy Wang
         affiliation: University of California, Los Angeles
       - name: Renzo Angles
         affiliation: Universidad de Talca
+      - name: Seokki Lee
+        affiliation: University of Cincinnati
+      - name: Sergi Nadal
+        affiliation: Universitat Politècnica de Catalunya
+      - name: Sivaprasad Sudhir
+        affiliation: MIT
+      - name: Song Jiang
+        affiliation: University of Texas, Arlington
       - name: Sonia Bergamaschi
         affiliation: Università di Modena e Reggio Emilia
       - name: Subarna Chatterjee
@@ -1247,19 +1423,29 @@ officers:
         affiliation: Brandeis University
       - name: Sujaya Maiyya
         affiliation: University of Waterloo
+      - name: Supawit Chockchowwat
+        affiliation: University of Illinois Urbana-Champaign
       - name: Theodore Johnson
         affiliation: AT&T Labs - Research
+      - name: Thomas Fahringer
+        affiliation: University of Innsbruck
+      - name: Thorsten Papenbrock
+        affiliation: Philipps University of Marburg
+      - name: Vassilis J. Tsotras
+        affiliation: UC Riverside
       - name: Venkatesh Emani
         affiliation: Microsoft
       - name: Wenjia He
         affiliation: University of Michigan
       - name: Wolfgang Gatterbauer
         affiliation: Northeastern University
+      - name: Xingguang Chen
+        affiliation: National University of Singapore
+      - name: Yogesh Simmhan
+        affiliation: Indian Institute of Science (IISc), Bangalore
+      - name: Yuxin Tang
+        affiliation: Rice University
+      - name: Zhe Jiang
+        affiliation: University of Florida
       - name: Ziawasch Abedjan
         affiliation: BIFOLD/TU Berlin
-  - title: Light Load Reviewers
-    people:
-      - name: Jinho Lee
-        affiliation: Seoul National University
-      - name: Thorsten Papenbrock
-        affiliation: Philipps University of Marburg
