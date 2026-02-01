@@ -17,6 +17,8 @@ sections:
         page: .
       - title: Conference Officers
         page: officers
+      - title: PVLDB Review Board
+        page: pvldb-review-board
       - title: Shadow PC
         page: shadow-pc
   - title: Conference Program

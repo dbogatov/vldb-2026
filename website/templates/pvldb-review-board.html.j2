@@ -1,0 +1,9 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}PVLDB Review Board{% endblock %}
+
+{% set current = "pvldb-review-board" %}
+
+{% block content %}
+    <a style="font-size: 1.4em" href="{{ general_information['pvldb-review-board'].link }}">{{ general_information['pvldb-review-board'].link }}</a>
+{% endblock %}
