@@ -520,6 +520,10 @@ officers:
     people:
       - name: Manos Athanassoulis
         affiliation: Boston University, USA
+      - name: Tarikul Islam Papon
+        affiliation: University of Massachusetts, Boston, USA
+      - name: Roee Shraga
+        affiliation: Worcester Polytechnic Institute, USA
   - title: Web Chairs
     people:
       - name: Dmytro Bogatov
