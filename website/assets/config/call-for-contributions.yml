@@ -172,16 +172,135 @@ industrial:
     - Revision due (for papers subject to revision): Monday, May 11, 2026
     - Final decisions (for papers subject to revision): Monday, May 25, 2026
     - Camera-ready manuscript due: Monday, July 13, 2026
-
-    ## Industrial Track PC Chairs
-
-    1. Arnd Christian König, Microsoft Research, USA
-    1. Efthymia Tsamoura, Huawei Labs, UK
-    1. Hannes Voigt, Neo4j, Germany
-
-    ## Industrial Track PC Members
-
-    TBA
+    
+  pc_chairs:
+    - name: Arnd Christian König
+      affiliation: Microsoft Research, USA
+    - name: Efthymia Tsamoura
+      affiliation: Huawei Labs, UK
+    - name: Hannes Voigt
+      affiliation: Neo4j, Germany
+  pc_members:
+    - name: A. Jesse Jiryu Davis
+      affiliation: MongoDB
+    - name: Alekh Jindal
+      affiliation: Tursio
+    - name: Alexander Böhm
+      affiliation: SAP SE
+    - name: Alin Deutsch
+      affiliation: UC San Diego & TigerGraph
+    - name: Allison Holloway
+      affiliation: Oracle
+    - name: Anderson Chaves Carniel
+      affiliation: Huawei Technologies R&D (UK) Ltd.
+    - name: Anisoara Nica
+      affiliation: SAP SE, Waterloo, Canada
+    - name: Bailu Ding
+      affiliation: Microsoft Research
+    - name: Bolin Ding
+      affiliation: Data Analytics and Intelligence Lab, Alibaba Group
+    - name: Boris Motik
+      affiliation: University of Oxford
+    - name: Byungchul Tak
+      affiliation: Kyungpook National University
+    - name: Calisto Zuzarte
+      affiliation: IBM
+    - name: Campbell Fraser
+      affiliation: Google
+    - name: Christos Christodoulopoulos
+      affiliation: Information Commissioner's Office
+    - name: Clemens Lutz
+      affiliation: NVIDIA
+    - name: Cong Yan
+      affiliation: Snowflake
+    - name: Danica Porobic
+      affiliation: Oracle
+    - name: Dirk Habich
+      affiliation: TU Dresden
+    - name: Fabian Hueske
+      affiliation: Confluent Inc.
+    - name: Hanuma Kodavalla
+      affiliation: Microsoft
+    - name: Hesam Shahrokhi
+      affiliation: RelationalAI
+    - name: Ismail Oukid
+      affiliation: Snowflake Computing
+    - name: Jan Hidders
+      affiliation: Birkbeck, University of London
+    - name: Jia Li
+      affiliation: Edinburgh Research Center, Central Software Institute, Huawei
+    - name: Jie Song
+      affiliation: ByteDance
+    - name: Jiexing Li
+      affiliation: Databricks
+    - name: Jim Webber
+      affiliation: Neo4j
+    - name: Justin Levandoski
+      affiliation: Google
+    - name: Kai Wang
+      affiliation: Shanghai Jiao Tong University
+    - name: Lev Novik
+      affiliation: Databricks
+    - name: Marcus Paradies
+      affiliation: LMU Munich
+    - name: Maria Krommyda
+      affiliation: Huawei ERC
+    - name: Matteo Interlandi
+      affiliation: Microsoft
+    - name: Matthaios Olma
+      affiliation: MongoDB
+    - name: Meichun Hsu
+      affiliation: Oracle America
+    - name: Milos Nikolic
+      affiliation: University of Edinburgh
+    - name: Nicolas Bruno
+      affiliation: Microsoft
+    - name: Norman May
+      affiliation: SAP SE
+    - name: Paris Carbone
+      affiliation: KTH Royal Institute of Technology
+    - name: Pavel Klinov
+      affiliation: Stardog Union
+    - name: Petra Selmer
+      affiliation: Bloomberg
+    - name: Raghav Kaushik
+      affiliation: Microsoft
+    - name: Rahul Potharaju
+      affiliation: Databricks
+    - name: Rebecca Taft
+      affiliation: Cockroach Labs
+    - name: Riccardo Tommasini
+      affiliation: INSA Lyon - LIRIS
+    - name: Rong-Hua Li
+      affiliation: Beijing Institute of Technology
+    - name: Sergey Melnik
+      affiliation: Amazon
+    - name: Silu Huang
+      affiliation: Bytedance
+    - name: Stefan Plantikow
+      affiliation: Microsoft
+    - name: Sudipto Das
+      affiliation: Amazon Web Services
+    - name: Supun Nakandala
+      affiliation: Databricks Inc
+    - name: Theodoros Rekatsinas
+      affiliation: Apple
+    - name: Tim Gubner
+      affiliation: Huawei
+    - name: Uta Störl
+      affiliation: University of Hagen
+    - name: Vladi Vexler
+      affiliation: Huawei
+    - name: Wei Ma
+      affiliation: University of Glasgow
+    - name: Yeounoh Chung
+      affiliation: Google
+    - name: Yongchao Liu
+      affiliation: Ant Group
+    - name: Ziyang Li
+      affiliation: Johns Hopkins University
+    - name: Zoi Kaoudi
+      affiliation: IT University of Copenhagen
 
 demonstrations:
   content: |

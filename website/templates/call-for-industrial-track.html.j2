@@ -8,4 +8,35 @@
     {%- filter markdown -%}
         {{ call_for_contributions.industrial.content }}
     {% endfilter %}
+
+    {% if call_for_contributions.industrial.pc_chairs or call_for_contributions.industrial.pc_members %}
+        <section class="officers">
+
+            <div class="officers-grid officers-grid--single officers-grid--lg officers-grid--compact">
+                {% if call_for_contributions.industrial.pc_chairs %}
+                    <div class="officer-block">
+                        <h4>Industrial Track PC Chairs</h4>
+                        {% for chair in call_for_contributions.industrial.pc_chairs %}
+                            <div>
+                                <strong>{{ chair.name }}</strong>,
+                                {{ chair.affiliation }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                {% if call_for_contributions.industrial.pc_members %}
+                    <div class="officer-block">
+                        <h4>Industrial Track PC Members</h4>
+                        {% for member in call_for_contributions.industrial.pc_members %}
+                            <div>
+                                <strong>{{ member.name }}</strong>,
+                                {{ member.affiliation }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </section>
+    {% endif %}
 {% endblock %}

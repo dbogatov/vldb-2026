@@ -85,6 +85,16 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
+.officers-grid--single {
+    grid-template-columns: 1fr;
+}
+.officers-grid--lg {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.officers-grid--compact {
+    gap: 0.35rem 1.5rem;
+}
 .officer-block {
     break-inside: avoid;
 }
