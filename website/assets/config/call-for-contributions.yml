@@ -372,10 +372,189 @@ demonstrations:
 
     [https://cmt3.research.microsoft.com/PVLDBv19_2026/](https://cmt3.research.microsoft.com/PVLDBv19_2026/)
 
-    ## Demo Track Chairs
+  pc_chairs:
+    - name: Stefania Dumbrava
+      affiliation: ENSIIE & INRIA Paris, France
+    - name: John Paparrizos
+      affiliation: The Ohio State University, USA & Aristotle University of Thessaloniki, Greece
 
-    - Stefania Dumbrava, ENSIIE & INRIA Paris, France ([stefania.dumbrava@ensiie.fr](mailto:stefania.dumbrava@ensiie.fr))
-    - John Paparrizos, The Ohio State University, USA & Aristotle University of Thessaloniki, Greece ([paparrizos.1@osu.edu](mailto:paparrizos.1@osu.edu))
+  associate_editors:    
+  - name: Björn Þ Jónsson
+    affiliation: Reykjavik University
+  - name: Byron Choi
+    affiliation: Hong Kong Baptist University, Hong Kong, China
+  - name: Curtis Dyreson
+    affiliation: Utah State University
+  - name: Danica Porobic
+    affiliation: Oracle
+  - name: H. V. Jagadish
+    affiliation: University of Michigan
+  - name: Haridimos Kondylakis
+    affiliation: FORTH-ICS & Computer Science Department, University of Crete
+  - name: Jan Hidders
+    affiliation: Birkbeck, University of London
+  - name: K. Selçuk Candan
+    affiliation: Arizona State University
+  - name: Mohamed Mokbel
+    affiliation: University of Minnesota - Twin Cities
+  - name: Nikos Mamoulis
+    affiliation: University of Ioannina
+  - name: Pierre Senellart
+    affiliation: ENS, PSL University
+  - name: Sebastian Link
+    affiliation: University of Auckland
+  - name: Sebastian Schelter
+    affiliation: BIFOLD & TU Berlin
+  - name: Steffen Zeuch
+    affiliation: TU Berlin
+  - name: Tianzheng Wang
+    affiliation: Simon Fraser University
+  - name: Vagelis Hristidis
+    affiliation: UC Riverside
+  - name: Vassilis J. Tsotras
+    affiliation: UC Riverside
+  - name: Walid G Aref
+    affiliation: Purdue
+  - name: Wolfgang Gatterbauer
+    affiliation: Northeastern University
+
+  pc_members:
+  - name: Ahmed Eldawy
+    affiliation: University of California, Riverside
+  - name: Anastasios Gounaris
+    affiliation: Aristotle University of Thessaloniki
+  - name: Andra Ionescu
+    affiliation: KTH Royal Institute of Technology
+  - name: Arash Termehchy
+    affiliation: Oregon State University
+  - name: Bo Tang
+    affiliation: Southern University of Science and Technology
+  - name: Bo Zhao
+    affiliation: Aalto University
+  - name: Carlo Sartiani
+    affiliation: Universita della Basilica
+  - name: Chao Zhang
+    affiliation: University of Waterloo
+  - name: Chuan Xiao
+    affiliation: Nagoya University
+  - name: Chunwei Liu
+    affiliation: MIT CSAIL
+  - name: Dimitris Tsitsigkos
+    affiliation: Archimedes, Athena Research Center
+  - name: El Kindi Rezig
+    affiliation: University of Utah
+  - name: Enzo Veltri
+    affiliation: Università della Basilicata
+  - name: Fabian Panse
+    affiliation: University of Augsburg
+  - name: Garima Gaur
+    affiliation: Inria Saclay, Ecole Polytechnique
+  - name: George Papastefanatos
+    affiliation: ATHENA Research Center
+  - name: Georgia Troullinou
+    affiliation: CNRS
+  - name: Georgios Siachamis
+    affiliation: Inria
+  - name: Guozhong Li
+    affiliation: King Abdullah University of Science & Technology
+  - name: Hangdong Zhao
+    affiliation: Microsoft
+  - name: Hiroaki Shiokawa
+    affiliation: University of Tsukuba
+  - name: Ibrahim Sabek
+    affiliation: University of Southern California
+  - name: Irena Holubova
+    affiliation: Charles University
+  - name: Jens d'Hondt
+    affiliation: Barcelona supercomputing center
+  - name: Jia Zou
+    affiliation: Arizona State University
+  - name: Jiaxin Jiang
+    affiliation: National University of Singapore
+  - name: Junghoon Kim
+    affiliation: UNIST
+  - name: Kostas Stefanidis
+    affiliation: Tampere University
+  - name: Kyoungmin Kim
+    affiliation: EPFL
+  - name: Larissa Capobianco Shimomura
+    affiliation: Hasselt University
+  - name: Lihong He
+    affiliation: IBM Research
+  - name: Lisi Chen
+    affiliation: UESTC
+  - name: Loredana Caruccio
+    affiliation: University of Salerno
+  - name: Martin Boissier
+    affiliation: Hasso Plattner Institute, University of Potsdam
+  - name: Mayuresh Kunjir
+    affiliation: Amazon AWS
+  - name: Niccolo Meneghetti
+    affiliation: University of Michigan - Dearborn
+  - name: Nikolay Yakovets
+    affiliation: TU Eindhoven
+  - name: Nikos Bikakis
+    affiliation: Hellenic Mediterranean University & ATHENA Research Center
+  - name: Panagiotis Liakos
+    affiliation: Athens University of Economics and Business
+  - name: Paul Boniol
+    affiliation: Inria, Ecole normale supérieure
+  - name: Petra Selmer
+    affiliation: Bloomberg
+  - name: Philipp Skavantzos
+    affiliation: The University of Auckland
+  - name: Qitong Wang
+    affiliation: Harvard University
+  - name: Ramon Lawrence
+    affiliation: University of British Columbia
+  - name: Rihan Hai
+    affiliation: TU Delft
+  - name: Sajjadur Rahman
+    affiliation: Adobe
+  - name: Stefano Cirillo
+    affiliation: University of Salerno
+  - name: Subhadeep Sarkar
+    affiliation: Brandeis University
+  - name: Tarikul Islam Papon
+    affiliation: UMass Boston
+  - name: Toshiyuki AMAGASA
+    affiliation: University of Tsukuba
+  - name: Uta Störl
+    affiliation: University of Hagen
+  - name: Verena Kantere
+    affiliation: University of Ottawa
+  - name: Vikram Goyal
+    affiliation: IIIT Delhi, India
+  - name: Vivek Shah
+    affiliation: Samsung
+  - name: Wentao Wu
+    affiliation: Microsoft Research
+  - name: Yannis Foufoulas
+    affiliation: Athena Research Center
+  - name: Yanwei Yu
+    affiliation: Ocean University of China
+  - name: Yaron Kanza
+    affiliation: AT&T Labs-Research
+  - name: Yingxia Shao
+    affiliation: BUPT
+  - name: Yiru Chen
+    affiliation: Columbia University
+  - name: Yongjoo Park
+    affiliation: University of Illinois at Urbana-Champaign
+  - name: Yuval Moskovitch
+    affiliation: Ben Gurion University
+  - name: Yuxi Wang
+    affiliation: Hangzhou Dianzi University
+  - name: Zafeiria Moumoulidou
+    affiliation: University of Massachusetts Amherst
+  - name: Zhengjie Miao
+    affiliation: Simon Fraser University
+  - name: Zhichao Cao
+    affiliation: Arizona State University
+  - name: Zhidan Liu
+    affiliation: Hong Kong University of Science and Technology (Guangzhou)
+  - name: Zhiqiang Zhong
+    affiliation: Aarhus UNiversity
 
 workshops:
   content: |
