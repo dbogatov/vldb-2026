@@ -22,7 +22,9 @@ sections:
       - title: Shadow PC
         page: shadow-pc
   - title: Conference Program
-    sub_sections: []
+    sub_sections:
+      - title: Workshops
+        page: workshops
   - title: Call for Contributions
     sub_sections:
       - title: Research Track

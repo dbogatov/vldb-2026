@@ -1,0 +1,69 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Program - Workshops{% endblock %}
+
+{% set current = "workshops" %}
+
+{% block content %}
+    <section>
+        <h1>{{ data.name }}: Workshops</h1>
+
+        <p>
+            The VLDB 2026 workshops will be held on Monday, August 31, 2026 and Friday, September 4, 2026.
+            This page lists workshop contacts and links for all accepted workshops.
+        </p>
+
+        <h2>Important Contacts</h2>
+
+        <h3>Workshop Proceedings Chairs</h3>
+        <ul>
+            {% for chair in workshops.contacts.proceedings_chairs %}
+                <li>
+                    {{ chair.name }},
+                    <a href="mailto:{{ chair.email }}">{{ chair.email }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h3>Publicity Chairs</h3>
+        <ul>
+            {% for chair in workshops.contacts.publicity_chairs %}
+                <li>
+                    {{ chair.name }},
+                    <a href="mailto:{{ chair.email }}">{{ chair.email }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% for day in workshops.days %}
+            <h2>{{ day.name }} <span class="workshop-title">({{ day.date }})</span></h2>
+
+            {% for workshop in day.workshops %}
+                <div class="schedule-head">
+                    <strong class="main-title">{{ workshop.acronym }}</strong>
+                    <span>{{ workshop.duration }}</span>
+                </div>
+
+                <p><strong>Title:</strong> {{ workshop.title }}</p>
+
+                <div class="workshop-organizers">
+                    <strong>Co-Chairs:</strong>
+                    <ul>
+                        {% for contact in workshop.co_chairs %}
+                            <li>
+                                {{ contact.name }}{% if contact.affiliation %} ({{ contact.affiliation }}){% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                {% if workshop.website %}
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="{{ workshop.website }}">{{ workshop.website }}</a>
+                    </p>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </section>
+{% endblock %}

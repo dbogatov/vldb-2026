@@ -1,0 +1,264 @@
+contacts:
+  proceedings_chairs:
+    - name: Jiuqi Wei
+      email: jiuqi.wei@hotmail.com
+    - name: Zhaojing Luo
+      email: zjluo@bit.edu.cn
+  publicity_chairs:
+    - name: Batya Kenig
+      email: batyak@technion.ac.il
+    - name: Rihan Hai
+      email: R.Hai@tudelft.nl
+    - name: Ryan Marcus
+      email: rcmarcus@seas.upenn.edu
+
+days:
+  - name: Monday Workshops
+    date: August 31, 2026
+    workshops:
+      - acronym: ADMS
+        duration: full day
+        title: Seventeenth International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures
+        co_chairs:
+          - name: Rajesh Bordawekar
+            affiliation: NVIDIA
+            email: rajesh_bordawekar@yahoo.com
+          - name: Tirthankar Lahiri
+            affiliation: Oracle
+            email: tirthankar.lahiri@oracle.com
+        website: https://www.adms-conf.org
+      - acronym: AIDB
+        duration: full day
+        title: The 7th Applied AI for Database Systems and Applications
+        co_chairs:
+          - name: Thaleia Dimitra Doudali
+            affiliation: IMDEA Software Institute
+            email: thaleia.doudali@imdea.org
+          - name: Subru Krishnan
+            affiliation: Microsoft
+            email: subru.krishnan@microsoft.com
+          - name: Konstantinos Kanellis
+            affiliation: Amazon Web Services
+            email: kkanelli@gmail.com
+        website: https://sites.google.com/view/aidb2026
+      - acronym: NOVAS
+        duration: full day
+        title: Novel Optimization for Visionary AI Systems
+        co_chairs:
+          - name: Gerardo Vitagliano
+            affiliation: MIT CSAIL
+            email: gerarvit@mit.edu
+          - name: Chunwei Liu
+            affiliation: Purdue University
+            email: chunwei@purdue.edu
+          - name: Liana Patel
+            affiliation: Stanford University
+            email: lianapat@stanford.edu
+          - name: Rana Shahout
+            affiliation: Harvard University
+            email: rana@seas.harvard.edu
+          - name: Andreas Kipf
+            affiliation: University of Technology Nuremberg
+            email: andreas.kipf@utn.de
+          - name: Paolo Papotti
+            affiliation: EURECOM
+            email: paolo.papotti@eurecom.fr
+        website: https://www.novasworkshop.org
+      - acronym: QDB
+        duration: full day
+        title: 15th International Workshop on Quality in Databases
+        co_chairs:
+          - name: Lorena Etcheverry
+            affiliation: Instituto de Computacion, Facultad de Ingenieria, Universidad de la Republica
+            email: lorenae@fing.edu.uy
+          - name: Steven Euijong Whang
+            affiliation: KAIST
+            email: swhang@kaist.ac.kr
+          - name: Cinzia Cappiello
+            affiliation: Politecnico di Milano
+            email: cinzia.cappiello@polimi.it
+        website: https://qdb-workshop.github.io/
+      - acronym: TPCTC
+        duration: full day
+        title: The 18th TPC Technology Conference on Performance Evaluation and Benchmarking
+        co_chairs:
+          - name: Raghunath Nambiar
+            affiliation: TPC
+            email: raghu.nambiar@amd.com
+          - name: Meikel Poess
+            affiliation: Oracle
+            email: meikel.poess@oracle.com
+  - name: Friday Workshops
+    date: September 4, 2026
+    workshops:
+      - acronym: Agents+Graphs
+        duration: half day, afternoon
+        title: 3rd International Workshop on Data Management Opportunities in Bringing Agents with Graph Data
+        co_chairs:
+          - name: Yixiang Fang
+            affiliation: The Chinese University of Hong Kong, Shenzhen, China
+            email: fangyixiang@cuhk.edu.cn
+          - name: Arijit Khan
+            affiliation: Bowling Green State University
+            email: arijitk@bgsu.edu
+          - name: Tianxing Wu
+            affiliation: Southeast University
+            email: tianxingwu@seu.edu.cn
+          - name: Da Yan
+            affiliation: Indiana University Bloomington
+            email: yanda@iu.edu
+        website: https://seucoin.github.io/workshop/ag2026/
+      - acronym: BioDMS
+        duration: half day, afternoon
+        title: Workshop on Biomedical Data Management Systems
+        co_chairs:
+          - name: Bojan Karlas
+            affiliation: Harvard University
+            email: bkarlas@mgh.harvard.edu
+          - name: Gerardo Vitagliano
+            affiliation: MIT CSAIL
+            email: gerarvit@mit.edu
+          - name: Benjamin Gyori
+            affiliation: Northeastern University
+            email: b.gyori@northeastern.edu
+          - name: Ulf Leser
+            affiliation: Humboldt-Universitat zu Berlin
+            email: ulf.leser@hu-berlin.de
+        website: https://biodms.org/
+      - acronym: CDMS
+        duration: half day, morning
+        title: Fourth International Workshop on Composable Data Management Systems
+        co_chairs:
+          - name: Satya Valluri
+            affiliation: Databricks Inc
+            email: satya.valluri@databricks.com
+          - name: Mohamed Zait
+            affiliation: Databricks Inc.
+            email: mohamed.zait@databricks.com
+        website: https://cdmsworkshop.github.io/2026/
+      - acronym: DASHSys
+        duration: full day
+        title: Workshop on Systems for Data-centric Agents with Human-in-the-loop
+        co_chairs:
+          - name: Yiru Chen
+            affiliation: Adobe
+            email: yiru.chen996@gmail.com
+          - name: Kun Qian
+            affiliation: Adobe
+            email: kunq@adobe.com
+          - name: Estevam Hruschka
+            affiliation: Megagon Labs
+            email: estevam@megagon.ai
+          - name: Zhengjie Miao
+            affiliation: Simon Fraser University
+            email: zhengjie@sfu.ca
+          - name: Dan Zhang
+            affiliation: Megagon Labs
+            email: dan_z@megagon.ai
+          - name: Sajjadur Rahman
+            affiliation: Megagon Labs
+            email: rahmansunny071@gmail.com
+          - name: Anna Fariha
+            affiliation: University of Utah
+            email: afariha@cs.utah.edu
+          - name: Sainyam Galhotra
+            affiliation: Cornell University
+            email: sg@cs.cornell.edu
+          - name: Umar Farooq Minhas
+            affiliation: Apple
+            email: ufminhas@apple.com
+          - name: Sepanta Zeighami
+            affiliation: University of California Berkeley
+            email: zeighami@berkeley.edu
+      - acronym: ADS
+        duration: full day
+        title: The Joint Workshop on Agentic Data Systems and Data-Centric AI
+        co_chairs:
+          - name: Guoliang Li
+            affiliation: Tsinghua University
+            email: liguoliang@tsinghua.edu.cn
+          - name: Yuyu Luo
+            affiliation: HKUST (GZ)
+            email: yuyuluo@hkust-gz.edu.cn
+          - name: Ju Fan
+            affiliation: Renmin University of China
+            email: fanj@ruc.edu.cn
+          - name: Xuanhe Zhou
+            affiliation: Shanghai Jiao Tong University
+            email: zhouxuanhe@sjtu.edu.cn
+      - acronym: QCDKM
+        duration: half day, afternoon
+        title: Quantum Computing and Data/Knowledge Management
+        co_chairs:
+          - name: Haridimos Kondylakis
+            affiliation: FORTH-ICS and Computer Science Department, University of Crete
+            email: kondylak@ics.forth.gr
+          - name: Stefanie Scherzinger
+            affiliation: University of Passau
+            email: stefanie.scherzinger@uni-passau.de
+          - name: Bettina Kemme
+            affiliation: McGill University
+            email: bettina.kemme@mcgill.ca
+          - name: Vasilis Efthymiou
+            affiliation: Harokopio University of Athens
+            email: vefthym@hua.gr
+          - name: Yannis Tzitzikas
+            affiliation: FORTH-ICS
+            email: yannis@ics.forth.gr
+          - name: Manuel Wimmer
+            affiliation: Johannes Kepler University Linz
+            email: manuel.wimmer@jku.at
+          - name: Jose Garcia-Alonso
+            affiliation: University of Extremadura
+            email: jgaralo@unex.es
+      - acronym: TaDA
+        duration: half day, morning
+        title: 4th International Workshop on Tabular Data Analysis
+        co_chairs:
+          - name: Vasilis Efthymiou
+            affiliation: Harokopio University of Athens
+            email: vefthym@hua.gr
+          - name: Oktie Hassanzadeh
+            affiliation: IBM Research
+            email: hassanzadeh@us.ibm.com
+          - name: Chuan Lei
+            affiliation: Oracle
+            email: leichuan@gmail.com
+          - name: Kavitha Srinivas
+            affiliation: IBM Research
+            email: kavitha.srinivas@ibm.com
+        website: https://tabular-data-analysis.github.io/tada2026/
+      - acronym: SCCP
+        duration: half day, morning
+        title: Symposium on Consistency Checking Principles
+        co_chairs:
+          - name: Cheng Tan
+            affiliation: Northeastern
+            email: naizhengtan@gmail.com
+          - name: Shuai Mu
+            affiliation: Stony Brook University
+            email: shuai@cs.stonybrook.edu
+          - name: Hengfeng Wei
+            affiliation: Hunan University
+            email: hfwei@hnu.edu.cn
+          - name: Si Liu
+            affiliation: Texas A&M University
+            email: uiucnobi@gmail.com
+        website: https://sccp-workshop.github.io/sccp26/
+      - acronym: VecDB
+        duration: full day
+        title: The 2nd Workshop on Vector Databases
+        co_chairs:
+          - name: Yusuke Matsui
+            affiliation: The University of Tokyo
+            email: matsui@hal.t.u-tokyo.ac.jp
+          - name: Martin Aumuller
+            affiliation: IT University of Copenhagen
+            email: maau@itu.dk
+          - name: Magdalen Manohar
+            affiliation: Microsoft
+            email: mmanohar@microsoft.com
+          - name: Harsha Simhadri
+            affiliation: Microsoft
+            email: harshasi@microsoft.com
+        website: https://vecdb-ws.github.io/vldb2026/index.html
