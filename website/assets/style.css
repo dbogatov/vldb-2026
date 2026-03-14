@@ -103,3 +103,18 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Workshops */
+.workshop-summary {
+    margin: 0 0 0.6rem;
+}
+
+.workshop-name {
+    margin: 0 0 0.15rem;
+}
+
+.workshop-cochairs {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
