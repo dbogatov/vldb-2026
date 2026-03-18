@@ -58,6 +58,8 @@ sections:
     sub_sections:
       - title: Registration
         page: registration
+      - title: Conference Venue
+        page: conference-venue
 
 carousel:
   - image: boston-1

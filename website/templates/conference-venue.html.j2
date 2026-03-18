@@ -1,0 +1,39 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Venue{% endblock %}
+
+{% set current = "conference-venue" %}
+
+{% block content %}
+    {% set venue = general_information.venue %}
+    <section class="conference-venue">
+        <h1>{{ venue.title }}</h1>
+        <p><strong>{{ venue.venue_name }}</strong></p>
+
+        {% for paragraph in venue.intro %}
+            <p>{{ paragraph }}</p>
+            {% if loop.last %}
+                <p>
+                    <img src="{{ base }}/assets/img/venue-image1.webp" alt="The Westin Boston Seaport District" style="max-width: 100%; height: auto;">
+                </p>
+            {% endif %}
+        {% endfor %}
+
+        {% for section in venue.sections %}
+            <h2>{{ section.title }}</h2>
+            {% for paragraph in section.paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            {% if section.links %}
+                {% for link in section.links %}
+                    <p><a href="{{ link.url }}">{{ link.label }}</a>: {{ link.url }}</p>
+                    {% if section.title == "The Seaport District" and link.label == "Map of Seaport District" %}
+                        <p>
+                            <img src="{{ base }}/assets/img/venue-image2.webp" alt="Map of Boston Seaport District" style="max-width: 100%; height: auto;">
+                        </p>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </section>
+{% endblock %}
