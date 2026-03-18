@@ -190,6 +190,21 @@
     text-decoration: none;
 }
 
+.venue-map {
+    margin: 1.25rem 0 1.5rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.venue-map iframe {
+    display: block;
+    width: 100%;
+    min-height: 420px;
+    border: 0;
+}
+
 @media (max-width: 768px) {
     .registration-fee-block__columns,
     .registration-fee-row {
@@ -198,5 +213,9 @@
 
     .registration-fee-row--extra {
         grid-template-columns: minmax(0, 1.7fr) minmax(90px, 0.7fr);
+    }
+
+    .venue-map iframe {
+        min-height: 320px;
     }
 }

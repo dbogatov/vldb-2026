@@ -24,6 +24,17 @@
             {% for paragraph in section.paragraphs %}
                 <p>{{ paragraph }}</p>
             {% endfor %}
+            {% if section.map_embed_url %}
+                <div class="venue-map">
+                    <iframe
+                        src="{{ section.map_embed_url }}"
+                        title="Map of {{ venue.venue_name }}"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            {% endif %}
             {% if section.links %}
                 {% for link in section.links %}
                     <p><a href="{{ link.url }}">{{ link.label }}</a>: {{ link.url }}</p>
