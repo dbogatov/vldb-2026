@@ -85,7 +85,7 @@ def parse():
 def get_pages(data):
     a = map(lambda x: x["sub_sections"], data["sections"])
     b = reduce(lambda x, y: x + y, a)
-    c = filter(lambda x: not isinstance(x, str), b)
+    c = filter(lambda x: not isinstance(x, str) and "page" in x, b)
     d = map(lambda x: x["page"], c)
     e = map(lambda x: "" if x == "/" else x, d)
     f = set(e)

@@ -74,6 +74,14 @@
                             {% for sub in section.sub_sections %}
                                 {% if sub == "break" %}
                                     <hr/>
+                                {% elif sub.label %}
+                                    <a class="menu-label" role="presentation" aria-disabled="true">
+                                        <span>{{ sub.label }}</span>
+                                    </a>
+                                {% elif sub.url %}
+                                    <a href="{{ sub.url }}" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                        <span itemprop="name">{{ sub.title }}</span>
+                                    </a>
                                 {% else %}
                                     <a href="{{ sub.page }}{{ ".html" if sub.page != "." else "" }}" itemprop="url">
                                         <span itemprop="name">{{ sub.title }}</span>

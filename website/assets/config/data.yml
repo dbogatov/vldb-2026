@@ -56,10 +56,14 @@ sections:
         page: sponsorship
   - title: Participant Information
     sub_sections:
-      - title: Registration
-        page: registration
       - title: Conference Venue
         page: conference-venue
+      - title: Registration
+        page: registration
+      - break
+      - label: "Conference Hotel Booking:"
+      - title: The Westin Boston Seaport
+        url: https://book.passkey.com/go/VLDBConference
 
 carousel:
   - image: boston-1

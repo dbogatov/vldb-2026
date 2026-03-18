@@ -185,6 +185,11 @@
     grid-template-columns: minmax(0, 2.2fr) minmax(120px, 0.8fr);
 }
 
+.menu-label {
+    cursor: default;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .registration-fee-block__columns,
     .registration-fee-row {
