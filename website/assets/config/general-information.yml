@@ -124,7 +124,7 @@ venue:
       paragraphs:
         - The Westin is located in Boston's Seaport District, one of the city's most dynamic waterfront neighborhoods. The area is known for its restaurants, innovation hubs, and scenic harbor views.
         - Many attractions are within walking distance of the hotel, including the Boston HarborWalk, the Institute of Contemporary Art, and the Boston Tea Party Ships & Museum. Visitors can also explore historic Boston through the nearby Freedom Trail or take the Old Town Trolley Tour, which stops right outside the hotel.
-      map_embed_url: https://www.google.com/maps?q=The+Westin+Boston+Seaport+District+Boston+MA&output=embed
+      map_embed_url: https://www.openstreetmap.org/export/embed.html?bbox=-71.05389%2C42.34086%2C-71.03389%2C42.35086&layer=mapnik&marker=42.34586%2C-71.04389
       links:
         - label: Map of Seaport District
           url: https://maps.app.goo.gl/8EJLd5h5T9egbLgz7
