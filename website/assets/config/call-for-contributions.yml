@@ -622,3 +622,42 @@ workshops:
 
     - Meihui Zhang, Beijing Institute of Technology ([meihui_zhang@bit.edu.cn](mailto:meihui_zhang@bit.edu.cn))
     - Tilmann Rabl, Hasso Plattner Institute ([tilmann.rabl@hpi.de](mailto:tilmann.rabl@hpi.de))
+
+phd_workshop:
+  content: |
+    # VLDB 2026: Call for Contributions - PhD Workshop
+
+    The VLDB PhD Workshop offers an opportunity for graduate students to present and discuss their research work in the context of a premier international conference. The workshop provides a forum that facilitates interactions among PhD students and stimulates feedback from more experienced researchers.
+
+    VLDB 2026 welcomes submissions from PhD students who have not yet received their PhD degree. If you are in the early stages of your studies, the submission should clearly describe the problem you are working on, explain why it is important, detail why the existing solutions are not sufficient, and outline the new solutions you are pursuing. If you are further along or close to completion, the submission should be more concrete, describing your contribution so far, and what you hope to accomplish next.
+
+    ## Important Dates
+
+    All deadlines below are 5pm PT.
+
+    - Submission deadline: **May 25, 2026**
+    - Notification of acceptance: **June 25, 2026**
+    - Camera-ready version: **July 20, 2026**
+
+    ## Submission Guidelines
+
+    Submissions must be single-author and any supervisors must be explicitly identified with "supervised by" on the paper, below the author's name.
+
+    Papers are limited to a length of 4 pages (including all material) and must be formatted based on this template: [VLDB workshop style template](https://github.com/haixun/haixun.github.io/blob/master/vldb/vldb-workshop-style-master.zip).
+
+    PhD workshop submissions must be submitted electronically, in PDF format, on [CMT](https://cmt3.research.microsoft.com/VLDBPhDworkshop2026).
+
+    All accepted papers will be published on the VLDB webpage. They will neither be considered archival nor part of the VLDB proceedings. Therefore, it is acceptable if portions of the submission have been published or submitted for publication.
+
+    ## Review Process
+
+    The review and decision of acceptance will balance many factors; these include the quality of your proposal and where you are within your doctoral education program. The program committee will give strongest consideration to candidates who have a clearly developed idea, who are formally considered by their institution to be working on their dissertation, and who still have time to be influenced by participation in the PhD Workshop.
+
+    This year, we do not have a formal PC ahead of submissions and instead we will form the PC based on the submissions we receive. Identifying PC members after seeing the submissions will improve our ability to find the right expertise for the submitted papers. We will publish the formed PC in the workshop webpage after receiving the submissions.
+
+    To maximize participation, every accepted paper will be presented as a poster during the workshop. In addition, a subset of the contributions will also be given an oral presentation.
+
+    ## PhD Workshop Chairs
+
+    - Mohamed Eltabakh, Qatar Computing Research Institute
+    - Nikos Tziavelis, UC Santa Cruz

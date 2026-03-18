@@ -33,6 +33,8 @@ sections:
         page: call-for-industrial-track
       - title: Demonstrations
         page: call-for-demonstrations
+      - title: PhD Workshop
+        page: call-for-phd-workshop
       - title: Workshops
         page: call-for-workshops
       - title: Tutorials
