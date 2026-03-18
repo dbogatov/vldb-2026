@@ -13,6 +13,96 @@ index:
 
   twitter: VLDBconf
 
+registration:
+  title: "VLDB 2026: Registration"
+  intro:
+    - Each research or industrial paper must have an author registration, even if the paper is presented by a student. The author registration refers to a Professional "Conference-Only" or "Workshop+Conference" registration. If an author has more than one paper, they will only need to pay for one author registration, which may cover multiple papers.
+    - Each workshop paper must also have an author registration, even if the paper is presented by a student. The author registration refers to a Professional "Two-Day Workshop" or "Workshop+Conference" registration. If an author has more than one workshop paper, they will only need to pay for one author registration, which may cover multiple workshop papers.
+  registration_url: https://vldb2026.fix.events/
+  contact_email: info@fix.events
+  fees:
+    currency_note: All fees are listed in USD.
+    notes:
+      - Professional conference tickets include lunch, coffee and tea breaks, and access to the banquet.
+      - Participants attending conference workshops will also receive lunch and coffee and tea breaks.
+      - Discounted student conference tickets include lunch, coffee and tea breaks, and access to the banquet.
+      - Student participants attending conference workshops will also receive lunch and coffee and tea breaks.
+    periods:
+      - title: Early Bird
+        deadline: by July 12
+        professional_label: Professional
+        student_label: Student
+        rows:
+          - label: Conference + Workshops
+            date_range: Aug 31 - Sep 4
+            professional: $1200
+            student: $600
+          - label: Conference Only
+            date_range: Sep 1 - Sep 3
+            professional: $1050
+            student: $500
+          - label: 2-Day Workshops
+            date_range: Aug 31 and Sep 4
+            professional: $300
+            student: $150
+      - title: Regular
+        deadline: by August 29
+        professional_label: Professional
+        student_label: Student
+        rows:
+          - label: Conference + Workshops
+            date_range: Aug 31 - Sep 4
+            professional: $1450
+            student: $750
+          - label: Conference Only
+            date_range: Sep 1 - Sep 3
+            professional: $1300
+            student: $650
+          - label: 2-Day Workshops
+            date_range: Aug 31 and Sep 4
+            professional: $400
+            student: $200
+    additional_tickets:
+      title: Additional Ticket
+      rows:
+        - label: Extra Banquet Ticket
+          date_range: Sep 2
+          deadline: Register by July 27
+          price: $150
+  sections:
+    - title: Registration Process
+      paragraphs:
+        - The registration desk's location will be updated soon.
+        - Attendees are encouraged to collect their conference badge as early as possible to ensure smooth access to the Conference Welcome Address and the start of the event.
+        - If your registration fee has not been paid prior to arrival, you will be asked to complete the payment at the registration desk. All pending balances must be settled when registering at the conference. To avoid delays, please plan to arrive early.
+    - title: Return and Refund Policy
+      paragraphs:
+        - "Conference registrations may be cancelled under the following conditions: full refunds are available up to 60 days before the conference. Cancellations made up to 30 days before the conference are eligible for a 50% refund. No refunds will be issued for cancellations made within 30 days of the conference. Refunds will be processed after the event using the original payment method."
+    - title: Privacy Policy
+      paragraphs:
+        - Personal data collected during registration will be used solely for the purposes of event organization, registration processing, communication, and access control for VLDB 2026. Data will be handled securely and in accordance with applicable data protection laws and will not be shared with third parties except where required for event delivery or legal obligations.
+    - title: Legal Notice
+      paragraphs:
+        - Attendance at VLDB 2026 is limited to participants 16 years of age or older. Participants under 16 must be accompanied by a registered adult. Attendees are responsible for their own travel, health, and accident insurance. VLDB 2026 and event organizers accept no liability for personal injury, loss, or damage to property. By attending, you consent to photography and videography for promotional purposes. In cases of force majeure, the organizers reserve the right to modify or cancel the event without liability.
+    - title: Insurance, Release and Waiver of Liability
+      paragraphs:
+        - Participants are strongly advised to obtain appropriate travel, health, and accident insurance prior to departing from their country of residence.
+        - VLDB2026, as the event organizer, shall not be held liable for any personal injury, loss, or damage to personal property belonging to conference participants or their accompanying persons during the course of the event.
+        - All registrants are responsible for informing themselves of and complying with applicable local laws and regulations during their participation in the conference.
+    - title: Force Majeure
+      paragraphs:
+        - VLDB2026, and the event venue shall not be held responsible for the partial or total non-performance of their obligations under the contract in circumstances beyond their reasonable control. Such circumstances include, but are not limited to, accidents, natural disasters (whether threatened or actual), war, interruption or curtailment of transportation services, threats or acts of terrorism, governmental travel advisories related to security concerns, labor disputes including strikes or lockouts, civil unrest, the issuance of a Travel Warning by the World Health Organization, or any other event that makes it impossible for the venue or hotel to accommodate conference participants, or that results in the cancellation of the event by VLDB2026.
+        - In the occurrence of any such event, the Organizers may, at their sole discretion, refund all or part of the delegate registration fee and/or service charges paid by a Delegate or Exhibitor. However, the Organizers shall not be obligated to reimburse the full amount of such fees or charges. Furthermore, the Organizers shall bear no liability toward any Delegate or Exhibitor for claims, damages, losses (including consequential losses), costs, or expenses that may arise as a result of such circumstances.
+    - title: Photography and Videography Disclosure
+      paragraphs:
+        - By registering for and attending the Conference, participants grant permission to VLDB2026 to capture and use their image or likeness in photographs, video recordings, or other media. These materials may be used in publications, promotional content, presentations, and digital platforms, including websites, without compensation or additional consideration.
+        - VLDB2026 reserves the right to edit, reproduce, publish, distribute, or display such materials for the purpose of promoting VLDB2026 activities or for any other lawful purpose. Participants waive any right to review or approve the final version of these materials, whether in print or electronic format, in which their likeness may appear. All such photographs and recordings shall become the property of VLDB2026.
+    - title: Letters of Invitation
+      paragraphs:
+        - Invitation letters for visa purposes may be issued upon request to delegates who have completed and paid their conference registration.
+        - Requests can be submitted through the registration portal, where applicants will be asked to provide the required passport information. Please allow 2-3 business days after payment for the processing of invitation letter requests.
+        - Please note that the issuance of a visa invitation letter does not imply any financial responsibility or other obligation on the part of VLDB2026.
+
 shadow_pc:
   content: |
     # VLDB 2026 Shadow PC

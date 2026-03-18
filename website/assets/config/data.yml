@@ -55,7 +55,9 @@ sections:
       - title: Opportunities
         page: sponsorship
   - title: Participant Information
-    sub_sections: []
+    sub_sections:
+      - title: Registration
+        page: registration
 
 carousel:
   - image: boston-1

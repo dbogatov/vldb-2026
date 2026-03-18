@@ -1,0 +1,73 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Registration{% endblock %}
+
+{% set current = "registration" %}
+
+{% block content %}
+    {% set registration = general_information.registration %}
+    <section class="registration">
+        <h1>{{ registration.title }}</h1>
+
+        {% for paragraph in registration.intro %}
+            <p>{{ paragraph }}</p>
+        {% endfor %}
+        <p>Secure your place at: <a href="{{ registration.registration_url }}">{{ registration.registration_url }}</a></p>
+        <p>For registration assistance or any questions about booking a hotel, please contact the Conference Manager at <a href="mailto:{{ registration.contact_email }}">{{ registration.contact_email }}</a></p>
+
+        <h2>Registration Fees</h2>
+        <p>{{ registration.fees.currency_note }}</p>
+
+        <div class="registration-fees">
+            {% for period in registration.fees.periods %}
+                <section class="registration-fee-block">
+                    <h3 class="registration-fee-block__title">{{ period.title }}{% if period.deadline %} ({{ period.deadline }}){% endif %}</h3>
+                    <div class="registration-fee-block__columns" aria-hidden="true">
+                        <div></div>
+                        <div>{{ period.professional_label }}</div>
+                        <div>{{ period.student_label }}</div>
+                    </div>
+                    <div class="registration-fee-block__rows">
+                        {% for row in period.rows %}
+                            <div class="registration-fee-row">
+                                <div class="registration-fee-row__label">
+                                    <strong>{{ row.label }}</strong>
+                                    <small>{{ row.date_range }}</small>
+                                </div>
+                                <div class="registration-fee-row__price">{{ row.professional }}</div>
+                                <div class="registration-fee-row__price">{{ row.student }}</div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endfor %}
+
+            <section class="registration-fee-block registration-fee-block--extra">
+                <h3 class="registration-fee-block__title">{{ registration.fees.additional_tickets.title }}</h3>
+                <div class="registration-fee-block__rows">
+                    {% for row in registration.fees.additional_tickets.rows %}
+                        <div class="registration-fee-row registration-fee-row--extra">
+                            <div class="registration-fee-row__label">
+                                <strong>{{ row.label }}</strong>
+                                <small>{{ row.date_range }}</small>
+                                <small>{{ row.deadline }}</small>
+                            </div>
+                            <div class="registration-fee-row__price">{{ row.price }}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+
+        {% for note in registration.fees.notes %}
+            <p>{{ note }}</p>
+        {% endfor %}
+
+        {% for section in registration.sections %}
+            <h2>{{ section.title }}</h2>
+            {% for paragraph in section.paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+        {% endfor %}
+    </section>
+{% endblock %}
