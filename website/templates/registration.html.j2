@@ -68,6 +68,9 @@
             {% for paragraph in section.paragraphs %}
                 <p>{{ paragraph }}</p>
             {% endfor %}
+            {% if section.title == "Letters of Invitation" %}
+                <p>For assistance or questions regarding letters of invitation for visa purposes, please contact the Conference Manager at <a href="mailto:{{ registration.contact_email }}">{{ registration.contact_email }}</a></p>
+            {% endif %}
         {% endfor %}
     </section>
 {% endblock %}
