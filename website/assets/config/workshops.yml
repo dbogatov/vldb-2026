@@ -211,6 +211,7 @@ days:
           - name: Jose Garcia-Alonso
             affiliation: University of Extremadura
             email: jgaralo@unex.es
+        website: https://qcdkm.github.io/2026/
       - acronym: TaDA
         duration: half day, morning
         title: 4th International Workshop on Tabular Data Analysis
