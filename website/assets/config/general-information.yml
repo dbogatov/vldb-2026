@@ -671,6 +671,12 @@ officers:
         affiliation: Hasso Plattner Institute, Germany
       - name: Meihui Zhang
         affiliation: Beijing Institute of Technology, China
+  - title: Workshop Proceedings Chair
+    people:
+      - name: Jiuqi Wei
+        affiliation: Ant Group, China
+      - name: Zhaojing Luo
+        affiliation: Beijing Institute of Technology, China
   - title: Tutorial Track Chairs
     people:
       - name: Oliver Kennedy
