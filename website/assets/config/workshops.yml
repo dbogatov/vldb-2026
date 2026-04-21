@@ -170,6 +170,7 @@ days:
           - name: Sepanta Zeighami
             affiliation: University of California Berkeley
             email: zeighami@berkeley.edu
+        website: https://dashsys-workshop-vldb.github.io/
       - acronym: ADS
         duration: full day
         title: The Joint Workshop on Agentic Data Systems and Data-Centric AI
