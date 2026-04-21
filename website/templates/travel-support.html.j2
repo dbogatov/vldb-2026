@@ -1,0 +1,13 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Travel Support{% endblock %}
+
+{% set current = "travel-support" %}
+
+{% block content %}
+    <section class="travel-support">
+        {%- filter markdown -%}
+            {{ general_information.travel_support.content }}
+        {% endfilter %}
+    </section>
+{% endblock %}

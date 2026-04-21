@@ -103,6 +103,39 @@ registration:
         - Requests can be submitted through the registration portal, where applicants will be asked to provide the required passport information. Please allow 2-3 business days after payment for the processing of invitation letter requests.
         - Please note that the issuance of a visa invitation letter does not imply any financial responsibility or other obligation on the part of VLDB2026.
 
+travel_support:
+  content: |
+    # VLDB 2026: Travel Support
+
+    We are very happy to announce travel support opportunities for students and faculty to attend the 52nd International Conference on Very Large Data Bases (VLDB 2026), to take place in Boston, MA, USA, between Aug 31st and Sep 4th, 2026 ([https://vldb.org/2026](https://vldb.org/2026)).
+
+    The long-term goal of the program is to encourage talented young scientists to pursue a career in database research. The grants are funded by the SPEND committee from the VLDB Endowment for non-US based students. The VLDB organization committee is waiving registration fees for all recipients of the fellowships. In previous years, the National Science Foundation (NSF) provided fellowships for students enrolled in a US university. If such fellowships get offered again this year, it will be announced here.
+
+    The grants aim to support travel and lodging expenses for in-person attendees. Applicants should include a budget in their application. It is expected that grants will be up to US$1,750. Expenses will be reimbursed after the conference. Recipients of the travel support are responsible for their travel arrangements, including health insurance, if necessary.
+
+    ## Eligibility and Selection Criteria
+
+    Applicants must be full-time students in good standing (graduate or undergraduate), or postdoctoral fellows/researchers, or faculty members who are either affiliated with universities that do not already have considerable presence at VLDB conferences, or have a paper at the conference (or associated events).
+
+    Applicants must explicitly state that they do not have any other funding to attend. Preference will be given to applicants who demonstrate keen interest in database research and are from regions that are under-represented in the database community; presenting a paper accepted at the main conference or the affiliated workshops is welcome but not mandatory.
+
+    ## Application Process
+    Applicants should fill in the application form at the following URL: [https://forms.gle/1D2jPyToG3NQKcfJ7](https://forms.gle/1D2jPyToG3NQKcfJ7) by June 20th. In the form, they should also include a letter of support by a nominator (faculty advisor for student applicants, or senior faculty member or department head for faculty applicants). Nominators will be contacted by email on their institutional address and asked to confirm their nomination.
+
+    Any questions related to the grants and the application process should be directed to [spend.vldb@gmail.com](mailto:spend.vldb@gmail.com).
+
+    US student applications will be automatically assessed also for the NSF-funded travel grant.
+
+    Selected candidates will be notified by June 30th. Applicants are advised not to register before the notification date, since the travel support includes free registration; note that the early registration deadline is July 5th 2025.
+
+    ## SPEND Committee VLDB Endowment
+    - Carsten Binnig (TU Darmstadt)
+    - Alexandra Meliou (University of Massachusetts - Amherst)
+    - Yannis Velegrakis (Utrecht University)
+
+    ## NSF Fellowship Committee
+    - Sainyam Galhotra (Cornell University)
+
 venue:
   title: "VLDB 2026: Conference Venue"
   venue_name: The Westin Boston Seaport District - Boston, USA
