@@ -88,6 +88,7 @@ days:
           - name: Meikel Poess
             affiliation: Oracle
             email: meikel.poess@oracle.com
+        website: https://www.tpc.org/tpctc/tpctc2026/default5.asp
   - name: Friday Workshops
     date: September 4, 2026
     workshops:
