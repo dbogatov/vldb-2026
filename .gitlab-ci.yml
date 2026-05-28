@@ -22,7 +22,7 @@ variables:
   INDEX: "index.html"
   DIST: "dist"
   DOCKER_TLS_CERTDIR: ""
-  URLS: index officers call-for-research-track important-dates formatting-guidelines submission-guidelines sponsorship
+  URLS: index officers call-for-research-track important-dates formatting-guidelines submission-guidelines sponsorship sponsor-list
   PAGES_PREFIX: "$CI_COMMIT_SHORT_SHA"
 
   CI_REF: &ref 98d7111403217b4452a352da40cecfe2b19fe934
