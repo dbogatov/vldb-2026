@@ -2,5 +2,7 @@
 *.log
 *cache/
 *old/
+!website/assets/img/logo_sponsors/Gold/
+!website/assets/img/logo_sponsors/Gold/**
 *env/
 *tmp/
