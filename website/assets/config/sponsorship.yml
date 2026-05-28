@@ -80,3 +80,52 @@ opportunities:
         - Half-page advertisement in conference brochure
         - Linked company logo on website
         - A place in Exhibition Area
+
+sponsors:
+  levels:
+    - name: Diamond
+      size: diamond
+      companies:
+        - name: Amazon
+          logo: Diamond/Amazon_Logo_Master_RGB_Squid_Ink+Smile_Orange_MAST (3).svg
+    - name: Platinum
+      size: platinum
+      companies:
+        - name: Google
+          logo: Platinum/GoogleLogo_RGB_Color.png
+        - name: InterSystems
+          logo: Platinum/INTS_CreativeDataTechnology_Logo_RGB.jpg
+        - name: Jane Street
+          logo: Platinum/Jane Street.png
+        - name: Oracle
+          logo: Platinum/Oracle_rgb_c74634.png
+        - name: Snowflake
+          logo: Platinum/snowflake-logo-color-rgb@2x.png
+    - name: Gold
+      size: gold
+      companies:
+        - name: Databricks
+          logo: Gold/Databrics.svg
+        - name: eBay
+          logo: Gold/Heritage+WHT_ebay_logo_cmyk.jpg
+        - name: Megagon Labs
+          logo: Gold/MEGAGON LABS.png
+        - name: SAP
+          logo: Gold/SAP_R_grad_sign.png
+    - name: Silver
+      size: silver
+      companies:
+        - name: Spiral
+          logo: Silver/Spiral.svg
+    - name: Bronze
+      size: bronze
+      companies:
+        - name: Cockroach Labs
+          logo: Bronze/CockroachLabs_Full-Logo-Horizontal_Reduced-Color-Light-BG.png
+    - name: Exhibitor/Publisher
+      size: exhibitor
+      companies:
+        - name: PuppyGraph
+          logo: Exhibitor-Publisher/PuppyGraph_Vertical_Purple__1__9.png
+        - name: Weaviate
+          logo: Exhibitor-Publisher/weaviate.svg

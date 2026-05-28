@@ -54,6 +54,9 @@ sections:
     sub_sections:
       - title: Opportunities
         page: sponsorship
+      - break
+      - title: Our Sponsors
+        page: sponsor-list
   - title: Participant Information
     sub_sections:
       - title: Conference Venue

@@ -78,6 +78,89 @@
 .card-exhibitor .sponsor-card-header h4 { color: #6B8E23; }
 .card-exhibitor li::before { color: #6B8E23; }
 
+/* Sponsor list */
+.sponsor-logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 1.75rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1.25rem 0 3rem;
+}
+
+.sponsor-logo-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.sponsor-logo-grid--diamond .sponsor-logo-tile {
+    width: calc((100% - 3.5rem) / 3);
+    height: 150px;
+}
+
+.sponsor-logo-grid--platinum .sponsor-logo-tile {
+    width: calc((100% - 5.25rem) / 4);
+    height: 125px;
+}
+
+.sponsor-logo-grid--gold .sponsor-logo-tile,
+.sponsor-logo-grid--silver .sponsor-logo-tile,
+.sponsor-logo-grid--bronze .sponsor-logo-tile,
+.sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+    width: calc((100% - 7rem) / 5);
+}
+
+.sponsor-logo-grid--gold .sponsor-logo-tile {
+    height: 110px;
+}
+
+.sponsor-logo-grid--silver .sponsor-logo-tile,
+.sponsor-logo-grid--bronze .sponsor-logo-tile,
+.sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+    height: 95px;
+}
+
+.sponsor-logo-tile img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.sponsor-logo-grid--diamond img {
+    max-height: 110px;
+}
+
+.sponsor-logo-grid--platinum img {
+    max-height: 86px;
+}
+
+.sponsor-logo-grid--gold img {
+    max-height: 72px;
+}
+
+.sponsor-logo-grid--silver img,
+.sponsor-logo-grid--bronze img,
+.sponsor-logo-grid--exhibitor img {
+    max-height: 62px;
+}
+
+@media (max-width: 500px) {
+    .sponsor-logo-grid--diamond .sponsor-logo-tile,
+    .sponsor-logo-grid--platinum .sponsor-logo-tile,
+    .sponsor-logo-grid--gold .sponsor-logo-tile,
+    .sponsor-logo-grid--silver .sponsor-logo-tile,
+    .sponsor-logo-grid--bronze .sponsor-logo-tile,
+    .sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+        width: 100%;
+    }
+}
+
 
 /* Officers Grid */
 .officers-grid {

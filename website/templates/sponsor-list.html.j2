@@ -1,0 +1,26 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Our Sponsors{% endblock %}
+
+{% set current = "sponsor-list" %}
+
+{% block content %}
+   <section class="sponsor-list">
+      <h1>{{ data.name }}: Our Sponsors</h1>
+
+      {% for level in sponsorship.sponsors.levels %}
+         <h4>{{ level.name }} Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--{{ level.size }}">
+            {% for company in level.companies %}
+               <div class="sponsor-logo-tile" aria-label="{{ company.name }}">
+                  <img
+                     src="{{ base }}/assets/img/logo_sponsors/{{ company.logo }}"
+                     alt="{{ company.name }} logo"
+                     loading="lazy"
+                  />
+               </div>
+            {% endfor %}
+         </div>
+      {% endfor %}
+   </section>
+{% endblock %}
