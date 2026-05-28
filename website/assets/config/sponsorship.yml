@@ -88,44 +88,61 @@ sponsors:
       companies:
         - name: Amazon
           logo: Diamond/Amazon_Logo_Master_RGB_Squid_Ink+Smile_Orange_MAST (3).svg
+          url: https://www.amazon.com/
     - name: Platinum
       size: platinum
       companies:
         - name: Google
           logo: Platinum/GoogleLogo_RGB_Color.png
+          url: https://www.google.com/
         - name: InterSystems
           logo: Platinum/INTS_CreativeDataTechnology_Logo_RGB.jpg
+          url: https://www.intersystems.com/
         - name: Jane Street
           logo: Platinum/Jane Street.png
+          url: https://www.janestreet.com/
+        - name: Microsoft
+          logo: Platinum/microsoft.png
+          url: https://www.microsoft.com/
         - name: Oracle
           logo: Platinum/Oracle_rgb_c74634.png
+          url: https://www.oracle.com/
         - name: Snowflake
           logo: Platinum/snowflake-logo-color-rgb@2x.png
+          url: https://www.snowflake.com/
     - name: Gold
       size: gold
       companies:
         - name: Databricks
           logo: Gold/Databrics.svg
+          url: https://www.databricks.com/
         - name: eBay
           logo: Gold/Heritage+WHT_ebay_logo_cmyk.jpg
+          url: https://www.ebay.com/
         - name: Megagon Labs
           logo: Gold/MEGAGON LABS.png
+          url: https://megagon.ai/
         - name: SAP
           logo: Gold/SAP_R_grad_sign.png
+          url: https://www.sap.com/
     - name: Silver
       size: silver
       companies:
         - name: Spiral
           logo: Silver/Spiral.svg
+          url: https://spiraldb.com/
     - name: Bronze
       size: bronze
       companies:
         - name: Cockroach Labs
           logo: Bronze/CockroachLabs_Full-Logo-Horizontal_Reduced-Color-Light-BG.png
+          url: https://www.cockroachlabs.com/
     - name: Exhibitor/Publisher
       size: exhibitor
       companies:
         - name: PuppyGraph
           logo: Exhibitor-Publisher/PuppyGraph_Vertical_Purple__1__9.png
+          url: https://www.puppygraph.com/
         - name: Weaviate
           logo: Exhibitor-Publisher/weaviate.svg
+          url: https://weaviate.io/

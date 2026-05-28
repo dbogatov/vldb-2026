@@ -98,13 +98,19 @@
          <h4>{{ level.name }} Sponsors</h4>
          <div class="sponsor-logo-grid sponsor-logo-grid--{{ level.size }}">
             {% for company in level.companies %}
-               <div class="sponsor-logo-tile" aria-label="{{ company.name }}">
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="{{ company.url }}"
+                  aria-label="{{ company.name }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
                   <img
                      src="{{ base }}/assets/img/logo_sponsors/{{ company.logo }}"
                      alt="{{ company.name }} logo"
                      loading="lazy"
                   />
-               </div>
+               </a>
             {% endfor %}
          </div>
       {% endfor %}
