@@ -186,12 +186,10 @@ industrial:
       affiliation: Tursio
     - name: Alexander Böhm
       affiliation: SAP SE
-    - name: Alin Deutsch
-      affiliation: UC San Diego & TigerGraph
     - name: Allison Holloway
       affiliation: Oracle
     - name: Anderson Chaves Carniel
-      affiliation: Huawei Technologies R&D (UK) Ltd.
+      affiliation: Huawei Technologies R&D (UK) Ltd
     - name: Anisoara Nica
       affiliation: SAP SE, Waterloo, Canada
     - name: Bailu Ding
@@ -204,8 +202,10 @@ industrial:
       affiliation: Kyungpook National University
     - name: Calisto Zuzarte
       affiliation: IBM
-    - name: Campbell Fraser
+    - name: Campbell B Fraser
       affiliation: Google
+    - name: Chalapathi Koneni
+      affiliation: Amazon
     - name: Clemens Lutz
       affiliation: NVIDIA
     - name: Cong Yan
@@ -220,8 +220,6 @@ industrial:
       affiliation: Microsoft
     - name: Hesam Shahrokhi
       affiliation: RelationalAI
-    - name: Jan Hidders
-      affiliation: Birkbeck, University of London
     - name: Jia Li
       affiliation: Edinburgh Research Center, Central Software Institute, Huawei
     - name: Jie Song
@@ -230,6 +228,8 @@ industrial:
       affiliation: Databricks
     - name: Jim Webber
       affiliation: Neo4j
+    - name: Joyal Shah
+      affiliation: Otter.ai
     - name: Justin Levandoski
       affiliation: Google
     - name: Kai Wang
@@ -280,7 +280,9 @@ industrial:
       affiliation: Microsoft
     - name: Sudipto Das
       affiliation: Amazon Web Services
-    - name: Supun Nakandala
+    - name: Sumeet Dash
+      affiliation: Microsoft
+    - name: Supun C Nakandala
       affiliation: Databricks Inc
     - name: Tarique Ashraf Siddiqui
       affiliation: Google
@@ -300,12 +302,10 @@ industrial:
       affiliation: University of Glasgow
     - name: Yeounoh Chung
       affiliation: Google
-    - name: Yongchao Liu
-      affiliation: Ant Group
     - name: Yiwen Zhu
       affiliation: Microsoft
-    - name: Ziyang Li
-      affiliation: Johns Hopkins University
+    - name: Yongchao Liu
+      affiliation: Ant Group
     - name: Zoi Kaoudi
       affiliation: IT University of Copenhagen
 
