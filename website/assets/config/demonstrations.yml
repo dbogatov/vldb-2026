@@ -1,0 +1,185 @@
+papers:
+- title: 'QueryBrew: System-Agnostic SQL-to-SQL Query Optimization'
+  authors: Tobias Schmidt (TUM)*; Maximilian Reif (TUM); Altan Birler (TUM); Thomas Neumann (TUM)
+- title: 'FedBridge: A Federated Query Engine over Embedding-Heterogeneous Vector Databases'
+  authors: Yuxiang Wang (Beihang University); Ruixi Hu (Beihang University); Ziyuan He (Beihang University); Zhilin Liang (Beihang University); Xinyu Zhao (Beihang University); Yongxin Tong (Beihang University)*
+- title: 'HaDA: Empower Database Experts with Data Dependencies'
+  authors: Daniel Lindner (Hasso Plattner Institute, University of Potsdam)*; Jonas Baltruschat (Hasso Plattner Institute, University of Potsdam); Kisung Park (SAP Labs Korea); Taehyung Lee (SAP Labs Korea); Heesik Shin (SAP Labs Korea); Daniel Ritter (SAP); Felix Naumann (Hasso Plattner Institute, University of Potsdam)
+- title: 'OMBench: Taming Data Management Requirements in Cloud-Native Applications'
+  authors: Rodrigo Laigner (University of Copenhagen)*; Xikun Jiang (University of Copenhagen); Boris Düdder (University of Copenhagen); Yongluan Zhou (University of Copenhagen)
+- title: How Out-of-Bounds Are Your Cardinality Estimates?
+  authors: Mihail Stoian (University of Technology Nuremberg)*; Tiemo Bang (Microsoft); Hangdong Zhao (Microsoft); Jesús Camacho-Rodríguez (Microsoft); Yuanyuan Tian (Microsoft); Andreas Kipf (University of Technology Nuremberg)
+- title: 'AtomSQL: Interactive Disambiguation of NL-to-SQL via User-Guided Atom-Level Alignment'
+  authors: Aritra Mazumder (University of Utah)*; Parth Desai (University of Utah); Fuheng Zhao (University of Utah); Anna Fariha (University of Utah)
+- title: 'Credo: Declarative Control of LLM Pipelines via Beliefs and Policies'
+  authors: Duo Lu (Brown University)*; Andrew Crotty (Northwestern University); Ugur Cetintemel (Brown University)
+- title: 'SpatialSQL: A Multi-Agent System for Interactive and Observable Spatial Text-to-SQL'
+  authors: Yang Song (Beihang University); Yu Sun (Nankai University); Xieyang Wang (Nanjing University of Aeronautics and Astronautics); Tao Qian (Beihang University); Tengfei Xu (Beihang University); Jianqiu Xu (Nanjing University of Aeronautics and Astronautics); Shuyue Wei (Shandong University); Yongxin Tong (Beihang University)*
+- title: 'DataMagic: Transforming Tabular Data into Data Insight Video'
+  authors: Yupeng Xie (The Hong Kong University of Science and Technology (Guangzhou)); Chen Ma (China Unicom Intelligent Manufacturing Technology & Industry (Guangdong) Co., Ltd. / China Unicom Greater Bay Area Innovation Institute); Zhenyang Wang (The Hong Kong University of Science and Technology (Guangzhou)); Liangwei Wang (The Hong Kong University of Science and Technology (Guangzhou)); Jiayi Zhu (The Hong Kong University of Science and Technology (Guangzhou)); Chuxuan Zeng (China Unicom Intelligent Manufacturing Technology & Industry (Guangdong) Co., Ltd. / China Unicom Greater Bay Area Innovation Institute); Zhouan Shen (The Hong Kong University of Science and Technology (Guangzhou)); Boyan Li (The Hong Kong University of Science and Technology (Guangzhou)); Yuyu Luo (The Hong Kong University of Science and Technology (Guangzhou))*
+- title: 'QuWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text'
+  authors: Aritra Mazumder (University of Utah)*; Whanhee Cho (University of Utah); Anna Fariha (University of Utah)
+- title: Hamilton – Interactive Ontology Learning
+  authors: Lukas Laskowski (Hasso Plattner Institute, University of Potsdam)*; Felix Draxler (University of California, Irvine); Michael Hladik (SAP SE); Fabian Panse (University of Augsburg); Jan Portisch (SAP SE); Padhraic Smyth (University of California, Irvine); Felix Naumann (Hasso Plattner Institute, University of Potsdam)
+- title: 'SemPiper: Interactive Code Synthesis for Semantic Operators in Machine Learning Pipelines'
+  authors: Olga Ovcharenko (Technische Universität Berlin & BIFOLD)*; Luciano Duarte (Technische Universität Berlin & BIFOLD); Sebastian Schelter (Technische Universität Berlin & BIFOLD)
+- title: 'GRAIL: AI translation for scientists application workflow on satellite data'
+  authors: Zhuocheng Shang (University of California, Riverside)*; Ahmed Eldawy (University of California, Riverside)
+- title: 'GraphAlg Playground: An Online Platform for Learning and Experimenting with the GraphAlg Language'
+  authors: Daan de Graaf (Eindhoven University of Technology)*; Robert Brijder (Eindhoven University of Technology); Soham Chakraborty (Delft University of Technology); George Fletcher (Eindhoven University of Technology); Bram van de Wall (Eindhoven University of Technology); Nikolay Yakovets (Eindhoven University of Technology)
+- title: 'GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods'
+  authors: Seonho An (KAIST)*; Chaejeong Hyun (KAIST); Min-Soo Kim (KAIST)
+- title: A Demo of Interactive Thematic Data Collection on the Live Web
+  authors: Michael West (Temple University)*; Eduard Dragut (Temple University)
+- title: 'CypherLens: An Interactive Demo for Evaluating and Diagnosing NL-to-Cypher Systems'
+  authors: Zahra Mohammadi (Temple University)*; ali ansari (temple university); Longin Latecki (Temple university); eduard dragut (temple university)
+- title: 'Guixu: Valuation-Driven Data Discovery for Autonomous AI Agents with On-Chain Attestation'
+  authors: Yifan Wu (Zhejiang University)*; Yuchen Peng (Zhejiang University); Jiaqi Chai (Zhejiang University); Yufei Qian (Zhejiang University); Xilin Li (Zhejiang University); Ke Chen (Zhejiang University); Lidan Shou (Zhejiang University)
+- title: 'Qr-Hint: Formally Verified and AI-Explained SQL Tutoring'
+  authors: Zhouyi Jiang (Duke University); Yihao Hu (Duke University)*; Amir Gilad (Hebrew University); Sudeepa Roy (Duke University); Jun Yang (Duke University)
+- title: 'DataMosaic: An Interactive Demonstration of Constraint-Driven Document-to-Database Construction'
+  authors: Zhengxuan Zhang (The Hong Kong University of Science and Technology(Guangzhou))*; Zhuowen Liang (The Hong Kong University of Science and Technology(Guangzhou)); Haixun Wang (EvenUp); Nan Tang (The Hong Kong University of Science and Technology(Guangzhou))
+- title: Data Lake for AI-enhanced Quantum Error Correction
+  authors: Aadi Patwardhan (TU Delft); Max de Groot (TU Delft); Andrei Ilinescu (TU Delft); Aditya Shankar (TU Delft); Yuandou Wang (TU Delft); Wenbo Sun (TU Delft); Floris Geerts (University of Antwerp); Rihan Hai (TU Delft)*
+- title: 'LayoutPilot: A Lakehouse Physical Design Advisor'
+  authors: Guanli Liu (The University of Melbourne)*; Andreas Kipf (University of Technology Nuremberg); Renata Borovica-Gajic (The University of Melbourne)
+- title: Text-to-SQL Evaluation Toolkit
+  authors: Oktie Hassanzadeh (IBM Research)*; Yotam Perlitz (IBM); Nhan Pham (IBM); Tanvi Kaple (IBM); Karolina Źróbek (IBM); Long Vu (IBM); Michael Glass (IBM); Dharmashankar Subramanian (IBM); Mohammadreza Pourreza (Univesity of Alberta); Davood Rafiei (Univesity of Alberta)
+- title: Dominance-Based Data Reduction for Package Queries
+  authors: Vasileios Vittis (University of Massachussetts Amherst)*; Azza Abouzied (New York University Abu Dhabi); Peter Haas (University of Massachussetts Amherst); Alexandra Meliou (University of Massachussetts Amherst)
+- title: 'PGShield: Maintaining Path Constraints in Property Graphs'
+  authors: Christopher Spinrath (Lyon 1 University, Liris CNRS)*; Angela Bonifati (Lyon 1 University, Liris CNRS & IUF); Rachid Echahed (CNRS LIG, Univ. Grenoble Alpes)
+- title: 'VeriTuneSQL: Verified LLM‑Based Query Rewriting for Microsoft SQL Server'
+  authors: Kukjin Lee (Microsoft); Anshuman Dutt (Microsoft); Vivek Narasayya (Microsoft)*; Surajit Chaudhuri (Microsoft)
+- title: 'A Demonstration of KAFY: An Extensible and Scalable Transformers-Based System for Trajectory Data Analysis'
+  authors: Youssef Hussein (University of Minnesota); Mohamed Mokbel (University of Minnesota - Twin Cities)*
+- title: 'Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents'
+  authors: Jiale Lao (Cornell University)*; Immanuel Trummer (Cornell University)
+- title: 'MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents'
+  authors: Shuyue Wei (Shandong University)*; Chang Liu (Beihang University); Zimu Zhou (City University of Hong Kong); Yongxin Tong (Beihang University); Lizhen Cui (Shandong University)
+- title: 'Demonstrating EarthLake: A Model Lake System for Earth Observation Foundation Model Management'
+  authors: Binger Chen (Technische Universität Berlin)*; Haralampos Gavriilidis (Technische Universität Berlin ); Luca Gaedicke (Technische Universität Berlin); Tacettin Emre Bök ( Technische Universität Berlin); Matthias Boehm ( Technische Universität Berlin); Ziawasch Abedjan (Technische Universität Berlin); Begüm Demir (Technische Universität Berlin); Volker Markl (Technische Universität Berlin)
+- title: 'DeQL Studio: Declarative Decision-Making over Relational Data'
+  authors: Matteo Brucato (OSM Data)*; Fjodor Kholodkov (OSM Data); Soren Little (OSM Data); Jakob Mayer (OSM Data); Duc Nguyen (OSM Data)
+- title: Minimal Data Cleaning for Model Training by MinPrep
+  authors: Cheng Zhen (Oregon State University)*; Prayoga FNUP (Oregon State University); Nischal Aryal (Oregon State University); Arash Termehchy ( Oregon State University); Alireza Aghasi (Oregon State University)
+- title: A Demonstration of Continuous Lifelong Conflict-Aware AGV Routing with Kinematic Constraints
+  authors: Ruizhong WU (The Hong Kong University of Science and Technology (Guangzhou)); Tianqi Zhang (The Hong Kong University of Science and Technology (Guangzhou)); Yunjie Huang (The Hong Kong University of Science and Technology (Guangzhou)); Lei Li (The Hong Kong University of Science and Technology (Guangzhou))*
+- title: 'FilterPilot: An Interactive Assistant for Adapting Filtering Predicate to Table Content'
+  authors: Shiwen Wu (The Hong Kong University of Science and Technology)*; Yuqi Wang (The Hong Kong University of Science and Technology); Yue Pang ( The Hong Kong University of Science and Technology); Xiaofang Zhou (The Hong Kong University of Science and Technology)
+- title: 'GraphAgent: An Effective Knowledge-Guided GNN Model Selection System'
+  authors: Mingtao Zhang (PolyU); Haoyang LI ( PolyU)*; Yuming XU (PolyU); Nicole HU ( PolyU); Peng CHENG (Tongji University ); Chen Jason ZHANG ( PolyU); Qing LI (PolyU); Lei CHEN (HKUST(GZ))
+- title: 'CADENZA in Action: Breaking the Monolith with Intent-Dependent Plan Spaces for Semantic Queries'
+  authors: Jaehyun Ha (POSTECH)*; Yongjoo Park (Univ.~of Illinois Urbana-Champaign); Wook-Shin Han (POSTECH)
+- title: 'MCAD: Multivariate Correlation Anomaly Data Generator'
+  authors: Christos Papadopoulos (Aalborg University)*; Alkis Simitsis (ATHENA Research Center); Torben Bach Pedersen (Aalborg University)
+- title: 'Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries'
+  authors: Matthew Russo (MIT)*; Yash Agarwal (MIT); Tianyu Li (MIT); Zhuohan Gu (MIT); Michael Cafarella (MIT); Omar Khattab (MIT); Tim Kraska (MIT); Samuel Madden (MIT)
+- title: 'NiceT: Named Entity Cleaning and Enhancement with Human-in-the-loop'
+  authors: Garima Gaur (Inria Saclay, Ecole Polytechnique)*; Ioana Manolescu (Inria); Maria Mellado Tenorio (Universidad de Chile); Madhulika Mohanty (Inria); Moritz Sommer (RWTH Aachen)
+- title: A Portable Middleware for Plan-Based Adaptive Query Processing
+  authors: Pei Mu (University of Edinburgh)*; Bita Asoodeh (University of Edinburgh); Anderson Chaves Carniel (Huawei Technologies Research & Development (UK) Limited); Amir Shaikhha (University of Edinburgh)
+- title: Policy-Aware Federated Query Orchestration Across Energy Data Spaces and Edge AI Services
+  authors: Vasile Ofrim (Technical University of Cluj-Napoca); Mihai Daian (Technical University of Cluj-Napoca); Dragos Lazea (Technical University of Cluj-Napoca); Liana Toderean (Technical University of Cluj-Napoca); Anca Hangan (Technical University of Cluj-Napoca)*; Tudor Cioara (Technical University of Cluj-Napoca)
+- title: 'Into the CUDA Multiverse of Runtime Compilation: Exploring Kernel Fusion Strategies for GPU Database Systems'
+  authors: Maha Alwahibi (University of Bamberg); Bachana Jangebashvil (University of Bamberg); Maximilian Schüle (University of Bamberg)*
+- title: CoBLOC - Continuous Block Level Fairness on Data Streams
+  authors: Subhodeep Ghosh (New Jersey Institute of Technology)*; Zhihui Du (New Jersey Institute of Technology); Angela Bonifati (Lyon 1 University & IUF); Manish Kumar (IIT Ropar); David Bader (New Jersey Institute of Technology); Senjuti Basu Roy (New Jersey Institute of Technology)
+- title: 'Demonstrating Samsara: A Super Optimizer for Multimodal Stream Processing'
+  authors: Alessandro Ferri (TU Darmstadt); Uélison Jean Lopes dos Santos (TU Darmstadt)*; Szilard Nistor (TU Darmstadt); Pratyush Agnihotri (TU Darmstadt); Manisha Luthra (TU Darmstadt); Carsten Binnig (TU Darmstadt)
+- title: 'GDPView: An Interactive Interface that Unifies Variants of Deletion Propagation (DP)'
+  authors: Yihan Luo (Northeastern University); Neha Makhija (University of Massachusetts Amherst)*; Wolfgang Gatterbauer (Northeastern University)
+- title: Exploring the Benefits of Just-in-time Model Replacement
+  authors: Nils Strassenburg (Hasso Plattner Institute, University of Potsdam)*; Boris Glavic (University of Illinois Chicago); Tilmann Rabl (Hasso Plattner Institute)
+- title: 'SuperDRI: Graph-Guided Autonomous Troubleshooting for Cloud Databases'
+  authors: Yiwen Zhu (Microsoft)*; Joyce Cahoon (Microsoft); Qiushi Bai (Microsoft); Anna Pavlenko (Microsoft); Divya Vermareddy (Microsoft); Meina Wang (Microsoft); Mathieu Demarne (Microsoft); Wenjing Wang (Microsoft); Swati Bararia (Microsoft); Hannah Lerner (Microsoft); Katherine Lin (Microsoft); Subru Krishnan (Microsoft); Miso Cilimdzic (Microsoft)
+- title: 'MAPPipe: A System for Bridging Efficiency and Quality in Data Preprocessing via Knowledge-Augmented Structural Pruning'
+  authors: Xiaoou Ding (Harbin Institute of Technology); Haifeng Cheng (Harbin Institute of Technology); Yanshuo Liu ( Harbin Institute of Technology); Chen Wang (Tsinghua University); Hongzhi Wang (Harbin Institute of Technology)*
+- title: 'LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals'
+  authors: Rabeya Hossain (University of Utah); Brian Mason (National Radio Astronomy Observatory); Ryan Loomis (National Radio Astronomy Observatory); Jeff Phillips (University of Utah); El Kindi Rezig (University of Utah)*
+- title: 'SubCure: A System for Stress-Testing Causal Conclusions Using Cardinality Repairs'
+  authors: Shira Raviv (Technion); Ben Hechler (Technion); Yarden Gabbay (Technion); Haoquan Guan (University of California San Diego); Shaull Almagor (Technion); El Kindi Rezig (University of Utah)*; Brit Youngmann (Technion); Babak Salimi (University of California San Diego)
+- title: Demonstrating Indexing for Near-Sorted Data
+  authors: Aneesh Raman (Boston University)*; Philip Chindris (Boston University); Anwesha Saha (Boston University); Teona Bagashvili (Boston University); Manos Athanassoulis (Boston University)
+- title: 'cuRPQ+: A System for Interactive Path-Aware Querying Beyond Plain CRPQs'
+  authors: Seohyeon Kim (Korea Advanced Institute of Science and Technology)*; Sungwoo Park (Korea Advanced Institute of Science and Technology); Min-Soo Kim (Korea Advanced Institute of Science and Technology)
+- title: 'ReStore-in-Action: Adaptive Multi-Tier Storage Management via Intelligent Data Migration Policy'
+  authors: Shadman Saqib Eusuf (University of Massachusetts Boston); Tianru Zhang (Uppsala University)*; Teona Bagashvili (Boston University); Manos Athanassoulis (Boston University); Tarikul Islam Papon (University of Massachusetts Boston)
+- title: 'PROXAI: Interactive Provenance-Aware Debugging of Machine Learning Pipelines'
+  authors: Pasquale Leonardo Lazzaro (Università degli Studi Roma Tre)*; Elia Guglielmi (Università degli Studi Roma Tre Università degli Studi Roma Tre); Paolo Missier (University of Birmingham); Riccardo Torlone ( Università degli Studi Roma Tre)
+- title: 'Painless and Efficient Scaling of Pandas Programs: Demo'
+  authors: Bhushan Pal Singh (IIT Bombay); Priyesh Kumar (IIT Bombay); Chiranmoy Bhattacharya (IIT Bombay); Utkarsh Shetye (IIT Bombay); Manish Kumar (IIT Bombay); S. Sudarshan (IIT Bombay)*
+- title: Persona-Conditioned Query Generation for Selectivity-Controlled Workloads
+  authors: Angjela Davitkova (RPTU Kaiserslautern-Landau)*; Sebastian Michel (RPTU Kaiserslautern-Landau)
+- title: 'Demonstration of BobFlow: Human-Agent Collaboration Using Dataflows on Data Science Tasks'
+  authors: Jiadong Bai (UC Irvine)*; Yicong Huang (University of Massachusetts Amherst); Chen Li (UC Irvine)
+- title: 'Demonstrating TACT: Tunable Accuracy-Cost Trade-offs for Semantic Image Filtering'
+  authors: Tharushi Jayasekara (Cornell University)*; Immanuel Trummer (Cornell University)
+- title: 'RSR-core: A High-Performance Engine for Low-Bit Matrix-Vector Multiplication'
+  authors: Mohsen Dehghankar (University of Illinois Chicago)*; Abolfazl Asudeh (University of Illinois Chicago)
+- title: 'TexBench: A Unified Benchmarking Suite for Shifting Workloads'
+  authors: Abhishek Chanda (Independent Researcher); Shubham Kaushik (Brandeis University); Artem Lavrov (Brandeis University); Subhadeep Sarkar (Brandeis University)*
+- title: 'ARGO: An Interactive Data Governance System for Machine Learning via Hierarchical Reinforcement Learning'
+  authors: Shuang Hao (Beijing Jiaotong University)*; Jun Wei (Beijing Jiaotong University); Yingqi Mu (Beijing Jiaotong University); Diwen Cheng (Beijing Jiaotong University)
+- title: 'Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale'
+  authors: Ziting Wang (Nanyang Technological University ); Yin Li (Nanyang Technological University); Zuhao Yang (Nanyang Technological University); Xiuchang Li (Huawei); Jiale Bai (Industrial and Commercial Bank of China Limited); Gao Cong (Nanyang Technological University)*
+- title: 'ImputePilot: A Graphical Model Selection Toolkit for Time Series Imputation'
+  authors: Yuanyuan Yao (National University of Singapore); Zhexin Jin (Zhejiang University); Lu Chen (Zhejiang University)*; Anthony Tung (National University of Singapore); Mourad Khayati (University of Fribourg)
+- title: 'LLM-CER: An Interactive System for In-context Clustering-based Entity Resolution with Large Language Models'
+  authors: Haoyu Wang (Zhejiang University); Haitong Tang (Zhejiang University); Jiajie Fu (Zhejiang University); Arijit Khan (Bowling Green State University); Sharad Mehrotra (UC Irvine); Xiangyu Ke (Zhejiang University)*; Yunjun Gao (Zhejiang University)
+- title: 'ECO-Hadoop: Energy Consumption Optimization System for Apache Hadoop'
+  authors: Zemin Chao (Harbin Institute of Technology); Xiao Chen (Harbin Institute of Technology); Jianhe Cen (Harbin Institute of Technology); Yumeng Fu (Harbin Institute of Technology); Hongzhi Wang (Harbin Institute of Technology)*
+- title: 'QueryCraft: : A Natural Language-Driven NoSQL Database Querying System Powered by Large Language Models'
+  authors: Jinwei Lu (The Hong Kong Polytechnic University); Zhiqian Qin (The Hong Kong Polytechnic University); Chen Zhang (The Hong Kong Polytechnic University); Haodi Zhang (Shenzhen University); Yuanfeng Song (ByteDance)*; Raymond Chi-Wing Wong (The Hong Kong University of Science and Technology)
+- title: 'ChatQPT: Towards Conversing with Relational Query Engines'
+  authors: Hui Li (Xidian University)*; Sourav S. Bhowmick (Nanyang Technological University); Baochao Xu (Xidian University); Zhenning Shi (Xidian University); Xiyue Gao (Xidian University); Jingjing Li (The Chinese University of Hong Kong)
+- title: 'LIMA: Denial Constraint Discovery in Large Dynamic Databases'
+  authors: Albert Martin (Universitat Politècnica de Catalunya)*; Eduardo C. de Almeida (Federal University of Paraná); Oscar Romero (Universitat Politècnica de Catalunya); Anna Queralt (Universitat Politècnica de Catalunya)
+- title: 'DA-Studio: An Agentic System for End-to-End Data Analysis'
+  authors: Yizhe Liu (Renmin University of China)*; Shaolei Zhang (Renmin University of China); Ju Fan (Renmin University of China)
+- title: 'Provlepsis4j: Querying Future Graphs in Neo4j'
+  authors: Evangelos Iliadis (University of Ioannina); Christos Gkartzios (University of Ioannina)*; Evaggelia Pitoura (University of Ioannina)
+- title: 'GALACTICA: An Interactive System for Local and Global Counterfactual Explanations for Time-series Clustering'
+  authors: Christos Fragkathoulas (University of Ioannina;Archimedes, Athena Research Center)*; Eleni Psaroudaki (Archimedes, Athena Research Center); Themis Palpanas (Université Paris Cité, LIPADE, F-75006 Paris;Archimedes, Athena Research Center); Evaggelia Pitoura (University of Ioannina;Archimedes, Athena Research Center)
+- title: The Case for Multi-Version Experimental Evaluation (MVEE)
+  authors: Simon Jörz (Johannes Gutenberg University Mainz); Felix Schuhknecht (Johannes Gutenberg University Mainz)*
+- title: 'iPDB: SQL with ML and LLM Predicates (Towards a Database Engine for AI)'
+  authors: Udesh Kumarasinghe (Purdue University)*; Tyler Liu (Purdue University); Ahmed Mahmood (Google Inc.); Chunwei Liu (Purdue University); Walid Aref (Purdue University)
+- title: 'Tursio for Credit Unions: Structured Data Search with Automated Context Graphs'
+  authors: Shivani Tripathi (Tursio)*; Ravi Shetye (Tursio); Shi Qiao (Tursio); Alekh Jindal (Tursio)
+- title: 'Cedar: A Columnar LSM-Engine for Temporal Property Graphs'
+  authors: Yang Wang (Beihang University); Xuelian Lin (Beihang University); Jinghe Song (Beihang University); Jianyong Zhu (North China Electric Power University); Yu Zhao (Institute of Computing Technology, Chinese Academy of Sciences); Shuai Ma (Beihang University)*
+- title: 'MoDora: A Multimodal Document AI Assistant Harness'
+  authors: Yukai Wu (Shanghai Jiao Tong University); Bangrui Xu (Shanghai Jiao Tong University); Shaoli Yu (Shanghai Jiao Tong University); Zirui Tang (Shanghai Jiao Tong University); Xuanhe Zhou (Shanghai Jiao Tong University)*; Yeye He (Microsoft Research); Bin Wang (Shanghai AI Lab); Conghui He (Shanghai AI Lab); Guoliang Li (Tsinghua University); Fan Wu (Shanghai Jiao Tong University)
+- title: 'ARCADE: A Real-Time Data System for Hybrid and Continuous Query Processing across Diverse Data Modalities'
+  authors: Jingyi Yang (Nanyang Technological University)*; Songsong Mo (Nanyang Technological University); Jiachen Shi (Nanyang Technological University); Zihao Yu (Nanyang Technological University); Kunhao Shi ( Nanyang Technological University); Gao Cong (Nanyang Technological University); Xuchen Ding (Nanyang Technological University)
+- title: 'Q-ACER: Query Aggregate Constraint Efficient Repair System'
+  authors: Vaishnavi Deshpande (University of Southampton); Seokki Lee (University of Cincinnati); Shatha Algarni (University of Jeddah); Boris Glavic (University of Illinois Chicago)*; Adriane Chapman (University of Southampton)
+- title: 'privJedAI: A Unified Open-Source Pipeline for Privacy-Preserving Record Linkage'
+  authors: Lefteris Stetsikas (National and Kapodistrian University Of Athens); Dimitrios Karapiperis (International Hellenic Univeristy)*; George Papadakis (National and Kapodistrian University Of Athens); Manolis Koubarakis (National and Kapodistrian University of Athens)
+- title: 'Demonstration of Doc*: Access Control for Information-Theoretically Secure Data'
+  authors: Komal Kumari (New Jersey Institute of Technology); Yin Li (Dongguan University of Technology); Sharad Mehrotra (UC Irvine); Shantanu Sharma (New Jersey Institute of Technology)*; Venkata Krishna Sastry Sreeramakavacham (New Jersey Institute of Technology)
+- title: Hypothesis Exploration with LLM-driven Intelligent Orchestration System
+  authors: Bruno Tavares dos Santos (UFRGS)*; Vicente Nejar de Almeida (UFRGS); Eduardo Ribeiro (UFT); Sihem Amer-Yahia (Univ. Grenoble Alps Grenoble); João Luiz Dihl Comba (UFRGS)
+- title: 'Enzyme Demo: Incremental View Maintenance for Data Engineering'
+  authors: Yuhong Chen (Databricks, Inc.)*; Ritwik Yadav (Databricks, Inc.); Min Yang (Databricks, Inc.); Supun Abeysinghe (Databricks, Inc.); Manuel Ung (Databricks, Inc.); Jeffrey Helt (Databricks, Inc.); Michael Armbrust (Databricks, Inc.); Shrikanth Shankar (Databricks, Inc.)
+- title: 'LORY-J: Location-aware Join Discovery from Data Lakes'
+  authors: Lu Xing (Purdue University); Mir Mahathir Mohammad (University of Utah); Walid Aref (Purdue University); El Kindi Rezig (University of Utah)*
+- title: 'QFusion: A Demonstration of Boundary-Aware Fusion Planning and Execution for Large-Scale QUBO Optimization'
+  authors: Hanwen Liu (University of Southern California)*; Ibrahim Sabek (University of Southern California)
+- title: 'TurboLynx in Action: A Schemaless Graph Engine for General-Purpose Analytics'
+  authors: Taesung Lee (POSTECH); Jaehyun Ha (POSTECH); Byungchul Tak (Kyungpook National University); Wook-Shin Han (POSTECH)*
+- title: 'SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation'
+  authors: Jiacheng Ding (University of Memphis); Xiaofei Zhang (University of Memphis)*
+- title: 'ATLAS: Adaptive Text-to-SQL with Lifecycle-Aware Self-Maintaining Context'
+  authors: Qing zhang (Fudan University)*; Shijing Hu (Fudan University); Zhihui Lu (Fudan University)
+- title: 'DBCooker: A Database Kernel-Specialized Coding Agent Harness'
+  authors: Wei Zhou (Shanghai Jiao Tong University); Xuanhe Zhou (Shanghai Jiao Tong University)*; Qikang He (Shanghai Jiao Tong University); Guoliang Li (Tsinghua University); Bingsheng He (National University of Singapore); Chao Peng (Independent Researcher); Yun Lin (Shanghai Jiao Tong University); Fan Wu ( Shanghai Jiao Tong University)
+- title: 'ParSEval: Interactive Counterexample-driven Evaluation for Text-to-SQL'
+  authors: Chunyu Chen (Simon Fraser University); Zhengjie Miao (Simon Fraser University)*; Yong Zhang (Huawei Technologies); Jiannan Wang (Tsinghua University)
+- title: 'DialectEvo: Bridging SQL Dialects with Execution-Guided Knowledge Refinement'
+  authors: Jianling Gao (Beihang University); Chongyang Tao (Beihang University); Liu Yang (Beihang University); Xiya Jiang (Beijing University of Posts and Telecommunications); Shuai Ma (Beihang University)*
+- title: 'TrustBCI: A Trustworthy Platform for Collaborative Brain-Computer Interface Data Exchange'
+  authors: Jianyu Yang (Tsinghua University)*; Jiannan Wang (Tsinghua University); Guoliang Li (Tsinghua University)
+- title: Hard to Read, Hard to Maintain? Refactoring Complex SQL into Wvlet Pipelines
+  authors: Kaina Anderson (The University of Osaka)*; Yohanes Yohanie Fridelin Panduman (The University of Osaka); Taro Leo. Saito (Treasure Data); Makoto Onizuka (The University of Osaka)

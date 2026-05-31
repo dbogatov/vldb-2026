@@ -23,6 +23,8 @@ sections:
         page: shadow-pc
   - title: Conference Program
     sub_sections:
+      - title: Demonstrations
+        page: demonstrations
       - title: Workshops
         page: workshops
   - title: Call for Contributions

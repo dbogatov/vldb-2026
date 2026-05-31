@@ -1,0 +1,24 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Program - Demonstrations{% endblock %}
+
+{% set current = "demonstrations" %}
+
+{% block content %}
+    <section class="program-demonstrations">
+        <h1>{{ data.name }}: Demonstrations</h1>
+
+        <p>
+            This page lists all accepted demonstration papers for {{ data.name }}.
+        </p>
+
+        <div class="demo-papers">
+            {% for paper in demonstrations.papers %}
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">{{ paper.title }}</h2>
+                    <p class="demo-paper-authors">{{ paper.authors }}</p>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

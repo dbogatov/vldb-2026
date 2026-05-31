@@ -138,6 +138,7 @@ def main():
                 general_information=load_data("general-information"),
                 call_for_contributions=load_data("call-for-contributions"),
                 dates_and_guidelines=load_data("dates-and-guidelines"),
+                demonstrations=load_data("demonstrations"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),
                 pages=list(get_pages(data)),
