@@ -107,6 +107,9 @@ sponsors:
         - name: Oracle
           logo: Platinum/Oracle_rgb_c74634.png
           url: https://www.oracle.com/
+        - name: Salesforce
+          logo: Platinum/salesforce-logo.png
+          url: https://www.salesforce.com/
         - name: Snowflake
           logo: Platinum/snowflake-logo-color-rgb@2x.png
           url: https://www.snowflake.com/
@@ -119,6 +122,9 @@ sponsors:
         - name: eBay
           logo: Gold/Heritage+WHT_ebay_logo_cmyk.jpg
           url: https://www.ebay.com/
+        - name: GraphAI
+          logo: Gold/GraphAI_Logo_Horizontal.jpg
+          url: https://graphai.io/en/
         - name: Megagon Labs
           logo: Gold/MEGAGON LABS.png
           url: https://megagon.ai/
