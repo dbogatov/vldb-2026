@@ -116,6 +116,9 @@ sponsors:
     - name: Gold
       size: gold
       companies:
+        - name: ByteDance
+          logo: Gold/2026-bytedance.svg
+          url: https://www.bytedance.com/
         - name: Databricks
           logo: Gold/Databrics.svg
           url: https://www.databricks.com/
@@ -128,6 +131,9 @@ sponsors:
         - name: Megagon Labs
           logo: Gold/MEGAGON LABS.png
           url: https://megagon.ai/
+        - name: MongoDB
+          logo: Gold/MongoDB_Fores-Green.svg
+          url: https://www.mongodb.com/
         - name: SAP
           logo: Gold/SAP_R_grad_sign.png
           url: https://www.sap.com/
