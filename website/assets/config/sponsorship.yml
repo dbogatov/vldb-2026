@@ -134,6 +134,9 @@ sponsors:
         - name: MongoDB
           logo: Gold/MongoDB_Fores-Green.svg
           url: https://www.mongodb.com/
+        - name: OceanBase
+          logo: Gold/oceanbase.png
+          url: https://en.oceanbase.com/
         - name: SAP
           logo: Gold/SAP_R_grad_sign.png
           url: https://www.sap.com/
