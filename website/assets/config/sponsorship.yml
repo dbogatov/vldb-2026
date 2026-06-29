@@ -116,6 +116,9 @@ sponsors:
     - name: Gold
       size: gold
       companies:
+        - name: Alibaba Cloud
+          logo: Gold/Alibaba_Cloud_wide.png
+          url: https://www.alibabacloud.com/
         - name: ByteDance
           logo: Gold/2026-bytedance.svg
           url: https://www.bytedance.com/
