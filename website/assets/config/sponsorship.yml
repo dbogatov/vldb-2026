@@ -158,6 +158,9 @@ sponsors:
         - name: Cockroach Labs
           logo: Bronze/CockroachLabs_Full-Logo-Horizontal_Reduced-Color-Light-BG.png
           url: https://www.cockroachlabs.com/
+        - name: VillageSQL
+          logo: Bronze/VillageSQL_PrimaryLogo_Horiz_Light.svg
+          url: https://villagesql.com/
     - name: Exhibitor/Publisher
       size: exhibitor
       companies:
