@@ -6,6 +6,6 @@
 
 {% block content %}
     {%- filter markdown -%}
-        {{ call_for_contributions.phd_workshop.content }}
+        {{ call_for_contributions.phd_workshop.content|safe }}
     {% endfilter %}
 {% endblock %}
