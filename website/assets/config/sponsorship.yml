@@ -146,6 +146,9 @@ sponsors:
         - name: SAP
           logo: Gold/SAP_R_grad_sign.png
           url: https://www.sap.com/
+        - name: Tencent
+          logo: Gold/tencent-logo.png
+          url: https://www.tencent.com/en-us/
     - name: Silver
       size: silver
       companies:
