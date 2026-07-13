@@ -22,6 +22,7 @@ registration:
   contact_email: info@fix.events
   fees:
     currency_note: All fees are listed in USD.
+    deadline_note: Due to delayed author notifications in some tracks of VLDB 2026, we decided to extend the early-bird registration deadline accordingly to July 24, 2026.
     notes:
       - Professional conference tickets include lunch, coffee and tea breaks, and access to the banquet.
       - Participants attending conference workshops will also receive lunch and coffee and tea breaks.
@@ -29,7 +30,7 @@ registration:
       - Student participants attending conference workshops will also receive lunch and coffee and tea breaks.
     periods:
       - title: Early Bird
-        deadline: by July 12
+        deadline: by <s>July 12</s> July 24
         professional_label: Professional
         student_label: Student
         rows:
@@ -126,7 +127,7 @@ travel_support:
 
     US student applications will be automatically assessed also for the NSF-funded travel grant.
 
-    Selected candidates will be notified by June 30th. Applicants are advised not to register before the notification date, since the travel support includes free registration; note that the early registration deadline is July 12, 2026.
+    Selected candidates will be notified by June 30th. Applicants are advised not to register before the notification date, since the travel support includes free registration; note that the early registration deadline is <s>July 12</s> July 24, 2026.
 
     ## SPEND Committee VLDB Endowment
     - Carsten Binnig (TU Darmstadt)

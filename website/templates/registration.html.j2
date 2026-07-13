@@ -17,11 +17,14 @@
 
         <h2>Registration Fees</h2>
         <p>{{ registration.fees.currency_note }}</p>
+        {% if registration.fees.deadline_note %}
+            <p>{{ registration.fees.deadline_note }}</p>
+        {% endif %}
 
         <div class="registration-fees">
             {% for period in registration.fees.periods %}
                 <section class="registration-fee-block">
-                    <h3 class="registration-fee-block__title">{{ period.title }}{% if period.deadline %} ({{ period.deadline }}){% endif %}</h3>
+                    <h3 class="registration-fee-block__title">{{ period.title }}{% if period.deadline %} ({{ period.deadline|safe }}){% endif %}</h3>
                     <div class="registration-fee-block__columns" aria-hidden="true">
                         <div></div>
                         <div>{{ period.professional_label }}</div>
