@@ -92,6 +92,9 @@ sponsors:
     - name: Platinum
       size: platinum
       companies:
+        - name: Couchbase
+          logo: Platinum/Couchbase_R-B.png
+          url: https://www.couchbase.com/
         - name: Google
           logo: Platinum/GoogleLogo_RGB_Color.png
           url: https://www.google.com/
@@ -173,6 +176,9 @@ sponsors:
         - name: Springer Nature Group
           logo: Exhibitor-Publisher/SNG_stack_blue.jpg
           url: https://www.springernature.com/
+        - name: TPC
+          logo: Exhibitor-Publisher/TPC-logo.svg
+          url: https://www.tpc.org/
         - name: Weaviate
           logo: Exhibitor-Publisher/weaviate.svg
           url: https://weaviate.io/
