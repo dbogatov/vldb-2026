@@ -128,6 +128,9 @@ sponsors:
         - name: Databricks
           logo: Gold/Databrics.svg
           url: https://www.databricks.com/
+        - name: DuckDB-Labs
+          logo: Gold/DuckDB-Labs_inline-black-bg-padded.svg
+          url: https://duckdblabs.com/
         - name: eBay
           logo: Gold/Heritage+WHT_ebay_logo_cmyk.jpg
           url: https://www.ebay.com/
@@ -147,7 +150,7 @@ sponsors:
           logo: Gold/MongoDB_Fores-Green.svg
           url: https://www.mongodb.com/
         - name: OceanBase
-          logo: Gold/oceanbase.png
+          logo: Gold/oceanbase_new.png
           url: https://en.oceanbase.com/
         - name: SAP
           logo: Gold/SAP_R_grad_sign.png
