@@ -186,8 +186,13 @@ def main():
         output_file.write(content)
     os.remove(Path(dist) / "assets" / "style.css")
 
+    # Prefer a system cwebp binary when available (needed on Apple Silicon).
+    # Otherwise, use webptools' bundled binary for platforms such as x86 Linux.
+    cwebp_bin = shutil.which("cwebp")
+    if cwebp_bin is None:
+        grant_permission()
+
     # convert images to webp
-    grant_permission()
     for subdir in ["", "carousel"]:
         for path in (Path(dist) / "assets" / "img" / subdir).glob("*"):
             if path.suffix == ".svg":
@@ -200,11 +205,17 @@ def main():
                         path.with_suffix(".webp"),
                     )
                 else:
-                    cwebp(
+                    result = cwebp(
                         input_image=path,
                         output_image=path.with_suffix(".webp"),
                         option="-q 50",
+                        bin_path=cwebp_bin,
                     )
+                    if result["exit_code"] != 0:
+                        error = result["stderr"].decode("UTF-8",
+                                                        errors="replace")
+                        raise RuntimeError(
+                            f"Failed to convert {path} to WebP: {error}")
                     shutil.copyfile(
                         path.with_suffix(".webp"),
                         (Path(CACHE) / path.name).with_suffix(".webp"),

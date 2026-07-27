@@ -49,7 +49,7 @@ papers:
   authors: Vasileios Vittis (University of Massachussetts Amherst)*; Azza Abouzied (New York University Abu Dhabi); Peter Haas (University of Massachussetts Amherst); Alexandra Meliou (University of Massachussetts Amherst)
 - title: 'PGShield: Maintaining Path Constraints in Property Graphs'
   authors: Christopher Spinrath (Lyon 1 University, Liris CNRS)*; Angela Bonifati (Lyon 1 University, Liris CNRS & IUF); Rachid Echahed (CNRS LIG, Univ. Grenoble Alpes)
-- title: 'VeriTuneSQL: Verified LLM‑Based Query Rewriting for Microsoft SQL Server'
+- title: 'Verified LLM‑Based Query Rewriting for Microsoft SQL Server'
   authors: Kukjin Lee (Microsoft); Anshuman Dutt (Microsoft); Vivek Narasayya (Microsoft)*; Surajit Chaudhuri (Microsoft)
 - title: 'A Demonstration of KAFY: An Extensible and Scalable Transformers-Based System for Trajectory Data Analysis'
   authors: Youssef Hussein (University of Minnesota); Mohamed Mokbel (University of Minnesota - Twin Cities)*
