@@ -6,3 +6,4 @@
 !website/assets/img/logo_sponsors/Gold/**
 *env/
 *tmp/
+.DS_Store

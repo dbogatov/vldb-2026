@@ -21,6 +21,16 @@ os.chdir(dname)
 
 SRC = "./website"
 CACHE = "./cache"
+CONVERTIBLE_IMAGE_SUFFIXES = {
+    ".jpeg",
+    ".jpg",
+    ".pam",
+    ".pgm",
+    ".png",
+    ".ppm",
+    ".tif",
+    ".tiff",
+}
 
 
 # silence stdout
@@ -129,7 +139,11 @@ def main():
     recreate_dir(dist, ignore_errors=True)
     os.makedirs(CACHE, exist_ok=True)
 
-    shutil.copytree(Path(SRC) / "assets", Path(dist) / "assets")
+    shutil.copytree(
+        Path(SRC) / "assets",
+        Path(dist) / "assets",
+        ignore=shutil.ignore_patterns(".DS_Store"),
+    )
 
     for path in (Path(SRC) / "templates").glob("*"):
         if "layout" not in str(path):
@@ -195,32 +209,31 @@ def main():
     # convert images to webp
     for subdir in ["", "carousel"]:
         for path in (Path(dist) / "assets" / "img" / subdir).glob("*"):
-            if path.suffix == ".svg":
+            if path.suffix.lower() not in CONVERTIBLE_IMAGE_SUFFIXES:
                 continue
-            if not path.is_dir():
-                if (use_cache and
-                    (Path(CACHE) / path.name).with_suffix(".webp").exists()):
-                    shutil.copyfile(
-                        (Path(CACHE) / path.name).with_suffix(".webp"),
-                        path.with_suffix(".webp"),
-                    )
-                else:
-                    result = cwebp(
-                        input_image=path,
-                        output_image=path.with_suffix(".webp"),
-                        option="-q 50",
-                        bin_path=cwebp_bin,
-                    )
-                    if result["exit_code"] != 0:
-                        error = result["stderr"].decode("UTF-8",
-                                                        errors="replace")
-                        raise RuntimeError(
-                            f"Failed to convert {path} to WebP: {error}")
-                    shutil.copyfile(
-                        path.with_suffix(".webp"),
-                        (Path(CACHE) / path.name).with_suffix(".webp"),
-                    )
-                os.remove(path)
+            if (use_cache and
+                (Path(CACHE) / path.name).with_suffix(".webp").exists()):
+                shutil.copyfile(
+                    (Path(CACHE) / path.name).with_suffix(".webp"),
+                    path.with_suffix(".webp"),
+                )
+            else:
+                result = cwebp(
+                    input_image=path,
+                    output_image=path.with_suffix(".webp"),
+                    option="-q 50",
+                    bin_path=cwebp_bin,
+                )
+                if result["exit_code"] != 0:
+                    error = result["stderr"].decode("UTF-8",
+                                                    errors="replace")
+                    raise RuntimeError(
+                        f"Failed to convert {path} to WebP: {error}")
+                shutil.copyfile(
+                    path.with_suffix(".webp"),
+                    (Path(CACHE) / path.name).with_suffix(".webp"),
+                )
+            os.remove(path)
 
     # google CDN verification
     ver_tag = f'google{data["google_search_console_verification"]}.html'
