@@ -149,6 +149,9 @@ sponsors:
         - name: MongoDB
           logo: Gold/MongoDB_Fores-Green.svg
           url: https://www.mongodb.com/
+        - name: NVIDA
+          logo: Gold/nvidia-logo-vert-rgb-blk-no-reg-for-screen.png
+          url: https://www.nvidia.com/en-us/
         - name: OceanBase
           logo: Gold/oceanbase_new.png
           url: https://en.oceanbase.com/
