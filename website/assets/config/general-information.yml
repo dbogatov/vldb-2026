@@ -119,7 +119,7 @@ day_pass:
     - date: Wednesday, September 2, 2026
       price: $550
     - date: Thursday, September 3, 2026
-      price: $400
+      price: $550
   includes:
     - Access to all main conference sessions and keynotes taking place on the selected date
     - Lunch on the selected date
