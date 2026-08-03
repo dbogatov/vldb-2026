@@ -297,6 +297,61 @@
     grid-template-columns: minmax(0, 2.2fr) minmax(120px, 0.8fr);
 }
 
+/* Day Pass */
+.day-pass__details {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 4px solid #1e6e8c;
+    background: #f4f8fa;
+}
+
+.day-pass__details p {
+    margin: 0.35rem 0;
+}
+
+.day-pass__fees {
+    margin: 1.25rem 0 2rem;
+    max-width: 720px;
+}
+
+.day-pass__fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    background: #efefef;
+}
+
+.day-pass__fee:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.day-pass__fee span {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.day-pass__register {
+    margin-top: 2rem;
+}
+
+.day-pass__register a {
+    display: inline-block;
+    padding: 0.75rem 1.1rem;
+    border-radius: 4px;
+    background: #1e6e8c;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.day-pass__register a:hover,
+.day-pass__register a:focus {
+    background: #164f65;
+    color: #fff;
+}
+
 .menu-label {
     cursor: default;
     text-decoration: none;

@@ -1,0 +1,45 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Day Pass{% endblock %}
+
+{% set current = "day-pass" %}
+
+{% block content %}
+    {% set day_pass = general_information.day_pass %}
+    <section class="day-pass">
+        <h1>{{ day_pass.title }}</h1>
+
+        {% for paragraph in day_pass.intro %}
+            <p>{{ paragraph }}</p>
+        {% endfor %}
+
+        <div class="day-pass__details">
+            <p><strong>Full conference dates:</strong> {{ day_pass.conference_dates }}</p>
+            <p><strong>Main conference dates:</strong> {{ day_pass.main_conference_dates }}</p>
+            <p><strong>Location:</strong> {{ day_pass.location }}</p>
+        </div>
+
+        <h2>One-Day Registration Fees</h2>
+        <p>{{ day_pass.currency_note }}</p>
+        <div class="day-pass__fees">
+            {% for ticket in day_pass.tickets %}
+                <div class="day-pass__fee">
+                    <strong>{{ ticket.date }}</strong>
+                    <span>{{ ticket.price }}</span>
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>What Is Included</h2>
+        <ul>
+            {% for item in day_pass.includes %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+        <p><strong>Please note:</strong> {{ day_pass.banquet_note }}</p>
+
+        <p class="day-pass__register">
+            <a href="{{ day_pass.registration_url }}" target="_blank" rel="noopener noreferrer">Select your day and register</a>
+        </p>
+    </section>
+{% endblock %}

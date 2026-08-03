@@ -65,6 +65,8 @@ sections:
         page: conference-venue
       - title: Registration
         page: registration
+      - title: Day Pass
+        page: day-pass
       - break
       - title: Travel Support
         page: travel-support
