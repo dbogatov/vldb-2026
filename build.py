@@ -145,6 +145,12 @@ def main():
         ignore=shutil.ignore_patterns(".DS_Store"),
     )
 
+    # copy static pages (pre-built pages served verbatim, e.g. the program)
+    static_dir = Path(SRC) / "static"
+    if static_dir.is_dir():
+        for path in static_dir.glob("*.html"):
+            shutil.copyfile(path, Path(dist) / path.name)
+
     for path in (Path(SRC) / "templates").glob("*"):
         if "layout" not in str(path):
             templates.get_template(f"templates/{path.name}").stream(
@@ -153,6 +159,7 @@ def main():
                 call_for_contributions=load_data("call-for-contributions"),
                 dates_and_guidelines=load_data("dates-and-guidelines"),
                 demonstrations=load_data("demonstrations"),
+                keynotes=load_data("keynotes"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),
                 pages=list(get_pages(data)),

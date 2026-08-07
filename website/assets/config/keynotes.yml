@@ -1,0 +1,58 @@
+# Keynote order matters: Reynold Xin first, Jingren Zhou second (per Yanlei, 2026-07-31).
+# Fields title / abstract / bio / photo / when are optional; missing ones render as "coming soon".
+# For photos: drop e.g. reynold-xin.jpg into website/assets/img/ and set `photo: reynold-xin`
+# (the build converts it to .webp automatically).
+keynotes:
+  - speaker: Reynold Xin
+    affiliation: Databricks
+    photo: reynold-xin
+    title: "The Three Golden Ages of Database Engineering: From SIGMOD '85 to the Agentic Era"
+    abstract: |
+      In 2012, a year before the founding of Databricks, I stumbled upon a book of SIGMOD'85 proceedings in the Berkeley AMPLab office.
+      I felt disheartened, as many of those papers could have been republished in 2012 by simply replacing "megabytes" with "terabytes".
+      Every topic, perhaps with the exception of columnar databases, had already been studied.
+
+      It turned out this perspective couldn't have been more wrong.
+      While that early relational era was the first golden age of database engineering, the last decade became the second.
+      "Big data", data science, and cloud computing led to the rise of new workloads on analytic data systems beyond the traditional rollups and drilldowns data warehouses were designed for.
+      This ultimately led the industry to standardize on the Lakehouse, which marries the best ideas of data warehouses with the physical and logical separation of storage and compute to support these new workloads.
+
+      In this talk, I will first look back and share how my perspective on database technology at scale has evolved.
+      By examining real-world workloads observed on the Databricks platform, I will discuss how these workloads impact the reality of database engineering, highlighting challenges in scaling a modern data platform that are often overlooked by database systems research and even database vendors.
+
+      I will then look forward and discuss why we are entering the third golden age of database engineering.
+      As AI agents change software engineering life cycles, they are introducing not only new workloads (operational analytics, vector search) but also new usage patterns on preexisting OLTP workloads (highly concurrent, iterative, rapid experimentation).
+      They are stressing performance and scalability dimensions that traditional database systems ignore, forcing databases to fundamentally change.
+
+      To address this, I will describe the Lakebase architecture, which applies a similar philosophy of separating storage and compute to OLTP databases, serving as a foundation for databases in the agentic world.
+      Finally, I will demonstrate how unifying Lakebase and Lakehouse creates LTAP (Lake Transactional Analytical Processing).
+      By sharing an open storage layer while physically isolating compute, LTAP offers a pragmatic alternative to HTAP, side-stepping the historical trade-offs of combining analytics and OLTP in a single system.
+
+      I will conclude by outlining what this third golden age implies for the future of database systems, introducing new fundamental research challenges that open an exciting frontier for the database community.
+      Unlike my 2012 self who feared the field was already solved, I have never been more energized about what lies ahead.
+    bio: |
+      Reynold Xin is a co-founder and Chief Architect at Databricks.
+      He leads the engineering teams building systems from Lakehouse to Lakebase, many of which have become industry standards and set world records in benchmarks like TPC-DS, GraySort, and CloudSort.
+      A champion of open data ecosystems, Reynold is a core contributor to foundational open-source projects including Apache Spark, Apache Arrow, Apache Parquet, Apache Iceberg, Delta Lake, and Unity Catalog.
+      He holds a PhD in Computer Science from UC Berkeley, where he focused on large-scale data systems.
+  - speaker: Jingren Zhou
+    affiliation: Alibaba Cloud
+    photo: jingren-zhou
+    when: Thursday, September 3rd, 9:15-10:15 ET
+    title: Efficient and Reliable Systems for Building Foundation Models at Scale
+    abstract: |
+      The rapid evolution of AI has led to increasingly large and complex foundation models with trillions of parameters and heterogeneous architectures, making efficient and reliable training and inference systems essential.
+      Training such models requires large-scale distributed computation, effective overlap of computation and communication, sophisticated parallelization strategies, and robust fault-tolerant mechanisms.
+      In addition, the rise of multi-turn and autonomous agents drives new demands for asynchronous reinforcement learning and post-training systems.
+      Inference systems, on the other hand, must support diverse workloads with varying service-level agreements (SLAs), rapidly integrate engineering optimizations, and carefully balance trade-offs among throughput, latency, cost, and availability, particularly in distributed environments.
+      In this talk, I will discuss the major systems challenges involved in building large-scale foundation models, drawing on our experiences developing Qwen large language models and Wan video generation models.
+      I will also present ongoing research and system co-designs for improving training, post-training, and inference at scale, with the goal of making complex AI workloads in cloud environments more efficient, agile, and reliable.
+    bio: |
+      Jingren Zhou is Chief Scientist and Senior Vice President at Alibaba, where he founded and led the development of Alibaba's flagship AI foundation models, including the Qwen and Wan model series.
+      Today, Qwen is recognized as one of the world's leading large language models and among the most widely adopted open-source AI models globally.
+      Previously, Jingren served as Chief Technology Officer at Alibaba Cloud, where he drove technology innovation and product development across a broad portfolio of cloud computing services.
+      He also played a key role in building advanced AI technologies and infrastructure for personalized search, product recommendation, and advertising on Alibaba's e-commerce platforms.
+      Before joining Alibaba, he was a veteran at Microsoft, focusing on big data and database research and development.
+      His research interests include cloud computing, distributed systems, databases, and large-scale machine learning.
+      He has served as PC co-chair and core committee member for many academic conferences and technical forums.
+      He received his PhD in Computer Science from Columbia University and is a Fellow of ACM and IEEE.

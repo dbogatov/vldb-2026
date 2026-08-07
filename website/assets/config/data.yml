@@ -23,6 +23,10 @@ sections:
         page: shadow-pc
   - title: Conference Program
     sub_sections:
+      - title: Full Program
+        page: program
+      - title: Keynotes
+        page: keynotes
       - title: Demonstrations
         page: demonstrations
       - title: Workshops

@@ -1,0 +1,49 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Program - Keynotes{% endblock %}
+
+{% set current = "keynotes" %}
+
+{% block content %}
+    <section class="keynotes">
+        <h1>{{ data.name }}: Keynotes</h1>
+
+        {% for keynote in keynotes.keynotes %}
+            <article class="keynote">
+                {% if keynote.title %}
+                    <h2>Keynote {{ loop.index }}: {{ keynote.title }}</h2>
+                {% else %}
+                    <h2>Keynote {{ loop.index }}</h2>
+                {% endif %}
+                <h4>{{ keynote.speaker }}, {{ keynote.affiliation }}{% if keynote.when %} &mdash; {{ keynote.when }}{% endif %}</h4>
+
+                {% if keynote.photo %}
+                    <img src="{{ base }}/assets/img/{{ keynote.photo }}.webp"
+                         alt="{{ keynote.speaker }}"
+                         style="max-width: 220px; height: auto; float: right; margin: 0 0 1em 1em;">
+                {% endif %}
+
+                {% if keynote.abstract %}
+                    <h3>Abstract</h3>
+                    {%- filter markdown -%}
+                        {{ keynote.abstract }}
+                    {% endfilter %}
+                {% endif %}
+
+                {% if keynote.bio %}
+                    <h3>Biography</h3>
+                    {%- filter markdown -%}
+                        {{ keynote.bio }}
+                    {% endfilter %}
+                {% endif %}
+
+                {% if not keynote.abstract and not keynote.bio %}
+                    <p><em>Details coming soon.</em></p>
+                {% endif %}
+
+                <div style="clear: both;"></div>
+            </article>
+            {% if not loop.last %}<hr>{% endif %}
+        {% endfor %}
+    </section>
+{% endblock %}
