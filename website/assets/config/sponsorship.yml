@@ -164,7 +164,9 @@ sponsors:
         - name: Tencent
           logo: Gold/tencent-logo.png
           url: https://www.tencent.com/en-us/
-    - name: Silver
+        - name: Transwarp
+          logo: Gold/transwarp.png
+          url: https://www.transwarp.cn/en
       size: silver
       companies:
         - name: Spiral
