@@ -29,6 +29,8 @@ sections:
         page: keynotes
       - title: Demonstrations
         page: demonstrations
+      - title: Tutorials
+        page: tutorials
       - title: Workshops
         page: workshops
   - title: Call for Contributions

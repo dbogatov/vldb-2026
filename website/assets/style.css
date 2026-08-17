@@ -231,6 +231,41 @@
     line-height: 1.5;
 }
 
+/* Tutorials */
+.tutorial-table-wrapper {
+    margin-top: 1.5rem;
+    overflow-x: auto;
+}
+
+.tutorial-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.tutorial-table th,
+.tutorial-table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tutorial-table th {
+    background: #f3f3f3;
+    color: #444;
+}
+
+.tutorial-table th:first-child,
+.tutorial-table td:first-child {
+    width: 45%;
+}
+
+.tutorial-table tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
 /* Registration */
 .registration-fees {
     margin: 1.5rem 0 2rem;

@@ -160,6 +160,7 @@ def main():
                 dates_and_guidelines=load_data("dates-and-guidelines"),
                 demonstrations=load_data("demonstrations"),
                 keynotes=load_data("keynotes"),
+                tutorials=load_data("tutorials"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),
                 pages=list(get_pages(data)),
