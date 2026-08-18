@@ -35,9 +35,8 @@ sections:
         page: panels
       - title: Workshops
         page: workshops
-      # Temporarily disabled until the GitLab artifact limit is increased.
-      # - title: Workshop Proceedings
-      #   page: Workshops/vldb
+      - title: Workshop Proceedings
+        page: Workshops/vldb
   - title: Call for Contributions
     sub_sections:
       - title: Research Track

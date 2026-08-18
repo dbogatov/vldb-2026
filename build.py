@@ -23,7 +23,7 @@ SRC = "./website"
 CACHE = "./cache"
 WORKSHOP_PROCEEDINGS = "./VLDB26-Workshop-Proceedings"
 # Set to True when the GitLab artifact limit is large enough for the PDFs.
-PUBLISH_WORKSHOP_PROCEEDINGS = False
+PUBLISH_WORKSHOP_PROCEEDINGS = True
 CONVERTIBLE_IMAGE_SUFFIXES = {
     ".jpeg",
     ".jpg",
