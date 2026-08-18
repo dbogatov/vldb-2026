@@ -1,0 +1,33 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Program - Panels{% endblock %}
+
+{% set current = "panels" %}
+
+{% block content %}
+    <section class="program-panels">
+        <h1>{{ data.name }}: Panels</h1>
+
+        <div class="tutorial-table-wrapper">
+            <table class="tutorial-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Participants</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for panel in panels.panels %}
+                        <tr>
+                            <td>{{ panel.title }}</td>
+                            <td>
+                                <strong>{{ panel.moderator_label }}:</strong> {{ panel.moderators }}<br>
+                                <strong>Panelists:</strong> {{ panel.panelists }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endblock %}

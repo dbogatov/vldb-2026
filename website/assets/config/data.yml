@@ -31,8 +31,12 @@ sections:
         page: demonstrations
       - title: Tutorials
         page: tutorials
+      - title: Panels
+        page: panels
       - title: Workshops
         page: workshops
+      - title: Workshop Proceedings
+        page: Workshops/vldb
   - title: Call for Contributions
     sub_sections:
       - title: Research Track

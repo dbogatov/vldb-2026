@@ -1,0 +1,13 @@
+panels:
+  - title: 'Data Agents: Rethinking Data Systems in the AI Agent Era'
+    moderator_label: 'Moderators'
+    moderators: 'Guoliang Li (Tsinghua University); Yuyu Luo (HKUST (Guangzhou))'
+    panelists: 'Carsten Binnig (TU Darmstadt); Samuel Madden (MIT); Fatma Özcan (Google); Aditya Parameswaran (UC Berkeley); Nan Tang (HKUST (Guangzhou)); Immanuel Trummer (Cornell University); Eugene Wu (Columbia University)'
+  - title: 'HW-SW Co-Design for Databases in the Age of AI-for-Systems'
+    moderator_label: 'Moderator'
+    moderators: 'Monica Chiosa (MIT)'
+    panelists: 'Jana Giceva (TU Munich); Tae Jun Ham (Google); Matteo Interlandi (Microsoft Gray Systems Lab); Vasiliki (Vasia) Kalavri (Boston University); Clemens Lutz (NVIDIA)'
+  - title: 'Publish or Ship? The Research-to-Production Gap in Data Systems'
+    moderator_label: 'Moderator'
+    moderators: 'Subarna Chatterjee (IBM WatsonX)'
+    panelists: 'Natacha Crooks (UC Berkeley); Carlo Curino (Microsoft Gray Systems Lab); Sudipto Das (Databricks); Andreas Kipf (University of Technology Nuremberg); Ryan Marcus (University of Pennsylvania); Yuanyuan Tian (Microsoft Gray Systems Lab)'
