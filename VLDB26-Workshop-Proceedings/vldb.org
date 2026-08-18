@@ -1,0 +1,319 @@
+#+OPTIONS: toc:nil num:nil
+#+SETUPFILE: ./assets/org-html-themes/theme-bigblow-local.setup
+
+#+TITLE: Proceedings of Workshops at the 52nd International Conference on Very Large Data Bases (VLDB 2026)
+
+* VLDBW 2026
+** VLDB 2026 Workshop Chairs
+*** Tilmann Rabl, Meihui Zhang
+** VLDB 2026 Workshop Proceedings Chairs
+*** Jiuqi Wei, Zhaojing Luo
+** Accepted Workshops
+*** ADMS: Seventeenth International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures
+- Workshop Chairs: Rajesh Bordawekar, Tirthankar Lahiri
+*** AIDB: The 7th International Workshop on Applied AI for Database Systems and Applications
+- Workshop Chairs: Thaleia Dimitra Doudali, Subru Krishnan, Konstantinos Kanellis
+*** NOVAS: 2nd Workshop on Novel Optimization for Visionary AI Systems
+- Workshop Chairs: Gerardo Vitagliano, Chunwei Liu, Liana Patel, Rana Shahout, Andreas Kipf, Paolo Papotti
+*** QDB: 15th International Workshop on Quality in Databases
+- Workshop Chairs: Lorena Etcheverry, Steven Euijong Whang, Cinzia Cappiello
+*** Agents+Graphs: 3rd International Workshop on Data Management Opportunities in Bringing Agents with Graph Data
+- Workshop Chairs: Yixiang Fang, Arijit Khan, Tianxing Wu, Da Yan
+*** BioDMS: Workshop on Biomedical Data Management Systems
+- Workshop Chairs: Bojan Karlaš, Gerardo Vitagliano, Benjamin Gyori, Ulf Leser
+*** CDMS: Fourth International Workshop on Composable Data Management Systems
+- Workshop Chairs: Satya Valluri, Mohamed Zait
+*** DASHSys: Workshop on Systems for Data-centric Agents with Human-in-the-loop
+- Workshop Chairs: Yiru Chen, Kun Qian, Estevam Hruschka, Zhengjie Miao, Dan Zhang, Sajjadur Rahman, Anna Fariha, Sainyam Galhotra, Umar Farooq Minhas, Sepanta Zeighami
+*** ADS/DATAI: 1st International Workshop on Agentic Data Systems (ADS) and the 3rd International Workshop on Data-Centric AI (DATAI)
+- Workshop Chairs: Guoliang Li, Yuyu Luo, Ju Fan, Xuanhe Zhou
+*** QCDKM: Quantum Computing and Data/Knowledge Management
+- Workshop Chairs: Haridimos Kondylakis, Stefanie Scherzinger, Bettina Kemme, Vasilis Efthymiou, Yannis Tzitzikas, Manuel Wimmer, Jose Garcia-Alonso
+*** TaDA: 4th International Workshop on Tabular Data Analysis
+- Workshop Chairs: Vasilis Efthymiou, Oktie Hassanzadeh, Chuan Lei, Kavitha Srinivas
+*** SCCP: Symposium on Consistency Checking Principles
+- Workshop Chairs: Cheng Tan, Shuai Mu, Hengfeng Wei, Si Liu
+*** PhD: VLDB 2026 PhD Workshop
+- Workshop Chairs: Mohamed Eltabakh, Nikolaos Tziavelis
+* ADMS
+** Seventeenth International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_1.pdf][Accelerating Presto with GPUs]]
+    Daniel Bauer, Luis Garcés-Erice, Deepak Majeti, Zoltán Arnold Nagy, Sean Rooney, Greg Kimball, Devavret Makkar, Todd Mostak, Karthikeyan Natarajan
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_2.pdf][Maintainable, Low-Latency and High-Quality Query Compilation with MLIR and TPDE]]
+    Jonas Ladner, Lukas Döllerer, Alexis Engelke, Michael Jungmair
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_3.pdf][High-Throughput LLM-Based Compression and What It Takes]]
+    David Adams, Luisa Neubauer, Ping-Lin Kuo, Mihail Stoian, Thomas Rückstieß, Josif Grabocka, Renata Borovica-Gajic, Andreas Kipf
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_4.pdf][OptFSST: Optimized FSST String Compression]]
+    Hedi Chehaidar, Mihail Stoian, Moritz Stargalla, Andreas Kipf
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_5.pdf][Automated Operator Fusion for GPU-Accelerated SQL: Generation and Evolutionary Refinement]]
+    Corey Lammie, Yotam Perlitz, Andrea Giovannini, Abdel Labbi
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_6.pdf][Rubberband: Memory-Elastic, Skew-Tolerant GPU Hash Joins]]
+    Hangdong Zhao, Rathijit Sen, Craig Peeper, Matteo Interlandi
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_7.pdf][The Free Lunch Has a Queue: Characterizing On-chip Compression Accelerators for Analytics]]
+    Yi Jiang, Antonio Boffa, Hamish Nicholson, Anastasia Ailamaki
+*** [[./VLDB-Workshops-2026/ADMS/ADMS26_8.pdf][HetMatch: GPU-Accelerated Heterogeneous String Pattern Matching]]
+    Abigale Kim, Xiangyao Yu
+
+* AIDB
+** The 7th International Workshop on Applied AI for Database Systems and Applications
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_1.pdf][Stage-Level Executor Allocation in Apache Spark™ with Cost–Performance Trade-offs]]
+    Miriam Rateike, Isaac Waweru Wambugu, Celia Cintas, Michael Kaufmann, Ioana Giurgiu, Skyler Speakman
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_2.pdf][Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass]]
+    Victor Giannakouris, Immanuel Trummer
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_3.pdf][AI Query Compilation for Unified and Optimized Execution]]
+    Yeounoh Chung, Helena Caminal, Fatma Özcan
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_4.pdf][Towards Practical Latency SLOs on Cloud Data Warehouses]]
+    Markos Markakis, Tim Kraska
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_5.pdf][Selectivity Estimation for Semantic Filters on Image Data]]
+    Matthias Urban, Vu Huy Nguyen, Gabriele Sanmartino, Paolo Papotti, Carsten Binnig
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_6.pdf][MLSkip: Data Skipping for ML Filters via Lightweight Metadata]]
+    Mihail Stoian, Mark Gerarts, Pascal Ginter, Andreas Zimmerer, Jan Van den Bussche, Andreas Kipf
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_7.pdf][Bespoke-Card: Why Tune When You Can Generate? Synthesizing Workload-Specific Cardinality Estimators]]
+    Johannes Wehrstein, Anton Winter, Timo Eckmann, Carsten Binnig
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_8.pdf][Large Databases Need Small, Open-Weight Language Models]]
+    Parker Glenn, Alfy Samuel
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_9.pdf][Can Learned Query Optimizers Adapt Across DBMS Architectures? A Case Study with Balsa and DuckDB]]
+    Wangshu Hong, Ryan Marcus
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_10.pdf][Two Surfaces of Ambiguity: Complementary Detection for Text-to-SQL]]
+    Leonhard Liu, Patrick K. Erdelt
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_11.pdf][How Hard Can Indexing Be? Principled Dataset Hardness Measurement for Learned Indexes]]
+    Siyuan Zhang, Chuzhe Tang, Anastasia Ailamaki
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_12.pdf][Hollywood: Towards A Large Movie Dataset for Database Benchmarking]]
+    Ivan Iachnyk, Mihail Stoian, Andreas Kipf
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_13.pdf][RUBICON: Agentic AI for Messy Enterprise Data]]
+    Fabian Wenz, Felix Treutwein, Çağatay Demiralp, Michael Stonebraker
+*** [[./VLDB-Workshops-2026/AIDB/aidb26_14.pdf][Generation of Adversarial Queries via Bayesian Optimization]]
+    Jeffrey Tao, Yimeng Zeng, Natalie Maus, Haydn Jones, Osbert Bastani, Jacob R. Gardner, Ryan Marcus
+
+* NOVAS
+** 2nd Workshop on Novel Optimization for Visionary AI Systems
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_3.pdf][Poodle: Seamlessly Scaling Down Large Language Models with Just-in-Time Model Replacement]]
+    Nils Strassenburg, Boris Glavic, Tilmann Rabl
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_4.pdf][ArtiFact: A Large-Scale Multi-Modal Cultural Heritage Dataset]]
+    Luciano Duarte, Olga Ovcharenko, Sebastian Schelter
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_6.pdf][Exploring the Semantic Gap in Agentic Data Systems: A Formative Study of Operationalization Failures in Analytical Workflows]]
+    Jalal Mahmud, Eser Kandogan
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_14.pdf][DoubleAgent: Towards Text-to-SQL on Enterprise Databases]]
+    Fares Elkholy, Timo Eckmann, Jan-Micha Bodensohn, Mulang' Onando, Carsten Binnig
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_15.pdf][Enterprise Text-to-SQL: Are Agents Ready to Scale?]]
+    Tarık Buğra Akbaş, Kemal Tarık Nehrozoğlu, Pinar Karagoz, Nesime Tatbul
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_16.pdf][Prompting Strategies for Enterprise Text-to-SQL: An Ablation Study]]
+    Omar Bouattour, Joyce Weiner, Nesime Tatbul, Fabian Wenz, Peter Baile Chen, Layne Mills, Yong He, Bijan Arbab, Çağatay Demiralp, Michael Stonebraker
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_18.pdf][SemJoin: Semantic Join Optimization]]
+    Christopher Gou, Aditya Banerjee, Jiaxuan Wang, Chunwei Liu
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_19.pdf][SemCEB: A Cardinality Estimation Benchmark for Semantic Operators]]
+    Andreas Zimmerer, Claudius Kühn, Yang Li, Mihail Stoian, Renata Borovica-Gajic, Andreas Kipf
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_21.pdf][The Table Says Otherwise: Testing LLMs with Counterfactual Relational Data]]
+    Xinzhi Wang, Chunwei Liu
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_23.pdf][Low-Latency Semantic Processing with Optimal Prompt-Level Batching]]
+    Jingyi Qu, Samuel Madden, Tianyu Li
+*** [[./VLDB-Workshops-2026/NOVAS/NOVAS26_24.pdf][TransForm: Dynamic Format Selection for MCP Tool Outputs in Agentic Data Systems]]
+    Shashank Mukkera, Chunwei Liu
+
+* QDB
+** 15th International Workshop on Quality in Databases
+*** [[./VLDB-Workshops-2026/QDB/QDB26_1.pdf][Can LLMs Serve as a Data Error Detection Engine? Trade-offs in Accuracy, Cost, and Hallucination Across Datasets]]
+    Maximilian Plazotta, Meike Klettke
+*** [[./VLDB-Workshops-2026/QDB/QDB26_2.pdf][Assessing Data Quality in Relational Database Migration: The Data Quality Score (DQS)]]
+    Abhinav Srivastava, Tanya Chaudhary
+*** [[./VLDB-Workshops-2026/QDB/QDB26_3.pdf][Scalable Goal-Oriented Source Selection]]
+    Ambarish Singh, Romila Pradhan
+*** [[./VLDB-Workshops-2026/QDB/QDB26_4.pdf][Automatic Consistency Assessment through Partial Functional Dependency Mining]]
+    Marcian Seeger, Thorsten Papenbrock, Felix Naumann, Lisa Ehrlinger
+*** [[./VLDB-Workshops-2026/QDB/QDB26_5.pdf][Improving Data Preparation for CSV Files with LLMs]]
+    Alexander van Renen, Moritz Rengert, Macallyster Edmondson, Andreas Kipf
+*** [[./VLDB-Workshops-2026/QDB/QDB26_6.pdf][Towards Inference-Aware Privacy Guidance for Data Preparation]]
+    Vishal Chakraborty, Felix Naumann
+*** [[./VLDB-Workshops-2026/QDB/QDB26_7.pdf][KGpipe: Generation of Pipelines for Data Integration into Knowledge Graphs]]
+    Marvin Hofer, Erhard Rahm
+*** [[./VLDB-Workshops-2026/QDB/QDB26_8.pdf][Measuring Credibility in Social Media Platforms through Data Quality and Provenance]]
+    Sebastián García Parra, Adriana Marotta
+
+* Agents+Graphs
+** 3rd International Workshop on Data Management Opportunities in Bringing Agents with Graph Data
+*** [[./VLDB-Workshops-2026/Agents+Graphs/AgentGraph26-1.pdf][Agents+Graph: 3rd International Workshop on Data Management Opportunities in Bringing Agents with Graph Data]]
+    Yixiang Fang, Arijit Khan, Tianxing Wu, Da Yan
+*** [[./VLDB-Workshops-2026/Agents+Graphs/AgentGraph26-2.pdf][How Much Structure Should Agentic Graph Memory Build for Text Retrieval?]]
+    Satyananda Kashyap, Niharika D’Souza, Nandana Mihindukulasooriya, Horst Samulowitz
+*** [[./VLDB-Workshops-2026/Agents+Graphs/AgentGraph26-3.pdf][Knowledge Graphs as the Missing Data Layer for LLM-Based Industrial Asset Operations]]
+    Madhulatha Mandarapu, Sandeep Kunkunuru
+*** [[./VLDB-Workshops-2026/Agents+Graphs/AgentGraph26-4.pdf][AIP: A Graph Representation for Learning and Governing Agent Skills]]
+    Zach Blumenfeld, Jim Webber
+*** [[./VLDB-Workshops-2026/Agents+Graphs/AgentGraph26-5.pdf][Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation]]
+    Christopher J. Wedge, Joshua Stutter, Danny Dixon, Jacek Cala
+
+* BioDMS
+** Workshop on Biomedical Data Management Systems
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_1.pdf][Mediverse: Multimodal Clinical Exploration and Search on a Single Graph]]
+    Andra Ionescu, Paris Carbone, Sebastiaan Meijer, Jayanth Raghothama
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_2.pdf][From Guardrails to Compilers: A Constraint-First Runtime Substrate for Clinical AI Agents]]
+    Kaiping Zheng, Horng-Ruey Chua, Si Wei Kheok, Kee Yuan Ngiam, Marcus Chun Jin Tan, Robert John Walsh
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_3.pdf][The Genomic Variant Store: Decoupling Cloud-Native Storage from Analysis to Power Population-Scale Genomic Services]]
+    M. Morgan Aster, M. Kate Balaconis, Matt Bemis, Miguel Covarrubias, Aaron Hatcher, Christopher Kachulis, Sofia Labrecque, Saloni P. Shah, Lee Lichtenstein
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_6.pdf][Right for the Wrong Reasons: A Benchmark for Hallucination and Clinical Safety in AI Health Triage]]
+    Sreeram Marimuthu, Roee Shraga, Xiaozhong Liu, Patricia L. Mabry
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_9.pdf][The Data Management Crisis Behind AI-Based Brain MRI Diagnosis: Heterogeneity, Governance, and Reproducibility]]
+    Tanmoy Debnath, Miroslaw Narbutt, Katarzyna Anna Kazimierczak
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_10.pdf][MedSQLX: Translation of Medical Queries into UDF-Centric SQL]]
+    Catlynh Nguyen, Irbaz Bin Riaz, Chitta Baral, Jia Zou
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_11.pdf][Similarity-Based Load-Balancing for Distributed Genomic Indices]]
+    Woodward Galbraith, Ilgar Mammadov, Shreyaan Pathak, Benjamin M. Gyori, Prashant Pandey
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_12.pdf][An Analysis Graph for Statistical Genetics Agents]]
+    Stephen Dorn, Jason Mohoney, Tim Kraska, Sam Madden, Noah Zaitlen, Margaux Hujoel
+*** [[./VLDB-Workshops-2026/BioDMS/BioDMS26_13.pdf][Data Gatherer Revisited: Scalable Dataset Reference Extraction from Biomedical Literature]]
+    Pietro Marini, Mike A. Nalls, Mette Peters, Nicole Contaxis, Aécio Santos, Juliana Freire
+
+* CDMS
+** Fourth International Workshop on Composable Data Management Systems
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_1.pdf][Towards AI-Generated Database Management Systems]]
+    Immanuel Trummer
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_2.pdf][The AI Frontier for Composable Data Systems]]
+    Weston Pace
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_3.pdf][Synthesizing Database Kernels - The Next Frontier]]
+    Benjamin Wagner
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_4.pdf][Axiom: Composable Query Engines Built on Velox]]
+    Masha Basmanova
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_5.pdf][Not Your Usual Type(s). Data contracts as types across languages and engines]]
+    Aldrin Montana, Colin Marc, Luca Bigon, Jacopo Tagliabue
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_6.pdf][Trust at the Seams: Differential, Decentralized Compliance for Composable Query Engines]]
+    Ranjan Sinha
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_7.pdf][Towards Abstractions for Composable Transactional Isolation]]
+    Daniel Pereira, Filipe Pereira, Rui Lopes, Nuno Faria, Paulo Sérgio Almeida, José Pereira
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_8.pdf][WarpDrive: A Composable Storage Substrate for Disaggregated Data Systems]]
+    Tejus Chandrashekar
+*** [[./VLDB-Workshops-2026/CDMS/CDMS26_9.pdf][Completing the Composable Data Stack: Rise of the Storage Layer]]
+    Pascal Ginter
+
+* DASHSys
+** Workshop on Systems for Data-centric Agents with Human-in-the-loop
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_3.pdf][GitLake: Git-for-Data for the Agentic Lakehouse]]
+    Weiming Sheng, Jinlang Wang, Manuel Barros, Aldrin Montana, Jacopo Tagliabue, Luca Bigon
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_5.pdf][Walk Before You Run: The Importance of Data Exploration for Data Analysis Agents]]
+    Yike Yuan, Virum Ranka, Tina Lasisi, Lin Ma
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_18.pdf][Structured State Management for Agentic Data Pipelines: Bounded Context, Schema Contracts, and Selective Recovery]]
+    Shubhi Asthana, Chad DeLuca, Hima Patel
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_19.pdf][Utilizing LLM-based Multi-agent Framework for Pipelining Complex Data Discovery Tasks]]
+    Qianyu Yang, Jin Wang
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_25.pdf][Be Fair! Can Machine Learning Engineering Agents Adhere to Fairness Constraints?]]
+    Anna Richter, Julia Stoyanovich, Sebastian Schelter
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_26.pdf][AgentTrails: Towards Trust and Reuse for Agentic Tasks]]
+    Eden Wu, Sonia Castelo, Yurong Liu, Cláudio T. Silva, Juliana Freire
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_27.pdf][ASMR: Agentic Schema Generation for Ship Maintenance Report Writing]]
+    Sohrab Namazi Nia, Amogh Dalal, Ning Sa, Peter Ly, Marti Zentmaier, Tomek Strzalkowski, Jay Miller, Rishi Singh, Senjuti Basu Roy
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_28.pdf][Querying with Conflicts of Interest]]
+    Nischal Aryal, Arash Termehchy, Marianne Winslett
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_34.pdf][GUIDE: Governed Unified Intelligence for Document-to-Artifact Generation in Enterprise Settings]]
+    Shivali Dalmia, Sumukha Thoppanahalli, Mohammadreza Sediqin, Abhishek Mukherji
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_35.pdf][Toward Resource Rational Dataset Search Interfaces]]
+    Danni Liu, Siyuan Xia, Raul Castro Fernandez, Alex Kale
+*** [[./VLDB-Workshops-2026/DASHSys/DASHSys26_36.pdf][SANA: What Matters for QA Agents over Massive Data Lakes?]]
+    Austin Senna Wijaya, Jiaxiang Liu, Haonan Wang, Eugene Wu
+
+* ADS/DATAI
+** 1st International Workshop on Agentic Data Systems (ADS) and the 3rd International Workshop on Data-Centric AI (DATAI)
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_2.pdf][ExpeSQL: An Efficient, Experience-Guided Decompositional Search Framework for Text-to-SQL]]
+    Zerui Yang, Siyu Yan, Boyan Li, Yanwei Xu, Linqi Song, Yudai Matsuda, Wei Han, Bo Bai
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_3.pdf][TSAutoBox: A Localized Multi-Agent System for Industrial Time-Series Task Automation]]
+    Xinyu Xi, Yihao Ang, Yifan Bao, Ye Xu, Ruiyao Ma, Anthony K. H. Tung
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_6.pdf][DemandPrep: Demand-Driven Data Preparation via Agentic Action Allocation and Operator-Grounded Execution]]
+    Zekai Qian, Xiaoou Ding, Hongzhi Wang, Chen Wang
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_8.pdf][“Skill Issues”: Data-Centric Optimization of Lakehouse Agents]]
+    Nicole Rose Schneider, Davide Ghilardi, Giacomo Piccinini, Jacopo Tagliabue
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_9.pdf][Demonstrating chart-plot: Closing the Last Mile of Academic Chart Generation]]
+    Yinghao Tang, Yupeng Xie, Yingchaojie Feng, Jiale Lao, Tingfeng Lan, Wei Chen
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_12.pdf][ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents]]
+    Peng Xu, Zuyu Zhang, Yuze Sun, Feng Tian, Long Wang, Chen Zhang
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_13.pdf][Toward Self-Evolving Data Agents for Autonomous Data Analysis]]
+    Junhao Zhu, Lu Chen
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_14.pdf][DeepEye: A Workflow-Centric Agentic Data System for Steerable Data Analytics]]
+    Boyan Li, Yiran Peng, Yupeng Xie, Sirong Lu, Yizhang Zhu, Xing Mu, Xinyu Liu
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_15.pdf][VexDB: An Agent-ready Cross-platform Multi-modal Data System]]
+    Ji Sun
+*** [[./VLDB-Workshops-2026/DATAI-ADS/ADS26_16.pdf][AgenticData: An Agentic Data System on Heterogeneous Data]]
+    Peiyao Zhou, Ji Sun, Yaoqiang Xu, Chen Qian
+
+* QCDKM
+** Quantum Computing and Data/Knowledge Management
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_4.pdf][What Quantum Encoding to Use for your Knowledge Graph?]]
+    Christos Polimatidis, Haridimos Kondylakis, Yannis Tzitzikas
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_5.pdf][Improving Join Order Optimization on Gate-Based Quantum Computers via Structured Parameter Initialization]]
+    Divya Shekar, Ruokun Wu, Dhanvi Bharadwaj, Gokul Subramanian Ravi, Lin Ma
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_6.pdf][Quantum Information-Theoretical Size Bounds for Conjunctive Queries with Functional Dependencies]]
+    Valter Uotila, Jiaheng Lu
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_7.pdf][Evaluating a Quantum Solution: How hard can it be?]]
+    Daniel Aarao Reis Arturi, Emilie Fahber, Stefanie Scherzinger, Bettina Kemme
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_8.pdf][Quantum-Ready Approximate Data Management using Tensor-Network Physical Pages]]
+    Muzhi Chen, Hanwen Liu, Xuanhe Zhou, Hongming Xu, Zhenghao Li, Wei Zhou, Fan Wu
+*** [[./VLDB-Workshops-2026/QCDKM/QCDKM26_11.pdf][Towards Caching Strategies for Quantum Simulators]]
+    Immanuel Trummer
+
+* TaDA
+** 4th International Workshop on Tabular Data Analysis
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_1.pdf][Predictive Query Language: A Domain-Specific Language for Predictive Modeling on Relational Databases]]
+    Vid Kocijan, Jinu Sunil, Jan Eric Lenssen, Viman Deb, Xinwei He, Federico Reyes Gomez, Matthias Fey, Jure Leskovec
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_2.pdf][TabClean: Scalable Tabular Data Cleaning via Reusable LLM-Synthesized Programs]]
+    Yibo Wang, Riteng Zhang, Bharat Bhargava, Chunwei Liu
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_3.pdf][LDI: Localized Data Imputation for Text-Rich Tables]]
+    Soroush Omidvartehrani, Davood Rafiei
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_4.pdf][Predicting Table Joinability in Data Lakes using a Metadata Knowledge Graph]]
+    Sola Shirai, Oktie Hassanzadeh, Debarun Bhattacharjya, Gaetano Rossiello
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_5.pdf][Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching]]
+    Nicholas Pulsone, Gregory Goren, Roee Shraga
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_6.pdf][Representation, Retrieval, and Decision Space: A Case Study on Diagnosing LLM Failures in Column Type Annotation]]
+    Jianhao Cao, Rachel Pottinger
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_8.pdf][Hyperdimensional computing for structured querying on tabular data embeddings]]
+    Sebastián Bugedo, Stijn Vansummeren
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_9.pdf][TEmBed-T: A Multi-Dimensional Benchmark for Table-Level Embeddings]]
+    Ayeen Poostforoushan, Liane Vogel, Carsten Binnig
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_10.pdf][From Transport to Grounding: Designing MCP Connectors for Reliable SPARQL Querying by LLMs]]
+    Talha Tahmid, Humera Sabir, Ashraf Aboulnaga
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_11.pdf][Can a single tabular embedding model service different tasks?]]
+    Niharika S. D’Souza, Liane Vogel, Kavitha Srinivas, Sola Shirai, Oktie Hassanzadeh, Horst Samulowitz
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_12.pdf][Incorporating Deep Learning Design in Database Queries]]
+    Yuval Lev Lubarsky, Dean Light, Boaz Berger, Shunit Agmon, Benny Kimelfeld
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_13.pdf][PaperUnPlot: Benchmarking Chart-to-Table in the Wild]]
+    Daniele Bertillo, Giorgio Melchiorri, Paolo Merialdo
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_14.pdf][Towards Budget-Aware Dense Retrieval for Tables: Trade-offs, Alternatives and Future Directions]]
+    Inwon Kang, Kavitha Srinivas, Sola Shirai, Nandana Mihindukulasooriya, Niharika D'Souza, Horst Samulowitz, Oshani Seneviratne
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_16.pdf][PFN-Syn: Generating Synthetic Tabular Data with Prior-Data Fitted Networks]]
+    Michael Zuo, Inwon Kang, Oshani Seneviratne, Stacy Patterson
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_17.pdf][Diversed Model Discovery via Structured Table Discovery]]
+    Zhengyuan Dong, Renée J. Miller
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_18.pdf][Speeding Up Transformation Search with Lightweight Statistics]]
+    Rubab Zahra Sarfraz, Boris Glavic
+*** [[./VLDB-Workshops-2026/TaDA/TaDA26_19.pdf][Curriculum Matters: Data-Efficient Relational PFN Pretraining with Synthetic Data]]
+    Mohammad Sadeq Abolhasani, Viswanath Ganapathy
+
+* SCCP
+** Symposium on Consistency Checking Principles
+*** [[./VLDB-Workshops-2026/SCCP/SCCP26_1.pdf][Polygraph: From Transaction Isolation Guarantees to Isolation Verification]]
+    Jian Zhang, Cheng Tan
+*** [[./VLDB-Workshops-2026/SCCP/SCCP26_2.pdf][Diagnosing the Structure of Strict-Serializability Violations Across Spanner-like Read-Only Transaction Protocols]]
+    Sejong Kim, Yon Dohn Chung
+*** [[./VLDB-Workshops-2026/SCCP/SCCP26_3.pdf][Specifying and Analyzing Transactional Consistency Models with Predicates (Extended Abstract)]]
+    Hengfeng Wei, Si Liu, Yuxing Chen
+
+* PhD
+** VLDB 2026 PhD Workshop
+*** [[./VLDB-Workshops-2026/PhD/PhD26_2.pdf][Towards Expressive, Performant, and Correct Database Systems]]
+    Anna Herlihy
+*** [[./VLDB-Workshops-2026/PhD/PhD26_3.pdf][Declarative Recall for Approximate Vector Search]]
+    Manos Chatzakis
+*** [[./VLDB-Workshops-2026/PhD/PhD26_4.pdf][Lessons Learned Building Cross-Architecture Analytical Engines]]
+    Ivan Donchev Kabadzhov
+*** [[./VLDB-Workshops-2026/PhD/PhD26_6.pdf][ORM-Lock: Source-Linked Diagnosis and Repair Guidance for ORM-Backed Database Deadlocks]]
+    Zainab Altamimi
+*** [[./VLDB-Workshops-2026/PhD/PhD26_7.pdf][User-Guided Discovery of Patterns in Sequential Data]]
+    Hannes Ueck
+*** [[./VLDB-Workshops-2026/PhD/PhD26_8.pdf][Model Lakes for Cross-Model Understanding]]
+    Koyena Pal
+*** [[./VLDB-Workshops-2026/PhD/PhD26_9.pdf][XGAP: Ambiguity-aware Cross-Platform Planning for Natural Language Graph Queries]]
+    Haolai Che
+*** [[./VLDB-Workshops-2026/PhD/PhD26_10.pdf][Indexing Long Documents for LLM-Based Analysis]]
+    Donna Pham
+*** [[./VLDB-Workshops-2026/PhD/PhD26_11.pdf][Principled Bias Detection and Mitigation across the ML Data Lifecycle]]
+    Bruno Scarone
+*** [[./VLDB-Workshops-2026/PhD/PhD26_12.pdf][Generative AI for Multi-Modal Data Management]]
+    Mahdi Erfanian
+*** [[./VLDB-Workshops-2026/PhD/PhD26_13.pdf][Learning from Quality, Not for It: Conditioning Models on Explicit Data Quality]]
+    Mattia Sabella
