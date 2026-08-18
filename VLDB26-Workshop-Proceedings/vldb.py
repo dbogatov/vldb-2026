@@ -193,6 +193,7 @@ def main():
 
     lines = [
         "#+OPTIONS: toc:nil num:nil",
+        "#+HTML_DOCTYPE: html5",
         "#+SETUPFILE: ./assets/org-html-themes/theme-bigblow-local.setup",
         "",
         (

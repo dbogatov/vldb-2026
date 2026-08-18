@@ -50,7 +50,7 @@
         {% block style %}{% endblock %}
         <link rel="icon" type="image/png" href="{{ base }}/assets/img/favicon.webp">
         <title>{{ data.name }} | {% block title %}{% endblock %}</title>
-        <title>{{ data.description }}</title>
+        <meta name="description" content="{{ data.description | replace('\n', ' ') | trim }}">
     </head>
     
     <body>
@@ -58,7 +58,7 @@
             <div class="small-menu"><a class="hamburger"></a></div>
             <div class="small-header">
                 <figure class="logo">
-                    <a href="{{ base }}">
+                    <a href="{{ base or '/' }}">
                         <img style="max-width: 150px; min-width: 100px;" src="{{ base }}/assets/img/logo_simple.webp" alt="{{ data.name }} -- {{ data.location }}"></a>
                 </figure>
             </div>
