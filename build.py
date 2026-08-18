@@ -22,6 +22,8 @@ os.chdir(dname)
 SRC = "./website"
 CACHE = "./cache"
 WORKSHOP_PROCEEDINGS = "./VLDB26-Workshop-Proceedings"
+# Set to True when the GitLab artifact limit is large enough for the PDFs.
+PUBLISH_WORKSHOP_PROCEEDINGS = False
 CONVERTIBLE_IMAGE_SUFFIXES = {
     ".jpeg",
     ".jpg",
@@ -153,17 +155,18 @@ def main():
             shutil.copyfile(path, Path(dist) / path.name)
 
     # Publish the workshop proceedings at the same URL structure used by
-    # previous VLDB editions: /Workshops/vldb.html.  The page's paper links
+    # previous VLDB editions: /Workshops/vldb.html. The page's paper links
     # are relative to this directory, so keep its assets and PDFs alongside it.
-    proceedings_dir = Path(WORKSHOP_PROCEEDINGS)
-    proceedings_dist = Path(dist) / "Workshops"
-    proceedings_dist.mkdir()
-    shutil.copyfile(proceedings_dir / "vldb.html",
-                    proceedings_dist / "vldb.html")
-    shutil.copytree(proceedings_dir / "assets",
-                    proceedings_dist / "assets")
-    shutil.copytree(proceedings_dir / "VLDB-Workshops-2026",
-                    proceedings_dist / "VLDB-Workshops-2026")
+    if PUBLISH_WORKSHOP_PROCEEDINGS:
+        proceedings_dir = Path(WORKSHOP_PROCEEDINGS)
+        proceedings_dist = Path(dist) / "Workshops"
+        proceedings_dist.mkdir()
+        shutil.copyfile(proceedings_dir / "vldb.html",
+                        proceedings_dist / "vldb.html")
+        shutil.copytree(proceedings_dir / "assets",
+                        proceedings_dist / "assets")
+        shutil.copytree(proceedings_dir / "VLDB-Workshops-2026",
+                        proceedings_dist / "VLDB-Workshops-2026")
 
     for path in (Path(SRC) / "templates").glob("*"):
         if "layout" not in str(path):
