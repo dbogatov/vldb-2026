@@ -188,6 +188,7 @@ days:
           - name: Xuanhe Zhou
             affiliation: Shanghai Jiao Tong University
             email: zhouxuanhe@sjtu.edu.cn
+        website: https://vldb-ads.top/
       - acronym: QCDKM
         duration: half day, afternoon
         title: Quantum Computing and Data/Knowledge Management
