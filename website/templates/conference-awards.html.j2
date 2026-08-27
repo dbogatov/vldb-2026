@@ -1,0 +1,45 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Awards{% endblock %}
+
+{% set current = "conference-awards" %}
+
+{% block content %}
+    <section class="awards-page conference-awards">
+        <h1>{{ data.name }}: Conference Awards</h1>
+
+        {% for category in awards.conference %}
+            <section class="conference-award-category">
+                <h2>{{ category.title }}</h2>
+
+                {% for paper in category.papers %}
+                    <article class="conference-award-paper">
+                        <h3>{{ paper.title }}</h3>
+                        <p class="award-authors">{{ paper.authors }}</p>
+                        <p class="award-links">
+                            <a href="{{ paper.article }}" target="_blank" rel="noopener noreferrer">PVLDB article (PDF)</a>
+                        </p>
+                    </article>
+                {% endfor %}
+            </section>
+        {% endfor %}
+
+        <section class="distinguished-honorees">
+            <h2>Distinguished Associate Editors</h2>
+            <ul class="honoree-list">
+                {% for name in awards.distinguished_associate_editors %}
+                    <li>{{ name }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section class="distinguished-honorees">
+            <h2>Distinguished Reviewers</h2>
+            <ul class="honoree-list honoree-list--long">
+                {% for name in awards.distinguished_reviewers %}
+                    <li>{{ name }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    </section>
+{% endblock %}

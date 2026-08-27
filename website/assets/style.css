@@ -421,3 +421,159 @@
         height: 360px;
     }
 }
+
+/* Awards */
+.awards-page > h1 {
+    margin-bottom: 1.75rem;
+}
+
+.endowment-award {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 1.5rem;
+    margin: 0 0 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-top: 4px solid #1e6e8c;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.endowment-award--without-photo {
+    grid-template-columns: 1fr;
+}
+
+.award-portrait {
+    align-self: start;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #f1f1f1;
+}
+
+.award-portrait img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.endowment-award h2,
+.conference-award-category h2,
+.distinguished-honorees h2 {
+    margin: 0 0 0.9rem;
+    color: #555;
+}
+
+.award-paper-title,
+.conference-award-paper h3 {
+    margin: 0 0 0.5rem;
+    color: #333;
+    font-size: 1.08rem;
+    line-height: 1.5;
+}
+
+.award-recipient {
+    margin: 0 0 0.85rem;
+    font-size: 1.08rem;
+}
+
+.award-recipient strong,
+.award-recipient span {
+    display: block;
+}
+
+.award-recipient span,
+.award-authors {
+    color: #666;
+}
+
+.award-authors {
+    margin: 0 0 0.65rem;
+    line-height: 1.65;
+}
+
+.award-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    margin: 0.6rem 0 1rem;
+}
+
+.award-citation {
+    margin: 1rem 0 0;
+    padding: 0.85rem 1rem;
+    border-left: 4px solid #b9cbd2;
+    background: #f4f8fa;
+}
+
+.award-citation p {
+    margin: 0;
+}
+
+.conference-award-category,
+.distinguished-honorees {
+    margin: 0 0 1.5rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.conference-award-paper + .conference-award-paper {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.conference-award-paper .award-links {
+    margin-bottom: 0;
+}
+
+.honoree-list {
+    column-count: 3;
+    column-gap: 2rem;
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.honoree-list li {
+    break-inside: avoid;
+    margin-bottom: 0.35rem;
+}
+
+@media (max-width: 768px) {
+    .endowment-award {
+        grid-template-columns: 125px minmax(0, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .endowment-award--without-photo {
+        grid-template-columns: 1fr;
+    }
+
+    .honoree-list {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 520px) {
+    .endowment-award {
+        grid-template-columns: 1fr;
+    }
+
+    .award-portrait {
+        width: 150px;
+    }
+
+    .conference-award-category,
+    .distinguished-honorees {
+        padding: 1rem;
+    }
+
+    .honoree-list {
+        column-count: 1;
+    }
+}

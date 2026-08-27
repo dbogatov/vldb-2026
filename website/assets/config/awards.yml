@@ -1,0 +1,159 @@
+endowment:
+  - title: 2026 VLDB Early Career Research Contribution Award
+    recipient: Jana Giceva
+    affiliation: Technical University of Munich
+    photo: jana-giceva
+    profile: https://www.professoren.tum.de/en/giceva-jana
+    article: https://www.vldb.org/pvldb/vol19/p4965-giceva.pdf
+    citation: >-
+      Jana Giceva is recognized for visionary contributions to building data
+      systems whose core software abstractions decouple logical intent from
+      physical hardware microarchitectures, advancing the flexibility,
+      extensibility, and performance of data systems across evolving workloads
+      and hardware platforms.
+
+  - title: 2026 VLDB Women in Database Research Award
+    recipient: Juliana Freire
+    affiliation: New York University
+    photo: juliana-freire
+    profile: https://engineering.nyu.edu/faculty/juliana-freire
+    article: https://www.vldb.org/pvldb/vol19/p4973-freire.pdf
+    citation: >-
+      Juliana Freire is recognized for pioneering contributions in provenance,
+      reproducibility and urban data science, and for transformative leadership
+      in the data management community.
+
+  - title: 2026 VLDB Test of Time Award
+    paper_title: >-
+      The Dataflow Model: A Practical Approach to Balancing Correctness,
+      Latency, and Cost in Massive-scale, Unbounded, Out-of-order Data Processing
+    authors: >-
+      Tyler Akidau, Robert Bradshaw, Craig Chambers, Slava Chernyak,
+      Rafael Fernández-Moctezuma, Reuven Lax, Sam McVeety, Daniel Mills,
+      Frances Perry, Eric Schmidt, Sam Whittle
+    article: https://www.vldb.org/pvldb/vol19/p4953-fernandez-moctezuma.pdf
+    citation: >-
+      "The Dataflow Model: A Practical Approach to Balancing Correctness,
+      Latency, and Cost in Massive-scale, Unbounded, Out-of-order Data
+      Processing" is recognized for establishing the foundational vocabulary
+      and conceptual framework — watermarks, triggers, and flexible windowing —
+      that define modern stream processing, directly shaping Apache Beam and
+      influencing the design of Flink and Spark Structured Streaming, while
+      continuing to anchor academic work on streaming semantics a decade later.
+
+conference:
+  - title: Best Research Paper
+    papers:
+      - title: "Garnet: A Next-Generation Cache-Store for Accelerating Applications and Services"
+        authors: >-
+          Badrish Chandramouli, Vasileios Zois, Ted Hart, Tal Zaccai,
+          Lukas Maas, Yoganand Rajasekaran, Darren Gehring
+        article: https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf
+
+  - title: Best Research Paper Honorable Mention
+    papers:
+      - title: >-
+          Scalable GPU Acceleration of Scalar Functions in Analytical Databases:
+          Compilation, Benchmarking, and Optimization
+        authors: >-
+          Kaushik Rajan, Sampath Rajendra, Momin Al-Ghosien, Nicolas Bruno,
+          Carlo Curino, Matteo Interlandi, Yinan Li, Lukas M. Maas,
+          Craig Peeper, Surajit Chaudhuri, Johannes Gehrke
+        article: https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf
+      - title: How to Write to SSDs
+        authors: Bohyun Lee, Tobias Ziegler, Viktor Leis
+        article: https://www.vldb.org/pvldb/vol19/p1469-lee.pdf
+      - title: Demystifying and Improving Lazy Promotion in Cache Eviction (EA&B)
+        authors: >-
+          Qinghan Chen, Muhammad Haekal Muhyidin Al-Araby, Ziyue Qiu,
+          Zhuofan Chen, Rashmi Vinayak, Juncheng Yang
+        article: https://www.vldb.org/pvldb/vol19/p549-yang.pdf
+
+  - title: Best Industry Paper
+    papers:
+      - title: >-
+          OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data
+          Curation and Exploration
+        authors: >-
+          Yuzhuo Fu, Xiangchun Wang, Chao Huang, Liyi Wang, Binwei Zeng,
+          Yuhan Wang, Taotao Nie, Dongke Hu, Wang Hong, Jiayi Wang, Wenwen Cui,
+          Zhuyan Zhou, Yushun Guo, Yuhan Xing, Jiaxin Lian, Peng Lin, Qing Cui,
+          Wenhui Shi
+        article: https://www.vldb.org/pvldb/vol19/p4276-fu.pdf
+
+  - title: Best Industry Paper Honorable Mention
+    papers:
+      - title: >-
+          FastCompose: Eliminating Compilation Cold Starts in Query Execution
+          with Composition
+        authors: >-
+          Venkatraman Govindaraju, Yankun Shen, Kiran Chinta, Shermal Fernando,
+          Pascal Pfeil, Orestis Polychroniou, Naresh Chainani
+        article: https://www.vldb.org/pvldb/vol19/p3996-govindaraju.pdf
+
+distinguished_associate_editors:
+  - Semih Salihoglu
+  - Sourav S Bhowmick
+  - Kunsoo Park
+  - Katja Hose
+  - Shimin Chen
+  - Jana Giceva
+  - Kyuseok Shim
+  - Zhifeng Bao
+  - Wook-Shin Han
+  - Sudipto Das
+  - Jianliang Xu
+  - Antonis Deligiannakis
+  - Alkis Simitsis
+  - Sibo Wang
+  - Ashraf Aboulnaga
+  - Elena Ferrari
+  - Jian Pei
+  - Raymond Chi-Wing Wong
+  - Yannis Velegrakis
+  - Anh Dinh
+  - Bogdan Cautis
+  - Zi Huang
+  - Steven Whang
+
+distinguished_reviewers:
+  - Ergute Bao
+  - Hyunjoon Kim
+  - Jiwon Seo
+  - John Paparrizos
+  - Makoto Onizuka
+  - Markos Markakis
+  - Matthias Weidlich
+  - Patrick Schäfer
+  - Rainer Gemulla
+  - Sebastian Link
+  - Surajit Chaudhuri
+  - Theodoros Chondrogiannis
+  - Thomas Neumann
+  - Ulf Leser
+  - Wang-Chien Lee
+  - Xiaofei Zhang
+  - Yuan Qiu
+  - Alberto Sonnino
+  - Amarnadh Sai Eluri
+  - Andreas Züfle
+  - Baihua Zheng
+  - Bojan Karlaš
+  - Christos Koutras
+  - Dominik Durner
+  - Francesco Gullo
+  - George Papadakis
+  - Hyungsoo Jung
+  - Jeeta Ann Chacko
+  - Lucas Braun
+  - Manuel Rigger
+  - Oktie Hassanzadeh
+  - Oliver Kennedy
+  - Patrick Damme
+  - Paul Boniol
+  - Rihan Hai
+  - Shantanu Sharma
+  - Søren Kejser Jensen
+  - Tenindra Abeywickrama
+  - Venkata Vamsikrishna Meduri
+  - Zhuoyue Zhao

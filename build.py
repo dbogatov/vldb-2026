@@ -181,6 +181,7 @@ def main():
                 tutorials=load_data("tutorials"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),
+                awards=load_data("awards"),
                 pages=list(get_pages(data)),
                 base=base,
                 commit=("local-dev" if os.environ.get("CI_COMMIT_SHORT_SHA")

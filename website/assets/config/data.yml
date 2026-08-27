@@ -37,6 +37,11 @@ sections:
         page: workshops
       - title: Workshop Proceedings
         page: Workshops/vldb
+      - break
+      - title: Conference Awards
+        page: conference-awards
+      - title: VLDB Endowment Awards
+        page: vldb-endowment-awards
   - title: Call for Contributions
     sub_sections:
       - title: Research Track

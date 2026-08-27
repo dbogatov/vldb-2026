@@ -1,0 +1,51 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}VLDB Endowment Awards{% endblock %}
+
+{% set current = "vldb-endowment-awards" %}
+
+{% block content %}
+    <section class="awards-page endowment-awards">
+        <h1>2026 VLDB Endowment Awards</h1>
+
+        {% for award in awards.endowment %}
+            <article class="endowment-award{% if not award.photo %} endowment-award--without-photo{% endif %}">
+                {% if award.photo %}
+                    <a class="award-portrait no-ext-icon"
+                       href="{{ award.profile }}"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="View {{ award.recipient }}'s profile">
+                        <img src="{{ base }}/assets/img/{{ award.photo }}.webp"
+                             alt="Portrait of {{ award.recipient }}">
+                    </a>
+                {% endif %}
+
+                <div class="endowment-award__content">
+                    <h2>{{ award.title }}</h2>
+
+                    {% if award.paper_title %}
+                        <h3 class="award-paper-title">{{ award.paper_title }}</h3>
+                        <p class="award-authors">{{ award.authors }}</p>
+                    {% else %}
+                        <p class="award-recipient">
+                            <strong>{{ award.recipient }}</strong>
+                            <span>{{ award.affiliation }}</span>
+                        </p>
+                    {% endif %}
+
+                    <p class="award-links">
+                        <a href="{{ award.article }}" target="_blank" rel="noopener noreferrer">PVLDB article (PDF)</a>
+                        {% if award.profile %}
+                            <a href="{{ award.profile }}" target="_blank" rel="noopener noreferrer">Profile</a>
+                        {% endif %}
+                    </p>
+
+                    <blockquote class="award-citation">
+                        <p>{{ award.citation }}</p>
+                    </blockquote>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+{% endblock %}
