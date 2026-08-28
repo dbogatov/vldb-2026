@@ -4518,37 +4518,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1023"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p426-luo.pdf" target="_blank" rel="noopener">LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning</a></span></div>
-              <div class="pauth"><span class="au">Xiaotian LIN</span> <span class="aff">(The Hong Kong University of
-                  Science and Technology (Guangzhou))</span> · <span class="au">Yanlin QI</span> <span
-                  class="aff">(Université Paris Cité)</span> · <span class="au">Yizhang ZHU</span> <span
-                  class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span> · <span
-                  class="au">Themis Palpanas</span> <span class="aff">(Université Paris Cité)</span> · <span
-                  class="au">Chengliang CHAI</span> <span class="aff">(Beijing Institute of Technology)</span> · <span
-                  class="au">Nan TANG</span> <span class="aff">(The Hong Kong University of Science and Technology
-                  (Guangzhou))</span> · <span class="au">Yuyu LUO</span> <span class="aff">(The Hong Kong University of
-                  Science and Technology (Guangzhou))</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Instruction tuning has emerged as a critical paradigm for improving the capabilities
-                  and alignment of large language models (LLMs). However, existing iterative model-aware data selection
-                  methods incur significant computational overhead, as they rely on repeatedly performing full-dataset
-                  model inference to estimate sample utility for subsequent training iterations. In this paper, we
-                  propose LEAD, a framework that LEArns to iteratively select Data by accurately estimating sample
-                  utility entirely within the standard training loop, eliminating the need for additional model
-                  inference. At its core, LEAD introduces Instance-Level Dynamic Uncertainty (IDU), a theoretically
-                  grounded utility function combining instantaneous training loss, gradient-based approximation of loss
-                  changes, and exponential smoothing of historical loss signals. To further scale efficiently to large
-                  datasets, LEAD employs a two-stage, coarse-to-fine selection strategy, adaptively prioritizing
-                  informative clusters through a multi-armed bandit mechanism, followed by precise fine-grained
-                  selection of high-utility samples using IDU. Extensive experiments across four diverse benchmarks show
-                  that LEAD significantly outperforms state-of-the-art methods, improving average model performance by
-                  6.1%-10.8% while using only 2.5% of the training data and reducing overall training time by 5-10×.
-                </div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="2373"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2005-marchesin.pdf" target="_blank" rel="noopener">LLMs as Stratification Signals for KG Accuracy Evaluation</a></span></div>
               <div class="pauth"><span class="au">Stefano Marchesin</span> <span class="aff">(Università di
                   Padova)</span> · <span class="au">Matteo Ceccarello</span> <span class="aff">(Università di
@@ -8137,35 +8106,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1228"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p740-li.pdf" target="_blank" rel="noopener">A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries</a></span>
-              </div>
-              <div class="pauth"><span class="au">Dong Wang</span> <span class="aff">(Chang&#x27;an University)</span> ·
-                <span class="au">Ningning Cui</span> <span class="aff">(Chang&#x27;an University)</span> · <span
-                  class="au">Jianxin Li</span> <span class="aff">(Edith Cowan University)</span> · <span
-                  class="au">Jianzhong Qi</span> <span class="aff">(The University of Melbourne)</span> · <span
-                  class="au">Jianliang Xu</span> <span class="aff">(Hong Kong Baptist University)</span> · <span
-                  class="au">Hui Lu</span> <span class="aff">(Guangzhou University)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Recent advances in workload-aware indexes have attracted growing attention for their
-                  ability to optimize index efficiency by learning query distributions. However, these architectures
-                  remain fundamentally incompatible with sensitive data scenarios that require encrypted index storage
-                  and privacy-preserving queries. Meanwhile, existing privacy-preserving solutions make it difficult for
-                  encrypted indexes to be workload-aware due to the complexity of cryptographic protocols, which
-                  prevents accurate cost estimation for a given workload. To address these limitations, this paper
-                  studies the workload-aware encrypted index for efficient privacy-preserving range queries. We propose
-                  \textsf{P$^3$RQ-Bitmap}, a \textsf{XOR}-encrypted bitmap index powered by a lightweight Pseudo Random
-                  Function (\textsf{PRF})-based comparison protocol. This index supports efficient privacy-preserving
-                  range queries while being workload-aware. Building upon this, we further propose
-                  \textsf{P$^3$RQ-WBTree}, a workload-aware encrypted tree index that optimizes query efficiency through
-                  adaptive data partitioning guided by a gradient descent-optimized cost model. The index comes with
-                  buffer and rebuild strategies to support dual updates for both data and workload. Extensive
-                  theoretical analysis and experiments demonstrate that \textsf{P$^3$RQ-WBTree} achieves at least
-                  83$\times$ faster query performance compared to SOTA schemes.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1463"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1128-ren.pdf" target="_blank" rel="noopener">SACK: Shielding Dynamic Attribute-based Access Control in Persistent Key-Value
                   Stores</a></span></div>
               <div class="pauth"><span class="au">Yanjing Ren</span> <span class="aff">(The Chinese University of Hong
@@ -9134,6 +9074,37 @@
                   baseline.</div>
               </details>
             </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1023"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p426-luo.pdf" target="_blank" rel="noopener">LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning</a></span></div>
+              <div class="pauth"><span class="au">Xiaotian LIN</span> <span class="aff">(The Hong Kong University of
+                  Science and Technology (Guangzhou))</span> · <span class="au">Yanlin QI</span> <span
+                  class="aff">(Université Paris Cité)</span> · <span class="au">Yizhang ZHU</span> <span
+                  class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span> · <span
+                  class="au">Themis Palpanas</span> <span class="aff">(Université Paris Cité)</span> · <span
+                  class="au">Chengliang CHAI</span> <span class="aff">(Beijing Institute of Technology)</span> · <span
+                  class="au">Nan TANG</span> <span class="aff">(The Hong Kong University of Science and Technology
+                  (Guangzhou))</span> · <span class="au">Yuyu LUO</span> <span class="aff">(The Hong Kong University of
+                  Science and Technology (Guangzhou))</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Instruction tuning has emerged as a critical paradigm for improving the capabilities
+                  and alignment of large language models (LLMs). However, existing iterative model-aware data selection
+                  methods incur significant computational overhead, as they rely on repeatedly performing full-dataset
+                  model inference to estimate sample utility for subsequent training iterations. In this paper, we
+                  propose LEAD, a framework that LEArns to iteratively select Data by accurately estimating sample
+                  utility entirely within the standard training loop, eliminating the need for additional model
+                  inference. At its core, LEAD introduces Instance-Level Dynamic Uncertainty (IDU), a theoretically
+                  grounded utility function combining instantaneous training loss, gradient-based approximation of loss
+                  changes, and exponential smoothing of historical loss signals. To further scale efficiently to large
+                  datasets, LEAD employs a two-stage, coarse-to-fine selection strategy, adaptively prioritizing
+                  informative clusters through a multi-armed bandit mechanism, followed by precise fine-grained
+                  selection of high-utility samples using IDU. Extensive experiments across four diverse benchmarks show
+                  that LEAD significantly outperforms state-of-the-art methods, improving average model performance by
+                  6.1%-10.8% while using only 2.5% of the training data and reducing overall training time by 5-10×.
+                </div>
+              </details>
+            </div>
           </div>
           <div class="sessblock hyb" id="res-42" data-day="thu">
             <div class="shead"><span class="sname">Research 42 · Privacy-Preserving Data Analytics</span><span
@@ -9295,6 +9266,35 @@
                   baselines in terms of clustering utility and fairness across twelve real-world datasets. In terms of
                   efficiency, our methods achieve thousand-fold speedups in running time and reduction in memory usage,
                   with this factor growing as the dataset size increases.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1228"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p740-li.pdf" target="_blank" rel="noopener">A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries</a></span>
+              </div>
+              <div class="pauth"><span class="au">Dong Wang</span> <span class="aff">(Chang&#x27;an University)</span> ·
+                <span class="au">Ningning Cui</span> <span class="aff">(Chang&#x27;an University)</span> · <span
+                  class="au">Jianxin Li</span> <span class="aff">(Edith Cowan University)</span> · <span
+                  class="au">Jianzhong Qi</span> <span class="aff">(The University of Melbourne)</span> · <span
+                  class="au">Jianliang Xu</span> <span class="aff">(Hong Kong Baptist University)</span> · <span
+                  class="au">Hui Lu</span> <span class="aff">(Guangzhou University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Recent advances in workload-aware indexes have attracted growing attention for their
+                  ability to optimize index efficiency by learning query distributions. However, these architectures
+                  remain fundamentally incompatible with sensitive data scenarios that require encrypted index storage
+                  and privacy-preserving queries. Meanwhile, existing privacy-preserving solutions make it difficult for
+                  encrypted indexes to be workload-aware due to the complexity of cryptographic protocols, which
+                  prevents accurate cost estimation for a given workload. To address these limitations, this paper
+                  studies the workload-aware encrypted index for efficient privacy-preserving range queries. We propose
+                  \textsf{P$^3$RQ-Bitmap}, a \textsf{XOR}-encrypted bitmap index powered by a lightweight Pseudo Random
+                  Function (\textsf{PRF})-based comparison protocol. This index supports efficient privacy-preserving
+                  range queries while being workload-aware. Building upon this, we further propose
+                  \textsf{P$^3$RQ-WBTree}, a workload-aware encrypted tree index that optimizes query efficiency through
+                  adaptive data partitioning guided by a gradient descent-optimized cost model. The index comes with
+                  buffer and rebuild strategies to support dual updates for both data and workload. Extensive
+                  theoretical analysis and experiments demonstrate that \textsf{P$^3$RQ-WBTree} achieves at least
+                  83$\times$ faster query performance compared to SOTA schemes.</div>
               </details>
             </div>
           </div>
@@ -9977,6 +9977,33 @@
                   by more than 30% and cutting LLM invocation costs by 5 times.</div>
               </details>
             </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2985"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3076-liu.pdf" target="_blank" rel="noopener">Remora: Scale-out Deterministic Execution for Smart Contracts</a></span></div>
+              <div class="pauth"><span class="au">Zhengqing Liu</span> <span class="aff">(Imperial College
+                  London)</span> · <span class="au">Alberto Sonnino</span> <span class="aff">(Mysten Labs &amp;
+                  University College London)</span> · <span class="au">Igor Zablotchi</span> <span class="aff">(Mysten
+                  Labs)</span> · <span class="au">Eleftherios Kokoris Kogias</span> <span class="aff">(Mysten
+                  Labs)</span> · <span class="au">Marios Kogias</span> <span class="aff">(Imperial College
+                  London)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Modern blockchains rely on a modular architecture that decouples consensus from
+                  execution. Recent advances in consensus algorithms have shifted the bottleneck to the execution layer,
+                  which must deterministically follow the consensus order and handle increasingly complex,
+                  compute-intensive smart contracts. We identify that single-node validators cannot keep up, motivating
+                  the need for a scale-out design. We design Remora, a scale-out smart contract execution engine. Remora
+                  adopts an efficient asymmetric architecture with centralized transaction dispatching and distributed
+                  execution, and depends on an object versioning scheme with a strict ownership model to guarantee
+                  deterministic scale-out execution. Remora achieves up to 3x throughput improvement compared to
+                  state-of-the-art deterministic execution schemes, scales up to 250k TPS matching modern consensus
+                  performance, and reduces latency by up to 5ms. We also show that Remora elastically adapts to bursty
+                  workloads and dynamic access patterns using real-world traces. Remora&#x27;s main performance benefits
+                  come from a novel stateless-stateful separation during smart contract execution, which overlaps the
+                  execution of state-independent tasks with consensus, and a new locality-aware and load-balanced
+                  scheduling scheme.</div>
+              </details>
+            </div>
           </div>
           <div class="sessblock hyb" id="res-48" data-day="thu">
             <div class="shead"><span class="sname">Research 48 · Dynamic Graphs and Graph Learning</span><span
@@ -10451,33 +10478,6 @@
                   state-of-the-art protocols, including Tusk, Bullshark, Mysticeti, Shoal++, RCC, Damysus, Achilles and
                   HybridSet, achieving lower latency and higher throughput while preserving strong safety and liveness
                   guarantees.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2985"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3076-liu.pdf" target="_blank" rel="noopener">Remora: Scale-out Deterministic Execution for Smart Contracts</a></span></div>
-              <div class="pauth"><span class="au">Zhengqing Liu</span> <span class="aff">(Imperial College
-                  London)</span> · <span class="au">Alberto Sonnino</span> <span class="aff">(Mysten Labs &amp;
-                  University College London)</span> · <span class="au">Igor Zablotchi</span> <span class="aff">(Mysten
-                  Labs)</span> · <span class="au">Eleftherios Kokoris Kogias</span> <span class="aff">(Mysten
-                  Labs)</span> · <span class="au">Marios Kogias</span> <span class="aff">(Imperial College
-                  London)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Modern blockchains rely on a modular architecture that decouples consensus from
-                  execution. Recent advances in consensus algorithms have shifted the bottleneck to the execution layer,
-                  which must deterministically follow the consensus order and handle increasingly complex,
-                  compute-intensive smart contracts. We identify that single-node validators cannot keep up, motivating
-                  the need for a scale-out design. We design Remora, a scale-out smart contract execution engine. Remora
-                  adopts an efficient asymmetric architecture with centralized transaction dispatching and distributed
-                  execution, and depends on an object versioning scheme with a strict ownership model to guarantee
-                  deterministic scale-out execution. Remora achieves up to 3x throughput improvement compared to
-                  state-of-the-art deterministic execution schemes, scales up to 250k TPS matching modern consensus
-                  performance, and reduces latency by up to 5ms. We also show that Remora elastically adapts to bursty
-                  workloads and dynamic access patterns using real-world traces. Remora&#x27;s main performance benefits
-                  come from a novel stateless-stateful separation during smart contract execution, which overlaps the
-                  execution of state-independent tasks with consensus, and a new locality-aware and load-balanced
-                  scheduling scheme.</div>
               </details>
             </div>
             <div class="paper">
