@@ -25040,12 +25040,19 @@
         tg.startsWith('ethics-') ? 'eth' : tg.startsWith('dei-') ? 'dei' : tg.startsWith('pan-') ? 'pan' : tg.startsWith('demo-') ? 'demo' : tg.startsWith('spon-') ? 'spon' : tg.startsWith('ws-') ? 'ws' : 'oral');
       t.scrollIntoView({ behavior: 'smooth' }); t.classList.add('flash'); setTimeout(() => t.classList.remove('flash'), 1600);
     }));
+    function normalizeSearchText(text) {
+      return text
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase();
+    }
     function doSearch() {
-      const q = document.getElementById('search').value.trim().toLowerCase();
+      const q = normalizeSearchText(document.getElementById('search').value);
       let n = 0; const perBlock = {}; const perDay = { mon: 0, tue: 0, wed: 0, thu: 0, fri: 0 };
       const byDT = { mon: {}, tue: {}, wed: {}, thu: {}, fri: {} };
       document.querySelectorAll('.paper').forEach(p => {
-        const hit = !q || p.textContent.toLowerCase().includes(q);
+        const text = normalizeSearchText(p.textContent);
+        const hit = !q || text.includes(q);
         p.classList.toggle('hidden', q && !hit);
         if (q && hit) {
           n++; const b = p.closest('.sessblock');
