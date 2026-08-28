@@ -25,6 +25,8 @@ sections:
     sub_sections:
       - title: Full Program
         page: program
+      - title: PhD Workshop
+        page: phd-workshop
       - title: Keynotes
         page: keynotes
       - title: Demonstrations

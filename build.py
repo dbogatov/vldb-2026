@@ -178,6 +178,7 @@ def main():
                 demonstrations=load_data("demonstrations"),
                 keynotes=load_data("keynotes"),
                 panels=load_data("panels"),
+                phd_workshop=load_data("phd-workshop"),
                 tutorials=load_data("tutorials"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),

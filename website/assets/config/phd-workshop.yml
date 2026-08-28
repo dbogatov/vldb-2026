@@ -1,0 +1,68 @@
+agenda:
+  - time: 8:30 AM - 8:45 AM
+    event: Welcome
+  - time: 8:45 AM - 9:55 AM
+    event: 'Keynote by Ibrahim Sabek (USC) - "The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey"'
+  - time: 9:55 AM - 10:15 AM
+    event: Student Presentations
+    presentations:
+      - title: Towards Expressive, Performant, and Correct Database Systems
+        presenter: Anna Herlihy (EPFL)
+  - time: 10:15AM - 10:45 AM
+    event: Coffee Break
+  - time: 10:45 AM - 12:15PM
+    event: Student Presentations
+    presentations:
+      - title: Lessons Learned Building Cross-Architecture Analytical Engines
+        presenter: Ivan Donchev Kabadzhov (Eurecom)
+      - title: 'ORM-Lock: Source-Linked Diagnosis and Repair Guidance for ORM-Backed Database Deadlocks'
+        presenter: Zainab Altamimi (King Saud University)
+      - title: Declarative Recall for Approximate Vector Search
+        presenter: Manos Chatzakis (Universite Paris Cite)
+      - title: 'XGAP: Ambiguity-aware Cross-Platform Planning for Natural Language Graph Queries'
+        presenter: Haolai Che (Case Western Reserve University)
+      - title: User-Guided Discovery of Patterns in Sequential Data
+        presenter: Hannes Ueck (Hasso-Plattner-Institut)
+  - time: 12:15 PM - 1:45PM
+    event: Lunch
+  - time: 1:45PM - 3:15PM
+    event: Student Presentations
+    presentations:
+      - title: Model Lakes for Cross-Model Understanding
+        presenter: Koyena Pal (Northeastern University)
+      - title: Indexing Long Documents for LLM-Based Analysis
+        presenter: Donna Pham (University of Michigan)
+      - title: Generative AI for Multi-Modal Data Management
+        presenter: Mahdi Erfanian (University of Illinois Chicago)
+      - title: 'Learning from Quality, Not for It: Conditioning Models on Explicit Data Quality'
+        presenter: Mattia Sabella (Politecnico Milano)
+      - title: Principled Bias Detection and Mitigation across the ML Data Lifecycle
+        presenter: Bruno Scarone (Northeastern University)
+  - time: 3:15PM - 3:45PM
+    event: Coffee Break
+  - time: 3:45PM - 5:00PM
+    event: 'Panel Discussion: Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers'
+    participants: (Nesime Tatbul, Surajit Chaudhuri, Arun Kumar)
+  - time: 5:00PM - 5:15PM
+    event: Closing Remarks & Best Paper Award
+  - time: 5:15PM - 6:15PM
+    event: Poster Session
+
+keynote:
+  speaker: Ibrahim Sabek
+  affiliation: University of Southern California
+  photo: ibrahim-sabek
+  title: 'The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey'
+  abstract: |
+    The landscape of data systems research is rapidly evolving. Advances in artificial intelligence are reshaping how we design, build, and interact with data systems, while emerging paradigms such as quantum computing are opening new possibilities for tackling computationally challenging data management problems. For PhD students, these shifts create exciting research opportunities, but they also raise fundamental questions: How do we identify meaningful problems amid rapidly changing technologies? How do we distinguish lasting research opportunities from temporary hype? And how do we navigate uncertainty while developing our own research identity?
+
+    In this talk, I will share stories and reflections from my research journey in data systems, including my experiences exploring the intersection of data systems with machine learning and quantum computing. Rather than focusing solely on technical results, I will discuss the lessons behind these experiences: choosing research problems, venturing into unfamiliar areas, learning from ideas that do not work as expected, and balancing curiosity, impact, and risk. Through these stories, I hope to offer practical perspectives for PhD students as they navigate their own research journeys and, more importantly, encourage them to embrace the uncertainty and adventure that come with exploring what might be next for data systems.
+  bio: |
+    Ibrahim Sabek is an Assistant Professor of Computer Science at the University of Southern California. He leads the Next-generation Data-Intensive Systems Group (NexDIG), where his research focuses on building the next generation of data management, processing, and analysis systems using quantum computing and machine learning. Before joining USC, Ibrahim was a Postdoctoral Associate with the MIT Data Systems Group. He earned his PhD in Computer Science from the University of Minnesota, Twin Cities, in January 2020, where his dissertation received a University-wide Best Doctoral Dissertation Honorable Mention. His research has been recognized with several awards and honors, including the 2026 NSF CAREER Award, the 2025 Google ML and Systems Junior Faculty Award, the 2024 and 2025 Google Data Analytics and Insights (DANI) Awards, and the NSF Computing Innovation Fellowship (2020-2023), among others. For more information, please visit his website: [https://viterbi-web.usc.edu/~sabek/](https://viterbi-web.usc.edu/~sabek/).
+
+panel:
+  title: 'Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers'
+  scope: |
+    Generative AI is rapidly transforming the way research is conducted, making it one of the most important and timely topics for today's PhD students. This panel will explore how GenAI is reshaping the research process, influencing career opportunities in both academia and industry, and raising new ethical and professional considerations. Rather than focusing solely on the technology itself, the discussion will provide practical guidance on how PhD students can effectively leverage GenAI while continuing to develop the fundamental skills needed for long-term success.
+  panelists: Nesime Tatbul (Intel & MIT), Surajit Chaudhuri (Microsoft Research), Arun Kumar (UCSD)
+  moderator: Mohamed Eltabakh (Qatar Computing Research Institute)

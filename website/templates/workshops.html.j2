@@ -38,6 +38,13 @@
                         <a href="{{ workshop.website }}">{{ workshop.website }}</a>
                     </p>
                 {% endif %}
+
+                {% if workshop.program %}
+                    <p>
+                        <strong>Program:</strong>
+                        <a href="{{ workshop.program }}">View workshop program</a>
+                    </p>
+                {% endif %}
             {% endfor %}
         {% endfor %}
     </section>

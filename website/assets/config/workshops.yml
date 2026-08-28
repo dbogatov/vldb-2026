@@ -16,6 +16,15 @@ days:
   - name: Monday Workshops
     date: August 31, 2026
     workshops:
+      - acronym: PhD Workshop
+        duration: full day
+        title: VLDB 2026 PhD Workshop
+        co_chairs:
+          - name: Mohamed Eltabakh
+            affiliation: Qatar Computing Research Institute
+          - name: Nikos Tziavelis
+            affiliation: UC Santa Cruz
+        program: phd-workshop.html
       - acronym: ADMS
         duration: full day
         title: Seventeenth International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures

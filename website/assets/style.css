@@ -266,6 +266,82 @@
     background: #fafafa;
 }
 
+.workshop-agenda-table th:first-child,
+.workshop-agenda-table td:first-child {
+    width: 165px;
+    white-space: nowrap;
+}
+
+.workshop-agenda-table th:nth-child(2),
+.workshop-agenda-table td:nth-child(2) {
+    width: auto;
+}
+
+.program-phd-workshop .workshop-agenda-table th,
+.program-phd-workshop .workshop-agenda-table td {
+    font-weight: 400;
+}
+
+.workshop-panelists {
+    margin-top: 0.35rem;
+    color: #666;
+}
+
+.workshop-presentations {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.workshop-presentations li + li {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.workshop-presentation-title,
+.workshop-presentations span {
+    display: block;
+}
+
+.workshop-presentations span {
+    margin-top: 0.2rem;
+    color: #666;
+}
+
+.workshop-program-section + .workshop-program-section {
+    margin-top: 2.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #ddd;
+}
+
+.workshop-speaker {
+    color: #666;
+}
+
+.workshop-keynote-photo {
+    float: right;
+    width: 220px;
+    max-width: 35%;
+    height: auto;
+    margin: 0 0 1.25rem 1.5rem;
+}
+
+.workshop-keynote::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+@media screen and (max-width: 500px) {
+    .workshop-keynote-photo {
+        float: none;
+        width: 180px;
+        max-width: 100%;
+        margin: 0 0 1rem;
+    }
+}
+
 /* Registration */
 .registration-fees {
     margin: 1.5rem 0 2rem;

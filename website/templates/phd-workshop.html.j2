@@ -1,0 +1,84 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Conference Program - PhD Workshop{% endblock %}
+
+{% set current = "phd-workshop" %}
+
+{% block content %}
+    <section class="program-phd-workshop">
+        <h1>{{ data.name }}: PhD Workshop Program</h1>
+
+        <section class="workshop-program-section">
+            <h2>Workshop Agenda</h2>
+
+            <div class="tutorial-table-wrapper">
+                <table class="tutorial-table workshop-agenda-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Time</th>
+                            <th scope="col">Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in phd_workshop.agenda %}
+                            <tr>
+                                <td>{{ item.time }}</td>
+                                <td>
+                                    {{ item.event }}
+                                    {% if item.presentations %}
+                                        <ul class="workshop-presentations">
+                                            {% for presentation in item.presentations %}
+                                                <li>
+                                                    <span class="workshop-presentation-title">{{ presentation.title }}</span>
+                                                    <span>{{ presentation.presenter }}</span>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                    {% if item.participants %}
+                                        <div class="workshop-panelists">{{ item.participants }}</div>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <article class="workshop-program-section workshop-keynote">
+            <h2>Keynote</h2>
+            <h3>{{ phd_workshop.keynote.title }}</h3>
+            <p class="workshop-speaker">
+                <strong>{{ phd_workshop.keynote.speaker }}</strong>, {{ phd_workshop.keynote.affiliation }}
+            </p>
+
+            <img class="workshop-keynote-photo"
+                 src="{{ base }}/assets/img/{{ phd_workshop.keynote.photo }}.webp"
+                 alt="Portrait of {{ phd_workshop.keynote.speaker }}">
+
+            <h3>Abstract</h3>
+            {%- filter markdown -%}
+                {{ phd_workshop.keynote.abstract }}
+            {% endfilter %}
+
+            <h3>Bio</h3>
+            {%- filter markdown -%}
+                {{ phd_workshop.keynote.bio }}
+            {% endfilter %}
+        </article>
+
+        <article class="workshop-program-section workshop-panel">
+            <h2>Panel</h2>
+            <h3>{{ phd_workshop.panel.title }}</h3>
+
+            <h3>Scope</h3>
+            {%- filter markdown -%}
+                {{ phd_workshop.panel.scope }}
+            {% endfilter %}
+
+            <p><strong>Panelists:</strong> {{ phd_workshop.panel.panelists }}</p>
+            <p><strong>Moderator:</strong> {{ phd_workshop.panel.moderator }}</p>
+        </article>
+    </section>
+{% endblock %}

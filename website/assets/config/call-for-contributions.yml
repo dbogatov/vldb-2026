@@ -796,6 +796,69 @@ phd_workshop:
     - Submission deadline: **June 1, 2026**
     - Notification of acceptance: **July 1, 2026**
     - Camera-ready version: <s>July 22, 2026</s> **July 19, 2026**
+    - Workshop Date: **August 31, 2026**
+
+    ## Workshop Agenda
+
+    <div class="tutorial-table-wrapper">
+      <table class="tutorial-table workshop-agenda-table">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:30 AM - 8:45 AM</td>
+            <td>Welcome</td>
+          </tr>
+          <tr>
+            <td>8:45 AM - 9:55 AM</td>
+            <td>Keynote by Ibrahim Sabek (USC) - "The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey"</td>
+          </tr>
+          <tr>
+            <td>9:55 AM - 10:15 AM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>10:15AM - 10:45 AM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>10:45 AM - 12:15PM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>12:15 PM - 1:45PM</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>1:45PM - 3:15PM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>3:15PM - 3:45PM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>3:45PM - 5:00PM</td>
+            <td>
+              Panel Discussion: Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers
+              <div class="workshop-panelists">(Nesime Tatbul, Surajit Chaudhuri, Arun Kumar)</div>
+            </td>
+          </tr>
+          <tr>
+            <td>5:00PM - 5:15PM</td>
+            <td>Closing Remarks &amp; Best Paper Award</td>
+          </tr>
+          <tr>
+            <td>5:15PM - 6:15PM</td>
+            <td>Poster Session</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     ## Submission Guidelines
 
@@ -819,3 +882,16 @@ phd_workshop:
 
     - Mohamed Eltabakh, Qatar Computing Research Institute
     - Nikos Tziavelis, UC Santa Cruz
+
+    ## PhD Workshop PC Members
+
+    - Amine Mhedhbi (Polytechnique Montréal)
+    - Mohammad Shahmeer Ahmad (Qatar Computing Research Institute)
+    - Nikolaos Tziavelis (UC Santa Cruz)
+    - Alhassan Alshareedah (University of California, Riverside)
+    - Mohamed Eltabakh (Qatar Computing Research Institute)
+    - Xiaoshuai Li (Worcester Polytechnic Institute)
+    - Ahmed Abdelmaguid (University of California, Riverside)
+    - Hani Al-Sayeh (QCRI, HBKU)
+    - Abolfazl Asudeh (University of Illinois Chicago)
+    - Yuya Sasaki (The University of Osaka)
