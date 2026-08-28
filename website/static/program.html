@@ -2940,6 +2940,43 @@
                 Ballroom B</span><span class="mchip">Tuesday 10:45 – 12:15</span><span class="mchip">Session Chair: Juncheng Yang</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1729"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1867-simmhan.pdf" target="_blank" rel="noopener">A Resource-centric Analysis and Optimization of NoSQL Workloads using Distressed
+                  Resource Volume Metric</a></span></div>
+              <div class="pauth"><span class="au">Gunika Verma</span> <span class="aff">(Microsoft)</span> · <span
+                  class="au">Aashutosh A V</span> <span class="aff">(Microsoft)</span> · <span class="au">Pooja
+                  Srinivas</span> <span class="aff">(Microsoft)</span> · <span class="au">Yogesh Simmhan</span> <span
+                  class="aff">(Indian Institute of Science)</span> · <span class="au">Ayush Choure</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Harshit Shah</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Mayukh Das</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Prashant Sasatte</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Chetan Bansal</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Abhijit Pai</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Suraj Dixit</span> <span
+                  class="aff">(Microsoft)</span> · <span class="au">Achint Agrawal</span> <span
+                  class="aff">(Microsoft)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Large-scale managed cloud databases leverage sophisticated load Packing and
+                  Migration (PAM) algorithms, which provide the efficiencies necessary for running these services at
+                  scale on cloud resources. Research into optimizing the resources and reliability of cloud databases at
+                  massive scales is limited by a lack of public NoSQL workloads. We address this in the context of
+                  Cosmos DB, Microsoft’s flagship cloud-hosted NoSQL database. We first propose open-source NoSQL
+                  workloads from real Cosmos DB clusters, and analyze these traces to derive a novel reliability metric,
+                  Distressed Resource Volume (DRV), which captures the quality of service experienced by the end user.
+                  We then develop an opensource policy simulation framework, LoadStar, powered by a nonparametric
+                  statistical model of estimating the QoS of real traffic patterns. These form a reusable benchmark
+                  pipeline for validating policies for resource-centric NoSQL workloads. We then define a resource
+                  optimization problem for placing Cosmos DB replicas onto VM nodes, develop the Luna model for
+                  forecasting future load distributions, and the Orbit PAM algorithm that uses these forecasts to
+                  trigger and rebalance stressed replicas, to reduce tail-errors. Our experiments, validated using
+                  LoadStar for these workloads, demonstrate Orbit&#x27;s benefits over the existing Cosmos DB policy and
+                  a worst-fit optimized baseline, with higher load delivered at lower error rates and up to 35%
+                  reduction in resources. These have been deployed in production, with potential savings of
+                  $100M&#x27;s/yr while improving service reliability for millions of customers.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1187"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p684-zha.pdf" target="_blank" rel="noopener">Shard: A Scalable and Resize-optimized Hash Index on Disaggregated Memory</a></span></div>
               <div class="pauth"><span class="au">Hantian Zha</span> <span class="aff">(Renmin University of
                   China)</span> · <span class="au">Teng Ma</span> <span class="aff">(Alibaba Group)</span> · <span
@@ -3116,43 +3153,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1729"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1867-simmhan.pdf" target="_blank" rel="noopener">A Resource-centric Analysis and Optimization of NoSQL Workloads using Distressed
-                  Resource Volume Metric</a></span></div>
-              <div class="pauth"><span class="au">Gunika Verma</span> <span class="aff">(Microsoft)</span> · <span
-                  class="au">Aashutosh A V</span> <span class="aff">(Microsoft)</span> · <span class="au">Pooja
-                  Srinivas</span> <span class="aff">(Microsoft)</span> · <span class="au">Yogesh Simmhan</span> <span
-                  class="aff">(Indian Institute of Science)</span> · <span class="au">Ayush Choure</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Harshit Shah</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Mayukh Das</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Prashant Sasatte</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Chetan Bansal</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Abhijit Pai</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Suraj Dixit</span> <span
-                  class="aff">(Microsoft)</span> · <span class="au">Achint Agrawal</span> <span
-                  class="aff">(Microsoft)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Large-scale managed cloud databases leverage sophisticated load Packing and
-                  Migration (PAM) algorithms, which provide the efficiencies necessary for running these services at
-                  scale on cloud resources. Research into optimizing the resources and reliability of cloud databases at
-                  massive scales is limited by a lack of public NoSQL workloads. We address this in the context of
-                  Cosmos DB, Microsoft’s flagship cloud-hosted NoSQL database. We first propose open-source NoSQL
-                  workloads from real Cosmos DB clusters, and analyze these traces to derive a novel reliability metric,
-                  Distressed Resource Volume (DRV), which captures the quality of service experienced by the end user.
-                  We then develop an opensource policy simulation framework, LoadStar, powered by a nonparametric
-                  statistical model of estimating the QoS of real traffic patterns. These form a reusable benchmark
-                  pipeline for validating policies for resource-centric NoSQL workloads. We then define a resource
-                  optimization problem for placing Cosmos DB replicas onto VM nodes, develop the Luna model for
-                  forecasting future load distributions, and the Orbit PAM algorithm that uses these forecasts to
-                  trigger and rebalance stressed replicas, to reduce tail-errors. Our experiments, validated using
-                  LoadStar for these workloads, demonstrate Orbit&#x27;s benefits over the existing Cosmos DB policy and
-                  a worst-fit optimized baseline, with higher load delivered at lower error rates and up to 35%
-                  reduction in resources. These have been deployed in production, with potential savings of
-                  $100M&#x27;s/yr while improving service reliability for millions of customers.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="2538"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5569-khalaji.pdf" target="_blank" rel="noopener">Sampling-based Predictive Database Buffer Management</a></span></div>
               <div class="pauth"><span class="au">Mohammad Khalaji</span> <span class="aff">(University of
                   Waterloo)</span> · <span class="au">Theo Vanderkooy</span> <span class="aff">(University of
@@ -3185,32 +3185,6 @@
                 class="mchip">Commonwealth Ballroom A</span><span class="mchip">Tuesday 10:45 – 12:15</span><span class="mchip">Session Chair: Ariful Azad</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1816"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1572-yang.pdf" target="_blank" rel="noopener">CEMR: An Effective Subgraph Matching Algorithm with Redundant Extension
-                  Elimination</a></span></div>
-              <div class="pauth"><span class="au">Linglin Yang</span> <span class="aff">(Peking University)</span> ·
-                <span class="au">Xunbin Su</span> <span class="aff">(Peking University)</span> · <span class="au">Lei
-                  Zou</span> <span class="aff">(Peking University)</span> · <span class="au">Xiangyang Gou</span> <span
-                  class="aff">(University of New South Wales)</span> · <span class="au">Yinnian Lin</span> <span
-                  class="aff">(Peking University)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Subgraph matching is a fundamental problem in graph analysis with a wide range of
-                  applications. However, due to its inherent NP-hardness, enumerating subgraph matches efficiently on
-                  large real-world graphs remains highly challenging. Most existing works adopt a depth-first search
-                  (DFS) backtracking strategy, where a partial embedding is gradually extended in a DFS manner along a
-                  branch of the search trees until either a full embedding is found or no further extension is possible.
-                  A major limitation of this paradigm is the significant amount of duplicate computation that occurs
-                  during enumeration, which increases the overall runtime. To overcome this limitation, we propose a
-                  novel subgraph matching algorithm, CEMR. It incorporates two techniques to reduce duplicate
-                  extensions: common extension merging, which leverages a black-white vertex encoding, and common
-                  extension reusing, which employs common extension buffers. In addition, we design two pruning
-                  techniques to discard unpromising search branches. Extensive experiments on real-world datasets and
-                  diverse query workloads demonstrate that CEMR outperforms state-of-the-art subgraph matching methods.
-                </div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1068"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p468-zhao.pdf" target="_blank" rel="noopener">Aquila: A High-Concurrency System for Incremental Graph Query</a></span></div>
               <div class="pauth"><span class="au">ziqi zou</span> <span class="aff">(Beijing Institute of
                   Technology)</span> · <span class="au">Hao Zhang</span> <span class="aff">(HUAWEI Cloud)</span> · <span
@@ -3237,6 +3211,32 @@
                   by jointly extracting common subgraphs and generating an efficient matching order, enhanced by
                   subgraph relation optimizations with the subgraph relation graph. Extensive experiments demonstrate
                   that Aquila outperforms existing approaches by 1-3 orders of magnitude in real-time query metrics.
+                </div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1816"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1572-yang.pdf" target="_blank" rel="noopener">CEMR: An Effective Subgraph Matching Algorithm with Redundant Extension
+                  Elimination</a></span></div>
+              <div class="pauth"><span class="au">Linglin Yang</span> <span class="aff">(Peking University)</span> ·
+                <span class="au">Xunbin Su</span> <span class="aff">(Peking University)</span> · <span class="au">Lei
+                  Zou</span> <span class="aff">(Peking University)</span> · <span class="au">Xiangyang Gou</span> <span
+                  class="aff">(University of New South Wales)</span> · <span class="au">Yinnian Lin</span> <span
+                  class="aff">(Peking University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Subgraph matching is a fundamental problem in graph analysis with a wide range of
+                  applications. However, due to its inherent NP-hardness, enumerating subgraph matches efficiently on
+                  large real-world graphs remains highly challenging. Most existing works adopt a depth-first search
+                  (DFS) backtracking strategy, where a partial embedding is gradually extended in a DFS manner along a
+                  branch of the search trees until either a full embedding is found or no further extension is possible.
+                  A major limitation of this paradigm is the significant amount of duplicate computation that occurs
+                  during enumeration, which increases the overall runtime. To overcome this limitation, we propose a
+                  novel subgraph matching algorithm, CEMR. It incorporates two techniques to reduce duplicate
+                  extensions: common extension merging, which leverages a black-white vertex encoding, and common
+                  extension reusing, which employs common extension buffers. In addition, we design two pruning
+                  techniques to discard unpromising search branches. Extensive experiments on real-world datasets and
+                  diverse query workloads demonstrate that CEMR outperforms state-of-the-art subgraph matching methods.
                 </div>
               </details>
             </div>
@@ -4039,6 +4039,65 @@
                 class="mchip">Commonwealth Ballroom B</span><span class="mchip">Tuesday 13:45 – 15:15</span><span class="mchip">Session Chair: Steven Whang</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1914"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1893-fang.pdf" target="_blank" rel="noopener">Mil: Cost-guided Minimum Makespan Scheduling for Applications of Multiple LLMs</a></span>
+              </div>
+              <div class="pauth"><span class="au">Jingzhi Fang</span> <span class="aff">(HKUST)</span> · <span
+                  class="au">Yanyan Shen</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
+                  class="au">Yue Wang</span> <span class="aff">(Shenzhen Institute of Computing Sciences)</span> · <span
+                  class="au">Lei Chen</span> <span class="aff">(HKUST, HKUST(GZ))</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Multi-LLM applications calling multiple LLMs per request are emerging. An important
+                  scenario is running these applications offline on a request set. This work aims to minimize the
+                  offline inference makespan of these applications to save time and cost. Specifically, we study
+                  minimum-makespan scheduling of multi-LLM applications (the MLAS problem), which requires GPU
+                  allocation, LLM parallelism selection, and LLM execution orchestration. MLAS is NP-hard, and it
+                  differs from existing multi-model frameworks and job scheduling problems due to LLMs’ unique
+                  properties (e.g., high memory demand, complex inference behavior), the offline inference setting, and
+                  relaxed execution precedence constraints. There is no existing work on MLAS and simple rules cannot
+                  handle all the problem instances. We propose a framework, Mil, for MLAS with three major components:
+                  (1) processing functions estimating LLM processing rates by output length sampling, inference process
+                  simulation, and per-generation-iteration latency estimation; (2) a greedy method that finds a good
+                  schedule with a theoretical guarantee on a simplified problem instance; (3) a runtime adjustment
+                  mechanism reducing GPU idleness. Experiments on various applications (ensembling, routing, chain
+                  summary, mixed) show that Mil can achieve up to 3.4× end-to-end speedups over current practice.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="3016"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3371-fan.pdf" target="_blank" rel="noopener">DeepPrep: An LLM-Powered Agentic System for Autonomous Data Preparation</a></span></div>
+              <div class="pauth"><span class="au">Meihao Fan</span> <span class="aff">(Renmin University of
+                  China)</span> · <span class="au">Ju Fan</span> <span class="aff">(Renmin University of China)</span> ·
+                <span class="au">Yuxin Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
+                  class="au">Shaolei Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
+                  class="au">Xiaoyong Du</span> <span class="aff">(Renmin University of China)</span> · <span
+                  class="au">Jie Song</span> <span class="aff">(ByteDance)</span> · <span class="au">Peng Li</span>
+                <span class="aff">(ByteDance)</span> · <span class="au">Fuxin Jiang</span> <span
+                  class="aff">(ByteDance)</span> · <span class="au">Tieying Zhang</span> <span
+                  class="aff">(ByteDance)</span> · <span class="au">Jianjun Chen</span> <span
+                  class="aff">(ByteDance)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Data preparation, which aims to transform heterogeneous and noisy raw tables into
+                  analysis-ready data, remains a major bottleneck in data science. Recent approaches leverage large
+                  language models (LLMs) to automate data preparation from natural language specifications. However,
+                  existing LLM-powered methods either make decisions without grounding in intermediate execution
+                  results, or rely on linear interaction processes that offer limited support for revising earlier
+                  decisions. To address these limitations, we propose DeepPrep, an LLM-powered agentic system for
+                  autonomous data preparation. DeepPrep constructs data preparation pipelines through iterative,
+                  execution-grounded interaction with an environment that materializes intermediate table states and
+                  returns runtime feedback. To overcome the limitations of linear interaction, DeepPrep organizes
+                  pipeline construction with tree-based agentic reasoning, enabling structured exploration and non-local
+                  revision based on execution feedback. To enable effective learning of such behaviors, we propose a
+                  progressive agentic training framework, together with data synthesis that supplies diverse and complex
+                  ADP tasks. Extensive experiments show that DeepPrep achieves data preparation accuracy comparable to
+                  strong closed-source models (e.g., GPT-5) while incurring 15x lower inference cost, while establishing
+                  state-of-the-art performance among open-source baselines and generalizing effectively across diverse
+                  datasets.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1606"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1264-chai.pdf" target="_blank" rel="noopener">BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs</a></span>
               </div>
               <div class="pauth"><span class="au">Chaoyuan Shen</span> <span class="aff">(Beijing Institute of
@@ -4137,32 +4196,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1914"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1893-fang.pdf" target="_blank" rel="noopener">Mil: Cost-guided Minimum Makespan Scheduling for Applications of Multiple LLMs</a></span>
-              </div>
-              <div class="pauth"><span class="au">Jingzhi Fang</span> <span class="aff">(HKUST)</span> · <span
-                  class="au">Yanyan Shen</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
-                  class="au">Yue Wang</span> <span class="aff">(Shenzhen Institute of Computing Sciences)</span> · <span
-                  class="au">Lei Chen</span> <span class="aff">(HKUST, HKUST(GZ))</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Multi-LLM applications calling multiple LLMs per request are emerging. An important
-                  scenario is running these applications offline on a request set. This work aims to minimize the
-                  offline inference makespan of these applications to save time and cost. Specifically, we study
-                  minimum-makespan scheduling of multi-LLM applications (the MLAS problem), which requires GPU
-                  allocation, LLM parallelism selection, and LLM execution orchestration. MLAS is NP-hard, and it
-                  differs from existing multi-model frameworks and job scheduling problems due to LLMs’ unique
-                  properties (e.g., high memory demand, complex inference behavior), the offline inference setting, and
-                  relaxed execution precedence constraints. There is no existing work on MLAS and simple rules cannot
-                  handle all the problem instances. We propose a framework, Mil, for MLAS with three major components:
-                  (1) processing functions estimating LLM processing rates by output length sampling, inference process
-                  simulation, and per-generation-iteration latency estimation; (2) a greedy method that finds a good
-                  schedule with a theoretical guarantee on a simplified problem instance; (3) a runtime adjustment
-                  mechanism reducing GPU idleness. Experiments on various applications (ensembling, routing, chain
-                  summary, mixed) show that Mil can achieve up to 3.4× end-to-end speedups over current practice.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1912"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1880-zhang.pdf" target="_blank" rel="noopener">Efficient Banzhaf-Based Data Valuation for $k$-Nearest Neighbors Classification</a></span>
               </div>
               <div class="pauth"><span class="au">Guangyi Zhang</span> <span class="aff">(Shenzhen Technology
@@ -4216,39 +4249,6 @@
                 </div>
               </details>
             </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="3016"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3371-fan.pdf" target="_blank" rel="noopener">DeepPrep: An LLM-Powered Agentic System for Autonomous Data Preparation</a></span></div>
-              <div class="pauth"><span class="au">Meihao Fan</span> <span class="aff">(Renmin University of
-                  China)</span> · <span class="au">Ju Fan</span> <span class="aff">(Renmin University of China)</span> ·
-                <span class="au">Yuxin Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
-                  class="au">Shaolei Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
-                  class="au">Xiaoyong Du</span> <span class="aff">(Renmin University of China)</span> · <span
-                  class="au">Jie Song</span> <span class="aff">(ByteDance)</span> · <span class="au">Peng Li</span>
-                <span class="aff">(ByteDance)</span> · <span class="au">Fuxin Jiang</span> <span
-                  class="aff">(ByteDance)</span> · <span class="au">Tieying Zhang</span> <span
-                  class="aff">(ByteDance)</span> · <span class="au">Jianjun Chen</span> <span
-                  class="aff">(ByteDance)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Data preparation, which aims to transform heterogeneous and noisy raw tables into
-                  analysis-ready data, remains a major bottleneck in data science. Recent approaches leverage large
-                  language models (LLMs) to automate data preparation from natural language specifications. However,
-                  existing LLM-powered methods either make decisions without grounding in intermediate execution
-                  results, or rely on linear interaction processes that offer limited support for revising earlier
-                  decisions. To address these limitations, we propose DeepPrep, an LLM-powered agentic system for
-                  autonomous data preparation. DeepPrep constructs data preparation pipelines through iterative,
-                  execution-grounded interaction with an environment that materializes intermediate table states and
-                  returns runtime feedback. To overcome the limitations of linear interaction, DeepPrep organizes
-                  pipeline construction with tree-based agentic reasoning, enabling structured exploration and non-local
-                  revision based on execution feedback. To enable effective learning of such behaviors, we propose a
-                  progressive agentic training framework, together with data synthesis that supplies diverse and complex
-                  ADP tasks. Extensive experiments show that DeepPrep achieves data preparation accuracy comparable to
-                  strong closed-source models (e.g., GPT-5) while incurring 15x lower inference cost, while establishing
-                  state-of-the-art performance among open-source baselines and generalizing effectively across diverse
-                  datasets.</div>
-              </details>
-            </div>
           </div>
           <div class="sessblock hyb" id="res-12" data-day="tue">
             <div class="shead"><span class="sname">Research 12 · Time Series and Data Streams</span><span
@@ -4283,26 +4283,29 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2105"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1791-chang.pdf" target="_blank" rel="noopener">FB*: A Compact Index for Efficient and Exact Density-based Clustering</a></span></div>
-              <div class="pauth"><span class="au">Bide Zhao</span> <span class="aff">(University of Sydney)</span> ·
-                <span class="au">Zhiyi Wang</span> <span class="aff">(University of Sydney)</span> · <span
-                  class="au">Lijun Chang</span> <span class="aff">(University of Sydney)</span> · <span class="au">Xin
-                  Huang</span> <span class="aff">(Hong Kong Baptist University)</span></div>
+                  data-pid="1238"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p780-liu.pdf" target="_blank" rel="noopener">CounterSnake: A lossless and generalized compression framework for diverse
+                  sketches</a></span></div>
+              <div class="pauth"><span class="au">Xunpeng Liu</span> <span class="aff">(Peking University)</span> ·
+                <span class="au">Qun Huang</span> <span class="aff">(Peking University)</span> · <span
+                  class="au">Yaojing Wang</span> <span class="aff">(Huawei)</span> · <span class="au">Lihua Miao</span>
+                <span class="aff">(Huawei)</span> · <span class="au">Chen Sun</span> <span class="aff">(Huawei)</span>
+              </div>
               <details class="pabs">
                 <summary>Abstract</summary>
-                <div class="abstxt">Density-based clustering is a fundamental technique for discovering arbitrarily
-                  shaped clusters and handling noise, without requiring the number of clusters to be specified in
-                  advance. However, existing methods often struggle with efficiency and accuracy across varying query
-                  parameters, including the distance threshold $\varepsilon$ and size threshold $\mu$. In this paper, we
-                  propose a novel index-based algorithm for efficient and exact cluster extraction. We introduce FB, the
-                  first linear-size index that supports exact clustering with running time linear in the output size for
-                  any query $\varepsilon$ and a fixed $\mu$, along with an empirically compact variant, FB$^*$, for
-                  efficiently extracting density-based clusters. Due to the compactness of the index and the efficiency
-                  of the query algorithm, our index is well-suited for disk-based storage, enabling multiple versions of
-                  the index --- one for each distinct $\mu$ --- to support arbitrary $(\varepsilon,\mu)$ queries. We
-                  provide formal analyses of time and space complexity. Extensive experiments on 23 real-world datasets
-                  demonstrate that our method significantly outperforms existing approaches while guaranteeing exact
-                  clustering results.</div>
+                <div class="abstxt">Sketches are vital for large-scale stream analytics. However, they often use
+                  fixed-size counters, which remain underutilized, especially under skewed data distributions. Prior
+                  solutions to address this inefficiency compromise on accuracy, real-time operations, or generality,
+                  which limits their applicability. In this paper, we propose CounterSnake, a novel hierarchical
+                  compression framework that reduces the memory consumption of sketch counters. Compared with existing
+                  efforts, CounterSnake is the first one to fulfill four key requirements: (1) zero counter error, (2)
+                  bounded latency, (3) full counter interfaces, and (4) efficient multi-sketch optimization. The key
+                  idea is to dynamically link overflowing counters across layers to form variable-size logical counters.
+                  Besides, we design techniques such as tag-based linking, d-way mapping, sign-bit encoding, and
+                  virtual-counter abstraction to address the four requirements. We also theoretically derive its memory
+                  and time complexities under justified assumptions. Experiments against six SOTA solutions demonstrate
+                  up to several orders of accuracy improvements and comparable operation throughput. We also thoroughly
+                  evaluate CounterSnake and other frameworks, showing that CounterSnake is the only one that fulfills
+                  all the requirements.</div>
               </details>
             </div>
             <div class="paper">
@@ -4344,6 +4347,30 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2105"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1791-chang.pdf" target="_blank" rel="noopener">FB*: A Compact Index for Efficient and Exact Density-based Clustering</a></span></div>
+              <div class="pauth"><span class="au">Bide Zhao</span> <span class="aff">(University of Sydney)</span> ·
+                <span class="au">Zhiyi Wang</span> <span class="aff">(University of Sydney)</span> · <span
+                  class="au">Lijun Chang</span> <span class="aff">(University of Sydney)</span> · <span class="au">Xin
+                  Huang</span> <span class="aff">(Hong Kong Baptist University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Density-based clustering is a fundamental technique for discovering arbitrarily
+                  shaped clusters and handling noise, without requiring the number of clusters to be specified in
+                  advance. However, existing methods often struggle with efficiency and accuracy across varying query
+                  parameters, including the distance threshold $\varepsilon$ and size threshold $\mu$. In this paper, we
+                  propose a novel index-based algorithm for efficient and exact cluster extraction. We introduce FB, the
+                  first linear-size index that supports exact clustering with running time linear in the output size for
+                  any query $\varepsilon$ and a fixed $\mu$, along with an empirically compact variant, FB$^*$, for
+                  efficiently extracting density-based clusters. Due to the compactness of the index and the efficiency
+                  of the query algorithm, our index is well-suited for disk-based storage, enabling multiple versions of
+                  the index --- one for each distinct $\mu$ --- to support arbitrary $(\varepsilon,\mu)$ queries. We
+                  provide formal analyses of time and space complexity. Extensive experiments on 23 real-world datasets
+                  demonstrate that our method significantly outperforms existing approaches while guaranteeing exact
+                  clustering results.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1245"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p849-li.pdf" target="_blank" rel="noopener">DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of
                   Floating-point Data</a></span></div>
               <div class="pauth"><span class="au">Chuanyi Lv</span> <span class="aff">(Zhejiang University)</span> ·
@@ -4367,33 +4394,6 @@
                   surpasses state-of-the-art schemes, achieving a 15% higher compression ratio and a 20% faster
                   decompression speed while maintaining a competitive compression speed. DeXOR also offers scalability
                   under varying conditions and exhibits robustness in extreme scenarios where other schemes fail.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1238"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p780-liu.pdf" target="_blank" rel="noopener">CounterSnake: A lossless and generalized compression framework for diverse
-                  sketches</a></span></div>
-              <div class="pauth"><span class="au">Xunpeng Liu</span> <span class="aff">(Peking University)</span> ·
-                <span class="au">Qun Huang</span> <span class="aff">(Peking University)</span> · <span
-                  class="au">Yaojing Wang</span> <span class="aff">(Huawei)</span> · <span class="au">Lihua Miao</span>
-                <span class="aff">(Huawei)</span> · <span class="au">Chen Sun</span> <span class="aff">(Huawei)</span>
-              </div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Sketches are vital for large-scale stream analytics. However, they often use
-                  fixed-size counters, which remain underutilized, especially under skewed data distributions. Prior
-                  solutions to address this inefficiency compromise on accuracy, real-time operations, or generality,
-                  which limits their applicability. In this paper, we propose CounterSnake, a novel hierarchical
-                  compression framework that reduces the memory consumption of sketch counters. Compared with existing
-                  efforts, CounterSnake is the first one to fulfill four key requirements: (1) zero counter error, (2)
-                  bounded latency, (3) full counter interfaces, and (4) efficient multi-sketch optimization. The key
-                  idea is to dynamically link overflowing counters across layers to form variable-size logical counters.
-                  Besides, we design techniques such as tag-based linking, d-way mapping, sign-bit encoding, and
-                  virtual-counter abstraction to address the four requirements. We also theoretically derive its memory
-                  and time complexities under justified assumptions. Experiments against six SOTA solutions demonstrate
-                  up to several orders of accuracy improvements and comparable operation throughput. We also thoroughly
-                  evaluate CounterSnake and other frameworks, showing that CounterSnake is the only one that fulfills
-                  all the requirements.</div>
               </details>
             </div>
             <div class="paper">
@@ -5927,6 +5927,138 @@
                 class="mchip">Commonwealth Ballroom B</span><span class="mchip">Wednesday 10:45 – 12:15</span><span class="mchip">Session Chair: Garima Gaur</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2932"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2522-tang.pdf" target="_blank" rel="noopener">Document-to-Database: Extraction Meets Relational Semantics</a></span></div>
+              <div class="pauth"><span class="au">Zhengxuan Zhang</span> <span class="aff">(The Hong Kong University of
+                  Science and Technology(Guangzhou))</span> · <span class="au">Zhuowen Liang</span> <span
+                  class="aff">(The Hong Kong University of Science and Technology(Guangzhou))</span> · <span
+                  class="au">Jiazhuo Chen</span> <span class="aff">(The Hong Kong University of Science and
+                  Technology(Guangzhou))</span> · <span class="au">Haixun Wang</span> <span class="aff">(EvenUp)</span>
+                · <span class="au">Nan Tang</span> <span class="aff">(The Hong Kong University of Science and
+                  Technology(Guangzhou))</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">A vast amount of enterprise and scientific knowledge remains locked in unstructured
+                  documents, while analytics and decision-making rely on relational databases. Bridging this gap is
+                  challenging because document extraction operates on local text spans, whereas relational databases
+                  enforce global semantics through schemas, keys, and integrity constraints. As a result, simply
+                  prompting large language models (LLMs) to extract tables often yields outputs that are hard to audit
+                  and inconsistent at the database level. This tension motivates document-to-database (Doc2DB)
+                  construction, yet most existing approaches treat it as a one-shot extraction problem, focusing on
+                  individual tables while failing to reconcile extraction results with relational semantics. We present
+                  DataMosaic, a Doc2DB system that explicitly mediates between extraction and database semantics. Given
+                  an ER schema with integrity and business constraints, DataMosaic coordinates entity and relationship
+                  extraction with verification, repair, and targeted re-extraction in a closed extract-verify-iterate
+                  loop managed by an orchestrator. By separating intrinsic document ambiguity, correctable extraction
+                  errors, and structural constraint violations, DataMosaic incrementally constructs database instances
+                  that are accurate and semantically consistent. The system supports pluggable third-party LLM
+                  extractors, domain-specific verifiers, and repair operators. Experiments across financial, legal,
+                  academic, and student datasets show that DataMosaic substantially reduces constraint violations and
+                  improves database-level accuracy over strong Doc2DB baselines.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-sds" title="Scalable Data Science Paper">SDS</span><span
+                  class="ptitle" data-pid="2641"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2224-sheng.pdf" target="_blank" rel="noopener">QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for
+                  Graph-based Retrieval-Augmented Generation</a></span></div>
+              <div class="pauth"><span class="au">Zeang Sheng</span> <span class="aff">(Peking University)</span> ·
+                <span class="au">Ruihong Sun</span> <span class="aff">(Tencent Inc)</span> · <span class="au">Jiahao
+                  Xu</span> <span class="aff">(Tencent Inc)</span> · <span class="au">Hanmei Luo</span> <span
+                  class="aff">(Tencent Inc)</span> · <span class="au">Peng Chen</span> <span class="aff">(Tencent
+                  Inc)</span> · <span class="au">Wentao Zhang</span> <span class="aff">(Peking University)</span> ·
+                <span class="au">Bin Cui</span> <span class="aff">(Peking University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Large Language Models (LLMs) have demonstrated remarkable capabilities, yet they
+                  often suffer from hallucinations and lack up-to-date knowledge. Retrieval-Augmented Generation (RAG)
+                  addresses these limitations by grounding LLMs in external knowledge. While vector-based RAG is
+                  effective for simple queries, it struggles with complex queries that require multi-hop reasoning.
+                  Graph-based RAG frameworks have emerged to solve this by constructing knowledge graphs that capture
+                  global relationships and enable multi-hop reasoning. However, these graph-based approaches frequently
+                  underperform on simple fact-based queries compared to their vector-based counterparts, as they may
+                  lose detailed entity information. In this paper, we conduct dataset-level and framework-level analysis
+                  targeting graph-based RAG approaches. We find that existing QA benchmark datasets can be split to
+                  &quot;Local&quot; and &quot;Global&quot; queries that have different properties; and different RAG
+                  frameworks perform differently on these two kinds of queries. Concretely, existing graph-based RAG
+                  frameworks, including recent dual-branch ones, cannot consistently outperform vector-based RAG on
+                  &quot;Local&quot; queries. We attribute this phenomenon to the fact that graph-based RAG often employs
+                  a fixed retrieval strategy, leading to redundant information retrieval and unnecessary cost for simple
+                  queries. Based on the analysis, we propose QA-GraphRAG, a new query-adaptive plug-and-play retrieval
+                  integration for graph-based RAG frameworks. QA-GraphRAG incorporates a pre-trained router that
+                  predicts the optimal knowledge hierarchy from which to start retrieval based on the characteristics of
+                  the input query. Extensive experiments on conventional KGQA datasets and GraphRAG-Bench demonstrate
+                  that equipping existing graph-based RAG frameworks with our QA-GraphRAG leads to substantial
+                  performance improvements.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-eab"
+                  title="Experiment, Analysis & Benchmark Paper">EA&B</span><span class="ptitle"
+                  data-pid="2555b (orig 1751)"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5623-zhou.pdf" target="_blank" rel="noopener">In-depth Analysis of Graph-based RAG in a Unified Framework</a></span></div>
+              <div class="pauth"><span class="au">Yingli Zhou</span> <span class="aff">(The Chinese University of Hong
+                  Kong, Shenzhen)</span> · <span class="au">Yaodong Su</span> <span class="aff">(The Chinese University
+                  of Hong Kong, Shenzhen)</span> · <span class="au">Youran Sun</span> <span class="aff">(The Chinese
+                  University of Hong Kong, Shenzhen)</span> · <span class="au">Shu Wang</span> <span class="aff">(The
+                  Chinese University of Hong Kong, Shenzhen)</span> · <span class="au">Taotao Wang</span> <span
+                  class="aff">(The Chinese University of Hong Kong, Shenzhen)</span> · <span class="au">Runyuan
+                  He</span> <span class="aff">(The Chinese University of Hong Kong, Shenzhen)</span> · <span
+                  class="au">Yongwei Zhang</span> <span class="aff">(Huawei Cloud)</span> · <span class="au">Sicong
+                  Liang</span> <span class="aff">(Huawei Cloud)</span> · <span class="au">Xilin Liu</span> <span
+                  class="aff">(Huawei Cloud)</span> · <span class="au">Yuchi Ma</span> <span class="aff">(Huawei
+                  Cloud)</span> · <span class="au">Yixiang Fang</span> <span class="aff">(The Chinese University of Hong
+                  Kong, Shenzhen)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Graph-based Retrieval-Augmented Generation (RAG) has proven effective in integrating
+                  external knowledge into large language models (LLMs), improving their factual accuracy, adaptability,
+                  interpretability, and trustworthiness. A number of graph-based RAG methods have been proposed in the
+                  literature. However, these methods have not been systematically and comprehensively compared under the
+                  same experimental settings. In this paper, we first summarize a unified framework to incorporate all
+                  graph-based RAG methods from a high-level perspective. We then extensively compare representative
+                  graph-based RAG methods over a range of questing-answering (QA) datasets - from specific questions to
+                  abstract questions - and examine the effectiveness of all methods, providing a thorough analysis of
+                  graph-based RAG approaches. As a byproduct of our experimental analysis, we are also able to identify
+                  new variants of the graph-based RAG methods over specific QA and abstract QA tasks respectively, by
+                  combining existing techniques, which outperform the state-of-the-art methods. Finally, based on these
+                  findings, we offer promising research opportunities. We believe that a deeper understanding of the
+                  behavior of existing methods can provide new valuable insights for future research.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-eab"
+                  title="Experiment, Analysis & Benchmark Paper">EA&B</span><span class="ptitle" data-pid="1684"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1386-fan.pdf" target="_blank" rel="noopener">TACO: A
+                  Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries</a></span></div>
+              <div class="pauth"><span class="au">Chao Deng</span> <span class="aff">(Renmin University of China)</span>
+                · <span class="au">Ju Fan</span> <span class="aff">(Renmin University of China)</span> · <span
+                  class="au">Yuyu Luo</span> <span class="aff">(The Hong Kong University of Science and Technology
+                  (Guangzhou))</span> · <span class="au">Qinliang Xue</span> <span class="aff">(Renmin University of
+                  China)</span> · <span class="au">Meihao Fan</span> <span class="aff">(Renmin University of
+                  China)</span> · <span class="au">Yuxin Zhang</span> <span class="aff">(Renmin University of
+                  China)</span> · <span class="au">Min Zhang</span> <span class="aff">(Beijing Big Data Centre)</span> ·
+                <span class="au">Xiaofeng Jia</span> <span class="aff">(Beijing Big Data Centre)</span> · <span
+                  class="au">Jing Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
+                  class="au">Xiaoyong Du</span> <span class="aff">(Renmin University of China)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Text-to-SQL aims to translate natural language questions into executable SQL queries
+                  over structured databases. Existing benchmarks mainly focus on closed-domain settings with predefined
+                  database schemas and well-specified questions, but they fall short in addressing the challenges of
+                  open-domain scenarios, such as ambiguous questions, unspecified databases, and cross-database
+                  querying. To bridge this gap, we introduce TACO, a benchmark for open-domain Text-to-SQL with
+                  Ambiguous and CrOss-database queries. TACO consists of 1,500 real-world Text-to-SQL examples from a
+                  smart city data service and 13,000 high-quality synthetic examples generated from large-scale open
+                  data portals, covering diverse domains such as transportation, healthcare, and finance. To construct
+                  the synthetic examples, we develop an effective data synthesis pipeline that preserves the complexity
+                  of real-world queries. To demonstrate the utility of TACO, we introduce a baseline TACO-SQL composed
+                  of question rewriting, table linking, and query planning, to illustrate the challenges posed by TACO
+                  and to better understand the limitations of existing Text-to-SQL approaches. Extensive experiments on
+                  TACO using a variety of state-of-the-art Text-to-SQL approaches show that, while our proposed TACO-SQL
+                  achieves the best results, a significant gap remains between the existing approaches and human-written
+                  SQL. These findings highlight the difficulty of open-domain Text-to-SQL and position TACO as a
+                  valuable benchmark to drive future research.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="2884"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2358-wang.pdf" target="_blank" rel="noopener">BookRAG: A Hierarchical Structure-aware Index-based Approach for Retrieval-Augmented
                   Generation on Complex Documents</a></span></div>
               <div class="pauth"><span class="au">Shu Wang</span> <span class="aff">(School of Data Science, The Chinese
@@ -6011,104 +6143,6 @@
               </details>
             </div>
             <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2932"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2522-tang.pdf" target="_blank" rel="noopener">Document-to-Database: Extraction Meets Relational Semantics</a></span></div>
-              <div class="pauth"><span class="au">Zhengxuan Zhang</span> <span class="aff">(The Hong Kong University of
-                  Science and Technology(Guangzhou))</span> · <span class="au">Zhuowen Liang</span> <span
-                  class="aff">(The Hong Kong University of Science and Technology(Guangzhou))</span> · <span
-                  class="au">Jiazhuo Chen</span> <span class="aff">(The Hong Kong University of Science and
-                  Technology(Guangzhou))</span> · <span class="au">Haixun Wang</span> <span class="aff">(EvenUp)</span>
-                · <span class="au">Nan Tang</span> <span class="aff">(The Hong Kong University of Science and
-                  Technology(Guangzhou))</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">A vast amount of enterprise and scientific knowledge remains locked in unstructured
-                  documents, while analytics and decision-making rely on relational databases. Bridging this gap is
-                  challenging because document extraction operates on local text spans, whereas relational databases
-                  enforce global semantics through schemas, keys, and integrity constraints. As a result, simply
-                  prompting large language models (LLMs) to extract tables often yields outputs that are hard to audit
-                  and inconsistent at the database level. This tension motivates document-to-database (Doc2DB)
-                  construction, yet most existing approaches treat it as a one-shot extraction problem, focusing on
-                  individual tables while failing to reconcile extraction results with relational semantics. We present
-                  DataMosaic, a Doc2DB system that explicitly mediates between extraction and database semantics. Given
-                  an ER schema with integrity and business constraints, DataMosaic coordinates entity and relationship
-                  extraction with verification, repair, and targeted re-extraction in a closed extract-verify-iterate
-                  loop managed by an orchestrator. By separating intrinsic document ambiguity, correctable extraction
-                  errors, and structural constraint violations, DataMosaic incrementally constructs database instances
-                  that are accurate and semantically consistent. The system supports pluggable third-party LLM
-                  extractors, domain-specific verifiers, and repair operators. Experiments across financial, legal,
-                  academic, and student datasets show that DataMosaic substantially reduces constraint violations and
-                  improves database-level accuracy over strong Doc2DB baselines.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-eab"
-                  title="Experiment, Analysis & Benchmark Paper">EA&B</span><span class="ptitle"
-                  data-pid="2555b (orig 1751)"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5623-zhou.pdf" target="_blank" rel="noopener">In-depth Analysis of Graph-based RAG in a Unified Framework</a></span></div>
-              <div class="pauth"><span class="au">Yingli Zhou</span> <span class="aff">(The Chinese University of Hong
-                  Kong, Shenzhen)</span> · <span class="au">Yaodong Su</span> <span class="aff">(The Chinese University
-                  of Hong Kong, Shenzhen)</span> · <span class="au">Youran Sun</span> <span class="aff">(The Chinese
-                  University of Hong Kong, Shenzhen)</span> · <span class="au">Shu Wang</span> <span class="aff">(The
-                  Chinese University of Hong Kong, Shenzhen)</span> · <span class="au">Taotao Wang</span> <span
-                  class="aff">(The Chinese University of Hong Kong, Shenzhen)</span> · <span class="au">Runyuan
-                  He</span> <span class="aff">(The Chinese University of Hong Kong, Shenzhen)</span> · <span
-                  class="au">Yongwei Zhang</span> <span class="aff">(Huawei Cloud)</span> · <span class="au">Sicong
-                  Liang</span> <span class="aff">(Huawei Cloud)</span> · <span class="au">Xilin Liu</span> <span
-                  class="aff">(Huawei Cloud)</span> · <span class="au">Yuchi Ma</span> <span class="aff">(Huawei
-                  Cloud)</span> · <span class="au">Yixiang Fang</span> <span class="aff">(The Chinese University of Hong
-                  Kong, Shenzhen)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Graph-based Retrieval-Augmented Generation (RAG) has proven effective in integrating
-                  external knowledge into large language models (LLMs), improving their factual accuracy, adaptability,
-                  interpretability, and trustworthiness. A number of graph-based RAG methods have been proposed in the
-                  literature. However, these methods have not been systematically and comprehensively compared under the
-                  same experimental settings. In this paper, we first summarize a unified framework to incorporate all
-                  graph-based RAG methods from a high-level perspective. We then extensively compare representative
-                  graph-based RAG methods over a range of questing-answering (QA) datasets - from specific questions to
-                  abstract questions - and examine the effectiveness of all methods, providing a thorough analysis of
-                  graph-based RAG approaches. As a byproduct of our experimental analysis, we are also able to identify
-                  new variants of the graph-based RAG methods over specific QA and abstract QA tasks respectively, by
-                  combining existing techniques, which outperform the state-of-the-art methods. Finally, based on these
-                  findings, we offer promising research opportunities. We believe that a deeper understanding of the
-                  behavior of existing methods can provide new valuable insights for future research.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-eab"
-                  title="Experiment, Analysis & Benchmark Paper">EA&B</span><span class="ptitle" data-pid="1684"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1386-fan.pdf" target="_blank" rel="noopener">TACO: A
-                  Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries</a></span></div>
-              <div class="pauth"><span class="au">Chao Deng</span> <span class="aff">(Renmin University of China)</span>
-                · <span class="au">Ju Fan</span> <span class="aff">(Renmin University of China)</span> · <span
-                  class="au">Yuyu Luo</span> <span class="aff">(The Hong Kong University of Science and Technology
-                  (Guangzhou))</span> · <span class="au">Qinliang Xue</span> <span class="aff">(Renmin University of
-                  China)</span> · <span class="au">Meihao Fan</span> <span class="aff">(Renmin University of
-                  China)</span> · <span class="au">Yuxin Zhang</span> <span class="aff">(Renmin University of
-                  China)</span> · <span class="au">Min Zhang</span> <span class="aff">(Beijing Big Data Centre)</span> ·
-                <span class="au">Xiaofeng Jia</span> <span class="aff">(Beijing Big Data Centre)</span> · <span
-                  class="au">Jing Zhang</span> <span class="aff">(Renmin University of China)</span> · <span
-                  class="au">Xiaoyong Du</span> <span class="aff">(Renmin University of China)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Text-to-SQL aims to translate natural language questions into executable SQL queries
-                  over structured databases. Existing benchmarks mainly focus on closed-domain settings with predefined
-                  database schemas and well-specified questions, but they fall short in addressing the challenges of
-                  open-domain scenarios, such as ambiguous questions, unspecified databases, and cross-database
-                  querying. To bridge this gap, we introduce TACO, a benchmark for open-domain Text-to-SQL with
-                  Ambiguous and CrOss-database queries. TACO consists of 1,500 real-world Text-to-SQL examples from a
-                  smart city data service and 13,000 high-quality synthetic examples generated from large-scale open
-                  data portals, covering diverse domains such as transportation, healthcare, and finance. To construct
-                  the synthetic examples, we develop an effective data synthesis pipeline that preserves the complexity
-                  of real-world queries. To demonstrate the utility of TACO, we introduce a baseline TACO-SQL composed
-                  of question rewriting, table linking, and query planning, to illustrate the challenges posed by TACO
-                  and to better understand the limitations of existing Text-to-SQL approaches. Extensive experiments on
-                  TACO using a variety of state-of-the-art Text-to-SQL approaches show that, while our proposed TACO-SQL
-                  achieves the best results, a significant gap remains between the existing approaches and human-written
-                  SQL. These findings highlight the difficulty of open-domain Text-to-SQL and position TACO as a
-                  valuable benchmark to drive future research.</div>
-              </details>
-            </div>
-            <div class="paper">
               <div class="prow"><span class="badge b-eab"
                   title="Experiment, Analysis & Benchmark Paper">EA&B</span><span class="ptitle"
                   data-pid="2966"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2866-wang.pdf" target="_blank" rel="noopener">PrepBench: How Far Are We from Natural-Language-Driven Data Preparation?</a></span></div>
@@ -6137,44 +6171,40 @@
                   realizing NL-driven data preparation.</div>
               </details>
             </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-sds" title="Scalable Data Science Paper">SDS</span><span
-                  class="ptitle" data-pid="2641"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2224-sheng.pdf" target="_blank" rel="noopener">QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for
-                  Graph-based Retrieval-Augmented Generation</a></span></div>
-              <div class="pauth"><span class="au">Zeang Sheng</span> <span class="aff">(Peking University)</span> ·
-                <span class="au">Ruihong Sun</span> <span class="aff">(Tencent Inc)</span> · <span class="au">Jiahao
-                  Xu</span> <span class="aff">(Tencent Inc)</span> · <span class="au">Hanmei Luo</span> <span
-                  class="aff">(Tencent Inc)</span> · <span class="au">Peng Chen</span> <span class="aff">(Tencent
-                  Inc)</span> · <span class="au">Wentao Zhang</span> <span class="aff">(Peking University)</span> ·
-                <span class="au">Bin Cui</span> <span class="aff">(Peking University)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Large Language Models (LLMs) have demonstrated remarkable capabilities, yet they
-                  often suffer from hallucinations and lack up-to-date knowledge. Retrieval-Augmented Generation (RAG)
-                  addresses these limitations by grounding LLMs in external knowledge. While vector-based RAG is
-                  effective for simple queries, it struggles with complex queries that require multi-hop reasoning.
-                  Graph-based RAG frameworks have emerged to solve this by constructing knowledge graphs that capture
-                  global relationships and enable multi-hop reasoning. However, these graph-based approaches frequently
-                  underperform on simple fact-based queries compared to their vector-based counterparts, as they may
-                  lose detailed entity information. In this paper, we conduct dataset-level and framework-level analysis
-                  targeting graph-based RAG approaches. We find that existing QA benchmark datasets can be split to
-                  &quot;Local&quot; and &quot;Global&quot; queries that have different properties; and different RAG
-                  frameworks perform differently on these two kinds of queries. Concretely, existing graph-based RAG
-                  frameworks, including recent dual-branch ones, cannot consistently outperform vector-based RAG on
-                  &quot;Local&quot; queries. We attribute this phenomenon to the fact that graph-based RAG often employs
-                  a fixed retrieval strategy, leading to redundant information retrieval and unnecessary cost for simple
-                  queries. Based on the analysis, we propose QA-GraphRAG, a new query-adaptive plug-and-play retrieval
-                  integration for graph-based RAG frameworks. QA-GraphRAG incorporates a pre-trained router that
-                  predicts the optimal knowledge hierarchy from which to start retrieval based on the characteristics of
-                  the input query. Extensive experiments on conventional KGQA datasets and GraphRAG-Bench demonstrate
-                  that equipping existing graph-based RAG frameworks with our QA-GraphRAG leads to substantial
-                  performance improvements.</div>
-              </details>
-            </div>
           </div>
           <div class="sessblock hyb" id="res-24" data-day="wed">
             <div class="shead"><span class="sname">Research 24 · Vector Indexing and Quantization</span><span
                 class="mchip">Commonwealth Ballroom A</span><span class="mchip">Wednesday 10:45 – 12:15</span><span class="mchip">Session Chair: Jakub Lacki</span></div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-sds" title="Scalable Data Science Paper">SDS</span><span
+                  class="ptitle" data-pid="1597"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1240-yang.pdf" target="_blank" rel="noopener">Quantization Meets Projection: A Happy Marriage for Approximate
+                  k-Nearest Neighbor Search</a></span></div>
+              <div class="pauth"><span class="au">Mingyu Yang</span> <span class="aff">(The Hong Kong University of
+                  Science and Technology (Guangzhou))</span> · <span class="au">Liuchang Jing</span> <span
+                  class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span> · <span
+                  class="au">Wentao Li</span> <span class="aff">(University of Leicester)</span> · <span class="au">Wei
+                  Wang</span> <span class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span>
+              </div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Approximate k-nearest neighbor (AKNN) search is a fundamental problem with wide
+                  applications. To reduce memory and accelerate search, vector quantization is widely adopted. However,
+                  existing quantization methods either rely on codebooks---whose sizes are flexible but whose query
+                  speed is limited by costly table lookups---or adopt dimension-wise quantization, which maps each
+                  vector dimension to a small quantized code for fast search. The latter, however, suffers from a fixed
+                  compression ratio because the quantized code length is inherently tied to the original dimensionality.
+                  To overcome these limitations, we propose MRQ, a new approach that integrates projection with
+                  quantization. The key insight is that, after projection, high-dimensional vectors tend to concentrate
+                  most of their information in the leading dimensions. MRQ exploits this property by quantizing only the
+                  information-dense projected subspace---whose size is fully user-tunable---thereby decoupling the
+                  quantized code length from the original dimensionality. The remaining tail dimensions are captured
+                  using lightweight statistical summaries. By doing so, MRQ preserves the high query throughput of
+                  dimension-wise quantization while achieving arbitrary compression ratios enabled by the projection
+                  step. Extensive experiments show that MRQ substantially outperforms the state-of-the-art method,
+                  achieving up to 3× faster search with only one-third the quantization bits for comparable accuracy
+                </div>
+              </details>
+            </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="2964"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2839-zou.pdf" target="_blank" rel="noopener">RNSG: A Range-Aware Graph Index for Efficient Range-Filtered Approximate Nearest
@@ -6297,36 +6327,6 @@
                   KATS significantly outperforms state-of-the-art retrieval-augmented generation frameworks in both
                   effectiveness and efficiency, providing a robust blueprint for the next generation of dataset
                   discovery systems.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-sds" title="Scalable Data Science Paper">SDS</span><span
-                  class="ptitle" data-pid="1597"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1240-yang.pdf" target="_blank" rel="noopener">Quantization Meets Projection: A Happy Marriage for Approximate
-                  k-Nearest Neighbor Search</a></span></div>
-              <div class="pauth"><span class="au">Mingyu Yang</span> <span class="aff">(The Hong Kong University of
-                  Science and Technology (Guangzhou))</span> · <span class="au">Liuchang Jing</span> <span
-                  class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span> · <span
-                  class="au">Wentao Li</span> <span class="aff">(University of Leicester)</span> · <span class="au">Wei
-                  Wang</span> <span class="aff">(The Hong Kong University of Science and Technology (Guangzhou))</span>
-              </div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Approximate k-nearest neighbor (AKNN) search is a fundamental problem with wide
-                  applications. To reduce memory and accelerate search, vector quantization is widely adopted. However,
-                  existing quantization methods either rely on codebooks---whose sizes are flexible but whose query
-                  speed is limited by costly table lookups---or adopt dimension-wise quantization, which maps each
-                  vector dimension to a small quantized code for fast search. The latter, however, suffers from a fixed
-                  compression ratio because the quantized code length is inherently tied to the original dimensionality.
-                  To overcome these limitations, we propose MRQ, a new approach that integrates projection with
-                  quantization. The key insight is that, after projection, high-dimensional vectors tend to concentrate
-                  most of their information in the leading dimensions. MRQ exploits this property by quantizing only the
-                  information-dense projected subspace---whose size is fully user-tunable---thereby decoupling the
-                  quantized code length from the original dimensionality. The remaining tail dimensions are captured
-                  using lightweight statistical summaries. By doing so, MRQ preserves the high query throughput of
-                  dimension-wise quantization while achieving arbitrary compression ratios enabled by the projection
-                  step. Extensive experiments show that MRQ substantially outperforms the state-of-the-art method,
-                  achieving up to 3× faster search with only one-third the quantization bits for comparable accuracy
-                </div>
               </details>
             </div>
           </div>
@@ -6960,6 +6960,84 @@
                 class="mchip">Commonwealth Ballroom B</span><span class="mchip">Wednesday 13:45 – 15:15</span><span class="mchip">Session Chair: Goce Trajcevski</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="3025"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3468-yin.pdf" target="_blank" rel="noopener">BBC: Improving Large-𝑘 Approximate Nearest Neighbor Search with a Bucket-based Result
+                  Collector</a></span></div>
+              <div class="pauth"><span class="au">Ziqi Yin</span> <span class="aff">(Nanyang Technological
+                  University)</span> · <span class="au">Gao Cong</span> <span class="aff">(Nanyang Technological
+                  University)</span> · <span class="au">kai zeng</span> <span class="aff">(Huawei Technologies Co.,
+                  Ltd)</span> · <span class="au">Jinwei Zhu</span> <span class="aff">(Huawei Technologies Co.,
+                  Ltd)</span> · <span class="au">bin cui</span> <span class="aff">(Peking University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Although Approximate Nearest Neighbor (ANN) search has been extensively studied,
+                  large-𝑘 ANN queries that aim to retrieve a large number of nearest neighbors remain underexplored,
+                  despite their numerous real-world applications. Existing ANN methods face significant performance
+                  degradation for such queries. In this work, we first investigate the reasons for the performance
+                  degradation of quantization-based ANN indexes: (1) the inefficiency of existing top-𝑘 collectors,
+                  which incurs significant overhead in candidate maintenance, and (2) the reduced pruning effectiveness
+                  of quantization methods, which leads to a costly re-ranking process. To address this, we propose a
+                  novel bucket-based result collector (BBC) to enhance the efficiency of existing quantization-based ANN
+                  indexes for large-𝑘 ANN queries. BBC introduces two key components: (1) a bucket-based result buffer
+                  that organizes candidates into buckets by their distances to the query. This design reduces ranking
+                  costs and improves cache efficiency, enabling high performance maintenance of a candidate superset and
+                  a lightweight final selection of top-𝑘 results. (2) two re-ranking algorithms tailored for different
+                  types of quantization methods, which accelerate their re-ranking process by reducing either the number
+                  of candidate objects to be re-ranked or cache misses. Extensive experiments on real-world datasets
+                  demonstrate that BBC accelerates existing quantization-based ANN methods by up to 3.8× at recall@𝑘 =
+                  0.95 for large-𝑘 ANN queries.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-vis" title="Vision Paper">VIS</span><span class="ptitle"
+                  data-pid="2180"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1818-liu.pdf" target="_blank" rel="noopener">Toward Drift-Aware Database Benchmarking</a></span></div>
+              <div class="pauth"><span class="au">Guanli Liu</span> <span class="aff">(The University of
+                  Melbourne)</span> · <span class="au">Renata Borovica-Gajic</span> <span class="aff">(The University of
+                  Melbourne)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Data and workload drift are critical to evaluating core database components such as
+                  caching, cardinality estimation, indexing, and query optimization, especially as AI-driven techniques
+                  increasingly permeate database systems. However, existing benchmarks remain largely static, offering
+                  little support for modeling drifts. This limitation arises from the absence of a shared vocabulary and
+                  practical tools for specifying and generating drift in both data and workloads. Guided by this vision
+                  of making drift a first-class concept, we propose a taxonomy of data and workload drift and design
+                  DriftSpec, a declarative specification that makes these drifts executable. Building on this, we
+                  present DriftBench, which instantiates DriftSpec to generate controlled drifts and enable drift-aware
+                  benchmarking. Together, the taxonomy, DriftSpec, and DriftBench form a first step toward a
+                  standardized, executable language for studying how data and workload evolution influence database
+                  behavior. They shift benchmarking from static, one-off tests to controlled, continuous evaluation
+                  under drift.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2891"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2385-ding.pdf" target="_blank" rel="noopener">Storage-Centric Relation Design via High-Quality Approximate Functional
+                  Dependencies</a></span></div>
+              <div class="pauth"><span class="au">Rui Ding</span> <span class="aff">(Northeastern University)</span> ·
+                <span class="au">Xiaochun Yang</span> <span class="aff">(Northeastern University)</span> · <span
+                  class="au">Bin Wang</span> <span class="aff">(Northeastern University)</span> · <span
+                  class="au">Quanqing Xu</span> <span class="aff">(OceanBase)</span> · <span class="au">Chuanhui
+                  Yang</span> <span class="aff">(OceanBase)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">As storage costs continue to rise, reducing redundancy has become increasingly
+                  important. In relational databases, classical normalization addresses redundancy through exact
+                  functional dependencies (FDs), but this rule-based design paradigm is not inherently cost-aware and
+                  does not necessarily minimize storage in practice. Moreover, much real-world redundancy follows
+                  FD+$\Delta$ patterns, where FDs hold for most tuples but are violated by a small fraction. To address
+                  this, we propose RelaxRD, a storage-centric relaxed schema design that leverages approximate
+                  functional dependencies (AFDs) to reduce redundancy in FD+$\Delta$. Rather than treating all AFDs as
+                  equally useful signals, we quantify the storage value of AFD subsets via duplicate gain and select a
+                  high-quality subset for decomposition. It decomposes tuples satisfying the selected AFDs while
+                  retaining violating tuples. The key issue is that selecting a high-quality subset is difficult due to
+                  conflicts and the exponential search space. To tackle this, we develop a family of efficient filtering
+                  techniques to eliminate low-value and unpromising candidates without exhaustive enumeration. Extensive
+                  experiments on real-world datasets demonstrate that RelaxRD consistently achieves substantial storage
+                  savings.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1675"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf" target="_blank" rel="noopener">Why Database Manuals Are Not Enough: Efficient and Reliable Configuration Tuning for
                   DBMSs via Code-Driven LLM Agents</a></span></div>
               <div class="pauth"><span class="au">Xinyi Zhang</span> <span class="aff">(Renmin University of
@@ -7065,33 +7143,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2891"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2385-ding.pdf" target="_blank" rel="noopener">Storage-Centric Relation Design via High-Quality Approximate Functional
-                  Dependencies</a></span></div>
-              <div class="pauth"><span class="au">Rui Ding</span> <span class="aff">(Northeastern University)</span> ·
-                <span class="au">Xiaochun Yang</span> <span class="aff">(Northeastern University)</span> · <span
-                  class="au">Bin Wang</span> <span class="aff">(Northeastern University)</span> · <span
-                  class="au">Quanqing Xu</span> <span class="aff">(OceanBase)</span> · <span class="au">Chuanhui
-                  Yang</span> <span class="aff">(OceanBase)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">As storage costs continue to rise, reducing redundancy has become increasingly
-                  important. In relational databases, classical normalization addresses redundancy through exact
-                  functional dependencies (FDs), but this rule-based design paradigm is not inherently cost-aware and
-                  does not necessarily minimize storage in practice. Moreover, much real-world redundancy follows
-                  FD+$\Delta$ patterns, where FDs hold for most tuples but are violated by a small fraction. To address
-                  this, we propose RelaxRD, a storage-centric relaxed schema design that leverages approximate
-                  functional dependencies (AFDs) to reduce redundancy in FD+$\Delta$. Rather than treating all AFDs as
-                  equally useful signals, we quantify the storage value of AFD subsets via duplicate gain and select a
-                  high-quality subset for decomposition. It decomposes tuples satisfying the selected AFDs while
-                  retaining violating tuples. The key issue is that selecting a high-quality subset is difficult due to
-                  conflicts and the exponential search space. To tackle this, we develop a family of efficient filtering
-                  techniques to eliminate low-value and unpromising candidates without exhaustive enumeration. Extensive
-                  experiments on real-world datasets demonstrate that RelaxRD consistently achieves substantial storage
-                  savings.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1270"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5540-huang.pdf" target="_blank" rel="noopener">E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model</a></span></div>
               <div class="pauth"><span class="au">Xinmei Huang</span> <span class="aff">(Renmin University of
                   China)</span> · <span class="au">Haoyang Li</span> <span class="aff">(Renmin University of
@@ -7122,61 +7173,30 @@
                   less time.</div>
               </details>
             </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="3025"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3468-yin.pdf" target="_blank" rel="noopener">BBC: Improving Large-𝑘 Approximate Nearest Neighbor Search with a Bucket-based Result
-                  Collector</a></span></div>
-              <div class="pauth"><span class="au">Ziqi Yin</span> <span class="aff">(Nanyang Technological
-                  University)</span> · <span class="au">Gao Cong</span> <span class="aff">(Nanyang Technological
-                  University)</span> · <span class="au">kai zeng</span> <span class="aff">(Huawei Technologies Co.,
-                  Ltd)</span> · <span class="au">Jinwei Zhu</span> <span class="aff">(Huawei Technologies Co.,
-                  Ltd)</span> · <span class="au">bin cui</span> <span class="aff">(Peking University)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Although Approximate Nearest Neighbor (ANN) search has been extensively studied,
-                  large-𝑘 ANN queries that aim to retrieve a large number of nearest neighbors remain underexplored,
-                  despite their numerous real-world applications. Existing ANN methods face significant performance
-                  degradation for such queries. In this work, we first investigate the reasons for the performance
-                  degradation of quantization-based ANN indexes: (1) the inefficiency of existing top-𝑘 collectors,
-                  which incurs significant overhead in candidate maintenance, and (2) the reduced pruning effectiveness
-                  of quantization methods, which leads to a costly re-ranking process. To address this, we propose a
-                  novel bucket-based result collector (BBC) to enhance the efficiency of existing quantization-based ANN
-                  indexes for large-𝑘 ANN queries. BBC introduces two key components: (1) a bucket-based result buffer
-                  that organizes candidates into buckets by their distances to the query. This design reduces ranking
-                  costs and improves cache efficiency, enabling high performance maintenance of a candidate superset and
-                  a lightweight final selection of top-𝑘 results. (2) two re-ranking algorithms tailored for different
-                  types of quantization methods, which accelerate their re-ranking process by reducing either the number
-                  of candidate objects to be re-ranked or cache misses. Extensive experiments on real-world datasets
-                  demonstrate that BBC accelerates existing quantization-based ANN methods by up to 3.8× at recall@𝑘 =
-                  0.95 for large-𝑘 ANN queries.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-vis" title="Vision Paper">VIS</span><span class="ptitle"
-                  data-pid="2180"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1818-liu.pdf" target="_blank" rel="noopener">Toward Drift-Aware Database Benchmarking</a></span></div>
-              <div class="pauth"><span class="au">Guanli Liu</span> <span class="aff">(The University of
-                  Melbourne)</span> · <span class="au">Renata Borovica-Gajic</span> <span class="aff">(The University of
-                  Melbourne)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Data and workload drift are critical to evaluating core database components such as
-                  caching, cardinality estimation, indexing, and query optimization, especially as AI-driven techniques
-                  increasingly permeate database systems. However, existing benchmarks remain largely static, offering
-                  little support for modeling drifts. This limitation arises from the absence of a shared vocabulary and
-                  practical tools for specifying and generating drift in both data and workloads. Guided by this vision
-                  of making drift a first-class concept, we propose a taxonomy of data and workload drift and design
-                  DriftSpec, a declarative specification that makes these drifts executable. Building on this, we
-                  present DriftBench, which instantiates DriftSpec to generate controlled drifts and enable drift-aware
-                  benchmarking. Together, the taxonomy, DriftSpec, and DriftBench form a first step toward a
-                  standardized, executable language for studying how data and workload evolution influence database
-                  behavior. They shift benchmarking from static, one-off tests to controlled, continuous evaluation
-                  under drift.</div>
-              </details>
-            </div>
           </div>
           <div class="sessblock hyb" id="res-30" data-day="wed">
             <div class="shead"><span class="sname">Research 30 · Scalable Graph Algorithms</span><span
                 class="mchip">Commonwealth Ballroom A</span><span class="mchip">Wednesday 13:45 – 15:15</span><span class="mchip">Session Chair: Stefania Dumbrava</span></div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2945"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2630-cheng.pdf" target="_blank" rel="noopener">A Practical Sublinear Approximation for Group Steiner Tree</a></span></div>
+              <div class="pauth"><span class="au">Yuxuan Yang</span> <span class="aff">(Nanjing University)</span> ·
+                <span class="au">Sirui Chen</span> <span class="aff">(Nanjing University)</span> · <span
+                  class="au">Zhuolin He</span> <span class="aff">(Nanjing University)</span> · <span class="au">Gong
+                  Cheng</span> <span class="aff">(Nanjing University)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">The Group Steiner Tree Problem (GSTP) is widely used in graph data management and
+                  mining, yet existing algorithms trade off practical efficiency against approximation quality:
+                  efficient methods offer only linear guarantees, while those with sublinear guarantees fail to scale to
+                  large graphs. In this paper, we present MonoGST+, a novel algorithm for GSTP that breaks this
+                  trade‑off by achieving a sublinear approximation while matching the running time of state‑of‑the‑art
+                  linear‑approximation solvers. Our approach extends a 2‑star‑based reduction to weighted set cover with
+                  a suspendable search and a monotonicity‑ and unimodality‑aware pruning strategy to eliminate redundant
+                  computation. Experiments on multiple real‑world datasets demonstrate the effectiveness and efficiency
+                  of MonoGST+, providing a practical, high‑quality solution for GSTP applications.</div>
+              </details>
+            </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1244"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p1688-yang.pdf" target="_blank" rel="noopener">Theoretically and Practically Efficient Resistance Distance Computation on Large
@@ -7231,26 +7251,6 @@
                   divide-and-conquer-based algorithm, which not only reduces the search space but also has an improved
                   time complexity. Extensive experiments on 15 real large graph datasets show that our proposed
                   algorithm is up to two orders of magnitude faster than the state-of-the-art.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2945"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2630-cheng.pdf" target="_blank" rel="noopener">A Practical Sublinear Approximation for Group Steiner Tree</a></span></div>
-              <div class="pauth"><span class="au">Yuxuan Yang</span> <span class="aff">(Nanjing University)</span> ·
-                <span class="au">Sirui Chen</span> <span class="aff">(Nanjing University)</span> · <span
-                  class="au">Zhuolin He</span> <span class="aff">(Nanjing University)</span> · <span class="au">Gong
-                  Cheng</span> <span class="aff">(Nanjing University)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">The Group Steiner Tree Problem (GSTP) is widely used in graph data management and
-                  mining, yet existing algorithms trade off practical efficiency against approximation quality:
-                  efficient methods offer only linear guarantees, while those with sublinear guarantees fail to scale to
-                  large graphs. In this paper, we present MonoGST+, a novel algorithm for GSTP that breaks this
-                  trade‑off by achieving a sublinear approximation while matching the running time of state‑of‑the‑art
-                  linear‑approximation solvers. Our approach extends a 2‑star‑based reduction to weighted set cover with
-                  a suspendable search and a monotonicity‑ and unimodality‑aware pruning strategy to eliminate redundant
-                  computation. Experiments on multiple real‑world datasets demonstrate the effectiveness and efficiency
-                  of MonoGST+, providing a practical, high‑quality solution for GSTP applications.</div>
               </details>
             </div>
             <div class="paper">
@@ -8875,6 +8875,31 @@
                 class="mchip">Commonwealth Ballroom B</span><span class="mchip">Thursday 10:45 – 12:15</span><span class="mchip">Session Chair: Ziawasch Abedjan</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2561"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5676-wang.pdf" target="_blank" rel="noopener">Cleaning both Data Errors and Inaccurate Constraints on Numerical Sequential
+                  Data</a></span></div>
+              <div class="pauth"><span class="au">Xiaoou Ding</span> <span class="aff">(Harbin Institute of
+                  Technology)</span> · <span class="au">Muyun Zhou</span> <span class="aff">(Harbin Institute of
+                  Technology)</span> · <span class="au">Yida Liu</span> <span class="aff">(Harbin Institute of
+                  Technology)</span> · <span class="au">Chen Wang</span> <span class="aff">(Tsinghua university)</span>
+                · <span class="au">Hongzhi Wang</span> <span class="aff">(Harbin Institute of Technology)</span> · <span
+                  class="au">Jianmin Wang</span> <span class="aff">(Tsinghua university)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Numerical sequence data from intelligent devices often have quality issues. While
+                  existing data cleaning methods focus on repairing data, we address the problem of repairing both data
+                  errors and inaccurate constraints. We propose two operations for modifying inaccurate constraints:
+                  expanding and compressing their value domains. Our solution includes constraint modification functions
+                  and algorithms to prevent under- and over-fitting in data cleaning. Theoretical evaluations
+                  demonstrate its reliability and effectiveness of the proposed solution, which achieves optimal repair
+                  with the distance no greater than |Σ′l| · ∊e + |Σ′r| · ∊s from the optimal repair. Experiments on
+                  real-life and synthetic datasets show that our bNDCRepair method improves F1-score by 17.6% compared
+                  to using the original constraints and performs best in MNAD. Results show high-level performance with
+                  the combination of our bNDCRepair and the state-of-the-art CVtRepair and Clean4TSDB in sequential data
+                  tasks.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="916"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p292-gao.pdf" target="_blank" rel="noopener">SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL
                   Generation</a></span></div>
               <div class="pauth"><span class="au">Jiahui Li</span> <span class="aff">(Zhejiang University)</span> ·
@@ -8936,31 +8961,6 @@
                   based on LLM agents, LLM-AutoDP achieves approximately a 65\% win rate. Moreover, our acceleration
                   techniques reduce the total searching time by up to $10\times$, demonstrating both effectiveness and
                   efficiency.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2561"><a class="plink" href="https://www.vldb.org/pvldb/vol18/p5676-wang.pdf" target="_blank" rel="noopener">Cleaning both Data Errors and Inaccurate Constraints on Numerical Sequential
-                  Data</a></span></div>
-              <div class="pauth"><span class="au">Xiaoou Ding</span> <span class="aff">(Harbin Institute of
-                  Technology)</span> · <span class="au">Muyun Zhou</span> <span class="aff">(Harbin Institute of
-                  Technology)</span> · <span class="au">Yida Liu</span> <span class="aff">(Harbin Institute of
-                  Technology)</span> · <span class="au">Chen Wang</span> <span class="aff">(Tsinghua university)</span>
-                · <span class="au">Hongzhi Wang</span> <span class="aff">(Harbin Institute of Technology)</span> · <span
-                  class="au">Jianmin Wang</span> <span class="aff">(Tsinghua university)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Numerical sequence data from intelligent devices often have quality issues. While
-                  existing data cleaning methods focus on repairing data, we address the problem of repairing both data
-                  errors and inaccurate constraints. We propose two operations for modifying inaccurate constraints:
-                  expanding and compressing their value domains. Our solution includes constraint modification functions
-                  and algorithms to prevent under- and over-fitting in data cleaning. Theoretical evaluations
-                  demonstrate its reliability and effectiveness of the proposed solution, which achieves optimal repair
-                  with the distance no greater than |Σ′l| · ∊e + |Σ′r| · ∊s from the optimal repair. Experiments on
-                  real-life and synthetic datasets show that our bNDCRepair method improves F1-score by 17.6% compared
-                  to using the original constraints and performs best in MNAD. Results show high-level performance with
-                  the combination of our bNDCRepair and the state-of-the-art CVtRepair and Clean4TSDB in sequential data
-                  tasks.</div>
               </details>
             </div>
             <div class="paper">
@@ -9844,6 +9844,31 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="2980"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3006-lehner.pdf" target="_blank" rel="noopener">The Data World Is Not Flat: Efficient Factorized Execution for Relational
+                  Systems</a></span></div>
+              <div class="pauth"><span class="au">Stefan Lehner</span> <span class="aff">(TUM)</span> · <span
+                  class="au">Thomas Neumann</span> <span class="aff">(TUM)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Relational database management systems (RDBMSs) struggle with efficient execution of
+                  graph workloads, particularly those involving many-to-many joins with large intermediate results. Such
+                  joins are common in modern applications such as social networks, recommendation engines, and knowledge
+                  graphs. Traditional RDBMSs are optimized for selective joins, while the typical result blow-up in
+                  graph analytics leads to exceptionally long query times or even system crashes due to out-of-memory
+                  errors. Since graph and relational data are often intertwined, a unified solution can simplify system
+                  architecture and improve performance. To address this, we propose a novel code-generating engine with
+                  factorization, which represents tuples in a hierarchical form. Our approach enables
+                  intra-query-parallelized query execution on factorized representations and generates code to overcome
+                  their CPU-unfriendly layout. Additionally, we extend current factorized approaches by bottom-inserts
+                  to make joins reorderable. Our factorized approach can outperform traditional tuple representations
+                  and state-of-the-art RDBMSs by orders of magnitude on synthetic workloads and benchmarks as our
+                  experiments show. Moreover, its potential integrability into traditional RDBMSs enables efficient
+                  processing of complex, highly redundant queries, offering a unified and scalable solution for modern
+                  workloads.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1334"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p889-miao.pdf" target="_blank" rel="noopener">Towards Efficient Random-Order Enumeration for Join Queries</a></span></div>
               <div class="pauth"><span class="au">Pengyu Chen</span> <span class="aff">(Harbin Institute of
                   Technology)</span> · <span class="au">Zizheng Guo</span> <span class="aff">(Harbin Institute of
@@ -9868,31 +9893,6 @@
                   usage, and present an experimental study of their impact on our algorithm. The experimental results
                   show that our algorithm, enhanced with the proposed techniques, significantly outperforms existing
                   state-of-the-art methods.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="2980"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3006-lehner.pdf" target="_blank" rel="noopener">The Data World Is Not Flat: Efficient Factorized Execution for Relational
-                  Systems</a></span></div>
-              <div class="pauth"><span class="au">Stefan Lehner</span> <span class="aff">(TUM)</span> · <span
-                  class="au">Thomas Neumann</span> <span class="aff">(TUM)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Relational database management systems (RDBMSs) struggle with efficient execution of
-                  graph workloads, particularly those involving many-to-many joins with large intermediate results. Such
-                  joins are common in modern applications such as social networks, recommendation engines, and knowledge
-                  graphs. Traditional RDBMSs are optimized for selective joins, while the typical result blow-up in
-                  graph analytics leads to exceptionally long query times or even system crashes due to out-of-memory
-                  errors. Since graph and relational data are often intertwined, a unified solution can simplify system
-                  architecture and improve performance. To address this, we propose a novel code-generating engine with
-                  factorization, which represents tuples in a hierarchical form. Our approach enables
-                  intra-query-parallelized query execution on factorized representations and generates code to overcome
-                  their CPU-unfriendly layout. Additionally, we extend current factorized approaches by bottom-inserts
-                  to make joins reorderable. Our factorized approach can outperform traditional tuple representations
-                  and state-of-the-art RDBMSs by orders of magnitude on synthetic workloads and benchmarks as our
-                  experiments show. Moreover, its potential integrability into traditional RDBMSs enables efficient
-                  processing of complex, highly redundant queries, offering a unified and scalable solution for modern
-                  workloads.</div>
               </details>
             </div>
             <div class="paper">
@@ -9999,32 +9999,6 @@
                 class="mchip">Commonwealth Ballroom A</span><span class="mchip">Thursday 13:45 – 15:15</span><span class="mchip">Session Chair: Yuxin Tang</span></div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1207"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p726-tan.pdf" target="_blank" rel="noopener">Efficient Temporal Edge-Core Maintenance in Streaming Graphs</a></span></div>
-              <div class="pauth"><span class="au">Tongfeng Weng</span> <span class="aff">(National University of
-                  Singapore)</span> · <span class="au">Mo Sha</span> <span class="aff">(Alibaba Cloud)</span> · <span
-                  class="au">Xu Zhou</span> <span class="aff">(Hunan University)</span> · <span class="au">Jingjing
-                  Lu</span> <span class="aff">(Hunan University)</span> · <span class="au">Kenli Li</span> <span
-                  class="aff">(Hunan University)</span> · <span class="au">Kian-Lee Tan</span> <span
-                  class="aff">(National University of Singapore)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">Temporal graphs are critical for modeling dynamic systems where interactions evolve
-                  over time, with a central challenge being the characterization of structural cohesion. The temporal
-                  edge-core, defined under a temporal proximity constraint Δ, quantifies the stability and density of
-                  connections within subgraphs and is essential for applications such as anomaly detection and
-                  information diffusion. Existing edge-core decomposition methods, however, are designed for static
-                  graphs and are computationally prohibitive in streaming environments due to frequent edge arrivals and
-                  deletions. We present TECM, an efficient framework for streaming temporal edge-core decomposition that
-                  leverages the localized impact of edge updates within Δ-incident neighbors. TECM incrementally updates
-                  core values through Δ-aware traversals and localized H-index analysis, and incorporates batch
-                  processing to handle high-velocity streams. Extensive experiments on real and synthetic temporal
-                  networks demonstrate that TECM delivers speedups of several orders of magnitude over state-of-the-art
-                  static baselines, providing a scalable and principled solution for real-time structural analysis in
-                  evolving temporal graphs.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="1274"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p862-xu.pdf" target="_blank" rel="noopener">Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph
                   Representation</a></span></div>
               <div class="pauth"><span class="au">Danni Wu</span> <span class="aff">(East China Normal
@@ -10054,6 +10028,32 @@
                   training pipeline with a late-snapshot gradient aggregation mechanism, which enhances computational
                   efficiency. Extensive experimental results on eight DTDGs show that UnderGS achieves up to 9× speed-up
                   against the best competitors while achieving an average improvement of 31.36% in accuracy.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1207"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p726-tan.pdf" target="_blank" rel="noopener">Efficient Temporal Edge-Core Maintenance in Streaming Graphs</a></span></div>
+              <div class="pauth"><span class="au">Tongfeng Weng</span> <span class="aff">(National University of
+                  Singapore)</span> · <span class="au">Mo Sha</span> <span class="aff">(Alibaba Cloud)</span> · <span
+                  class="au">Xu Zhou</span> <span class="aff">(Hunan University)</span> · <span class="au">Jingjing
+                  Lu</span> <span class="aff">(Hunan University)</span> · <span class="au">Kenli Li</span> <span
+                  class="aff">(Hunan University)</span> · <span class="au">Kian-Lee Tan</span> <span
+                  class="aff">(National University of Singapore)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">Temporal graphs are critical for modeling dynamic systems where interactions evolve
+                  over time, with a central challenge being the characterization of structural cohesion. The temporal
+                  edge-core, defined under a temporal proximity constraint Δ, quantifies the stability and density of
+                  connections within subgraphs and is essential for applications such as anomaly detection and
+                  information diffusion. Existing edge-core decomposition methods, however, are designed for static
+                  graphs and are computationally prohibitive in streaming environments due to frequent edge arrivals and
+                  deletions. We present TECM, an efficient framework for streaming temporal edge-core decomposition that
+                  leverages the localized impact of edge updates within Δ-incident neighbors. TECM incrementally updates
+                  core values through Δ-aware traversals and localized H-index analysis, and incorporates batch
+                  processing to handle high-velocity streams. Extensive experiments on real and synthetic temporal
+                  networks demonstrate that TECM delivers speedups of several orders of magnitude over state-of-the-art
+                  static baselines, providing a scalable and principled solution for real-time structural analysis in
+                  evolving temporal graphs.</div>
               </details>
             </div>
             <div class="paper">
