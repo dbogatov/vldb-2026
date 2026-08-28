@@ -358,6 +358,11 @@
       border-color: #2a9d8f
     }
 
+    #typetabs .tab.active[data-tab="dei"] {
+      background: #bd3fa4;
+      border-color: #bd3fa4
+    }
+
     #typetabs .tab.active[data-tab="eth"] {
       background: #5b6b95;
       border-color: #5b6b95
@@ -1088,6 +1093,7 @@
     #tab-ind .sessblock,
     #tab-pan .sessblock,
     #tab-demo .sessblock,
+    #tab-dei .sessblock,
     #tab-ws .sessblock {
       margin-bottom: 44px
     }
@@ -1421,6 +1427,7 @@
     #tab-demo.hidden,
     #tab-spon.hidden,
     #tab-eth.hidden,
+    #tab-dei.hidden,
     #tab-ws.hidden {
       display: none
     }
@@ -1724,10 +1731,10 @@
                   title="Instance-Optimal Acyclic Joins: From Theory to Systems"><span class="cname">Instance-Optimal
                     Acyclic Joins: From Theory to Systems</span><span class="cmeta">Tutorial 2</span><span
                     class="cshort">Tutorial 2</span><span class="hitn"></span></a></div>
-              <div class="cell">
-                <div class="card ev dei" title="DEI Talks"><span class="cname">DEI Talks</span><span class="cshort">DEI
-                    Talks</span><span class="hitn"></span></div>
-              </div>
+              <div class="cell"><a class="card ev dei" data-target="dei-1" href="#dei-1"
+                  title="Publishing with Springer Nature"><span class="cname">Publishing with Springer
+                    Nature</span><span class="cmeta">DEI Talks</span><span class="cshort">DEI Talks</span><span
+                    class="hitn"></span></a></div>
               <div class="tm tmb">12:15 – 13:45</div>
               <div class="band bnd-brk">Lunch</div>
               <div class="tm">13:45 – 15:15</div>
@@ -1886,10 +1893,10 @@
                     class="cname">Bridging LLMs and Database Systems: A Deep Dive into Enhanced Relational
                     Operators</span><span class="cmeta">Tutorial 6</span><span class="cshort">Tutorial 6</span><span
                     class="hitn"></span></a></div>
-              <div class="cell">
-                <div class="card ev dei" title="DEI Panel"><span class="cname">DEI Panel</span><span class="cshort">DEI
-                    Panel</span><span class="hitn"></span></div>
-              </div>
+              <div class="cell"><a class="card ev dei" data-target="dei-2" href="#dei-2"
+                  title="Beyond Publications: Navigating the Realities of a Research Career"><span class="cname">Beyond
+                    Publications: Navigating the Realities of a Research Career</span><span class="cmeta">DEI
+                    Panel</span><span class="cshort">DEI Panel</span><span class="hitn"></span></a></div>
               <div class="tm tmb">12:15 – 13:45</div>
               <div class="band bnd-brk">Lunch</div>
               <div class="tm">13:45 – 15:15</div>
@@ -2327,7 +2334,8 @@
               id="dtn-tab-ind"></span></button><button class="tab" data-tab="demo">Demonstrations<span class="dtn"
               id="dtn-tab-demo"></span></button><button class="tab" data-tab="spon">Sponsor talks<span class="dtn"
               id="dtn-tab-spon"></span></button><button class="tab" data-tab="tut">Tutorials<span class="dtn"
-              id="dtn-tab-tut"></span></button><button class="tab" data-tab="eth">DB Research Integrity<span class="dtn"
+              id="dtn-tab-tut"></span></button><button class="tab" data-tab="dei">DEI Talks/Panel<span class="dtn"
+              id="dtn-tab-dei"></span></button><button class="tab" data-tab="eth">DB Research Integrity<span class="dtn"
               id="dtn-tab-eth"></span></button><button class="tab" data-tab="pan">Panels<span class="dtn"
               id="dtn-tab-pan"></span></button><button class="tab" data-tab="poster">Poster sessions<span class="dtn"
               id="dtn-tab-poster"></span></button></div>
@@ -22362,6 +22370,50 @@
           </div>
         </div>
       </div>
+      <div id="tab-dei" class="hidden">
+        <div class="sessblock" id="dei-1" data-day="tue">
+          <div class="shead"><span class="sname">DEI Talks</span><span class="mchip">Grand Ballroom A+B</span><span
+              class="mchip">Tuesday 10:45 – 11:45</span></div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle">Publishing with Springer Nature</span></div>
+            <div class="pauth"><span class="txtlbl">Speaker:</span> Jessica Gutowitz (Springer Nature)</div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">This workshop is designed to help authors develop successful journal submissions. The
+                workshop will cover topics including: logical manuscript structure (what should your submission
+                include?), efficient publication strategy (how should you choose a journal to maximize impact?),
+                successful journal submission (what should you keep in mind when preparing your submission?), and the
+                lifetime of a journal submission (what should you do once a final decision on your paper is made?).
+                There will also be alotted time for authors to ask questions.</div>
+            </details>
+            <details class="pabs">
+              <summary>Speaker bio</summary>
+              <div class="abstxt">Jessica Gutowitz is a Publisher at Springer Nature, where she has worked since 2022.
+                She works on a portfolio of computer science journals including The VLDB Journal, Distributed and
+                Parallel Databases, and Wireless Personal Communications.</div>
+            </details>
+          </div>
+        </div>
+        <div class="sessblock" id="dei-2" data-day="wed">
+          <div class="shead"><span class="sname">DEI Panel</span><span class="mchip">Grand Ballroom A+B</span><span
+              class="mchip">Wednesday 10:45 – 12:15</span></div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle">Beyond Publications: Navigating the Realities of a Research
+                Career</span></div>
+            <div class="pauth"><span class="txtlbl">Moderator:</span> Brit Youngmann</div>
+            <div class="pauth"><span class="txtlbl">Panelists:</span> Ziawasch Abedjan · Carsten Binnig · Anna Fariha ·
+              Nesime Tatbul</div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Our panelists, Ziawasch Abedjan, Carsten Binnig, Anna Fariha, and Nesime Tatbul, bring
+                diverse experiences and perspectives from across the data management community. The discussion will
+                cover work–life balance, research funding, collaborations, and the implications of single- versus
+                double-blind reviewing for fairness and inclusion. The session will encourage an open discussion with
+                the audience on practical ways to foster diversity, equity, and inclusion in our community.</div>
+            </details>
+          </div>
+        </div>
+      </div>
       <div id="tab-eth" class="hidden">
         <div class="sessblock" id="ethics-1" data-day="tue">
           <div class="shead"><span class="sname">DB Research Integrity (Part 1)</span><span class="mchip">Grand Ballroom
@@ -24979,7 +25031,7 @@
     function updateTypeBadges() {
       const a = document.querySelector('#daytabs2 .dtab.active');
       const d = a ? a.dataset.day : 'tue';
-      ['oral', 'poster', 'tut', 'ind', 'pan', 'demo', 'spon', 'eth'].forEach(t => {
+      ['oral', 'poster', 'tut', 'ind', 'pan', 'demo', 'spon', 'dei', 'eth'].forEach(t => {
         const e = document.getElementById('dtn-tab-' + t); if (!e) return;
         const k = HITQ && HITQ.byDT[d] ? (HITQ.byDT[d][t] || 0) : 0;
         e.textContent = k + ' hit' + (k === 1 ? '' : 's');
@@ -25012,7 +25064,7 @@
     document.querySelectorAll('.dtab').forEach(b => b.addEventListener('click', () => setDay(b.dataset.day)));
     document.addEventListener('click', e => { const b = e.target.closest('.dtab2'); if (b) setDay(b.dataset.day); });
     setDay('tue'); window.addEventListener('resize', () => { const a = document.querySelector('#daytabs2 .dtab.active'); if (a) setDay(a.dataset.day); });
-    const PANES = ['oral', 'poster', 'tut', 'ind', 'pan', 'demo', 'spon', 'eth', 'ws'];
+    const PANES = ['oral', 'poster', 'tut', 'ind', 'pan', 'demo', 'spon', 'dei', 'eth', 'ws'];
     function showPane(key) {
       document.querySelectorAll('.tab').forEach(x => x.classList.toggle('active', x.dataset.tab === key));
       PANES.forEach(k => document.getElementById('tab-' + k).classList.toggle('hidden', k !== key));
@@ -25022,7 +25074,7 @@
       const t = document.getElementById(c.dataset.target); if (!t) return; e.preventDefault();
       const tg = c.dataset.target;
       showPane(tg.startsWith('p-') ? 'poster' : tg.startsWith('tut-') ? 'tut' : tg.startsWith('ind-') ? 'ind' :
-        tg.startsWith('ethics-') ? 'eth' : tg.startsWith('pan-') ? 'pan' : tg.startsWith('demo-') ? 'demo' : tg.startsWith('spon-') ? 'spon' : tg.startsWith('ws-') ? 'ws' : 'oral');
+        tg.startsWith('ethics-') ? 'eth' : tg.startsWith('dei-') ? 'dei' : tg.startsWith('pan-') ? 'pan' : tg.startsWith('demo-') ? 'demo' : tg.startsWith('spon-') ? 'spon' : tg.startsWith('ws-') ? 'ws' : 'oral');
       t.scrollIntoView({ behavior: 'smooth' }); t.classList.add('flash'); setTimeout(() => t.classList.remove('flash'), 1600);
     }));
     function doSearch() {
@@ -25036,7 +25088,7 @@
           n++; const b = p.closest('.sessblock');
           if (b) {
             perBlock[b.id] = (perBlock[b.id] || 0) + 1;
-            const ty = b.id.startsWith('tut-') ? 'tut' : b.id.startsWith('ethics-') ? 'eth' : b.id.startsWith('ind-') ? 'ind' :
+            const ty = b.id.startsWith('tut-') ? 'tut' : b.id.startsWith('ethics-') ? 'eth' : b.id.startsWith('dei-') ? 'dei' : b.id.startsWith('ind-') ? 'ind' :
               b.id.startsWith('pan-') ? 'pan' : b.id.startsWith('demo-') ? 'demo' :
                 b.id.startsWith('ws-') ? 'ws' : b.id.startsWith('spon-') ? 'spon' : b.id.startsWith('p-') ? 'poster' : 'oral';
             [b.dataset.day, b.dataset.day2].forEach(dd => {
