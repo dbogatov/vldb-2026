@@ -21095,39 +21095,34 @@
               AI</span><span class="mchip">Marina Ballroom I</span><span class="mchip">Tuesday 15:45 – 17:15</span><span class="mchip">Session Chair: Petra Selmer</span><span
               class="mchip">6 talks</span></div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3955-zhou.pdf" target="_blank" rel="noopener">TEngineDB-V: An OLAP-Native Vector Search System for Large-𝑘
-                Workloads at Tencent</a></span></div>
-            <div class="pauth"><span class="au">Xufei Wu</span> <span class="aff">(Shanghai Jiao Tong University)</span>
-              · <span class="au">Pengcheng Zhang</span> <span class="aff">(Tencent)</span> · <span class="au">Yitong
-                Song</span> <span class="aff">(Hong Kong Baptist University)</span> · <span class="au">Xiaobo
-                Zhang</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Anqi
-                Liang</span> <span class="aff">(Hong Kong University of Science and Technology (Guangzhou))</span> ·
-              <span class="au">Kai Wang</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
-                class="au">Jijun Du</span> <span class="aff">(Tencent)</span> · <span class="au">Yidi Xiong</span> <span
-                class="aff">(Tencent)</span> · <span class="au">Guangxu Cheng</span> <span class="aff">(Tencent)</span>
-              · <span class="au">Zhe Chen</span> <span class="aff">(Tencent)</span> · <span class="au">Peng Chen</span>
-              <span class="aff">(Tencent)</span> · <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua
-                University)</span> · <span class="au">Xuanhe Zhou</span> <span class="aff">(Shanghai Jiao Tong
-                University)</span> · <span class="au">Fan Wu</span> <span class="aff">(Shanghai Jiao Tong
-                University)</span></div>
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4316-hang.pdf" target="_blank" rel="noopener">BiLink: Bidirectional Meta-paths for Link Discovery in Billion-Scale
+                Heterogeneous Graphs</a></span></div>
+            <div class="pauth"><span class="au">Jinquan Hang</span> <span class="aff">(Rutgers University)</span> ·
+              <span class="au">Zhiqing Hong</span> <span class="aff">(Hong Kong University of Science and Technology
+                (Guangzhou))</span> · <span class="au">Xinyue Feng</span> <span class="aff">(Rutgers University)</span>
+              · <span class="au">Desheng Zhang</span> <span class="aff">(Rutgers University)</span> · <span
+                class="au">Haotian Wang</span> <span class="aff">(JD Logistics)</span> · <span class="au">Guang
+                Wang</span> <span class="aff">(Florida State University)</span></div>
             <details class="pabs">
               <summary>Abstract</summary>
-              <div class="abstxt">Vector search systems are essential infrastructure for modern data-driven
-                applications. Large-k analytical vector search, which retrieves k=10^3-10^5 results for analytics (e.g.,
-                aggregation, filtering, joins), is increasingly important for emerging workloads, including LLM data
-                management and advertising analysis at Tencent. Existing systems remain inadequate: specialized vector
-                databases often cap k (e.g., k &lt;= 10^4) to satisfy tail-latency constraints and offer limited
-                analytical support, while OLAP systems typically embed per-segment vector indexes as black boxes,
-                causing severe read/compute amplification and preventing native query optimization. This paper presents
-                TEngineDB-V, an OLAP-native vector search system for large-k workloads. TEngineDB-V makes vector search
-                a first-class analytical primitive in Tencent&#x27;s OLAP engine through a global segment-decoupled
-                index materialized as relational tables, eliminating scatter--gather execution, reducing amplification,
-                and enabling native storage optimizations. It decomposes IVFPQ-based search into relational operators,
-                integrates OLAP optimizations, and introduces DPPQ, which combines direction-aware quantization with
-                hierarchical residual refinement to improve recall while preserving relational efficiency. TEngineDB-V
-                further incorporates index-aware query rewriting and a distributed-aware cost model for efficient
-                distributed execution. Experiments show that TEngineDB-V achieves up to a 145x speedup over competitive
-                systems such as StarRocks, and up to a 52x improvement in 10-billion-scale production deployments.</div>
+              <div class="abstxt">Link discovery in heterogeneous graphs, i.e., finding target edges between existing
+                nodes, is a key task in many real-world applications. Since some path types between node pairs are
+                related to target edges, the meta-path is widely used to represent these path types. However, the
+                complexity of meta-path sampling grows exponentially with hop count, making long meta-paths impractical
+                to sample on billion-scale graphs. Bidirectional search offers a natural way to split a long meta-path
+                into two shorter meta-paths, each starting from one of its endpoints. However, different meta-paths have
+                different structures, making it difficult to parallelize bidirectional meta-path sampling with uniform
+                operations. Furthermore, existing models are not designed to jointly leverage the meta-path instances
+                from bidirectional sampling. To address these challenges, we first introduce bidirectional meta-path, a
+                unified path schema for bidirectional paths connecting node pairs. Based on this, we present BiLink, a
+                framework for link discovery in billion-scale heterogeneous graphs. Specifically, BiLink represents all
+                meta-paths in a unified table format and implements bidirectional meta-path sampling in distributed
+                systems with uniform table operations. It also includes BiPathNN, a model that represents path instances
+                as embedding sequences and jointly encodes them via the Transformer encoder for link prediction.
+                Experiments show that bidirectional meta-path sampling is over 13 times faster than traditional
+                meta-path sampling, while BiPathNN improves average precision by over 6% compared to state-of-the-art
+                baselines. Moreover, BiLink has been deployed to discover companies&#x27; key personnel from 1.8 billion
+                candidate pairs, increasing contact success rate by 86%.</div>
             </details>
           </div>
           <div class="paper">
@@ -21216,37 +21211,6 @@
             </details>
           </div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4316-hang.pdf" target="_blank" rel="noopener">BiLink: Bidirectional Meta-paths for Link Discovery in Billion-Scale
-                Heterogeneous Graphs</a></span></div>
-            <div class="pauth"><span class="au">Jinquan Hang</span> <span class="aff">(Rutgers University)</span> ·
-              <span class="au">Zhiqing Hong</span> <span class="aff">(Hong Kong University of Science and Technology
-                (Guangzhou))</span> · <span class="au">Xinyue Feng</span> <span class="aff">(Rutgers University)</span>
-              · <span class="au">Desheng Zhang</span> <span class="aff">(Rutgers University)</span> · <span
-                class="au">Haotian Wang</span> <span class="aff">(JD Logistics)</span> · <span class="au">Guang
-                Wang</span> <span class="aff">(Florida State University)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">Link discovery in heterogeneous graphs, i.e., finding target edges between existing
-                nodes, is a key task in many real-world applications. Since some path types between node pairs are
-                related to target edges, the meta-path is widely used to represent these path types. However, the
-                complexity of meta-path sampling grows exponentially with hop count, making long meta-paths impractical
-                to sample on billion-scale graphs. Bidirectional search offers a natural way to split a long meta-path
-                into two shorter meta-paths, each starting from one of its endpoints. However, different meta-paths have
-                different structures, making it difficult to parallelize bidirectional meta-path sampling with uniform
-                operations. Furthermore, existing models are not designed to jointly leverage the meta-path instances
-                from bidirectional sampling. To address these challenges, we first introduce bidirectional meta-path, a
-                unified path schema for bidirectional paths connecting node pairs. Based on this, we present BiLink, a
-                framework for link discovery in billion-scale heterogeneous graphs. Specifically, BiLink represents all
-                meta-paths in a unified table format and implements bidirectional meta-path sampling in distributed
-                systems with uniform table operations. It also includes BiPathNN, a model that represents path instances
-                as embedding sequences and jointly encodes them via the Transformer encoder for link prediction.
-                Experiments show that bidirectional meta-path sampling is over 13 times faster than traditional
-                meta-path sampling, while BiPathNN improves average precision by over 6% compared to state-of-the-art
-                baselines. Moreover, BiLink has been deployed to discover companies&#x27; key personnel from 1.8 billion
-                candidate pairs, increasing contact success rate by 86%.</div>
-            </details>
-          </div>
-          <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4453-zhou.pdf" target="_blank" rel="noopener">Nova: A Multi-Purpose Vector Engine for Low-Latency, Multi-Tenant,
                 and Cross-Table Hybrid Retrieval</a></span></div>
             <div class="pauth"><span class="au">Dechuang CHEN</span> <span class="aff">(Alibaba Cloud)</span> · <span
@@ -21277,6 +21241,42 @@
                 and anytime query execution. Evaluations on standard benchmarks and production workloads show Nova
                 significantly outperforms Milvus and pgvector, achieving lower latency, higher throughput, and stronger
                 read/write stability.</div>
+            </details>
+          </div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3955-zhou.pdf" target="_blank" rel="noopener">TEngineDB-V: An OLAP-Native Vector Search System for Large-𝑘
+                Workloads at Tencent</a></span></div>
+            <div class="pauth"><span class="au">Xufei Wu</span> <span class="aff">(Shanghai Jiao Tong University)</span>
+              · <span class="au">Pengcheng Zhang</span> <span class="aff">(Tencent)</span> · <span class="au">Yitong
+                Song</span> <span class="aff">(Hong Kong Baptist University)</span> · <span class="au">Xiaobo
+                Zhang</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Anqi
+                Liang</span> <span class="aff">(Hong Kong University of Science and Technology (Guangzhou))</span> ·
+              <span class="au">Kai Wang</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
+                class="au">Jijun Du</span> <span class="aff">(Tencent)</span> · <span class="au">Yidi Xiong</span> <span
+                class="aff">(Tencent)</span> · <span class="au">Guangxu Cheng</span> <span class="aff">(Tencent)</span>
+              · <span class="au">Zhe Chen</span> <span class="aff">(Tencent)</span> · <span class="au">Peng Chen</span>
+              <span class="aff">(Tencent)</span> · <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua
+                University)</span> · <span class="au">Xuanhe Zhou</span> <span class="aff">(Shanghai Jiao Tong
+                University)</span> · <span class="au">Fan Wu</span> <span class="aff">(Shanghai Jiao Tong
+                University)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Vector search systems are essential infrastructure for modern data-driven
+                applications. Large-k analytical vector search, which retrieves k=10^3-10^5 results for analytics (e.g.,
+                aggregation, filtering, joins), is increasingly important for emerging workloads, including LLM data
+                management and advertising analysis at Tencent. Existing systems remain inadequate: specialized vector
+                databases often cap k (e.g., k &lt;= 10^4) to satisfy tail-latency constraints and offer limited
+                analytical support, while OLAP systems typically embed per-segment vector indexes as black boxes,
+                causing severe read/compute amplification and preventing native query optimization. This paper presents
+                TEngineDB-V, an OLAP-native vector search system for large-k workloads. TEngineDB-V makes vector search
+                a first-class analytical primitive in Tencent&#x27;s OLAP engine through a global segment-decoupled
+                index materialized as relational tables, eliminating scatter--gather execution, reducing amplification,
+                and enabling native storage optimizations. It decomposes IVFPQ-based search into relational operators,
+                integrates OLAP optimizations, and introduces DPPQ, which combines direction-aware quantization with
+                hierarchical residual refinement to improve recall while preserving relational efficiency. TEngineDB-V
+                further incorporates index-aware query rewriting and a distributed-aware cost model for efficient
+                distributed execution. Experiments show that TEngineDB-V achieves up to a 145x speedup over competitive
+                systems such as StarRocks, and up to a 52x improvement in 10-billion-scale production deployments.</div>
             </details>
           </div>
         </div>
@@ -21542,38 +21542,34 @@
             </details>
           </div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3874-yang.pdf" target="_blank" rel="noopener">Clock2Q+: A Simple and Efficient Replacement Algorithm for Metadata
-                Cache in VMware vSAN</a></span></div>
-            <div class="pauth"><span class="au">Yiyan Zhai</span> <span class="aff">(Carnegie Mellon University)</span>
-              · <span class="au">Bintang Marthen</span> <span class="aff">(ITB)</span> · <span class="au">Sarath
-                Balivada</span> <span class="aff">(Broadcom)</span> · <span class="au">Vamsi Sudhakar Bojji</span> <span
-                class="aff">(Broadcom)</span> · <span class="au">Eric Knauft</span> <span class="aff">(Broadcom)</span>
-              · <span class="au">Jitender Rohilla</span> <span class="aff">(Broadcom)</span> · <span class="au">Jiaqi
-                Zou</span> <span class="aff">(Broadcom)</span> · <span class="au">Quanxing Liu</span> <span
-                class="aff">(Broadcom)</span> · <span class="au">Maxime Austruy</span> <span
-                class="aff">(Broadcom)</span> · <span class="au">Junlong Gao</span> <span class="aff">(Broadcom)</span>
-              · <span class="au">Wenguang Wang</span> <span class="aff">(Broadcom)</span> · <span class="au">Juncheng
-                Yang</span> <span class="aff">(Harvard University)</span></div>
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4440-chowdhury.pdf" target="_blank" rel="noopener">IORM: Hierarchical I/O Governance for Thousands of Consolidated
+                Databases on Oracle Exadata</a></span></div>
+            <div class="pauth"><span class="au">Rajarshi Chowdhury</span> <span class="aff">(Oracle America Inc)</span>
+              · <span class="au">Akshay Shah</span> <span class="aff">(Oracle America Inc)</span> · <span
+                class="au">Zakaria Alrmaih</span> <span class="aff">(Oracle America Inc)</span> · <span
+                class="au">Chenhao Guo</span> <span class="aff">(Oracle America Inc)</span> · <span class="au">Anubhav
+                Singh</span> <span class="aff">(Oracle America Inc)</span> · <span class="au">Sue Lee</span> <span
+                class="aff">(Oracle America Inc)</span></div>
             <details class="pabs">
               <summary>Abstract</summary>
-              <div class="abstxt">Cache replacement is central to data system performance, yet metadata caches exhibit
-                access patterns that differ substantially from data caches. In particular, metadata blocks often exhibit
-                dense bursts of correlated references (e.g., multiple lookups that touch tuples that co-reside on the
-                same metadata page). Treating such bursts as repeated independent hits can misclassify cold metadata as
-                hot, polluting the cache and degrading hit ratio. We present Clock2Q+, a cache eviction algorithm
-                deployed in the metadata cache of VMware vSAN, a production-grade distributed storage system. Clock2Q+
-                is the latest stage of nearly a decade of iterative evolution of vSAN&#x27;s caching layer, shaped by
-                real-world deployment, customer-driven feature requests, and an emphasis on simplicity as a first-class
-                requirement for long-term maintainability. Clock2Q+ has a three-queue structure similar to S3-FIFO, and
-                introduces a correlation window at the head of the Small FIFO in which accesses do not set the reference
-                bit, preventing short-term correlated bursts from triggering premature promotion; accesses beyond this
-                window set the bit so genuinely hot blocks are promoted efficiently. Clock2Q+ achieves the highest
-                median and mean miss-ratio improvement among the state-of-the-art policies we evaluate on both metadata
-                and data workloads, with the largest per-trace gap over S3-FIFO reaching a 28.5% relative miss-ratio
-                reduction on metadata traces. To support production deployment, Clock2Q+ is engineered for low per-hit
-                overhead and multi-core scalability, with allocation-free, array-based structures, fine-grained
-                synchronization, dirty-page-aware eviction and promotion, bounded per-eviction work, and online cache
-                resizing.</div>
+              <div class="abstxt">Oracle Exadata consolidates thousands of tenant databases onto shared storage
+                infrastructure deployed at hundreds of customer sites worldwide. Oracle Multitenant architecture enables
+                this extreme density, with thousands of tenant databases sharing a single Exadata storage system—but
+                this creates a multi-level resource hierarchy (container databases, tenant databases, and workloads
+                within tenants) that commodity block-layer schedulers cannot govern, as they lack visibility into
+                database semantics and tenant boundaries.This paper presents the I/O Resource Manager (IORM), a
+                storage-side scheduler built on three mechanisms: I/O Tagging, which propagates semantic context from
+                the database kernel to the storage scheduler; Hierarchical Resource Profiles, which express
+                compositional allocation policies across consolidation tiers using shares and limits; and Unified
+                Storage Governance, which applies these policies consistently across all tiers of the storage
+                hierarchy—persistent memory, flash, and hard disk—including cache placement decisions. IORM enables
+                successful cloud deployments where thousands of tenants coexist on shared storage: production OLTP
+                workloads run alongside concurrent analytical workloads from the same or different databases without
+                noisy-neighbor interference. Evaluation on production Exadata systems demonstrates that IORM
+                dramatically improves latency consistency, virtually eliminating tail latency outliers and delivering
+                order-of-magnitude improvements in average read latency under mixed workloads. Hierarchical limits
+                compose correctly across all three levels, and proportional share allocation tracks configured ratios
+                closely even under highly skewed demand.</div>
             </details>
           </div>
           <div class="paper">
@@ -21630,34 +21626,38 @@
             </details>
           </div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4440-chowdhury.pdf" target="_blank" rel="noopener">IORM: Hierarchical I/O Governance for Thousands of Consolidated
-                Databases on Oracle Exadata</a></span></div>
-            <div class="pauth"><span class="au">Rajarshi Chowdhury</span> <span class="aff">(Oracle America Inc)</span>
-              · <span class="au">Akshay Shah</span> <span class="aff">(Oracle America Inc)</span> · <span
-                class="au">Zakaria Alrmaih</span> <span class="aff">(Oracle America Inc)</span> · <span
-                class="au">Chenhao Guo</span> <span class="aff">(Oracle America Inc)</span> · <span class="au">Anubhav
-                Singh</span> <span class="aff">(Oracle America Inc)</span> · <span class="au">Sue Lee</span> <span
-                class="aff">(Oracle America Inc)</span></div>
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3874-yang.pdf" target="_blank" rel="noopener">Clock2Q+: A Simple and Efficient Replacement Algorithm for Metadata
+                Cache in VMware vSAN</a></span></div>
+            <div class="pauth"><span class="au">Yiyan Zhai</span> <span class="aff">(Carnegie Mellon University)</span>
+              · <span class="au">Bintang Marthen</span> <span class="aff">(ITB)</span> · <span class="au">Sarath
+                Balivada</span> <span class="aff">(Broadcom)</span> · <span class="au">Vamsi Sudhakar Bojji</span> <span
+                class="aff">(Broadcom)</span> · <span class="au">Eric Knauft</span> <span class="aff">(Broadcom)</span>
+              · <span class="au">Jitender Rohilla</span> <span class="aff">(Broadcom)</span> · <span class="au">Jiaqi
+                Zou</span> <span class="aff">(Broadcom)</span> · <span class="au">Quanxing Liu</span> <span
+                class="aff">(Broadcom)</span> · <span class="au">Maxime Austruy</span> <span
+                class="aff">(Broadcom)</span> · <span class="au">Junlong Gao</span> <span class="aff">(Broadcom)</span>
+              · <span class="au">Wenguang Wang</span> <span class="aff">(Broadcom)</span> · <span class="au">Juncheng
+                Yang</span> <span class="aff">(Harvard University)</span></div>
             <details class="pabs">
               <summary>Abstract</summary>
-              <div class="abstxt">Oracle Exadata consolidates thousands of tenant databases onto shared storage
-                infrastructure deployed at hundreds of customer sites worldwide. Oracle Multitenant architecture enables
-                this extreme density, with thousands of tenant databases sharing a single Exadata storage system—but
-                this creates a multi-level resource hierarchy (container databases, tenant databases, and workloads
-                within tenants) that commodity block-layer schedulers cannot govern, as they lack visibility into
-                database semantics and tenant boundaries.This paper presents the I/O Resource Manager (IORM), a
-                storage-side scheduler built on three mechanisms: I/O Tagging, which propagates semantic context from
-                the database kernel to the storage scheduler; Hierarchical Resource Profiles, which express
-                compositional allocation policies across consolidation tiers using shares and limits; and Unified
-                Storage Governance, which applies these policies consistently across all tiers of the storage
-                hierarchy—persistent memory, flash, and hard disk—including cache placement decisions. IORM enables
-                successful cloud deployments where thousands of tenants coexist on shared storage: production OLTP
-                workloads run alongside concurrent analytical workloads from the same or different databases without
-                noisy-neighbor interference. Evaluation on production Exadata systems demonstrates that IORM
-                dramatically improves latency consistency, virtually eliminating tail latency outliers and delivering
-                order-of-magnitude improvements in average read latency under mixed workloads. Hierarchical limits
-                compose correctly across all three levels, and proportional share allocation tracks configured ratios
-                closely even under highly skewed demand.</div>
+              <div class="abstxt">Cache replacement is central to data system performance, yet metadata caches exhibit
+                access patterns that differ substantially from data caches. In particular, metadata blocks often exhibit
+                dense bursts of correlated references (e.g., multiple lookups that touch tuples that co-reside on the
+                same metadata page). Treating such bursts as repeated independent hits can misclassify cold metadata as
+                hot, polluting the cache and degrading hit ratio. We present Clock2Q+, a cache eviction algorithm
+                deployed in the metadata cache of VMware vSAN, a production-grade distributed storage system. Clock2Q+
+                is the latest stage of nearly a decade of iterative evolution of vSAN&#x27;s caching layer, shaped by
+                real-world deployment, customer-driven feature requests, and an emphasis on simplicity as a first-class
+                requirement for long-term maintainability. Clock2Q+ has a three-queue structure similar to S3-FIFO, and
+                introduces a correlation window at the head of the Small FIFO in which accesses do not set the reference
+                bit, preventing short-term correlated bursts from triggering premature promotion; accesses beyond this
+                window set the bit so genuinely hot blocks are promoted efficiently. Clock2Q+ achieves the highest
+                median and mean miss-ratio improvement among the state-of-the-art policies we evaluate on both metadata
+                and data workloads, with the largest per-trace gap over S3-FIFO reaching a 28.5% relative miss-ratio
+                reduction on metadata traces. To support production deployment, Clock2Q+ is engineered for low per-hit
+                overhead and multi-core scalability, with allocation-free, array-based structures, fine-grained
+                synchronization, dirty-page-aware eviction and promotion, bounded per-eviction work, and online cache
+                resizing.</div>
             </details>
           </div>
         </div>
@@ -21870,31 +21870,6 @@
               DB Architecture</span><span class="mchip">Marina Ballroom I</span><span class="mchip">Thursday 10:45 –
               12:15</span><span class="mchip">Session Chair: Paris Carbone</span><span class="mchip">7 talks</span><span class="mchip m-hy">Hybrid</span></div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3860-song.pdf" target="_blank" rel="noopener">K2+: A Multi-Region OLTP Database with Disaggregated Storage for High
-                Availability and Strong Consistency</a></span></div>
-            <div class="pauth"><span class="au">Haoze Song</span> <span class="aff">(The University of Hong Kong)</span>
-              · <span class="au">Guoli Wei</span> <span class="aff">(University of Science and Technology of
-                China)</span> · <span class="au">Xusheng Chen</span> <span class="aff">(Huawei)</span> · <span
-                class="au">Yazhi Feng</span> <span class="aff">(Huawei)</span> · <span class="au">Xieyun Fang</span>
-              <span class="aff">(Huawei)</span> · <span class="au">Yong Men</span> <span class="aff">(Huawei)</span> ·
-              <span class="au">Hao Feng</span> <span class="aff">(Huawei)</span> · <span class="au">Yongkun Li</span>
-              <span class="aff">(University of Science and Technology of China)</span> · <span class="au">Heming
-                Cui</span> <span class="aff">(The University of Hong Kong)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">Cloud computing has fundamentally reshaped database system architectures by enabling
-                the decoupling of compute and storage resources and supporting global, multi-region deployments.
-                However, effectively integrating storage-disaggregated architectures with multi-region OLTP processing
-                remains challenging, particularly when maintaining transactional consistency and performing cross-region
-                replication. This paper presents K2+, a multi-region transactional key-value store. K2+ achieves
-                fine-grained data partitioning across regions by combining region-local storage pools with independent,
-                region-specific commit logs. To support replication within and across regions, K2+ incorporates regional
-                partition management with dedicated cross-region replication middleware. This architecture allows
-                different regions to split, merge, and place physical partitions independently while preserving high
-                reliability, high availability, and strong consistency.</div>
-            </details>
-          </div>
-          <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4089-xu.pdf" target="_blank" rel="noopener">OceanBase Bacchus: A High-Performance and Scalable Cloud-Native
                 Shared Storage Architecture for Multi-Cloud</a></span></div>
             <div class="pauth"><span class="au">Quanqing Xu</span> <span class="aff">(OceanBase, Ant Group)</span> ·
@@ -21928,31 +21903,6 @@
             </details>
           </div>
           <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4195-li.pdf" target="_blank" rel="noopener">SERON: Smart Query Router for Multi-Primary Cloud-Native Databases
-                with Shared Storage</a></span></div>
-            <div class="pauth"><span class="au">Yuwei Huang</span> <span class="aff">(Tsinghua University)</span> ·
-              <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua University)</span> · <span
-                class="au">Jinyu Zhang</span> <span class="aff">(Gauss Lab, Huawei Company)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">Cloud-native databases have become a major deployment paradigm for commercial
-                applications and services in recent years. One of the most promising development trends in cloud-native
-                databases is to support multi-primary architecture with shared storage layers. However, when different
-                writer nodes simultaneously access overlapping data ranges, query conflicts naturally arise, potentially
-                leading to a significant performance drop. Therefore, it is of great importance to design query routers
-                that can smartly separate incoming workloads to mitigate inter-node conflicts, which is a problem not
-                fully discussed in the existing literature. To address this issue, in this paper, we present SERON, a
-                smart query routing system customized for multi-primary cloud-native databases with shared storage. The
-                system aims to minimize conflicts by directing each query to an optimal compute node. To this end, SERON
-                generates workload-aware logical routing rules at different granularities using a two-stage framework,
-                actively detects and handles physical data collisions through judicious conflict modeling, and
-                constantly adapts its routing policies to provide the best runtime performance. The system has been
-                integrated into GaussDB and deployed in real-world scenarios. Extensive experiments verify the
-                effectiveness and cost-efficiency of SERON, which achieves up to 61.7\% execution time reduction
-                compared to the best baseline.</div>
-            </details>
-          </div>
-          <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4413-sitpal.pdf" target="_blank" rel="noopener">Why We Created Yet Another Memory Framework: Understanding MGA’s Role
                 in Next-Gen Database Systems</a></span></div>
             <div class="pauth"><span class="au">Vikramraj Sitpal</span> <span class="aff">(Oracle)</span> · <span
@@ -21978,6 +21928,56 @@
                 up to 35%. For ONNX-based inference, MGA-enabled model sharing reduces memory footprint by up to 90% and
                 lowers large-model inference latency by up to 37%. These results demonstrate that dynamically scoped
                 shared memory can improve both efficiency and predictability in production database systems.</div>
+            </details>
+          </div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3860-song.pdf" target="_blank" rel="noopener">K2+: A Multi-Region OLTP Database with Disaggregated Storage for High
+                Availability and Strong Consistency</a></span></div>
+            <div class="pauth"><span class="au">Haoze Song</span> <span class="aff">(The University of Hong Kong)</span>
+              · <span class="au">Guoli Wei</span> <span class="aff">(University of Science and Technology of
+                China)</span> · <span class="au">Xusheng Chen</span> <span class="aff">(Huawei)</span> · <span
+                class="au">Yazhi Feng</span> <span class="aff">(Huawei)</span> · <span class="au">Xieyun Fang</span>
+              <span class="aff">(Huawei)</span> · <span class="au">Yong Men</span> <span class="aff">(Huawei)</span> ·
+              <span class="au">Hao Feng</span> <span class="aff">(Huawei)</span> · <span class="au">Yongkun Li</span>
+              <span class="aff">(University of Science and Technology of China)</span> · <span class="au">Heming
+                Cui</span> <span class="aff">(The University of Hong Kong)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Cloud computing has fundamentally reshaped database system architectures by enabling
+                the decoupling of compute and storage resources and supporting global, multi-region deployments.
+                However, effectively integrating storage-disaggregated architectures with multi-region OLTP processing
+                remains challenging, particularly when maintaining transactional consistency and performing cross-region
+                replication. This paper presents K2+, a multi-region transactional key-value store. K2+ achieves
+                fine-grained data partitioning across regions by combining region-local storage pools with independent,
+                region-specific commit logs. To support replication within and across regions, K2+ incorporates regional
+                partition management with dedicated cross-region replication middleware. This architecture allows
+                different regions to split, merge, and place physical partitions independently while preserving high
+                reliability, high availability, and strong consistency.</div>
+            </details>
+          </div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4195-li.pdf" target="_blank" rel="noopener">SERON: Smart Query Router for Multi-Primary Cloud-Native Databases
+                with Shared Storage</a></span></div>
+            <div class="pauth"><span class="au">Yuwei Huang</span> <span class="aff">(Tsinghua University)</span> ·
+              <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua University)</span> · <span
+                class="au">Jinyu Zhang</span> <span class="aff">(Gauss Lab, Huawei Company)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Cloud-native databases have become a major deployment paradigm for commercial
+                applications and services in recent years. One of the most promising development trends in cloud-native
+                databases is to support multi-primary architecture with shared storage layers. However, when different
+                writer nodes simultaneously access overlapping data ranges, query conflicts naturally arise, potentially
+                leading to a significant performance drop. Therefore, it is of great importance to design query routers
+                that can smartly separate incoming workloads to mitigate inter-node conflicts, which is a problem not
+                fully discussed in the existing literature. To address this issue, in this paper, we present SERON, a
+                smart query routing system customized for multi-primary cloud-native databases with shared storage. The
+                system aims to minimize conflicts by directing each query to an optimal compute node. To this end, SERON
+                generates workload-aware logical routing rules at different granularities using a two-stage framework,
+                actively detects and handles physical data collisions through judicious conflict modeling, and
+                constantly adapts its routing policies to provide the best runtime performance. The system has been
+                integrated into GaussDB and deployed in real-world scenarios. Extensive experiments verify the
+                effectiveness and cost-efficiency of SERON, which achieves up to 61.7\% execution time reduction
+                compared to the best baseline.</div>
             </details>
           </div>
           <div class="paper">
@@ -22085,6 +22085,83 @@
               Interfaces</span><span class="mchip">Marina Ballroom I</span><span class="mchip">Thursday 13:45 –
               15:15</span><span class="mchip">Session Chair: Alekh Jindal</span><span class="mchip">6 talks</span><span class="mchip m-hy">Hybrid</span></div>
           <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4330-zhou.pdf" target="_blank" rel="noopener">Bridging NL2SQL for CAN Signal Analytics at NIO: From Externalized
+                Schemas to CTE Pipelines</a></span></div>
+            <div class="pauth"><span class="au">Wei Zhou</span> <span class="aff">(Shanghai Jiao Tong University)</span>
+              · <span class="au">Haoyu Zhao</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
+                class="au">Ruiguang Zhong</span> <span class="aff">(NIO)</span> · <span class="au">Shaoli Yu</span>
+              <span class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xuanhe Zhou</span> <span
+                class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xue Yang</span> <span
+                class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xiaosong Jia</span> <span
+                class="aff">(Fudan University)</span> · <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua
+                University)</span> · <span class="au">Shengzhong Liu</span> <span class="aff">(Shanghai Jiao Tong
+                University)</span> · <span class="au">Kang Zhang</span> <span class="aff">(China Telecom Corporation
+                Ltd. Shanghai Branch)</span> · <span class="au">Jie Wu</span> <span class="aff">(NIO)</span> · <span
+                class="au">Fan Wu</span> <span class="aff">(Shanghai Jiao Tong University)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Large Language Models (LLMs) promise natural-language access to data, yet applying
+                them to Controller Area Network (CAN) signal SQL analytics in the automotive industry is challenging.
+                First, CAN data warehouses store tens of thousands of signals as opaque numeric columns. Multiple
+                signals are often packed into a single column as bit segments, requiring external Database CAN (DBC)
+                files beyond the native database schema for proper definitions. Second, engineers’ natural-language
+                queries often use terms that map to multiple signals in the DBC files, with little direct indication of
+                which signals are being referenced. Finally, signal analysis in production involves multi-stage SQL
+                pipelines using layered Common Table Expressions (CTEs) for tasks such as temporal alignment, more
+                complex than those handled by existing NL2SQL methods. To address these, we present NIO-Weaver, an
+                end-to-end CAN signal analytics system within a graph-augmented multi-agent framework. First, to uncover
+                signals hidden in opaque numeric columns, we introduce an automated graph-construction pipeline that
+                leverages DBC files to build a domain-knowledge graph, associating signals with potential high-level
+                terms. Second, to bridge the semantic gap between natural-language queries and multiple signals, we
+                propose an optimized retrieval method that extracts terms from queries and performs hybrid retrieval. We
+                combine regex matching, embedding search, and constrained graph traversal to identify candidate signals
+                for further processing. Finally, to simplify the generation of multi-step CTE-based SQL pipelines, we
+                introduce a hierarchical generation paradigm. We decompose queries into plans, incrementally generating
+                executable CTEs, while self-correction mechanisms refine missing signals and incorrect SQLs. Experiments
+                conducted on the real-world industrial CAN warehouse at NIO demonstrate that NIO-Weaver outperforms
+                baselines by up to 67.2%.</div>
+            </details>
+          </div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4276-fu.pdf" target="_blank" rel="noopener">OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data
+                Curation and Exploration</a></span></div>
+            <div class="pauth"><span class="au">Yuzhuo Fu</span> <span class="aff">(AntGroup)</span> · <span
+                class="au">Xiangchun Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Chao
+                Huang</span> <span class="aff">(AntGroup)</span> · <span class="au">Liyi Wang</span> <span
+                class="aff">(AntGroup)</span> · <span class="au">Binwei Zeng</span> <span class="aff">(AntGroup)</span>
+              · <span class="au">Yuhan Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Taotao
+                Nie</span> <span class="aff">(AntGroup)</span> · <span class="au">Dongke Hu</span> <span
+                class="aff">(AntGroup)</span> · <span class="au">Wang Hong</span> <span class="aff">(AntGroup)</span> ·
+              <span class="au">Jiayi Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Wenwen
+                Cui</span> <span class="aff">(AntGroup)</span> · <span class="au">Zhuyan Zhou</span> <span
+                class="aff">(AntGroup)</span> · <span class="au">Yunshun Guo</span> <span class="aff">(AntGroup)</span>
+              · <span class="au">Yuhan Xing</span> <span class="aff">(AntGroup)</span> · <span class="au">Jiaxin
+                Lian</span> <span class="aff">(AntGroup)</span> · <span class="au">Peng Lin</span> <span
+                class="aff">(AntGroup)</span> · <span class="au">Qing Cui</span> <span class="aff">(AntGroup)</span> ·
+              <span class="au">Wenhui Shi</span> <span class="aff">(AntGroup)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">Data curation is a critical bottleneck in industrial-grade LLM development, where
+                petabyte-scale unstructured corpora are scattered across hundreds of physical tables, feature
+                engineering relies on manual, table-centric pipeline orchestration, and data lineage is largely absent.
+                We present OmniTable as an architecture blueprint for a unified wide-table layer built on Logical
+                Unification, Physical Separation, targeting petabyte-scale LLM data curation and exploration. OmniTable
+                makes four contributions: (1) a unified wide-table abstraction that consolidates multi-source
+                heterogeneous data and thousands of derived features under a single logical schema via logical-physical
+                mapping; (2) declarative feature lifecycle management that automates dependency resolution, execution
+                planning, operator fusion, and lineage tracking, replacing manual pipeline orchestration with a
+                &quot;declare-and-execute&quot; paradigm; (3) an adaptive execution engine with autonomous governance
+                that achieves stable PB-scale feature backfill through heterogeneous compute routing (CPU/GPU), adaptive
+                tuning, UDF-level fault tolerance, and automated storage layout optimization; and (4) hybrid-accelerated
+                data exploration combining a global ID index, transparent OLAP offloading, and background materialized
+                views to deliver second-level point lookups and filtered exports exceeding 20 TB/hour. In production,
+                OmniTable manages over 35 PB of training data across web, code, PDF, and SFT domains, reducing the
+                human-in-the-loop curation cycle from approximately 14 days to approximately 2.5 days (5.6x over the
+                pre-OmniTable production workflow), with consistent feature versioning, auditable lineage, and minimal
+                manual intervention.</div>
+            </details>
+          </div>
+          <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4223-xu.pdf" target="_blank" rel="noopener">IMLane: Composable Framework for Efficient AI Function Execution in
                 Database Engine</a></span></div>
             <div class="pauth"><span class="au">Chenyang Zhang</span> <span class="aff">(East China Normal
@@ -22146,83 +22223,6 @@
                 currently deployed as a standalone service on the data platform of Baidu and is widely used across
                 multiple business lines—including video, search, and advertising—supporting thousands of users daily.
               </div>
-            </details>
-          </div>
-          <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4276-fu.pdf" target="_blank" rel="noopener">OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data
-                Curation and Exploration</a></span></div>
-            <div class="pauth"><span class="au">Yuzhuo Fu</span> <span class="aff">(AntGroup)</span> · <span
-                class="au">Xiangchun Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Chao
-                Huang</span> <span class="aff">(AntGroup)</span> · <span class="au">Liyi Wang</span> <span
-                class="aff">(AntGroup)</span> · <span class="au">Binwei Zeng</span> <span class="aff">(AntGroup)</span>
-              · <span class="au">Yuhan Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Taotao
-                Nie</span> <span class="aff">(AntGroup)</span> · <span class="au">Dongke Hu</span> <span
-                class="aff">(AntGroup)</span> · <span class="au">Wang Hong</span> <span class="aff">(AntGroup)</span> ·
-              <span class="au">Jiayi Wang</span> <span class="aff">(AntGroup)</span> · <span class="au">Wenwen
-                Cui</span> <span class="aff">(AntGroup)</span> · <span class="au">Zhuyan Zhou</span> <span
-                class="aff">(AntGroup)</span> · <span class="au">Yunshun Guo</span> <span class="aff">(AntGroup)</span>
-              · <span class="au">Yuhan Xing</span> <span class="aff">(AntGroup)</span> · <span class="au">Jiaxin
-                Lian</span> <span class="aff">(AntGroup)</span> · <span class="au">Peng Lin</span> <span
-                class="aff">(AntGroup)</span> · <span class="au">Qing Cui</span> <span class="aff">(AntGroup)</span> ·
-              <span class="au">Wenhui Shi</span> <span class="aff">(AntGroup)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">Data curation is a critical bottleneck in industrial-grade LLM development, where
-                petabyte-scale unstructured corpora are scattered across hundreds of physical tables, feature
-                engineering relies on manual, table-centric pipeline orchestration, and data lineage is largely absent.
-                We present OmniTable as an architecture blueprint for a unified wide-table layer built on Logical
-                Unification, Physical Separation, targeting petabyte-scale LLM data curation and exploration. OmniTable
-                makes four contributions: (1) a unified wide-table abstraction that consolidates multi-source
-                heterogeneous data and thousands of derived features under a single logical schema via logical-physical
-                mapping; (2) declarative feature lifecycle management that automates dependency resolution, execution
-                planning, operator fusion, and lineage tracking, replacing manual pipeline orchestration with a
-                &quot;declare-and-execute&quot; paradigm; (3) an adaptive execution engine with autonomous governance
-                that achieves stable PB-scale feature backfill through heterogeneous compute routing (CPU/GPU), adaptive
-                tuning, UDF-level fault tolerance, and automated storage layout optimization; and (4) hybrid-accelerated
-                data exploration combining a global ID index, transparent OLAP offloading, and background materialized
-                views to deliver second-level point lookups and filtered exports exceeding 20 TB/hour. In production,
-                OmniTable manages over 35 PB of training data across web, code, PDF, and SFT domains, reducing the
-                human-in-the-loop curation cycle from approximately 14 days to approximately 2.5 days (5.6x over the
-                pre-OmniTable production workflow), with consistent feature versioning, auditable lineage, and minimal
-                manual intervention.</div>
-            </details>
-          </div>
-          <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4330-zhou.pdf" target="_blank" rel="noopener">Bridging NL2SQL for CAN Signal Analytics at NIO: From Externalized
-                Schemas to CTE Pipelines</a></span></div>
-            <div class="pauth"><span class="au">Wei Zhou</span> <span class="aff">(Shanghai Jiao Tong University)</span>
-              · <span class="au">Haoyu Zhao</span> <span class="aff">(Shanghai Jiao Tong University)</span> · <span
-                class="au">Ruiguang Zhong</span> <span class="aff">(NIO)</span> · <span class="au">Shaoli Yu</span>
-              <span class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xuanhe Zhou</span> <span
-                class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xue Yang</span> <span
-                class="aff">(Shanghai Jiao Tong University)</span> · <span class="au">Xiaosong Jia</span> <span
-                class="aff">(Fudan University)</span> · <span class="au">Guoliang Li</span> <span class="aff">(Tsinghua
-                University)</span> · <span class="au">Shengzhong Liu</span> <span class="aff">(Shanghai Jiao Tong
-                University)</span> · <span class="au">Kang Zhang</span> <span class="aff">(China Telecom Corporation
-                Ltd. Shanghai Branch)</span> · <span class="au">Jie Wu</span> <span class="aff">(NIO)</span> · <span
-                class="au">Fan Wu</span> <span class="aff">(Shanghai Jiao Tong University)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">Large Language Models (LLMs) promise natural-language access to data, yet applying
-                them to Controller Area Network (CAN) signal SQL analytics in the automotive industry is challenging.
-                First, CAN data warehouses store tens of thousands of signals as opaque numeric columns. Multiple
-                signals are often packed into a single column as bit segments, requiring external Database CAN (DBC)
-                files beyond the native database schema for proper definitions. Second, engineers’ natural-language
-                queries often use terms that map to multiple signals in the DBC files, with little direct indication of
-                which signals are being referenced. Finally, signal analysis in production involves multi-stage SQL
-                pipelines using layered Common Table Expressions (CTEs) for tasks such as temporal alignment, more
-                complex than those handled by existing NL2SQL methods. To address these, we present NIO-Weaver, an
-                end-to-end CAN signal analytics system within a graph-augmented multi-agent framework. First, to uncover
-                signals hidden in opaque numeric columns, we introduce an automated graph-construction pipeline that
-                leverages DBC files to build a domain-knowledge graph, associating signals with potential high-level
-                terms. Second, to bridge the semantic gap between natural-language queries and multiple signals, we
-                propose an optimized retrieval method that extracts terms from queries and performs hybrid retrieval. We
-                combine regex matching, embedding search, and constrained graph traversal to identify candidate signals
-                for further processing. Finally, to simplify the generation of multi-step CTE-based SQL pipelines, we
-                introduce a hierarchical generation paradigm. We decompose queries into plans, incrementally generating
-                executable CTEs, while self-correction mechanisms refine missing signals and incorrect SQLs. Experiments
-                conducted on the real-world industrial CAN warehouse at NIO demonstrate that NIO-Weaver outperforms
-                baselines by up to 67.2%.</div>
             </details>
           </div>
           <div class="paper">
