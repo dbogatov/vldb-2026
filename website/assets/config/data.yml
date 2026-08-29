@@ -26,10 +26,13 @@ sections:
     sub_sections:
       - title: Full Program
         page: program
-      - title: PhD Workshop
-        page: phd-workshop
       - title: Keynotes
         page: keynotes
+      - title: "Special Event: Return to Boston"
+        page: special-event-return-to-boston
+        menu_class: special-event-menu-link
+      - title: PhD Workshop
+        page: phd-workshop
       - title: Demonstrations
         page: demonstrations
       - title: Tutorials
@@ -45,10 +48,6 @@ sections:
         page: conference-awards
       - title: VLDB Endowment Awards
         page: vldb-endowment-awards
-      - break
-      - title: "Special Event: Return to Boston"
-        page: special-event-return-to-boston
-        menu_class: special-event-menu-link
   - title: Call for Contributions
     sub_sections:
       - title: Research Track
