@@ -22,6 +22,7 @@ sections:
       - title: Shadow PC
         page: shadow-pc
   - title: Conference Program
+    menu_class: conference-program-menu
     sub_sections:
       - title: Full Program
         page: program
@@ -44,6 +45,10 @@ sections:
         page: conference-awards
       - title: VLDB Endowment Awards
         page: vldb-endowment-awards
+      - break
+      - title: "Special Event: Return to Boston"
+        page: special-event-return-to-boston
+        menu_class: special-event-menu-link
   - title: Call for Contributions
     sub_sections:
       - title: Research Track

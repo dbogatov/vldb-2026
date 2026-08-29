@@ -68,7 +68,7 @@
                     <img src="{{ base }}/assets/img/logo_simple.webp" alt="{{ data.name }} -- {{ data.location }}">
                 </figure>
                 {% for section in data.sections %}
-                    <div>
+                    <div{% if section.menu_class %} class="{{ section.menu_class }}"{% endif %}>
                         {{ section.title }}
                         <div class="menu">
                             {% for sub in section.sub_sections %}
@@ -83,7 +83,7 @@
                                         <span itemprop="name">{{ sub.title }}</span>
                                     </a>
                                 {% else %}
-                                    <a href="{{ sub.page }}{{ ".html" if sub.page != "." else "" }}" itemprop="url">
+                                    <a{% if sub.menu_class %} class="{{ sub.menu_class }}"{% endif %} href="{{ sub.page }}{{ ".html" if sub.page != "." else "" }}" itemprop="url">
                                         <span itemprop="name">{{ sub.title }}</span>
                                     </a>
                                 {% endif %}

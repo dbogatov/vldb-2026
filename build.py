@@ -179,6 +179,8 @@ def main():
                 keynotes=load_data("keynotes"),
                 panels=load_data("panels"),
                 phd_workshop=load_data("phd-workshop"),
+                special_event_return_to_boston=load_data(
+                    "special-event-return-to-boston"),
                 tutorials=load_data("tutorials"),
                 workshops=load_data("workshops"),
                 sponsorship=load_data("sponsorship"),

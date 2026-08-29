@@ -468,6 +468,20 @@
     text-decoration: none;
 }
 
+@media (min-width: 981px) {
+    header > nav > .conference-program-menu .menu {
+        width: calc(100% + 2px);
+    }
+
+    header > nav > .conference-program-menu .special-event-menu-link span {
+        display: block;
+        max-width: 170px;
+        padding: 0.35rem 0;
+        line-height: 1.35;
+        white-space: normal;
+    }
+}
+
 .venue-map {
     margin: 1.25rem 0 1.5rem;
     border: 1px solid #d7d7d7;
@@ -651,5 +665,279 @@
 
     .honoree-list {
         column-count: 1;
+    }
+}
+
+/* Special Event: Return to Boston */
+.special-event-page {
+    --special-event-navy: #142c52;
+    --special-event-blue: #1e6e8c;
+    --special-event-gold: #e0a321;
+    --special-event-line: #dbe2e8;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.special-event-heading {
+    padding: 0.25rem 0 0.75rem;
+}
+
+.special-event-eyebrow {
+    margin: 0 0 0.45rem;
+    color: var(--special-event-blue);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.special-event-heading h1 {
+    max-width: 900px;
+    margin: 0;
+    color: var(--special-event-navy);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.12;
+}
+
+.special-event-subtitle {
+    margin: 0.6rem 0 1.25rem;
+    color: #4b5968;
+    font-size: 1.35rem;
+    line-height: 1.35;
+}
+
+.special-event-facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--special-event-line);
+    border-top: 4px solid var(--special-event-gold);
+    border-radius: 6px;
+    background: #fff;
+}
+
+.special-event-facts div {
+    padding: 0.9rem 1rem;
+}
+
+.special-event-facts div + div {
+    border-left: 1px solid var(--special-event-line);
+}
+
+.special-event-facts dt {
+    margin-bottom: 0.15rem;
+    color: #687687;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.special-event-facts dd {
+    margin: 0;
+    color: var(--special-event-navy);
+    font-weight: 700;
+}
+
+.special-event-poster {
+    margin: 1.75rem 0 2.5rem;
+}
+
+.special-event-poster img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(20, 44, 82, 0.16);
+}
+
+.special-event-page > section > h2,
+.special-event-speakers > h2 {
+    margin: 2.5rem 0 1rem;
+    color: var(--special-event-navy);
+}
+
+.special-event-agenda-wrapper {
+    overflow-x: auto;
+    border: 1px solid var(--special-event-line);
+    border-radius: 6px;
+}
+
+.special-event-agenda {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.special-event-agenda th,
+.special-event-agenda td {
+    padding: 0.72rem 0.9rem;
+    border-bottom: 1px solid var(--special-event-line);
+    text-align: left;
+    vertical-align: middle;
+}
+
+.special-event-agenda th {
+    background: var(--special-event-navy);
+    color: #fff;
+}
+
+.special-event-agenda th:first-child,
+.special-event-agenda td:first-child {
+    width: 150px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.special-event-agenda tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.special-event-agenda tbody tr:nth-child(even):not(.special-event-agenda__session) {
+    background: #f8fafb;
+}
+
+.special-event-agenda__session {
+    background: #eaf2f5;
+    color: var(--special-event-navy);
+    font-weight: 700;
+}
+
+.special-event-session {
+    margin-top: 1.5rem;
+    overflow: hidden;
+    border: 1px solid var(--special-event-line);
+    border-radius: 6px;
+    background: #fff;
+}
+
+.special-event-session__heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--special-event-navy);
+    color: #fff;
+}
+
+.special-event-session__heading h2,
+.special-event-session__heading h3 {
+    margin: 0;
+    color: inherit;
+    font-size: 1.15rem;
+    line-height: 1.35;
+}
+
+.special-event-session__heading span {
+    flex: none;
+    font-weight: 700;
+}
+
+.special-event-speaker + .special-event-speaker {
+    border-top: 1px solid var(--special-event-line);
+}
+
+.special-event-speaker {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 1.4rem;
+    padding: 1.4rem;
+}
+
+.special-event-speaker__portrait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    width: 170px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #e8eef3;
+    color: var(--special-event-navy);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.special-event-speaker__portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.special-event-speaker__portrait--placeholder {
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.special-event-speaker__no-photo {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.special-event-speaker__bio h3,
+.special-event-speaker__bio h4 {
+    margin: 0 0 0.55rem;
+    color: var(--special-event-navy);
+    font-size: 1.2rem;
+}
+
+.special-event-speaker__bio p {
+    margin: 0;
+    line-height: 1.65;
+}
+
+.special-event-speaker__bio p + p {
+    margin-top: 0.75rem;
+}
+
+.special-event-organizer {
+    margin: 2.5rem 0 0;
+    overflow: hidden;
+    border: 1px solid var(--special-event-line);
+    border-radius: 6px;
+    background: #fff;
+}
+
+.special-event-organizer .special-event-session__heading {
+    background: var(--special-event-blue);
+}
+
+@media (max-width: 700px) {
+    .special-event-facts {
+        grid-template-columns: 1fr;
+    }
+
+    .special-event-facts div + div {
+        border-top: 1px solid var(--special-event-line);
+        border-left: 0;
+    }
+
+    .special-event-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .special-event-session__heading {
+        display: block;
+    }
+
+    .special-event-session__heading span {
+        display: block;
+        margin-top: 0.35rem;
+    }
+
+    .special-event-speaker {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .special-event-speaker__portrait {
+        width: 145px;
     }
 }

@@ -1,0 +1,97 @@
+title: "VLDB 2026 Special Event: Return to the Boston Area After 50+ Years"
+subtitle: "What Can We Learn from VLDB 1975?"
+date: "Wednesday, September 2, 2026"
+time: "8:45–10:15 AM"
+location: "Grand Ballroom A+B"
+poster: return-to-boston-poster
+
+agenda:
+  - time: "8:45 - 8:50"
+    task: "Welcome speech by Divesh"
+  - time: "8:50 - 9:15"
+    task: "Session 1: Leading up to VLDB 1975"
+    session: true
+  - time: "8:50 - 9:00"
+    task: "Presentation by Philip A. Bernstein"
+  - time: "9:00 - 9:10"
+    task: "Presentation by Michael Stonebraker"
+  - time: "9:10 - 9:15"
+    task: "Q&A"
+  - time: "9:15 - 9:45"
+    task: "Session 2: Memories of a few VLDB 1975 Papers"
+    session: true
+  - time: "9:15 - 9:22"
+    task: "Presentation by David DeWitt"
+  - time: "9:22 - 9:29"
+    task: "Presentation by Sebastian Link"
+  - time: "9:29 - 9:36"
+    task: "Presentation by C. Mohan"
+  - time: "9:36 - 9:45"
+    task: "Q&A"
+  - time: "9:45 - 10:15"
+    task: "Session 3: Perspectives on the impact of VLDB"
+    session: true
+  - time: "9:45 - 9:52"
+    task: "Presentation by Renée J. Miller"
+  - time: "9:52 - 9:59"
+    task: "Presentation by Volker Markl"
+  - time: "9:59 - 10:06"
+    task: "Presentation by Lei Chen"
+  - time: "10:06 - 10:15"
+    task: "Q&A"
+
+sessions:
+  - title: "Session 1: Leading Up to VLDB 1975"
+    time: "8:50 - 9:15"
+    speakers:
+      - name: "Philip A. Bernstein"
+        photo: philip-bernstein
+        bio: >-
+          Philip A. Bernstein is a Distinguished Scientist at Microsoft Research and Affiliate Professor at University of Washington. He was previously a researcher and product architect at Digital Equipment Corporation, a professor at Harvard University, and VP Software at Sequoia Systems. He has co-authored over 150 papers on database systems and two books on transaction processing. He is a Fellow of the ACM and AAAS, a winner of the E.F. Codd SIGMOD Innovations Award, and a member of the U.S. National Academy of Engineering. He received a B.S. from Cornell and M.Sc. and Ph.D. from University of Toronto. More details are at https://research.microsoft.com/~philbe.
+      - name: "Michael Stonebraker"
+        photo: michael-stonebraker
+        bio: >-
+          Dr. Stonebraker has been a pioneer of database research and technology for more than fifty years. He was the main architect of the INGRES relational DBMS and the object-relational DBMS POSTGRES. These prototypes were developed at the University of California at Berkeley, where Stonebraker was a Professor of Computer Science for twenty-five years. More recently at MIT, he was a co-architect of the C-Store column-oriented DBMS, the H-Store OLTP DBMS, the SciDB array DBMS, the Data Tamer integration engine, the Kyrix visualization system, and the DBOS operating system prototype. He is the founder of eleven venture-capital-backed startups that commercialized these prototypes. Presently he serves as an advisor to Hopara, which is commercializing the Kyrix prototype, and to DBOS, Inc., which is commercializing parts of DBOS.
+        bio_additional: >-
+          Professor Stonebraker is the author of scores of research papers on database technology, operating systems, and the architecture of system software services. He received the ACM System Software Award in 1992 for his work on INGRES, the ACM Software Systems Award in 1988, the IEEE John von Neumann Prize in 2005, and the ACM Turing Award in 2014. He was elected to the National Academy of Engineering in 1997. He is presently an Adjunct Professor of Computer Science at MIT, where he works on a variety of future-generation data-oriented projects.
+
+  - title: "Session 2: Memories of a Few VLDB 1975 Papers"
+    time: "9:15 - 9:45"
+    speakers:
+      - name: "David DeWitt"
+        photo: david-dewitt
+        bio: >-
+          David J. DeWitt joined the Computer Sciences Department at the University of Wisconsin in September 1976 after receiving his Ph.D. degree from the University of Michigan. He served as department chair from July 1999 to July 2004. He held the title John P. Morgridge Professor of Computer Sciences when he retired from the University of Wisconsin in 2008. In 2008, Dr. DeWitt joined Microsoft as a Technical Fellow to establish and manage the Jim Gray Systems Lab in Madison for the SQL Server product group. He served in that position until 2016, when he moved to Boston to accept an Adjunct Faculty position at MIT. He consulted for Facebook from February 2017 until December 2018, for Amazon from October 2019 to January 2020, and for Snowflake from March 2020 to April 2021. In July 2021, he joined Splunk as a VP and Technical Fellow. He currently consults for Amazon and is a member of the technical advisory board for AkashX.ai.
+        bio_additional: >-
+          Professor DeWitt is a member of the National Academy of Engineering (1998), a fellow of the American Academy of Arts and Sciences (2007), and an ACM Fellow (1995). His seminal contributions to the field of scalable and parallel database systems were recognized by ACM with the Software Systems Award in 2008. He received the IEEE Emanuel R. Piore Award in 2009.
+      - name: "Sebastian Link"
+        photo: sebastian-link
+        bio: >-
+          Sebastian Link is a Professor of Computer Science at the University of Auckland. He received the 2013 Chris Wallace Award for outstanding research contributions and holds a Doctor of Science. His work focuses on database design and data profiling, leading him to co-found the company DataViadotto. He has published over 200 articles and serves on major conferences such as ICDE, SIGMOD, and VLDB, and editorial boards including The VLDB Journal and Information Systems.
+      - name: "C. Mohan"
+        photo: c-mohan
+        bio: >-
+          Dr. C. Mohan is Distinguished Professor of Science at Hong Kong Baptist University, Distinguished Visiting Professor at Tsinghua University, and a founding board member of Digital University Kerala. A retired IBM Fellow with a 38-year research tenure at IBM Research in Silicon Valley, he invented landmark technologies including the ARIES family of database recovery and locking algorithms and the Presumed Abort distributed commit protocol. He is an ACM Fellow, an IEEE Life Fellow, a member of the U.S. and Indian National Academies of Engineering, recipient of the 1996 ACM SIGMOD Edgar F. Codd Innovations Award and the 1999 VLDB 10 Year Best Paper Award, and holder of 50 patents. He has served as IBM India Chief Scientist, consultant for Google and Microsoft, and has given lectures in 43 countries.
+
+  - title: "Session 3: Perspectives on the Impact of VLDB"
+    time: "9:45 - 10:15"
+    speakers:
+      - name: "Renée J. Miller"
+        initials: "RM"
+        bio: >-
+          Renée J. Miller is the Canada Excellence Research Chair in Data Intelligence at the University of Waterloo. She is a Fellow of the Royal Society of Canada, Canada's National Academy of Science, Engineering and the Humanities. She received the U.S. Presidential Early Career Award for Scientists and Engineers (PECASE), the highest honor bestowed by the United States government on outstanding scientists and engineers beginning their careers. She received an NSF CAREER Award, the Ontario Premier's Research Excellence Award, and an IBM Faculty Award. She formerly held the Bell Canada Chair of Information Systems at the University of Toronto and a University Distinguished Professorship at Northeastern University. She is a Fellow of the ACM and the AAAS. Her work has focused on the long-standing open problem of data integration and has achieved the goal of building practical data integration systems. She and her colleagues received the ICDT Test-of-Time Award and the 2020 Alonzo Church Award for Outstanding Contributions to Logic and Computation for their influential work establishing the foundations of data exchange. For her body of work, she has received the CS Canada Lifetime Achievement Award in Computer Science. Professor Miller served as president of the Very Large Data Base (VLDB) Endowment and as an Editor-in-Chief of The VLDB Journal. She received her Ph.D. in Computer Science from the University of Wisconsin, Madison and bachelor's degrees in Mathematics and Cognitive Science from MIT.
+      - name: "Volker Markl"
+        photo: volker-markl
+        bio: >-
+          Volker Markl is a German Professor of Computer Science. He leads the Chair of Database Systems and Information Management at TU Berlin and the Intelligent Analytics for Massive Data Research Department at DFKI. In addition, he is Director of the Berlin Institute for the Foundations of Learning and Data (BIFOLD). He is a database systems researcher conducting research at the intersection of distributed systems, scalable data processing, and machine learning. Volker led the Stratosphere project, which resulted in the creation of Apache Flink. He has received numerous honors and prestigious awards, including best paper awards at ACM SIGMOD, VLDB, and ICDE, as well as the ACM SIGMOD Systems Award. In 2014, he was elected one of Germany's leading “Digital Minds” (Digitale Köpfe) by the German Informatics Society. He is a member of the German National Academy of Sciences Leopoldina and the Berlin-Brandenburg Academy of Sciences. He was elected an ACM Fellow for his contributions to query optimization, scalable data processing, and data programmability. He served as President of the VLDB Endowment and serves as advisor to academic institutions, governmental organizations, and technology companies. Volker holds eighteen patents and has been co-founder and mentor to several startups.
+      - name: "Lei Chen"
+        photo: lei-chen
+        bio: >-
+          Lei Chen is a Chair Professor in Data Science and Analytics at HKUST (Guangzhou) and the Department of Computer Science and Engineering at HKUST, where he also serves as Dean of the Information Hub and Director of the Big Data Institute. An elected Fellow of both the ACM and IEEE, Prof. Chen is a distinguished researcher whose expertise encompasses data-driven AI, spatiotemporal and probabilistic databases, crowdsourcing, and emerging technologies such as blockchain and the Metaverse. He earned his Ph.D. in Computer Science from the University of Waterloo and has received numerous top-tier honors, including the 2015 SIGMOD Test-of-Time Award, the VLDB 2022 Best Research Paper Award, and a VLDB 2014 Excellent Demonstration Award. His leadership in the academic community is extensive; he is the current President of the VLDB Endowment and Editor-in-Chief of IEEE Transactions on Knowledge and Data Engineering (TKDE), having previously served as Co-Editor-in-Chief of The VLDB Journal. His service to major international forums includes roles as General Co-Chair for VLDB 2024 and IJCAI China 2025, as well as Program Committee Co-Chair for VLDB 2019.
+
+organizer:
+  name: "Divesh Srivastava"
+  role: "Plenary Session Organizer"
+  photo: divesh-srivastava
+  bio: >-
+    Divesh Srivastava is the head of Database Research at AT&T. He is an AT&T Fellow, a Fellow of the ACM, on the Board of Directors of the Computing Research Association (CRA), co-chair of the ACM Publications Board, and former President of the VLDB Endowment. He is a recipient of the 2021 IEEE TCDE Impact Award, the 2021 ACM SIGMOD Contributions Award, and the 2023 Distinguished Alumnus Award from the Indian Institute of Technology, Bombay. He has conducted research on a wide variety of topics in data management for three decades and has presented keynotes at several international conferences. He received his Ph.D. from the University of Wisconsin–Madison and his Bachelor of Technology from the Indian Institute of Technology Bombay, India.

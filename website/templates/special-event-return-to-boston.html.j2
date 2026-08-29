@@ -1,0 +1,108 @@
+{% extends "templates/layout.html.j2" %}
+
+{% block title %}Special Event - Return to Boston{% endblock %}
+
+{% set current = "special-event-return-to-boston" %}
+{% set event = special_event_return_to_boston %}
+
+{% block content %}
+    <article class="special-event-page">
+        <header class="special-event-heading">
+            <p class="special-event-eyebrow">VLDB 2026 Special Event</p>
+            <h1>{{ event.title }}</h1>
+            <p class="special-event-subtitle">{{ event.subtitle }}</p>
+
+            <dl class="special-event-facts" aria-label="Event details">
+                <div>
+                    <dt>Date</dt>
+                    <dd>{{ event.date }}</dd>
+                </div>
+                <div>
+                    <dt>Time</dt>
+                    <dd>{{ event.time }}</dd>
+                </div>
+                <div>
+                    <dt>Location</dt>
+                    <dd>{{ event.location }}</dd>
+                </div>
+            </dl>
+        </header>
+
+        <figure class="special-event-poster">
+            <img src="{{ base }}/assets/img/{{ event.poster }}.webp"
+                 alt="VLDB 2026 Return to Boston event poster">
+        </figure>
+
+        <section aria-labelledby="special-event-agenda">
+            <h2 id="special-event-agenda">Agenda</h2>
+            <div class="special-event-agenda-wrapper">
+                <table class="special-event-agenda">
+                    <thead>
+                        <tr>
+                            <th scope="col">Time Slot</th>
+                            <th scope="col">Task</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in event.agenda %}
+                            <tr{% if item.session %} class="special-event-agenda__session"{% endif %}>
+                                <td>{{ item.time }}</td>
+                                <td>{{ item.task }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="special-event-speakers" aria-labelledby="special-event-speakers">
+            <h2 id="special-event-speakers">Speakers</h2>
+
+            {% for session in event.sessions %}
+                <section class="special-event-session" aria-labelledby="special-event-session-{{ loop.index }}">
+                    <div class="special-event-session__heading">
+                        <h3 id="special-event-session-{{ loop.index }}">{{ session.title }}</h3>
+                        <span>{{ session.time }}</span>
+                    </div>
+
+                    <div class="special-event-speaker-list">
+                        {% for speaker in session.speakers %}
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait{% if not speaker.photo %} special-event-speaker__portrait--placeholder{% endif %}">
+                                    {% if speaker.photo %}
+                                        <img src="{{ base }}/assets/img/{{ speaker.photo }}.webp"
+                                             alt="{{ speaker.name }}">
+                                    {% else %}
+                                        <span class="special-event-speaker__initials" aria-hidden="true">{{ speaker.initials }}</span>
+                                        <span class="special-event-speaker__no-photo">{{ speaker.name }}</span>
+                                    {% endif %}
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>{{ speaker.name }}</h4>
+                                    <p>{{ speaker.bio | urlize(target="_blank", rel="noopener noreferrer") }}</p>
+                                    {% if speaker.bio_additional %}<p>{{ speaker.bio_additional }}</p>{% endif %}
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endfor %}
+        </section>
+
+        <section class="special-event-organizer" aria-labelledby="special-event-organizer">
+            <div class="special-event-session__heading">
+                <h2 id="special-event-organizer">{{ event.organizer.role }}</h2>
+            </div>
+            <article class="special-event-speaker">
+                <div class="special-event-speaker__portrait">
+                    <img src="{{ base }}/assets/img/{{ event.organizer.photo }}.webp"
+                         alt="{{ event.organizer.name }}">
+                </div>
+                <div class="special-event-speaker__bio">
+                    <h3>{{ event.organizer.name }}</h3>
+                    <p>{{ event.organizer.bio }}</p>
+                </div>
+            </article>
+        </section>
+    </article>
+{% endblock %}
