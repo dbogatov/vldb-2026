@@ -24,6 +24,16 @@
             {% for paragraph in section.paragraphs %}
                 <p>{{ paragraph }}</p>
             {% endfor %}
+            {% for subsection in section.subsections | default([]) %}
+                <h3>{{ subsection.title }}</h3>
+                {% for block in subsection.blocks %}
+                    {% if block.url %}
+                        <p><a href="{{ block.url }}">{{ block.url }}</a></p>
+                    {% else %}
+                        <p>{{ block.text }}</p>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
             {% if section.map_embed_url %}
                 <div class="venue-map">
                     <iframe

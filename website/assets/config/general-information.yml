@@ -188,7 +188,13 @@ venue:
       paragraphs:
         - The hotel is located about 10 minutes (2 miles) from Boston Logan International Airport (BOS), which offers direct flights to many domestic and international destinations. Taxi or uber trips between the airport and the hotel typically cost $15-$25.
         - Boston is also easily accessible from other major cities in the Northeast, including New York City (about 2.5 hours by train or car).
-        - Parking at the hotel is available for attendees traveling by car, with a special fee as well.
+      subsections:
+        - title: Parking at the venue
+          blocks:
+            - text: "For conference attendees traveling by car, we have secured a 20% discount at the Venue Parking:"
+            - url: https://www.pilgrimparking.com/boston-parking-garages/westin-boston-seaport-district-hotel
+            - text: The standard cost is $55, so with 20% discount the cost would be $44 per day.
+            - text: Parking tickets will be available at the conference registration desk.
 
 shadow_pc:
   content: |
