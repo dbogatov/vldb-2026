@@ -79,6 +79,17 @@
 
             <p><strong>Panelists:</strong> {{ phd_workshop.panel.panelists }}</p>
             <p><strong>Moderator:</strong> {{ phd_workshop.panel.moderator }}</p>
+
+            <section class="workshop-panelist-bios">
+                <h3>Panelist Bios</h3>
+                {% for bio in phd_workshop.panel.bios %}
+                    <div class="workshop-panelist-bio">
+                        {%- filter markdown -%}
+                            {{ bio }}
+                        {% endfilter %}
+                    </div>
+                {% endfor %}
+            </section>
         </article>
     </section>
 {% endblock %}
