@@ -1413,6 +1413,92 @@
       line-height: 1.55
     }
 
+    /* ---------- banquet information ---------- */
+    .banquet-card {
+      scroll-margin-top: 88px;
+      margin: 26px 0 32px;
+      padding: 24px;
+      color: #fff;
+      background: linear-gradient(135deg, #19305e 0%, #244d82 100%);
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(25, 48, 94, .18)
+    }
+
+    .banquet-card h2 {
+      margin: 2px 0 8px;
+      color: #fff;
+      font-size: 22px
+    }
+
+    .banquet-kicker {
+      margin: 0;
+      color: #f4d986;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .07em;
+      text-transform: uppercase
+    }
+
+    .banquet-lead,
+    .banquet-closing {
+      margin: 0;
+      max-width: 880px;
+      color: #f1f5ff;
+      font-size: 14px
+    }
+
+    .banquet-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 20px 0
+    }
+
+    .banquet-item {
+      padding: 16px;
+      color: var(--ink);
+      background: #fff;
+      border: 1px solid rgba(255, 255, 255, .35);
+      border-radius: 12px
+    }
+
+    .banquet-item h3 {
+      margin: 0 0 7px;
+      color: var(--acc2);
+      font-size: 14px
+    }
+
+    .banquet-item p,
+    .banquet-item address {
+      margin: 0 0 8px;
+      color: #3c4864;
+      font-size: 13px;
+      font-style: normal
+    }
+
+    .banquet-item p:last-child,
+    .banquet-item address:last-child {
+      margin-bottom: 0
+    }
+
+    .banquet-meeting {
+      padding: 9px 10px;
+      color: #593f00 !important;
+      background: #fff7dc;
+      border-left: 4px solid #e0a321;
+      border-radius: 6px
+    }
+
+    @media (max-width:700px) {
+      .banquet-card {
+        padding: 19px 16px
+      }
+
+      .banquet-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
     .paper.hidden,
     .sessblock.hidden,
     .daypane.hidden,
@@ -1469,7 +1555,7 @@
       </div>
     </div>
   </header>
-  <nav><a class="nl" href="#overview">Program Overview</a><a class="nl" href="#sessions">Session details</a><a
+  <nav><a class="nl" href="#overview">Program Overview</a><a class="nl" href="#banquet">Banquet Information</a><a class="nl" href="#sessions">Session details</a><a
       class="nl" href="special-event-return-to-boston.html">Return to Boston Special Event</a>
     <input id="search" placeholder="Search title, abstract, author, institution…  (Ctrl+F / ⌘F)">
     <button id="dosearch" class="sbtn">Search</button><button id="clearsearch" class="sbtn ghost">Clear</button><span
@@ -1990,7 +2076,8 @@
               <div class="tm tmb">17:15 – 18:30</div><a class="band bnd-pos bandlink" data-target="p-2" href="#p-2"
                 style="position:relative">Poster Session 2 · Harbor Level<span class="hitn"></span></a>
               <div class="tm tmb">19:30 – 22:30</div>
-              <div class="band bnd-ev">Social Event</div>
+              <a class="band bnd-ev" href="#banquet" title="View banquet and transportation details">VLDB 2026
+                Banquet · Museum of Science, Boston</a>
             </div>
           </div>
         </div>
@@ -2308,6 +2395,36 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="banquet-card" id="banquet" aria-labelledby="banquet-title">
+      <p class="banquet-kicker">Wednesday, September 2 · 7:30–10:30 PM</p>
+      <h2 id="banquet-title">VLDB 2026 Banquet</h2>
+      <p class="banquet-lead">We look forward to welcoming you to the VLDB 2026 Banquet on Wednesday, September 2, at
+        the Museum of Science, Boston.</p>
+      <div class="banquet-grid">
+        <article class="banquet-item">
+          <h3><span aria-hidden="true">🥂</span> Drink Tickets</h3>
+          <p>If you have not yet picked up your drink tickets for the banquet, please stop by the VLDB Registration
+            Desk at the Westin before the banquet.</p>
+        </article>
+        <article class="banquet-item">
+          <h3><span aria-hidden="true">🚌</span> Transportation to the Museum</h3>
+          <p>Buses have been arranged to take conference participants from the Westin to the Museum of Science.</p>
+          <p class="banquet-meeting"><strong>Please meet outside The Westin Boston Seaport District at <time
+                datetime="2026-09-02T18:50:00-04:00">6:50 PM</time>.</strong> When you exit the hotel, please proceed
+            to the left along the street, where you will see the buses waiting.</p>
+        </article>
+        <article class="banquet-item">
+          <h3><span aria-hidden="true">📍</span> Banquet Location</h3>
+          <address><strong>Museum of Science, Boston</strong><br>1 Science Pk<br>Boston, MA 02114</address>
+        </article>
+        <article class="banquet-item">
+          <h3><span aria-hidden="true">🚌</span> Return Transportation</h3>
+          <p>Buses will depart from the Museum of Science at approximately <time
+              datetime="2026-09-02T22:30:00-04:00">10:30 PM (22:30)</time> to return participants to the Westin.</p>
+        </article>
+      </div>
+      <p class="banquet-closing">We look forward to seeing you at the banquet and hope you enjoy the evening!</p>
     </section>
     <section>
       <h2 id="sessions">Session details</h2>
