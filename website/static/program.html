@@ -1980,7 +1980,7 @@
                     Publications: Navigating the Realities of a Research Career</span><span class="cmeta">DEI
                     Panel</span><span class="cshort">DEI Panel</span><span class="hitn"></span></a></div>
               <div class="tm tmb">12:15 – 13:45</div>
-              <div class="band bnd-brk">Lunch · Pavilion and Galleria</div>
+              <div class="band bnd-brk">Lunch · Galleria</div>
               <div class="tm">13:45 – 15:15</div>
               <div class="cell"><a class="card oral" data-target="res-25" href="#res-25"
                   title="R25 · Heterogeneous Data Processing"><span class="cname">R25 · Heterogeneous Data
@@ -2153,7 +2153,7 @@
                     Rethinking Data Systems in the AI Agent Era</span><span class="cmeta">Panel 3</span><span
                     class="cshort">Panel 3</span><span class="hitn"></span></a></div>
               <div class="tm tmb">12:15 – 13:45</div>
-              <div class="band bnd-brk">Lunch · Pavilion and Galleria</div>
+              <div class="band bnd-brk">Lunch · Galleria</div>
               <div class="tm">13:45 – 15:15</div>
               <div class="cell"><a class="card oral" data-target="res-43" href="#res-43"
                   title="R43 · Interactive Data Exploration and Debugging"><span class="cname">R43 · Interactive Data
@@ -9992,34 +9992,6 @@
             </div>
             <div class="paper">
               <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
-                  data-pid="1334"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p889-miao.pdf" target="_blank" rel="noopener">Towards Efficient Random-Order Enumeration for Join Queries</a></span></div>
-              <div class="pauth"><span class="au">Pengyu Chen</span> <span class="aff">(Harbin Institute of
-                  Technology)</span> · <span class="au">Zizheng Guo</span> <span class="aff">(Harbin Institute of
-                  Technology)</span> · <span class="au">Jianwei Yang</span> <span class="aff">(Daqing Oilfield Digital
-                  &amp; Intelligent Technology Company)</span> · <span class="au">Dongjing Miao</span> <span
-                  class="aff">(Harbin Institute of Technology)</span></div>
-              <details class="pabs">
-                <summary>Abstract</summary>
-                <div class="abstxt">In many data analysis pipelines, a basic and time-consuming process is to produce
-                  join results and feed them into downstream tasks. Numerous enumeration algorithms have been developed
-                  for this purpose. To be a statistically meaningful representation of the whole join result, the result
-                  tuples are required to be enumerated in uniformly random order. However, existing studies lack an
-                  efficient random-order enumeration algorithm with a worst-case runtime guarantee for (cyclic) join
-                  queries. In this paper, we develop an efficient random-order enumeration algorithm for join queries
-                  with no large hidden constants in its complexity, achieving expected
-                  $O(\frac{\mathrm{AGM}(Q)}{|Res(Q)|}\log^2|Q|)$ delay, $O(\mathrm{AGM}(Q)\log|Q|)$ total running time
-                  after $O(|Q|\log|Q|)$-time index construction, where $|Q|$ is the size of input, $\mathrm{AGM}(Q)$ is
-                  the AGM bound, and $|Res(Q)|$ is the size of the join result. We prove that our algorithm is
-                  near-optimal in the worst case, under the combinatorial $k$-clique hypothesis. Our algorithm requires
-                  no query-specific preprocessing and can be flexibly adapted to many common database indexes with only
-                  minor modifications. We also devise non-trivial techniques to speed up enumeration and reduce memory
-                  usage, and present an experimental study of their impact on our algorithm. The experimental results
-                  show that our algorithm, enhanced with the proposed techniques, significantly outperforms existing
-                  state-of-the-art methods.</div>
-              </details>
-            </div>
-            <div class="paper">
-              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
                   data-pid="2896"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p2452-xing.pdf" target="_blank" rel="noopener">NeurIDA: Dynamic Modeling for Effective In-Database Analytics</a></span></div>
               <div class="pauth"><span class="au">Lingze Zeng</span> <span class="aff">(National University of
                   Singapore)</span> · <span class="au">Naili Xing</span> <span class="aff">(National University of
@@ -10047,6 +10019,34 @@
                   NeurIDA enables ease-of-use and yet effective and efficient in-database AI analytics. Extensive
                   experiment studies show that NeurIDA consistently delivers up to 12% improvement in AUC-ROC and 25%
                   relative reduction in MAE across ten tasks on five real-world datasets.</div>
+              </details>
+            </div>
+            <div class="paper">
+              <div class="prow"><span class="badge b-reg" title="Regular Research Paper">REG</span><span class="ptitle"
+                  data-pid="1334"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p889-miao.pdf" target="_blank" rel="noopener">Towards Efficient Random-Order Enumeration for Join Queries</a></span></div>
+              <div class="pauth"><span class="au">Pengyu Chen</span> <span class="aff">(Harbin Institute of
+                  Technology)</span> · <span class="au">Zizheng Guo</span> <span class="aff">(Harbin Institute of
+                  Technology)</span> · <span class="au">Jianwei Yang</span> <span class="aff">(Daqing Oilfield Digital
+                  &amp; Intelligent Technology Company)</span> · <span class="au">Dongjing Miao</span> <span
+                  class="aff">(Harbin Institute of Technology)</span></div>
+              <details class="pabs">
+                <summary>Abstract</summary>
+                <div class="abstxt">In many data analysis pipelines, a basic and time-consuming process is to produce
+                  join results and feed them into downstream tasks. Numerous enumeration algorithms have been developed
+                  for this purpose. To be a statistically meaningful representation of the whole join result, the result
+                  tuples are required to be enumerated in uniformly random order. However, existing studies lack an
+                  efficient random-order enumeration algorithm with a worst-case runtime guarantee for (cyclic) join
+                  queries. In this paper, we develop an efficient random-order enumeration algorithm for join queries
+                  with no large hidden constants in its complexity, achieving expected
+                  $O(\frac{\mathrm{AGM}(Q)}{|Res(Q)|}\log^2|Q|)$ delay, $O(\mathrm{AGM}(Q)\log|Q|)$ total running time
+                  after $O(|Q|\log|Q|)$-time index construction, where $|Q|$ is the size of input, $\mathrm{AGM}(Q)$ is
+                  the AGM bound, and $|Res(Q)|$ is the size of the join result. We prove that our algorithm is
+                  near-optimal in the worst case, under the combinatorial $k$-clique hypothesis. Our algorithm requires
+                  no query-specific preprocessing and can be flexibly adapted to many common database indexes with only
+                  minor modifications. We also devise non-trivial techniques to speed up enumeration and reduce memory
+                  usage, and present an experimental study of their impact on our algorithm. The experimental results
+                  show that our algorithm, enhanced with the proposed techniques, significantly outperforms existing
+                  state-of-the-art methods.</div>
               </details>
             </div>
             <div class="paper">
@@ -21017,7 +21017,7 @@
         <div class="sessblock" id="ind-2" data-day="tue">
           <div class="shead"><span class="sname">Industry Session 2 · Query Execution Engines &amp; Hardware
               Acceleration</span><span class="mchip">Marina Ballroom I</span><span class="mchip">Tuesday 13:45 –
-              15:15</span><span class="mchip">Session Chair: Matteo Interlandi</span><span class="mchip">6 talks</span></div>
+              15:15</span><span class="mchip">Session Chair: Matteo Interlandi</span><span class="mchip">5 talks</span></div>
           <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p3888-yeo.pdf" target="_blank" rel="noopener">ZipFlow: a Compiler-based Framework to Unleash Compressed Data
                 Movement for Modern GPUs</a></span></div>
@@ -21129,36 +21129,6 @@
                 vendors---including Xbox---without code changes. To our knowledge, this is the most hardware-diverse GPU
                 query processor reported to date, achieving sub-second TPC-H SF100 on a single GPU, while delivering the
                 deployment flexibility required by modern Lakehouse systems.</div>
-            </details>
-          </div>
-          <div class="paper">
-            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4372-szymanski.pdf" target="_blank" rel="noopener">One Ring to Shuffle Them All: Scalable Intra-Process Data
-                Redistribution with Ring-Buffer Shuffle in Redpanda Oxla</a></span></div>
-            <div class="pauth"><span class="au">Adam Szymański</span> <span class="aff">(Red Panda)</span> · <span
-                class="au">Tyler Akidau</span> <span class="aff">(Redpanda Data)</span></div>
-            <details class="pabs">
-              <summary>Abstract</summary>
-              <div class="abstxt">As server CPUs scale to dozens and now hundreds of cores per socket, parallel query
-                engines must rethink how they redistribute data between threads. Partitioned operators such as hash
-                joins and aggregations require frequent data redistribution across threads, yet existing intra-process
-                shuffle designs fundamentally fail to scale with core count: batch partitioning avoids cross-thread
-                synchronization in the hot path but materializes all intermediate data, introduces a global
-                producer/consumer barrier, and requires a consumption approach with low cache locality, while
-                channel-based streaming avoids materialization but incurs per-channel synchronizationhat scales poorly
-                with core count. As core counts rise, these architectural tradeoffs increasingly prevent engines from
-                fully utilizing modern hardware. We present a ring-buffer streaming shuffle design that addresses these
-                shortcomings through lock-free atomic slot acquisition into fixed-size batch groups, achieving amortized
-                O(1) synchronization cost per batch and O(M) memory independent of input size. Ring-buffer shuffle has
-                been implemented in Redpanda&#x27;s Oxla query engine for two years, where it currently powers
-                production queries for Redpanda SQL users. We evaluate all three approaches on a 72-core NVIDIA
-                GraceHopper, a 192-core dual-socket AWS Graviton4, and a 96-core (192-thread) AMD EPYC. On a 72-core
-                single-socket system the ring buffer outperforms channel streaming by up to 44% and batch partitioning
-                by up to 79%; at 192 cores the advantage over channel grows to over 100% and over 300% versus batch
-                partitioning. Even so, on chiplet architectures with many partitioned L3 caches, the shared atomic
-                counter becomes a cross-die bottleneck and channel-based streaming remains competitive. End-to-end
-                evaluation on TPC-H and ClickBench shows the advantage is workload-dependent: the ring buffer wins TPC-H
-                overall (1.07×), but consumer-heavy patterns—COUNT(DISTINCT), wide aggregates—swing ClickBench the other
-                way.</div>
             </details>
           </div>
           <div class="paper">
@@ -22206,7 +22176,7 @@
         <div class="sessblock hyb" id="ind-8" data-day="thu">
           <div class="shead"><span class="sname">Industry Session 8 · AI-Native Data Systems &amp; Natural-Language
               Interfaces</span><span class="mchip">Marina Ballroom I</span><span class="mchip">Thursday 13:45 –
-              15:15</span><span class="mchip">Session Chair: Alekh Jindal</span><span class="mchip">6 talks</span><span class="mchip m-hy">Hybrid</span></div>
+              15:15</span><span class="mchip">Session Chair: Alekh Jindal</span><span class="mchip">7 talks</span><span class="mchip m-hy">Hybrid</span></div>
           <div class="paper">
             <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4330-zhou.pdf" target="_blank" rel="noopener">Bridging NL2SQL for CAN Signal Analytics at NIO: From Externalized
                 Schemas to CTE Pipelines</a></span></div>
@@ -22282,6 +22252,36 @@
                 human-in-the-loop curation cycle from approximately 14 days to approximately 2.5 days (5.6x over the
                 pre-OmniTable production workflow), with consistent feature versioning, auditable lineage, and minimal
                 manual intervention.</div>
+            </details>
+          </div>
+          <div class="paper">
+            <div class="prow"><span class="ptitle"><a class="plink" href="https://www.vldb.org/pvldb/vol19/p4372-szymanski.pdf" target="_blank" rel="noopener">One Ring to Shuffle Them All: Scalable Intra-Process Data
+                Redistribution with Ring-Buffer Shuffle in Redpanda Oxla</a></span></div>
+            <div class="pauth"><span class="au">Adam Szymański</span> <span class="aff">(Red Panda)</span> · <span
+                class="au">Tyler Akidau</span> <span class="aff">(Redpanda Data)</span></div>
+            <details class="pabs">
+              <summary>Abstract</summary>
+              <div class="abstxt">As server CPUs scale to dozens and now hundreds of cores per socket, parallel query
+                engines must rethink how they redistribute data between threads. Partitioned operators such as hash
+                joins and aggregations require frequent data redistribution across threads, yet existing intra-process
+                shuffle designs fundamentally fail to scale with core count: batch partitioning avoids cross-thread
+                synchronization in the hot path but materializes all intermediate data, introduces a global
+                producer/consumer barrier, and requires a consumption approach with low cache locality, while
+                channel-based streaming avoids materialization but incurs per-channel synchronizationhat scales poorly
+                with core count. As core counts rise, these architectural tradeoffs increasingly prevent engines from
+                fully utilizing modern hardware. We present a ring-buffer streaming shuffle design that addresses these
+                shortcomings through lock-free atomic slot acquisition into fixed-size batch groups, achieving amortized
+                O(1) synchronization cost per batch and O(M) memory independent of input size. Ring-buffer shuffle has
+                been implemented in Redpanda&#x27;s Oxla query engine for two years, where it currently powers
+                production queries for Redpanda SQL users. We evaluate all three approaches on a 72-core NVIDIA
+                GraceHopper, a 192-core dual-socket AWS Graviton4, and a 96-core (192-thread) AMD EPYC. On a 72-core
+                single-socket system the ring buffer outperforms channel streaming by up to 44% and batch partitioning
+                by up to 79%; at 192 cores the advantage over channel grows to over 100% and over 300% versus batch
+                partitioning. Even so, on chiplet architectures with many partitioned L3 caches, the shared atomic
+                counter becomes a cross-die bottleneck and channel-based streaming remains competitive. End-to-end
+                evaluation on TPC-H and ClickBench shows the advantage is workload-dependent: the ring buffer wins TPC-H
+                overall (1.07×), but consumer-heavy patterns—COUNT(DISTINCT), wide aggregates—swing ClickBench the other
+                way.</div>
             </details>
           </div>
           <div class="paper">
